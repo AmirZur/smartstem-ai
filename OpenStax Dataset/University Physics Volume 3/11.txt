@@ -1,0 +1,71 @@
+Problems
+11.1 Introduction to Particle Physics
+31. How much energy is released when an electron and a positron at rest annihilate each other? (For particle masses, see Table 11.1.)
+32. If 1.0×1030MeV of energy is released in the annihilation of a sphere of matter and antimatter, and the spheres are equal mass, what are the masses of the spheres?
+33. When both an electron and a positron are at rest, they can annihilate each other according to the reaction
+e−+e+→γ+γ.
+
+In this case, what are the energy, momentum, and frequency of each photon?
+
+34. What is the total kinetic energy carried away by the particles of the following decays?
+(a)π0→γ+γ(b)K0→π++π−(c)Σ+→n+π+(d)Σ0→Λ0+γ.
+11.2 Particle Conservation Laws
+35. Which of the following decays cannot occur because the law of conservation of lepton number is violated?
+(a)n→p+e−(b)μ+→e++υe(c)π+→e++υe+υ−μ(d)p→n+e++υe(e)π−→e−+υ−e(f)μ−→e−+υ−e+υμ(g)Λ0→π−+p(h)K+→μ++υμ
+
+36. Which of the following reactions cannot because the law of conservation of strangeness is violated?
+(a)p+n→p+p+π−(b)p+n→p+p+K−(c)K−+p→K−+∑+(d)π−+p→K++∑−(e)K−+p→Ξ0+K++π−(f)K−+p→Ξ0+π−+π−(g)π++p→Σ++K+(h)π−+n→K−+Λ0
+
+37. Identify one possible decay for each of the following antiparticles:
+(a) n−, (b) Λ0—, (c) Ω+, (d) K−, and (e) Σ−.
+
+38. Each of the following strong nuclear reactions is forbidden. Identify a conservation law that is violated for each one.
+(a)p+p−→p+n+p−(b)p+n→p+p−+n+π+(c)π−+p→Σ++K−(d)K−+p→Λ0+n
+
+11.3 Quarks
+39. Based on quark composition of a proton, show that its charge is +1.
+40. Based on the quark composition of a neutron, show that is charge is 0.
+41. Argue that the quark composition given in Table 11.5 for the positive kaon is consistent with the known charge, spin, and strangeness of this baryon.
+42. Mesons are formed from the following combinations of quarks (subscripts indicate color and AR=antired): (dR,d−AR), (sG,u−AG), and (sR,s−AR).
+(a) Determine the charge and strangeness of each combination. (b) Identify one or more mesons formed by each quark-antiquark combination.
+
+43. Why can’t either set of quarks shown below form a hadron?Figure a has three red circles, each labeled u subscript R. Figure b has a blue circle labeled d subscript B and a purple circle labeled u subscript G.
+44. Experimental results indicate an isolate particle with charge +2/3—an isolated quark. What quark could this be? Why would this discovery be important?
+45. Express the β decays n→p+e−+ν− and p→n+e++ν in terms of β decays of quarks. Check to see that the conservation laws for charge, lepton number, and baryon number are satisfied by the quark β decays.
+11.4 Particle Accelerators and Detectors
+46. A charged particle in a 2.0-T magnetic field is bent in a circle of radius 75 cm. What is the momentum of the particle?
+47. A proton track passes through a magnetic field with radius of 50 cm. The magnetic field strength is 1.5 T. What is the total energy of the proton?
+48. Derive the equation p=0.3Br using the concepts of centripetal acceleration (Motion in Two and Three Dimensions) and relativistic momentum (Relativity)
+49. Assume that beam energy of an electron-positron collider is approximately 4.73 GeV. What is the total mass (W) of a particle produced in the annihilation of an electron and positron in this collider? What meson might be produced?
+50. At full energy, protons in the 2.00-km-diameter Fermilab synchrotron travel at nearly the speed of light, since their energy is about 1000 times their rest mass energy. (a) How long does it take for a proton to complete one trip around? (b) How many times per second will it pass through the target area?
+51. Suppose a W− created in a particle detector lives for 5.00×10−25s. What distance does it move in this time if it is traveling at 0.900c? (Note that the time is longer than the given W− lifetime, which can be due to the statistical nature of decay or time dilation.)
+52. What length track does a π+ traveling at 0.100c leave in a bubble chamber if it is created there and lives for 2.60×10−8s? (Those moving faster or living longer may escape the detector before decaying.)
+53. The 3.20-km-long SLAC produces a beam of 50.0-GeV electrons. If there are 15,000 accelerating tubes, what average voltage must be across the gaps between them to achieve this energy?
+11.5 The Standard Model
+54. Using the Heisenberg uncertainly principle, determine the range of the weak force if this force is produced by the exchange of a Z boson.
+55. Use the Heisenberg uncertainly principle to estimate the range of a weak nuclear decay involving a graviton.
+56. (a) The following decay is mediated by the electroweak force:
+p→n+e++υe.
+
+Draw the Feynman diagram for the decay.
+
+(b) The following scattering is mediated by the electroweak force:
+
+υe+e−→υe+e−.
+
+Draw the Feynman diagram for the scattering.
+
+57. Assuming conservation of momentum, what is the energy of each γ ray produced in the decay of a neutral pion at rest, in the reaction π0→γ+γ ?
+58. What is the wavelength of a 50-GeV electron, which is produced at SLAC? This provides an idea of the limit to the detail it can probe.
+59. The primary decay mode for the negative pion is π−→μ−+ν−μ. (a) What is the energy release in MeV in this decay? (b) Using conservation of momentum, how much energy does each of the decay products receive, given the π− is at rest when it decays? You may assume the muon antineutrino is massless and has momentum p=E/c, just like a photon.
+60. Suppose you are designing a proton decay experiment and you can detect 50 percent of the proton decays in a tank of water. (a) How many kilograms of water would you need to see one decay per month, assuming a lifetime of 1031y? (b) How many cubic meters of water is this? (c) If the actual lifetime is 1033y, how long would you have to wait on an average to see a single proton decay?
+11.6 The Big Bang
+61. If the speed of a distant galaxy is 0.99c, what is the distance of the galaxy from an Earth-bound observer?
+62. The distance of a galaxy from our solar system is 10 Mpc. (a) What is the recessional velocity of the galaxy? (b) By what fraction is the starlight from this galaxy redshifted (that is, what is its z value)?
+63. If a galaxy is 153 Mpc away from us, how fast do we expect it to be moving and in what direction?
+64. On average, how far away are galaxies that are moving away from us at 2.0% of the speed of light?
+65. Our solar system orbits the center of the Milky Way Galaxy. Assuming a circular orbit 30,000 ly in radius and an orbital speed of 250 km/s, how many years does it take for one revolution? Note that this is approximate, assuming constant speed and circular orbit, but it is representative of the time for our system and local stars to make one revolution around the galaxy.
+66. (a) What is the approximate velocity relative to us of a galaxy near the edge of the known universe, some 10 Gly away? (b) What fraction of the speed of light is this? Note that we have observed galaxies moving away from us at greater than 0.9c.
+67. (a) Calculate the approximate age of the universe from the average value of the Hubble constant, H0=20km/s⋅Mly. To do this, calculate the time it would take to travel 0.307 Mpc at a constant expansion rate of 20 km/s. (b) If somehow acceleration occurs, would the actual age of the universe be greater or less than that found here? Explain.
+68. The Andromeda Galaxy is the closest large galaxy and is visible to the naked eye. Estimate its brightness relative to the Sun, assuming it has luminosity 1012 times that of the Sun and lies 0.613 Mpc away.
+69. Show that the velocity of a star orbiting its galaxy in a circular orbit is inversely proportional to the square root of its orbital radius, assuming the mass of the stars inside its orbit acts like a single mass at the center of the galaxy. You may use an equation from a previous chapter to support your conclusion, but you must justify its use and define all terms used.

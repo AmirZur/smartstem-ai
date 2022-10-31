@@ -1,0 +1,231 @@
+11.1 The Dissolution Process
+1. How do solutions differ from compounds? From other mixtures?
+2. Which of the principal characteristics of solutions are evident in the solutions of K2Cr2O7 shown in Figure 11.2?
+3. When KNO3 is dissolved in water, the resulting solution is significantly colder than the water was originally.
+(a) Is the dissolution of KNO3 an endothermic or an exothermic process?
+
+(b) What conclusions can you draw about the intermolecular attractions involved in the process?
+
+(c) Is the resulting solution an ideal solution?
+
+4. Give an example of each of the following types of solutions:
+(a) a gas in a liquid
+
+(b) a gas in a gas
+
+(c) a solid in a solid
+
+5. Indicate the most important types of intermolecular attractions in each of the following solutions:
+(a) The solution in Figure 11.2.
+
+(b) NO(l) in CO(l)
+
+(c) Cl2(g) in Br2(l)
+
+(d) HCl(g) in benzene C6H6(l)
+
+(e) Methanol CH3OH(l) in H2O(l)
+
+6. Predict whether each of the following substances would be more soluble in water (polar solvent) or in a hydrocarbon such as heptane (C7H16, nonpolar solvent):
+(a) vegetable oil (nonpolar)
+
+(b) isopropyl alcohol (polar)
+
+(c) potassium bromide (ionic)
+
+7. Heat is released when some solutions form; heat is absorbed when other solutions form. Provide a molecular explanation for the difference between these two types of spontaneous processes.
+8. Solutions of hydrogen in palladium may be formed by exposing Pd metal to H2 gas. The concentration of hydrogen in the palladium depends on the pressure of H2 gas applied, but in a more complex fashion than can be described by Henry’s law. Under certain conditions, 0.94 g of hydrogen gas is dissolved in 215 g of palladium metal (solution density = 10.8 g cm3).
+(a) Determine the molarity of this solution.
+
+(b) Determine the molality of this solution.
+
+(c) Determine the percent by mass of hydrogen atoms in this solution.
+
+11.2 Electrolytes
+9. Explain why the ions Na+ and Cl− are strongly solvated in water but not in hexane, a solvent composed of nonpolar molecules.
+10. Explain why solutions of HBr in benzene (a nonpolar solvent) are nonconductive, while solutions in water (a polar solvent) are conductive.
+11. Consider the solutions presented:
+(a) Which of the following sketches best represents the ions in a solution of Fe(NO3)3(aq)?
+
+In this figure, three beakers labeled x, y, and z are shown containing various arrangements of blue and red spheres suspended in solution. In beaker x, three small red spheres surround a single central blue sphere in small clusters which in turn are grouped in threes around a single red sphere, forming four larger clusters. In beaker y, the four large clusters are present without the central red spheres. Four individual red spheres are now present. In beaker z, the large clusters are not present. Twelve of the small clusters of three red and one blue sphere are present along with four single red spheres.
+(b) Write a balanced chemical equation showing the products of the dissolution of Fe(NO3)3.
+
+12. Compare the processes that occur when methanol (CH3OH), hydrogen chloride (HCl), and sodium hydroxide (NaOH) dissolve in water. Write equations and prepare sketches showing the form in which each of these compounds is present in its respective solution.
+13. What is the expected electrical conductivity of the following solutions?
+(a) NaOH(aq)
+
+(b) HCl(aq)
+
+(c) C6H12O6(aq) (glucose)
+
+(d) NH3(aq)
+
+14. Why are most solid ionic compounds electrically nonconductive, whereas aqueous solutions of ionic compounds are good conductors? Would you expect a liquid (molten) ionic compound to be electrically conductive or nonconductive? Explain.
+15. Indicate the most important type of intermolecular attraction responsible for solvation in each of the following solutions:
+(a) the solutions in Figure 11.7
+
+(b) methanol, CH3OH, dissolved in ethanol, C2H5OH
+
+(c) methane, CH4, dissolved in benzene, C6H6
+
+(d) the polar halocarbon CF2Cl2 dissolved in the polar halocarbon CF2ClCFCl2
+
+(e) O2(l) in N2(l)
+
+11.3 Solubility
+16. Suppose you are presented with a clear solution of sodium thiosulfate, Na2S2O3. How could you determine whether the solution is unsaturated, saturated, or supersaturated?
+17. Supersaturated solutions of most solids in water are prepared by cooling saturated solutions. Supersaturated solutions of most gases in water are prepared by heating saturated solutions. Explain the reasons for the difference in the two procedures.
+18. Suggest an explanation for the observations that ethanol, C2H5OH, is completely miscible with water and that ethanethiol, C2H5SH, is soluble only to the extent of 1.5 g per 100 mL of water.
+19. Calculate the percent by mass of KBr in a saturated solution of KBr in water at 10 °C. See Figure 11.16 for useful data, and report the computed percentage to one significant digit.
+20. Which of the following gases is expected to be most soluble in water? Explain your reasoning.
+(a) CH4
+
+(b) CCl4
+
+(c) CHCl3
+
+21. At 0 °C and 1.00 atm, as much as 0.70 g of O2 can dissolve in 1 L of water. At 0 °C and 4.00 atm, how many grams of O2 dissolve in 1 L of water?
+22. Refer to Figure 11.10.
+(a) How did the concentration of dissolved CO2 in the beverage change when the bottle was opened?
+
+(b) What caused this change?
+
+(c) Is the beverage unsaturated, saturated, or supersaturated with CO2?
+
+23. The Henry’s law constant for CO2 is 3.4 × 10−2 M/atm at 25 °C. Assuming ideal solution behavior, what pressure of carbon dioxide is needed to maintain a CO2 concentration of 0.10 M in a can of lemon-lime soda?
+24. The Henry’s law constant for O2 is 1.3 × 10−3 M/atm at 25 °C. Assuming ideal solution behavior, what mass of oxygen would be dissolved in a 40-L aquarium at 25 °C, assuming an atmospheric pressure of 1.00 atm, and that the partial pressure of O2 is 0.21 atm?
+25. Assuming ideal solution behavior, how many liters of HCl gas, measured at 30.0 °C and 745 torr, are required to prepare 1.25 L of a 3.20-M solution of hydrochloric acid?
+11.4 Colligative Properties
+26. Which is/are part of the macroscopic domain of solutions and which is/are part of the microscopic domain: boiling point elevation, Henry’s law, hydrogen bond, ion-dipole attraction, molarity, nonelectrolyte, nonstoichiometric compound, osmosis, solvated ion?
+27. What is the microscopic explanation for the macroscopic behavior illustrated in Figure 11.14?
+28. Sketch a qualitative graph of the pressure versus time for water vapor above a sample of pure water and a sugar solution, as the liquids evaporate to half their original volume.
+29. A solution of potassium nitrate, an electrolyte, and a solution of glycerin (C3H5(OH)3), a nonelectrolyte, both boil at 100.3 °C. What other physical properties of the two solutions are identical?
+30. What are the mole fractions of H3PO4 and water in a solution of 14.5 g of H3PO4 in 125 g of water?
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+31. What are the mole fractions of HNO3 and water in a concentrated solution of nitric acid (68.0% HNO3 by mass)?
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+32. Calculate the mole fraction of each solute and solvent:
+(a) 583 g of H2SO4 in 1.50 kg of water—the acid solution used in an automobile battery
+
+(b) 0.86 g of NaCl in 1.00 × 102 g of water—a solution of sodium chloride for intravenous injection
+
+(c) 46.85 g of codeine, C18H21NO3, in 125.5 g of ethanol, C2H5OH
+
+(d) 25 g of I2 in 125 g of ethanol, C2H5OH
+
+33. Calculate the mole fraction of each solute and solvent:
+(a) 0.710 kg of sodium carbonate (washing soda), Na2CO3, in 10.0 kg of water—a saturated solution at 0 °C
+
+(b) 125 g of NH4NO3 in 275 g of water—a mixture used to make an instant ice pack
+
+(c) 25 g of Cl2 in 125 g of dichloromethane, CH2Cl2
+
+(d) 0.372 g of tetrahydropyridine, C5H9N, in 125 g of chloroform, CHCl3
+
+34. Calculate the mole fractions of methanol, CH3OH; ethanol, C2H5OH; and water in a solution that is 40% methanol, 40% ethanol, and 20% water by mass. (Assume the data are good to two significant figures.)
+35. What is the difference between a 1 M solution and a 1 m solution?
+36. What is the molality of phosphoric acid, H3PO4, in a solution of 14.5 g of H3PO4 in 125 g of water?
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+37. What is the molality of nitric acid in a concentrated solution of nitric acid (68.0% HNO3 by mass)?
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+38. Calculate the molality of each of the following solutions:
+(a) 583 g of H2SO4 in 1.50 kg of water—the acid solution used in an automobile battery
+
+(b) 0.86 g of NaCl in 1.00 × 102 g of water—a solution of sodium chloride for intravenous injection
+
+(c) 46.85 g of codeine, C18H21NO3, in 125.5 g of ethanol, C2H5OH
+
+(d) 25 g of I2 in 125 g of ethanol, C2H5OH
+
+39. Calculate the molality of each of the following solutions:
+(a) 0.710 kg of sodium carbonate (washing soda), Na2CO3, in 10.0 kg of water—a saturated solution at 0°C
+
+(b) 125 g of NH4NO3 in 275 g of water—a mixture used to make an instant ice pack
+
+(c) 25 g of Cl2 in 125 g of dichloromethane, CH2Cl2
+
+(d) 0.372 g of tetrahydropyridine, C5H9N, in 125 g of chloroform, CHCl3
+
+40. The concentration of glucose, C6H12O6, in normal spinal fluid is 75mg100g. What is the molality of the solution?
+41. A 13.0% solution of K2CO3 by mass has a density of 1.09 g/cm3. Calculate the molality of the solution.
+42. Why does 1 mol of sodium chloride depress the freezing point of 1 kg of water almost twice as much as 1 mol of glycerin?
+43. Assuming ideal solution behavior, what is the boiling point of a solution of 115.0 g of nonvolatile sucrose, C12H22O11, in 350.0 g of water?
+(a) Outline the steps necessary to answer the question
+
+(b) Answer the question
+
+44. Assuming ideal solution behavior, what is the boiling point of a solution of 9.04 g of I2 in 75.5 g of benzene, assuming the I2 is nonvolatile?
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+45. Assuming ideal solution behavior, what is the freezing temperature of a solution of 115.0 g of sucrose, C12H22O11, in 350.0 g of water?
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+46. Assuming ideal solution behavior, what is the freezing point of a solution of 9.04 g of I2 in 75.5 g of benzene?
+(a) Outline the steps necessary to answer the following question.
+
+(b) Answer the question.
+
+47. Assuming ideal solution behavior, what is the osmotic pressure of an aqueous solution of 1.64 g of Ca(NO3)2 in water at 25 °C? The volume of the solution is 275 mL.
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+48. Assuming ideal solution behavior, what is osmotic pressure of a solution of bovine insulin (molar mass, 5700 g mol−1) at 18 °C if 100.0 mL of the solution contains 0.103 g of the insulin?
+(a) Outline the steps necessary to answer the question.
+
+(b) Answer the question.
+
+49. Assuming ideal solution behavior, what is the molar mass of a solution of 5.00 g of a compound in 25.00 g of carbon tetrachloride (bp 76.8 °C; Kb = 5.02 °C/m) that boils at 81.5 °C at 1 atm?
+(a) Outline the steps necessary to answer the question.
+
+(b) Solve the problem.
+
+50. A sample of an organic compound (a nonelectrolyte) weighing 1.35 g lowered the freezing point of 10.0 g of benzene by 3.66 °C. Assuming ideal solution behavior, calculate the molar mass of the compound.
+51. A 1.0 m solution of HCl in benzene has a freezing point of 0.4 °C. Is HCl an electrolyte in benzene? Explain.
+52. A solution contains 5.00 g of urea, CO(NH2)2, a nonvolatile compound, dissolved in 0.100 kg of water. If the vapor pressure of pure water at 25 °C is 23.7 torr, what is the vapor pressure of the solution (assuming ideal solution behavior)?
+53. A 12.0-g sample of a nonelectrolyte is dissolved in 80.0 g of water. The solution freezes at −1.94 °C. Assuming ideal solution behavior, calculate the molar mass of the substance.
+54. Arrange the following solutions in order by their decreasing freezing points: 0.1 m Na3PO4, 0.1 m C2H5OH, 0.01 m CO2, 0.15 m NaCl, and 0.2 m CaCl2.
+55. Calculate the boiling point elevation of 0.100 kg of water containing 0.010 mol of NaCl, 0.020 mol of Na2SO4, and 0.030 mol of MgCl2, assuming complete dissociation of these electrolytes and ideal solution behavior.
+56. How could you prepare a 3.08 m aqueous solution of glycerin, C3H8O3? Assuming ideal solution behavior, what is the freezing point of this solution?
+57. A sample of sulfur weighing 0.210 g was dissolved in 17.8 g of carbon disulfide, CS2 (Kb = 2.34 °C/m). If the boiling point elevation was 0.107 °C, what is the formula of a sulfur molecule in carbon disulfide (assuming ideal solution behavior)?
+58. In a significant experiment performed many years ago, 5.6977 g of cadmium iodide in 44.69 g of water raised the boiling point 0.181 °C. What does this suggest about the nature of a solution of CdI2?
+59. Lysozyme is an enzyme that cleaves cell walls. A 0.100-L sample of a solution of lysozyme that contains 0.0750 g of the enzyme exhibits an osmotic pressure of 1.32 × 10−3 atm at 25 °C. Assuming ideal solution behavior, what is the molar mass of lysozyme?
+60. The osmotic pressure of a solution containing 7.0 g of insulin per liter is 23 torr at 25 °C. Assuming ideal solution behavior, what is the molar mass of insulin?
+61. The osmotic pressure of human blood is 7.6 atm at 37 °C. What mass of glucose, C6H12O6, is required to make 1.00 L of aqueous solution for intravenous feeding if the solution must have the same osmotic pressure as blood at body temperature, 37 °C (assuming ideal solution behavior)?
+62. Assuming ideal solution behavior, what is the freezing point of a solution of dibromobenzene, C6H4Br2, in 0.250 kg of benzene, if the solution boils at 83.5 °C?
+63. Assuming ideal solution behavior, what is the boiling point of a solution of NaCl in water if the solution freezes at −0.93 °C?
+64. The sugar fructose contains 40.0% C, 6.7% H, and 53.3% O by mass. A solution of 11.7 g of fructose in 325 g of ethanol has a boiling point of 78.59 °C. The boiling point of ethanol is 78.35 °C, and Kb for ethanol is 1.20 °C/m. Assuming ideal solution behavior, what is the molecular formula of fructose?
+65. The vapor pressure of methanol, CH3OH, is 94 torr at 20 °C. The vapor pressure of ethanol, C2H5OH, is 44 torr at the same temperature.
+(a) Calculate the mole fraction of methanol and of ethanol in a solution of 50.0 g of methanol and 50.0 g of ethanol.
+
+(b) Ethanol and methanol form a solution that behaves like an ideal solution. Calculate the vapor pressure of methanol and of ethanol above the solution at 20 °C.
+
+(c) Calculate the mole fraction of methanol and of ethanol in the vapor above the solution.
+
+66. The triple point of air-free water is defined as 273.16 K. Why is it important that the water be free of air?
+67. Meat can be classified as fresh (not frozen) even though it is stored at −1 °C. Why wouldn’t meat freeze at this temperature?
+68. An organic compound has a composition of 93.46% C and 6.54% H by mass. A solution of 0.090 g of this compound in 1.10 g of camphor melts at 158.4 °C. The melting point of pure camphor is 178.4 °C. Kf for camphor is 37.7 °C/m. Assuming ideal solution behavior, what is the molecular formula of the solute? Show your calculations.
+69. A sample of HgCl2 weighing 9.41 g is dissolved in 32.75 g of ethanol, C2H5OH (Kb = 1.20 °C/m). The boiling point elevation of the solution is 1.27 °C. Is HgCl2 an electrolyte in ethanol? Show your calculations.
+70. A salt is known to be an alkali metal fluoride. A quick approximate determination of freezing point indicates that 4 g of the salt dissolved in 100 g of water produces a solution that freezes at about −1.4 °C. Assuming ideal solution behavior, what is the formula of the salt? Show your calculations.
+11.5 Colloids
+71. Identify the dispersed phase and the dispersion medium in each of the following colloidal systems: starch dispersion, smoke, fog, pearl, whipped cream, floating soap, jelly, milk, and ruby.
+72. Distinguish between dispersion methods and condensation methods for preparing colloidal systems.
+73. How do colloids differ from solutions with regard to dispersed particle size and homogeneity?
+74. Explain the cleansing action of soap.
+75. How can it be demonstrated that colloidal particles are electrically charged?

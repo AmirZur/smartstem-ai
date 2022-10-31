@@ -1,0 +1,81 @@
+Problems
+8.1 The Hydrogen Atom
+25. The wave function is evaluated at rectangular coordinates (x,y,z) = (2, 1, 1) in arbitrary units. What are the spherical coordinates of this position?
+26. If an atom has an electron in the n=5 state with m=3, what are the possible values of l?
+27. What are the possible values of m for an electron in the n=4 state?
+28. What, if any, constraints does a value of m=1 place on the other quantum numbers for an electron in an atom?
+29. How many possible states are there for the l=4 state?
+30. (a) How many angles can L make with the z-axis for an l=2 electron? (b) Calculate the value of the smallest angle.
+31. The force on an electron is “negative the gradient of the potential energy function.” Use this knowledge and Equation 8.1 to show that the force on the electron in a hydrogen atom is given by Coulomb’s force law.
+32. What is the total number of states with orbital angular momentum l=0? (Ignore electron spin.)
+33. The wave function is evaluated at spherical coordinates (r,θ,ϕ)=(3–√,45°,45°), where the value of the radial coordinate is given in arbitrary units. What are the rectangular coordinates of this position?
+34. Coulomb’s force law states that the force between two charged particles is:
+F=kQqr2. Use this expression to determine the potential energy function.
+
+35. Write an expression for the total number of states with orbital angular momentum l.
+36. Consider hydrogen in the ground state, ψ100. (a) Use the derivative to determine the radial position for which the probability density, P(r), is a maximum.
+(b) Use the integral concept to determine the average radial position. (This is called the expectation value of the electron’s radial position.) Express your answers into terms of the Bohr radius, ao. Hint: The expectation value is the just average value. (c) Why are these values different?
+
+37. What is the probability that the 1s electron of a hydrogen atom is found outside the Bohr radius?
+38. How many polar angles are possible for an electron in the l=5 state?
+39. What is the maximum number of orbital angular momentum electron states in the n=2 shell of a hydrogen atom? (Ignore electron spin.)
+40. What is the maximum number of orbital angular momentum electron states in the n=3 shell of a hydrogen atom? (Ignore electron spin.)
+8.2 Orbital Magnetic Dipole Moment of the Electron
+41. Find the magnitude of the orbital magnetic dipole moment of the electron in in the 3p state. (Express your answer in terms of μB.)
+42. A current of I=2A flows through a square-shaped wire with 2-cm side lengths. What is the magnetic moment of the wire?
+43. Estimate the ratio of the electron magnetic moment to the muon magnetic moment for the same state of orbital angular momentum. (Hint: mμ=105.7MeV/c2)
+44. Find the magnitude of the orbital magnetic dipole moment of the electron in in the 4d state. (Express your answer in terms of μB.)
+45. For a 3d electron in an external magnetic field of 2.50×10−3T, find (a) the current associated with the orbital angular momentum, and (b) the maximum torque.
+46. An electron in a hydrogen atom is in the n=5, l=4 state. Find the smallest angle the magnetic moment makes with the z-axis. (Express your answer in terms of μB.)
+47. Find the minimum torque magnitude |τ⃗  | that acts on the orbital magnetic dipole of a 3p electron in an external magnetic field of 2.50×10−3T.
+48. An electron in a hydrogen atom is in 3p state. Find the smallest angle the magnetic moment makes with the z-axis. (Express your answer in terms of μB.)
+49. Show that U=−μ⃗ ⋅B⃗ .
+(Hint: An infinitesimal amount of work is done to align the magnetic moment with the external field. This work rotates the magnetic moment vector through an angle −dθ (toward the positive z-direction), where dθ is a positive angle change.)
+
+8.3 Electron Spin
+50. What is the magnitude of the spin momentum of an electron? (Express you answer in terms of ℏ.)
+51. What are the possible polar orientations of the spin momentum vector for an electron?
+52. For n=1, write all the possible sets of quantum numbers (n, l, m, ms).
+53. A hydrogen atom is placed in an external uniform magnetic field (B=200T). Calculate the wavelength of light produced in a transition from a spin up to spin down state.
+54. If the magnetic field in the preceding problem is quadrupled, what happens to the wavelength of light produced in a transition from a spin up to spin down state?
+55. If the magnetic moment in the preceding problem is doubled, what happens to the frequency of light produced in a transition from a spin-up to spin-down state?
+56. For n=2, write all the possible sets of quantum numbers (n, l, m, ms).
+8.4 The Exclusion Principle and the Periodic Table
+57. (a) How many electrons can be in the n=4 shell?
+(b) What are its subshells, and how many electrons can be in each?
+
+58. (a) What is the minimum value of l for a subshell that contains 11 electrons?
+(b) If this subshell is in the n=5 shell, what is the spectroscopic notation for this atom?
+
+59. Unreasonable result. Which of the following spectroscopic notations are not allowed? (a) 5s1 (b) 1d1 (c) 4s3 (d) 3p7 (e) 5g15. State which rule is violated for each notation that is not allowed.
+60. Write the electron configuration for potassium.
+61. Write the electron configuration for iron.
+62. The valence electron of potassium is excited to a 5d state. (a) What is the magnitude of the electron’s orbital angular momentum? (b) How many states are possible along a chosen direction?
+63. (a) If one subshell of an atom has nine electrons in it, what is the minimum value of l? (b) What is the spectroscopic notation for this atom, if this subshell is part of the n=3 shell?
+64. Write the electron configuration for magnesium.
+65. Write the electron configuration for carbon.
+66. The magnitudes of the resultant spins of the electrons of the elements B through Ne when in the ground state are: 3–√ℏ/2,2–√ℏ, 15−−√ℏ/2,2–√ℏ, 3–√ℏ/2, and 0, respectively. Argue that these spins are consistent with Hund’s rule.
+8.5 Atomic Spectra and X-rays
+67. What is the minimum frequency of a photon required to ionize: (a) a He+ ion in its ground state? (b) A Li2+ ion in its first excited state?
+68. The ion Li2+ makes an atomic transition from an n=4 state to an n=2 state. (a) What is the energy of the photon emitted during the transition? (b) What is the wavelength of the photon?
+69. The red light emitted by a ruby laser has a wavelength of 694.3 nm. What is the difference in energy between the initial state and final state corresponding to the emission of the light?
+70. The yellow light from a sodium-vapor street lamp is produced by a transition of sodium atoms from a 3p state to a 3s state. If the difference in energies of those two states is 2.10 eV, what is the wavelength of the yellow light?
+71. Estimate the wavelength of the Kα X-ray from calcium.
+72. Estimate the frequency of the Kα X-ray from cesium.
+73. X-rays are produced by striking a target with a beam of electrons. Prior to striking the target, the electrons are accelerated by an electric field through a potential energy difference:
+ΔU=−eΔV,
+
+where e is the charge of an electron and ΔV is the voltage difference. If ΔV=15,000 volts, what is the minimum wavelength of the emitted radiation?
+
+74. For the preceding problem, what happens to the minimum wavelength if the voltage across the X-ray tube is doubled?
+75. Suppose the experiment in the preceding problem is conducted with muons. What happens to the minimum wavelength?
+76. An X-ray tube accelerates an electron with an applied voltage of 50 kV toward a metal target. (a) What is the shortest-wavelength X-ray radiation generated at the target? (b) Calculate the photon energy in eV. (c) Explain the relationship of the photon energy to the applied voltage.
+77. A color television tube generates some X-rays when its electron beam strikes the screen. What is the shortest wavelength of these X-rays, if a 30.0-kV potential is used to accelerate the electrons? (Note that TVs have shielding to prevent these X-rays from exposing viewers.)
+78. An X-ray tube has an applied voltage of 100 kV. (a) What is the most energetic X-ray photon it can produce? Express your answer in electron volts and joules. (b) Find the wavelength of such an X-ray.
+79. The maximum characteristic X-ray photon energy comes from the capture of a free electron into a K shell vacancy. What is this photon energy in keV for tungsten, assuming that the free electron has no initial kinetic energy?
+80. What are the approximate energies of the Kα and Kβ X-rays for copper?
+81. Compare the X-ray photon wavelengths for copper and gold.
+82. The approximate energies of the Kα and Kβ X-rays for copper are EKα=8.00keV and EKβ=9.48keV, respectively. Determine the ratio of X-ray frequencies of gold to copper, then use this value to estimate the corresponding energies of Kα and Kβ X-rays for gold.
+8.6 Lasers
+83. A carbon dioxide laser used in surgery emits infrared radiation with a wavelength of 10.6μm. In 1.00 ms, this laser raised the temperature of 1.00cm3 of flesh to 100°C and evaporated it. (a) How many photons were required? You may assume that flesh has the same heat of vaporization as water. (b) What was the minimum power output during the flash?
+84. An excimer laser used for vision correction emits UV radiation with a wavelength of 193 nm. (a) Calculate the photon energy in eV. (b) These photons are used to evaporate corneal tissue, which is very similar to water in its properties. Calculate the amount of energy needed per molecule of water to make the phase change from liquid to gas. That is, divide the heat of vaporization in kJ/kg by the number of water molecules in a kilogram. (c) Convert this to eV and compare to the photon energy. Discuss the implications.

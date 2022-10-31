@@ -1,0 +1,42 @@
+Problems
+3.2 Mathematics of Interference
+16. At what angle is the first-order maximum for 450-nm wavelength blue light falling on double slits separated by 0.0500 mm?
+17. Calculate the angle for the third-order maximum of 580-nm wavelength yellow light falling on double slits separated by 0.100 mm.
+18. What is the separation between two slits for which 610-nm orange light has its first maximum at an angle of 30.0°?
+19. Find the distance between two slits that produces the first minimum for 410-nm violet light at an angle of 45.0°.
+20. Calculate the wavelength of light that has its third minimum at an angle of 30.0° when falling on double slits separated by 3.00μm. Explicitly show how you follow the steps from the Problem-Solving Strategy: Wave Optics, located at the end of the chapter.
+21. What is the wavelength of light falling on double slits separated by 2.00μm if the third-order maximum is at an angle of 60.0°?
+22. At what angle is the second-order maximum for the situation in the preceding problem?
+23. What is the highest-order maximum for 400-nm light falling on double slits separated by 25.0μm?
+24. Find the largest wavelength of light falling on double slits separated by 1.20μm for which there is a first-order maximum. Is this in the visible part of the spectrum?
+25. What is the smallest separation between two slits that will produce a second-order maximum for 720-nm red light?
+26. (a) What is the smallest separation between two slits that will produce a second-order maximum for any visible light? (b) For all visible light?
+27. (a) If the first-order maximum for monochromatic light falling on a double slit is at an angle of 10.0°, at what angle is the second-order maximum? (b) What is the angle of the first minimum? (c) What is the highest-order maximum possible here?
+28. Shown below is a double slit located a distance x from a screen, with the distance from the center of the screen given by y. When the distance d between the slits is relatively large, numerous bright spots appear, called fringes. Show that, for small angles (where sinθ≈θ, with θ in radians), the distance between fringes is given by Δy=xλ/dPicture shows a double slit located a distance x from a screen, with the distance from the center of the screen given by y. Distance between the slits is d.
+29. Using the result of the preceding problem, (a) calculate the distance between fringes for 633-nm light falling on double slits separated by 0.0800 mm, located 3.00 m from a screen. (b) What would be the distance between fringes if the entire apparatus were submersed in water, whose index of refraction is 1.33?
+30. Using the result of the problem two problems prior, find the wavelength of light that produces fringes 7.50 mm apart on a screen 2.00 m from double slits separated by 0.120 mm.
+31. In a double-slit experiment, the fifth maximum is 2.8 cm from the central maximum on a screen that is 1.5 m away from the slits. If the slits are 0.15 mm apart, what is the wavelength of the light being used?
+32. The source in Young’s experiment emits at two wavelengths. On the viewing screen, the fourth maximum for one wavelength is located at the same spot as the fifth maximum for the other wavelength. What is the ratio of the two wavelengths?
+33. If 500-nm and 650-nm light illuminates two slits that are separated by 0.50 mm, how far apart are the second-order maxima for these two wavelengths on a screen 2.0 m away?
+34. Red light of wavelength of 700 nm falls on a double slit separated by 400 nm. (a) At what angle is the first-order maximum in the diffraction pattern? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?
+3.3 Multiple-Slit Interference
+35. Ten narrow slits are equally spaced 0.25 mm apart and illuminated with yellow light of wavelength 580 nm. (a) What are the angular positions of the third and fourth principal maxima? (b) What is the separation of these maxima on a screen 2.0 m from the slits?
+36. The width of bright fringes can be calculated as the separation between the two adjacent dark fringes on either side. Find the angular widths of the third- and fourth-order bright fringes from the preceding problem.
+37. For a three-slit interference pattern, find the ratio of the peak intensities of a secondary maximum to a principal maximum.
+38. What is the angular width of the central fringe of the interference pattern of (a) 20 slits separated by d=2.0×10−3mm? (b) 50 slits with the same separation? Assume that λ=600nm.
+3.4 Interference in Thin Films
+39. A soap bubble is 100 nm thick and illuminated by white light incident perpendicular to its surface. What wavelength and color of visible light is most constructively reflected, assuming the same index of refraction as water?
+40. An oil slick on water is 120 nm thick and illuminated by white light incident perpendicular to its surface. What color does the oil appear (what is the most constructively reflected wavelength), given its index of refraction is 1.40?
+41. Calculate the minimum thickness of an oil slick on water that appears blue when illuminated by white light perpendicular to its surface. Take the blue wavelength to be 470 nm and the index of refraction of oil to be 1.40.
+42. Find the minimum thickness of a soap bubble that appears red when illuminated by white light perpendicular to its surface. Take the wavelength to be 680 nm, and assume the same index of refraction as water.
+43. A film of soapy water (n=1.33) on top of a plastic cutting board has a thickness of 233 nm. What color is most strongly reflected if it is illuminated perpendicular to its surface?
+44. What are the three smallest non-zero thicknesses of soapy water (n=1.33) on Plexiglas if it appears green (constructively reflecting 520-nm light) when illuminated perpendicularly by white light?
+45. Suppose you have a lens system that is to be used primarily for 700-nm red light. What is the second thinnest coating of fluorite (magnesium fluoride) that would be nonreflective for this wavelength?
+46. (a) As a soap bubble thins it becomes dark, because the path length difference becomes small compared with the wavelength of light and there is a phase shift at the top surface. If it becomes dark when the path length difference is less than one-fourth the wavelength, what is the thickest the bubble can be and appear dark at all visible wavelengths? Assume the same index of refraction as water. (b) Discuss the fragility of the film considering the thickness found.
+47. To save money on making military aircraft invisible to radar, an inventor decides to coat them with a nonreflective material having an index of refraction of 1.20, which is between that of air and the surface of the plane. This, he reasons, should be much cheaper than designing Stealth bombers. (a) What thickness should the coating be to inhibit the reflection of 4.00-cm wavelength radar? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?
+3.5 The Michelson Interferometer
+48. A Michelson interferometer has two equal arms. A mercury light of wavelength 546 nm is used for the interferometer and stable fringes are found. One of the arms is moved by 1.5μm. How many fringes will cross the observing field?
+49. What is the distance moved by the traveling mirror of a Michelson interferometer that corresponds to 1500 fringes passing by a point of the observation screen? Assume that the interferometer is illuminated with a 606 nm spectral line of krypton-86.
+50. When the traveling mirror of a Michelson interferometer is moved 2.40×10−5m, 90 fringes pass by a point on the observation screen. What is the wavelength of the light used?
+51. In a Michelson interferometer, light of wavelength 632.8 nm from a He-Ne laser is used. When one of the mirrors is moved by a distance D, 8 fringes move past the field of view. What is the value of the distance D?
+52. A chamber 5.0 cm long with flat, parallel windows at the ends is placed in one arm of a Michelson interferometer (see below). The light used has a wavelength of 500 nm in a vacuum. While all the air is being pumped out of the chamber, 29 fringes pass by a point on the observation screen. What is the refractive index of the air?Picture shows a schematics of a set-up utilized to measure the refractive index of a gas. The glass chamber with a gas is placed in the Michelson interferometer between the half-silvered mirror M and mirror M1. The space inside the container is 5 cm wide.

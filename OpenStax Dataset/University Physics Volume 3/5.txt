@@ -1,0 +1,57 @@
+Problems
+5.3 Time Dilation
+23. (a) What is γ if v=0.250c? (b) If v=0.500c?
+24. (a) What is γ if v=0.100c? (b) If v=0.900c?
+25. Particles called π-mesons are produced by accelerator beams. If these particles travel at 2.70×108m/s and live 2.60×10−8s when at rest relative to an observer, how long do they live as viewed in the laboratory?
+26. Suppose a particle called a kaon is created by cosmic radiation striking the atmosphere. It moves by you at 0.980c, and it lives 1.24×10−8s when at rest relative to an observer. How long does it live as you observe it?
+27. A neutral π-meson is a particle that can be created by accelerator beams. If one such particle lives 1.40×10−16s as measured in the laboratory, and 0.840×10−16s when at rest relative to an observer, what is its velocity relative to the laboratory?
+28. A neutron lives 900 s when at rest relative to an observer. How fast is the neutron moving relative to an observer who measures its life span to be 2065 s?
+29. If relativistic effects are to be less than 1%, then γ must be less than 1.01. At what relative velocity is γ=1.01?
+30. If relativistic effects are to be less than 3%, then γ must be less than 1.03. At what relative velocity is γ=1.03?
+5.4 Length Contraction
+31. A spaceship, 200 m long as seen on board, moves by the Earth at 0.970c. What is its length as measured by an earthbound observer?
+32. How fast would a 6.0 m-long sports car have to be going past you in order for it to appear only 5.5 m long?
+33. (a) How far does the muon in Example 5.3 travel according to the earthbound observer? (b) How far does it travel as viewed by an observer moving with it? Base your calculation on its velocity relative to the Earth and the time it lives (proper time). (c) Verify that these two distances are related through length contraction γ=3.20.
+34. (a) How long would the muon in Example 5.3 have lived as observed on Earth if its velocity was 0.0500c? (b) How far would it have traveled as observed on Earth? (c) What distance is this in the muon’s frame?
+35. Unreasonable Results A spaceship is heading directly toward Earth at a velocity of 0.800c. The astronaut on board claims that he can send a canister toward the Earth at 1.20c relative to Earth. (a) Calculate the velocity the canister must have relative to the spaceship. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?
+5.5 The Lorentz Transformation
+36. Describe the following physical occurrences as events, that is, in the form (x, y, z, t): (a) A postman rings a doorbell of a house precisely at noon. (b) At the same time as the doorbell is rung, a slice of bread pops out of a toaster that is located 10 m from the door in the east direction from the door. (c) Ten seconds later, an airplane arrives at the airport, which is 10 km from the door in the east direction and 2 km to the south.
+37. Describe what happens to the angle α=tan(v/c), and therefore to the transformed axes in Figure 5.17, as the relative velocity v of the S and S' frames of reference approaches c.
+38. Describe the shape of the world line on a space-time diagram of (a) an object that remains at rest at a specific position along the x-axis; (b) an object that moves at constant velocity u in the x-direction; (c) an object that begins at rest and accelerates at a constant rate of in the positive x-direction.
+39. A man standing still at a train station watches two boys throwing a baseball in a moving train. Suppose the train is moving east with a constant speed of 20 m/s and one of the boys throws the ball with a speed of 5 m/s with respect to himself toward the other boy, who is 5 m west from him. What is the velocity of the ball as observed by the man on the station?
+40. When observed from the sun at a particular instant, Earth and Mars appear to move in opposite directions with speeds 108,000 km/h and 86,871 km/h, respectively. What is the speed of Mars at this instant when observed from Earth?
+41. A man is running on a straight road perpendicular to a train track and away from the track at a speed of 12 m/s. The train is moving with a speed of 30 m/s with respect to the track. What is the speed of the man with respect to a passenger sitting at rest in the train?
+42. A man is running on a straight road that makes 30° with the train track. The man is running in the direction on the road that is away from the track at a speed of 12 m/s. The train is moving with a speed of 30 m/s with respect to the track. What is the speed of the man with respect to a passenger sitting at rest in the train?
+43. In a frame at rest with respect to the billiard table, a billiard ball of mass m moving with speed v strikes another billiard ball of mass m at rest. The first ball comes to rest after the collision while the second ball takes off with speed v in the original direction of the motion of the first ball. This shows that momentum is conserved in this frame. (a) Now, describe the same collision from the perspective of a frame that is moving with speed v in the direction of the motion of the first ball. (b) Is the momentum conserved in this frame?
+44. In a frame at rest with respect to the billiard table, two billiard balls of same mass m are moving toward each other with the same speed v. After the collision, the two balls come to rest. (a) Show that momentum is conserved in this frame. (b) Now, describe the same collision from the perspective of a frame that is moving with speed v in the direction of the motion of the first ball. (c) Is the momentum conserved in this frame?
+45. In a frame S, two events are observed: event 1: a pion is created at rest at the origin and event 2: the pion disintegrates after time τ. Another observer in a frame S' is moving in the positive direction along the positive x-axis with a constant speed v and observes the same two events in his frame. The origins of the two frames coincide at t=t'=0. (a) Find the positions and timings of these two events in the frame S' (a) according to the Galilean transformation, and (b) according to the Lorentz transformation.
+5.6 Relativistic Velocity Transformation
+46. If two spaceships are heading directly toward each other at 0.800c, at what speed must a canister be shot from the first ship to approach the other at 0.999c as seen by the second ship?
+47. Two planets are on a collision course, heading directly toward each other at 0.250c. A spaceship sent from one planet approaches the second at 0.750c as seen by the second planet. What is the velocity of the ship relative to the first planet?
+48. When a missile is shot from one spaceship toward another, it leaves the first at 0.950c and approaches the other at 0.750c. What is the relative velocity of the two ships?
+49. What is the relative velocity of two spaceships if one fires a missile at the other at 0.750c and the other observes it to approach at 0.950c?
+50. Prove that for any relative velocity v between two observers, a beam of light sent from one to the other will approach at speed c (provided that v is less than c, of course).
+51. Show that for any relative velocity v between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that v is less than c, of course).
+5.7 Doppler Effect for Light
+52. A highway patrol officer uses a device that measures the speed of vehicles by bouncing radar off them and measuring the Doppler shift. The outgoing radar has a frequency of 100 GHz and the returning echo has a frequency 15.0 kHz higher. What is the velocity of the vehicle? Note that there are two Doppler shifts in echoes. Be certain not to round off until the end of the problem, because the effect is small.
+5.8 Relativistic Momentum
+53. Find the momentum of a helium nucleus having a mass of 6.68×10−27kg that is moving at 0.200c.
+54. What is the momentum of an electron traveling at 0.980c?
+55. (a) Find the momentum of a 1.00×109-kg asteroid heading towards Earth at 30.0 km/s. (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that γ=1+(1/2)v2/c2 at low velocities.)
+56. (a) What is the momentum of a 2000-kg satellite orbiting at 4.00 km/s? (b) Find the ratio of this momentum to the classical momentum. (Hint: Use the approximation that γ=1+(1/2)v2/c2 at low velocities.)
+57. What is the velocity of an electron that has a momentum of 3.04×10−21kg⋅m/s ? Note that you must calculate the velocity to at least four digits to see the difference from c.
+58. Find the velocity of a proton that has a momentum of 4.48×10−19kg⋅m/s.
+5.9 Relativistic Energy
+59. What is the rest energy of an electron, given its mass is 9.11×10−31kg? Give your answer in joules and MeV.
+60. Find the rest energy in joules and MeV of a proton, given its mass is 1.67×10−27kg.
+61. If the rest energies of a proton and a neutron (the two constituents of nuclei) are 938.3 and 939.6 MeV, respectively, what is the difference in their mass in kilograms?
+62. The Big Bang that began the universe is estimated to have released 1068J of energy. How many stars could half this energy create, assuming the average star’s mass is 4.00×1030kg ?
+63. A supernova explosion of a 2.00×1031kg star produces 1.00×1044J of energy. (a) How many kilograms of mass are converted to energy in the explosion? (b) What is the ratio Δm/m of mass destroyed to the original mass of the star?
+64. (a) Using data from Potential Energy of a System, calculate the mass converted to energy by the fission of 1.00 kg of uranium. (b) What is the ratio of mass destroyed to the original mass, Δm/m?
+65. (a) Using data from Potential Energy of a System, calculate the amount of mass converted to energy by the fusion of 1.00 kg of hydrogen. (b) What is the ratio of mass destroyed to the original mass, Δm/m ? (c) How does this compare with Δm/m for the fission of 1.00 kg of uranium?
+66. There is approximately 1034J of energy available from fusion of hydrogen in the world’s oceans. (a) If 1033J of this energy were utilized, what would be the decrease in mass of the oceans (ignoring the loss of mass from the leftover oxygen)? (b) How great a volume of water does this correspond to? (c) Comment on whether this is a significant fraction of the total mass of the oceans.
+67. A muon has a rest mass energy of 105.7 MeV, and it decays into an electron and a massless particle. (a) If all the lost mass is converted into the electron’s kinetic energy, find γ for the electron. (b) What is the electron’s velocity?
+68. A π-meson is a particle that decays into a muon and a massless particle. The π-meson has a rest mass energy of 139.6 MeV, and the muon has a rest mass energy of 105.7 MeV. Suppose the π-meson is at rest and all of the missing mass goes into the muon’s kinetic energy. How fast will the muon move?
+69. (a) Calculate the relativistic kinetic energy of a 1000-kg car moving at 30.0 m/s if the speed of light were only 45.0 m/s. (b) Find the ratio of the relativistic kinetic energy to classical.
+70. Alpha decay is nuclear decay in which a helium nucleus is emitted. If the helium nucleus has a mass of 6.80×10−27kg and is given 5.00 MeV of kinetic energy, what is its velocity?
+71. (a) Beta decay is nuclear decay in which an electron is emitted. If the electron is given 0.750 MeV of kinetic energy, what is its velocity? (b) Comment on how the high velocity is consistent with the kinetic energy as it compares to the rest mass energy of the electron.

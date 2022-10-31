@@ -1,0 +1,336 @@
+16.1 Spontaneity
+1. What is a spontaneous reaction?
+2. What is a nonspontaneous reaction?
+3. Indicate whether the following processes are spontaneous or nonspontaneous.
+(a) Liquid water freezing at a temperature below its freezing point
+
+(b) Liquid water freezing at a temperature above its freezing point
+
+(c) The combustion of gasoline
+
+(d) A ball thrown into the air
+
+(e) A raindrop falling to the ground
+
+(f) Iron rusting in a moist atmosphere
+
+4. A helium-filled balloon spontaneously deflates overnight as He atoms diffuse through the wall of the balloon. Describe the redistribution of matter and/or energy that accompanies this process.
+5. Many plastic materials are organic polymers that contain carbon and hydrogen. The oxidation of these plastics in air to form carbon dioxide and water is a spontaneous process; however, plastic materials tend to persist in the environment. Explain.
+16.2 Entropy
+6. In Figure 16.8 all possible distributions and microstates are shown for four different particles shared between two boxes. Determine the entropy change, ΔS, if the particles are initially evenly distributed between the two boxes, but upon redistribution all end up in Box (b).
+7. In Figure 16.8 all of the possible distributions and microstates are shown for four different particles shared between two boxes. Determine the entropy change, ΔS, for the system when it is converted from distribution (b) to distribution (d).
+8. How does the process described in the previous item relate to the system shown in Figure 16.4?
+9. Consider a system similar to the one in Figure 16.8, except that it contains six particles instead of four. What is the probability of having all the particles in only one of the two boxes in the case? Compare this with the similar probability for the system of four particles that we have derived to be equal to 18. What does this comparison tell us about even larger systems?
+10. Consider the system shown in Figure 16.9. What is the change in entropy for the process where the energy is initially associated only with particle A, but in the final state the energy is distributed between two different particles?
+11. Consider the system shown in Figure 16.9. What is the change in entropy for the process where the energy is initially associated with particles A and B, and the energy is distributed between two particles in different boxes (one in A-B, the other in C-D)?
+12. Arrange the following sets of systems in order of increasing entropy. Assume one mole of each substance and the same temperature for each member of a set.
+(a) H2(g), HBrO4(g), HBr(g)
+
+(b) H2O(l), H2O(g), H2O(s)
+
+(c) He(g), Cl2(g), P4(g)
+
+13. At room temperature, the entropy of the halogens increases from I2 to Br2 to Cl2. Explain.
+14. Consider two processes: sublimation of I2(s) and melting of I2(s) (Note: the latter process can occur at the same temperature but somewhat higher pressure).
+I2(𝑠)⟶I2(𝑔)
+
+I2(𝑠)⟶I2(𝑙)
+
+Is ΔS positive or negative in these processes? In which of the processes will the magnitude of the entropy change be greater?
+
+15. Indicate which substance in the given pairs has the higher entropy value. Explain your choices.
+(a) C2H5OH(l) or C3H7OH(l)
+
+(b) C2H5OH(l) or C2H5OH(g)
+
+(c) 2H(g) or H(g)
+
+16. Predict the sign of the entropy change for the following processes.
+(a) An ice cube is warmed to near its melting point.
+
+(b) Exhaled breath forms fog on a cold morning.
+
+(c) Snow melts.
+
+17. Predict the sign of the entropy change for the following processes. Give a reason for your prediction.
+(a) Na+(𝑎𝑞)+Cl−(𝑎𝑞)⟶NaCl(𝑠)
+
+(b) 2Fe(𝑠)+32O2(𝑔)⟶Fe2O2(𝑠)
+
+(c) 2C6H14(𝑙)+19O2(𝑔)⟶14H2O(𝑔)+12CO2(𝑔)
+
+18. Write the balanced chemical equation for the combustion of methane, CH4(g), to give carbon dioxide and water vapor. Explain why it is difficult to predict whether ΔS is positive or negative for this chemical reaction.
+19. Write the balanced chemical equation for the combustion of benzene, C6H6(l), to give carbon dioxide and water vapor. Would you expect ΔS to be positive or negative in this process?
+16.3 The Second and Third Laws of Thermodynamics
+20. What is the difference between ΔS and ΔS° for a chemical change?
+21. Calculate Δ𝑆° for the following changes.
+(a) SnCl4(𝑙)⟶SnCl4(𝑔)
+
+(b) CS2(𝑔)⟶CS2(𝑙)
+
+(c) Cu(𝑠)⟶Cu(𝑔)
+
+(d) H2O(𝑙)⟶H2O(𝑔)
+
+(e) 2H2(𝑔)+O2(𝑔)⟶2H2O(𝑙)
+
+(f) 2HCl(𝑔)+Pb(𝑠)⟶PbCl2(𝑠)+H2(𝑔)
+
+(g) Zn(𝑠)+CuSO4(𝑠)⟶Cu(𝑠)+ZnSO4(𝑠)
+
+22. Determine the entropy change for the combustion of liquid ethanol, C2H5OH, under the standard conditions to give gaseous carbon dioxide and liquid water.
+23. Determine the entropy change for the combustion of gaseous propane, C3H8, under the standard conditions to give gaseous carbon dioxide and water.
+24. “Thermite” reactions have been used for welding metal parts such as railway rails and in metal refining. One such thermite reaction is Fe2O3(𝑠)+2Al(𝑠)⟶Al2O3(𝑠)+2Fe(𝑠). Is the reaction spontaneous at room temperature under standard conditions? During the reaction, the surroundings absorb 851.8 kJ/mol of heat.
+25. Using the relevant 𝑆° values listed in Appendix G, calculate Δ𝑆°298 for the following changes:
+(a) N2(𝑔)+3H2(𝑔)⟶2NH3(𝑔)
+
+(b) N2(𝑔)+52O2(𝑔)⟶N2O5(𝑔)
+
+26. From the following information, determine Δ𝑆° for the following:
+N(𝑔)+O(𝑔)⟶NO(𝑔)Δ𝑆°=?
+
+N2(𝑔)+O2(𝑔)⟶2NO(𝑔)Δ𝑆°=24.8 J/K
+
+N2(𝑔)⟶2N(𝑔)Δ𝑆°=115.0 J/K
+
+O2(𝑔)⟶2O(𝑔)Δ𝑆°=117.0 J/K
+
+27. By calculating ΔSuniv at each temperature, determine if the melting of 1 mole of NaCl(s) is spontaneous at 500 °C and at 700 °C.
+𝑆∘NaCl(𝑠)=72.11Jmol·K𝑆∘NaCl(𝑙)=95.06Jmol·KΔ𝐻∘fusion=27.95 kJ/mol
+What assumptions are made about the thermodynamic information (entropy and enthalpy values) used to solve this problem?
+
+28. Use the standard entropy data in Appendix G to determine the change in entropy for each of the following reactions. All the processes occur at the standard conditions and 25 °C.
+(a) MnO2(𝑠)⟶Mn(𝑠)+O2(𝑔)
+
+(b) H2(𝑔)+Br2(𝑙)⟶2HBr(𝑔)
+
+(c) Cu(𝑠)+S(𝑔)⟶CuS(𝑠)
+
+(d) 2LiOH(𝑠)+CO2(𝑔)⟶Li2CO3(𝑠)+H2O(𝑔)
+
+(e) CH4(𝑔)+O2(𝑔)⟶C(𝑠,graphite)+2H2O(𝑔)
+
+(f) CS2(𝑔)+3Cl2(𝑔)⟶CCl4(𝑔)+S2Cl2(𝑔)
+
+29. Use the standard entropy data in Appendix G to determine the change in entropy for each of the following reactions. All the processes occur at the standard conditions and 25 °C.
+(a) C(𝑠, graphite)+O2(𝑔)⟶CO2(𝑔)
+
+(b) O2(𝑔)+N2(𝑔)⟶2NO(𝑔)
+
+(c) 2Cu(𝑠)+S(𝑔)⟶Cu2S(𝑠)
+
+(d) CaO(𝑠)+H2O(𝑙)⟶Ca(OH)2(𝑠)
+
+(e) Fe2O3(𝑠)+3CO(𝑔)⟶2Fe(𝑠)+3CO2(𝑔)
+
+(f) CaSO4·2H2O(𝑠)⟶CaSO4(𝑠)+2H2O(𝑔)
+
+16.4 Free Energy
+30. What is the difference between ΔG and ΔG° for a chemical change?
+31. A reaction has Δ𝐻° = 100 kJ/mol and Δ𝑆°=250 J/mol·K. Is the reaction spontaneous at room temperature? If not, under what temperature conditions will it become spontaneous?
+32. Explain what happens as a reaction starts with ΔG < 0 (negative) and reaches the point where ΔG = 0.
+33. Use the standard free energy of formation data in Appendix G to determine the free energy change for each of the following reactions, which are run under standard state conditions and 25 °C. Identify each as either spontaneous or nonspontaneous at these conditions.
+(a) MnO2(𝑠)⟶Mn(𝑠)+O2(𝑔)
+
+(b) H2(𝑔)+Br2(𝑙)⟶2HBr(𝑔)
+
+(c) Cu(𝑠)+S(𝑔)⟶CuS(𝑠)
+
+(d) 2LiOH(𝑠)+CO2(𝑔)⟶Li2CO3(𝑠)+H2O(𝑔)
+
+(e) CH4(𝑔)+O2(𝑔)⟶C(𝑠,graphite)+2H2O(𝑔)
+
+(f) CS2(𝑔)+3Cl2(𝑔)⟶CCl4(𝑔)+S2Cl2(𝑔)
+
+34. Use the standard free energy data in Appendix G to determine the free energy change for each of the following reactions, which are run under standard state conditions and 25 °C. Identify each as either spontaneous or nonspontaneous at these conditions.
+(a) C(𝑠, graphite)+O2(𝑔)⟶CO2(𝑔)
+
+(b) O2(𝑔)+N2(𝑔)⟶2NO(𝑔)
+
+(c) 2Cu(𝑠)+S(𝑔)⟶Cu2S(𝑠)
+
+(d) CaO(𝑠)+H2O(𝑙)⟶Ca(OH)2(𝑠)
+
+(e) Fe2O3(𝑠)+3CO(𝑔)⟶2Fe(𝑠)+3CO2(𝑔)
+
+(f) CaSO4·2H2O(𝑠)⟶CaSO4(𝑠)+2H2O(𝑔)
+
+35. Given:
+P4(𝑠)+5O2(𝑔)⟶P4O10(𝑠)Δ𝐺°=−2697.0 kJ/mol
+2H2(𝑔)+O2(𝑔)⟶2H2O(𝑔)Δ𝐺°=−457.18 kJ/mol
+6H2O(𝑔)+P4O10(𝑠)⟶4H3PO4(𝑙)Δ𝐺°=−428.66 kJ/mol
+(a) Determine the standard free energy of formation, Δ𝐺∘f, for phosphoric acid.
+
+(b) How does your calculated result compare to the value in Appendix G? Explain.
+
+36. Is the formation of ozone (O3(g)) from oxygen (O2(g)) spontaneous at room temperature under standard state conditions?
+37. Consider the decomposition of red mercury(II) oxide under standard state conditions.
+2HgO(𝑠,red)⟶2Hg(𝑙)+O2(𝑔)
+(a) Is the decomposition spontaneous under standard state conditions?
+
+(b) Above what temperature does the reaction become spontaneous?
+
+38. Among other things, an ideal fuel for the control thrusters of a space vehicle should decompose in a spontaneous exothermic reaction when exposed to the appropriate catalyst. Evaluate the following substances under standard state conditions as suitable candidates for fuels.
+(a) Ammonia: 2NH3(𝑔)⟶N2(𝑔)+3H2(𝑔)
+
+(b) Diborane: B2H6(𝑔)⟶2B(𝑔)+3H2(𝑔)
+
+(c) Hydrazine: N2H4(𝑔)⟶N2(𝑔)+2H2(𝑔)
+
+(d) Hydrogen peroxide: H2O2(𝑙)⟶H2O(𝑔)+12O2(𝑔)
+
+39. Calculate ΔG° for each of the following reactions from the equilibrium constant at the temperature given.
+(a) N2(𝑔)+O2(𝑔)⟶2NO(𝑔)T=2000°C𝐾𝑝=4.1×10−4
+
+(b) H2(𝑔)+I2(𝑔)⟶2HI(𝑔)T=400°C𝐾𝑝=50.0
+
+(c) CO2(𝑔)+H2(𝑔)⟶CO(𝑔)+H2O(𝑔)T=980°C𝐾𝑝=1.67
+
+(d) CaCO3(𝑠)⟶CaO(𝑠)+CO2(𝑔)T=900°C𝐾𝑝=1.04
+
+(e) HF(𝑎𝑞)+H2O(𝑙)⟶H3O+(𝑎𝑞)+F−(𝑎𝑞)T=25°C𝐾𝑝=7.2×10−4
+
+(f) AgBr(𝑠)⟶Ag+(𝑎𝑞)+Br−(𝑎𝑞)T=25°C𝐾𝑝=3.3×10−13
+
+40. Calculate ΔG° for each of the following reactions from the equilibrium constant at the temperature given.
+(a) Cl2(𝑔)+Br2(𝑔)⟶2BrCl(𝑔)T=25°C𝐾𝑝=4.7×10−2
+
+(b) 2SO2(𝑔)+O2(𝑔)⇌2SO3(𝑔)T=500°C𝐾𝑝=48.2
+
+(c) H2O(𝑙)⇌H2O(𝑔)T=60°C𝐾𝑝=0.196
+
+(d) CoO(𝑠)+CO(𝑔)⇌Co(𝑠)+CO2(𝑔)T=550°C𝐾𝑝=4.90×102
+
+(e) CH3NH2(𝑎𝑞)+H2O(𝑙)⟶CH3NH3+(𝑎𝑞)+OH−(𝑎𝑞)T=25°C𝐾𝑝=4.4×10−4
+
+(f) PbI2(𝑠)⟶Pb2+(𝑎𝑞)+2I−(𝑎𝑞)T=25°C𝐾𝑝=8.7×10−9
+
+41. Calculate the equilibrium constant at 25 °C for each of the following reactions from the value of ΔG° given.
+(a) O2(𝑔)+2F2(𝑔)⟶2OF2(𝑔)Δ𝐺°=−9.2 kJ
+
+(b) I2(𝑠)+Br2(𝑙)⟶2IBr(𝑔)Δ𝐺°=7.3 kJ
+
+(c) 2LiOH(𝑠)+CO2(𝑔)⟶Li2CO3(𝑠)+H2O(𝑔)Δ𝐺°=−79 kJ
+
+(d) N2O3(𝑔)⟶NO(𝑔)+NO2(𝑔)Δ𝐺°=−1.6 kJ
+
+(e) SnCl4(𝑙)⟶SnCl4(𝑙)Δ𝐺°=8.0 kJ
+
+42. Calculate the equilibrium constant at 25 °C for each of the following reactions from the value of ΔG° given.
+(a) I2(𝑠)+Cl2(𝑔)⟶2ICl(𝑔)Δ𝐺°=−10.88 kJ
+
+(b) H2(𝑔)+I2(𝑠)⟶2HI(𝑔)Δ𝐺°=3.4 kJ
+
+(c) CS2(𝑔)+3Cl2(𝑔)⟶CCl4(𝑔)+S2Cl2(𝑔)Δ𝐺°=−39 kJ
+
+(d) 2SO2(𝑔)+O2(𝑔)⟶2SO3(𝑔)Δ𝐺°=−141.82 kJ
+
+(e) CS2(𝑔)⟶CS2(𝑙)Δ𝐺°=−1.88 kJ
+
+43. Calculate the equilibrium constant at the temperature given.
+(a) O2(𝑔)+2F2(𝑔)⟶2F2O(𝑔)(T=100°C)
+
+(b) I2(𝑠)+Br2(𝑙)⟶2IBr(𝑔)(T=0.0°C)
+
+(c) 2LiOH(𝑠)+CO2(𝑔)⟶Li2CO3(𝑠)+H2O(𝑔)(T=575°C)
+
+(d) N2O3(𝑔)⟶NO(𝑔)+NO2(𝑔)(T=−10.0°C)
+
+(e) SnCl4(𝑙)⟶SnCl4(𝑔)(T=200°C)
+
+44. Calculate the equilibrium constant at the temperature given.
+(a) I2(𝑠)+Cl2(𝑔)⟶2ICl(𝑔)(T=100°C)
+
+(b) H2(𝑔)+I2(𝑠)⟶2HI(𝑔)(T=0.0°C)
+
+(c) CS2(𝑔)+3Cl2(𝑔)⟶CCl4(𝑔)+S2Cl2(𝑔)(T=125°C)
+
+(d) 2SO2(𝑔)+O2(𝑔)⟶2SO3(𝑔)(T=675°C)
+
+(e) CS2(𝑔)⟶CS2(𝑙)(T=90°C)
+
+45. Consider the following reaction at 298 K:
+N2O4(𝑔)⇌2NO2(𝑔)𝐾𝑃=0.142
+What is the standard free energy change at this temperature? Describe what happens to the initial system, where the reactants and products are in standard states, as it approaches equilibrium.
+
+46. Determine the normal boiling point (in kelvin) of dichloromethane, CH2Cl2. Find the actual boiling point using the Internet or some other source, and calculate the percent error in the temperature. Explain the differences, if any, between the two values.
+47. Under what conditions is N2O3(𝑔)⟶NO(𝑔)+NO2(𝑔) spontaneous?
+48. At room temperature, the equilibrium constant (Kw) for the self-ionization of water is 1.00 × 10−14. Using this information, calculate the standard free energy change for the aqueous reaction of hydrogen ion with hydroxide ion to produce water. (Hint: The reaction is the reverse of the self-ionization reaction.)
+49. Hydrogen sulfide is a pollutant found in natural gas. Following its removal, it is converted to sulfur by the reaction 2H2S(𝑔)+SO2(𝑔)⇌38S8(𝑠,rhombic)+2H2O(𝑙). What is the equilibrium constant for this reaction? Is the reaction endothermic or exothermic?
+50. Consider the decomposition of CaCO3(s) into CaO(s) and CO2(g). What is the equilibrium partial pressure of CO2 at room temperature?
+51. In the laboratory, hydrogen chloride (HCl(g)) and ammonia (NH3(g)) often escape from bottles of their solutions and react to form the ammonium chloride (NH4Cl(s)), the white glaze often seen on glassware. Assuming that the number of moles of each gas that escapes into the room is the same, what is the maximum partial pressure of HCl and NH3 in the laboratory at room temperature? (Hint: The partial pressures will be equal and are at their maximum value when at equilibrium.)
+52. Benzene can be prepared from acetylene. 3C2H2(𝑔)⇌C6H6(𝑔). Determine the equilibrium constant at 25 °C and at 850 °C. Is the reaction spontaneous at either of these temperatures? Why is all acetylene not found as benzene?
+53. Carbon dioxide decomposes into CO and O2 at elevated temperatures. What is the equilibrium partial pressure of oxygen in a sample at 1000 °C for which the initial pressure of CO2 was 1.15 atm?
+54. Carbon tetrachloride, an important industrial solvent, is prepared by the chlorination of methane at 850 K.
+CH4(𝑔)+4Cl2(𝑔)⟶CCl4(𝑔)+4HCl(𝑔)
+What is the equilibrium constant for the reaction at 850 K? Would the reaction vessel need to be heated or cooled to keep the temperature of the reaction constant?
+
+55. Acetic acid, CH3CO2H, can form a dimer, (CH3CO2H)2, in the gas phase.
+2CH3CO2H(𝑔)⟶(CH3CO2H)2(𝑔)
+The dimer is held together by two hydrogen bonds with a total strength of 66.5 kJ per mole of dimer.
+
+This Lewis structure shows a six-sided ring structure composed of a methyl group single bonded to a carbon, which is double bonded to an oxygen atom in an upward position and single bonded to an oxygen atom in a downward position. The lower oxygen is single bonded to a hydrogen, which is connected by a dotted line to an oxygen that is double bonded to a carbon in an upward position. This carbon is single bonded to a methyl group to its right and to an oxygen in the upward position that is single bonded to a hydrogen that is connected by a dotted line to the double bonded oxygen on the left.
+At 25 °C, the equilibrium constant for the dimerization is 1.3 × 103 (pressure in atm). What is ΔS° for the reaction?
+
+56. Determine ΔGº for the following reactions.
+(a) Antimony pentachloride decomposes at 448 °C. The reaction is:
+SbCl5(𝑔)⟶SbCl3(𝑔)+Cl2(𝑔)
+
+An equilibrium mixture in a 5.00 L flask at 448 °C contains 3.85 g of SbCl5, 9.14 g of SbCl3, and 2.84 g of Cl2.
+
+(b) Chlorine molecules dissociate according to this reaction:
+Cl2(𝑔)⟶2Cl(𝑔)
+
+1.00% of Cl2 molecules dissociate at 975 K and a pressure of 1.00 atm.
+
+57. Given that the Δ𝐺∘f for Pb2+(aq) and Cl−(aq) is −24.3 kJ/mole and −131.2 kJ/mole respectively, determine the solubility product, Ksp, for PbCl2(s).
+58. Determine the standard free energy change, Δ𝐺∘f, for the formation of S2−(aq) given that the Δ𝐺∘f for Ag+(aq) and Ag2S(s) are 77.1 kJ/mole and −39.5 kJ/mole respectively, and the solubility product for Ag2S(s) is 8 × 10−51.
+59. Determine the standard enthalpy change, entropy change, and free energy change for the conversion of diamond to graphite. Discuss the spontaneity of the conversion with respect to the enthalpy and entropy changes. Explain why diamond spontaneously changing into graphite is not observed.
+60. The evaporation of one mole of water at 298 K has a standard free energy change of 8.58 kJ.
+H2O(𝑙)⇌H2O(𝑔)Δ𝐺°=8.58 kJ
+(a) Is the evaporation of water under standard thermodynamic conditions spontaneous?
+
+(b) Determine the equilibrium constant, KP, for this physical process.
+
+(c) By calculating ∆G, determine if the evaporation of water at 298 K is spontaneous when the partial pressure of water, 𝑃H2O, is 0.011 atm.
+
+(d) If the evaporation of water were always nonspontaneous at room temperature, wet laundry would never dry when placed outside. In order for laundry to dry, what must be the value of 𝑃H2O in the air?
+
+61. In glycolysis, the reaction of glucose (Glu) to form glucose-6-phosphate (G6P) requires ATP to be present as described by the following equation:
+Glu+ATP⟶G6P+ADPΔ𝐺°=−17 kJ
+In this process, ATP becomes ADP summarized by the following equation:
+ATP⟶ADPΔ𝐺°=−30 kJ
+
+Determine the standard free energy change for the following reaction, and explain why ATP is necessary to drive this process:
+Glu⟶G6PΔ𝐺°=?
+
+62. One of the important reactions in the biochemical pathway glycolysis is the reaction of glucose-6-phosphate (G6P) to form fructose-6-phosphate (F6P):
+G6P⇌F6PΔ𝐺°=1.7 kJ
+(a) Is the reaction spontaneous or nonspontaneous under standard thermodynamic conditions?
+
+(b) Standard thermodynamic conditions imply the concentrations of G6P and F6P to be 1 M, however, in a typical cell, they are not even close to these values. Calculate ΔG when the concentrations of G6P and F6P are 120 μM and 28 μM respectively, and discuss the spontaneity of the forward reaction under these conditions. Assume the temperature is 37 °C.
+
+63. Without doing a numerical calculation, determine which of the following will reduce the free energy change for the reaction, that is, make it less positive or more negative, when the temperature is increased. Explain.
+(a) N2(𝑔)+3H2(𝑔)⟶2NH3(𝑔)
+
+(b) HCl(𝑔)+NH3(𝑔)⟶NH4Cl(𝑠)
+
+(c) (NH4)2Cr2O7(𝑠)⟶Cr2O3(𝑠)+4H2O(𝑔)+N2(𝑔)
+
+(d) 2Fe(𝑠)+3O2(𝑔)⟶Fe2O3(𝑠)
+
+64. When ammonium chloride is added to water and stirred, it dissolves spontaneously and the resulting solution feels cold. Without doing any calculations, deduce the signs of ΔG, ΔH, and ΔS for this process, and justify your choices.
+65. An important source of copper is from the copper ore, chalcocite, a form of copper(I) sulfide. When heated, the Cu2S decomposes to form copper and sulfur described by the following equation:
+Cu2S(𝑠)⟶Cu(𝑠)+S(𝑠)
+(a) Determine Δ𝐺° for the decomposition of Cu2S(s).
+
+(b) The reaction of sulfur with oxygen yields sulfur dioxide as the only product. Write an equation that describes this reaction, and determine Δ𝐺° for the process.
+
+(c) The production of copper from chalcocite is performed by roasting the Cu2S in air to produce the Cu. By combining the equations from Parts (a) and (b), write the equation that describes the roasting of the chalcocite, and explain why coupling these reactions together makes for a more efficient process for the production of the copper.
+
+66. What happens to Δ𝐺 (becomes more negative or more positive) for the following chemical reactions when the partial pressure of oxygen is increased?
+(a) S(𝑠)+O2(𝑔)⟶SO2(𝑔)
+
+(b) 2SO2(𝑔)+O2(𝑔)⟶2SO3(𝑔)
+
+(c) HgO(𝑠)⟶Hg(𝑙)+O2(𝑔)

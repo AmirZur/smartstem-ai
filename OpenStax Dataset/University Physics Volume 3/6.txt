@@ -1,0 +1,79 @@
+Problems
+6.1 Blackbody Radiation
+55. A 200-W heater emits a 1.5-µm radiation. (a) What value of the energy quantum does it emit? (b) Assuming that the specific heat of a 4.0-kg body is 0.83kcal/kg⋅K, how many of these photons must be absorbed by the body to increase its temperature by 2 K? (c) How long does the heating process in (b) take, assuming that all radiation emitted by the heater gets absorbed by the body?
+56. A 900-W microwave generator in an oven generates energy quanta of frequency 2560 MHz. (a) How many energy quanta does it emit per second? (b) How many energy quanta must be absorbed by a pasta dish placed in the radiation cavity to increase its temperature by 45.0 K? Assume that the dish has a mass of 0.5 kg and that its specific heat is 0.9kcal/kg⋅K. (c) Assume that all energy quanta emitted by the generator are absorbed by the pasta dish. How long must we wait until the dish in (b) is ready?
+57. (a) For what temperature is the peak of blackbody radiation spectrum at 400 nm? (b) If the temperature of a blackbody is 800 K, at what wavelength does it radiate the most energy?
+58. The tungsten elements of incandescent light bulbs operate at 3200 K. At what wavelength does the filament radiate maximum energy?
+59. Interstellar space is filled with radiation of wavelength 970μm. This radiation is considered to be a remnant of the “big bang.” What is the corresponding blackbody temperature of this radiation?
+60. The radiant energy from the sun reaches its maximum at a wavelength of about 500.0 nm. What is the approximate temperature of the sun’s surface?
+6.2 Photoelectric Effect
+61. A photon has energy 20 keV. What are its frequency and wavelength?
+62. The wavelengths of visible light range from approximately 400 to 750 nm. What is the corresponding range of photon energies for visible light?
+63. What is the longest wavelength of radiation that can eject a photoelectron from silver? Is it in the visible range?
+64. What is the longest wavelength of radiation that can eject a photoelectron from potassium, given the work function of potassium 2.24 eV? Is it in the visible range?
+65. Estimate the binding energy of electrons in magnesium, given that the wavelength of 337 nm is the longest wavelength that a photon may have to eject a photoelectron from magnesium photoelectrode.
+66. The work function for potassium is 2.26 eV. What is the cutoff frequency when this metal is used as photoelectrode? What is the stopping potential for the emitted electrons when this photoelectrode is exposed to radiation of frequency 1200 THz?
+67. Estimate the work function of aluminum, given that the wavelength of 304 nm is the longest wavelength that a photon may have to eject a photoelectron from an aluminum photoelectrode.
+68. What is the maximum kinetic energy of photoelectrons ejected from sodium by the incident radiation of wavelength 450 nm?
+69. A 120-nm UV radiation illuminates a silver-plated electrode. What is the maximum kinetic energy of the ejected photoelectrons?
+70. A 400-nm violet light ejects photoelectrons with a maximum kinetic energy of 0.860 eV from sodium photoelectrode. What is the work function of sodium?
+71. A 600-nm light falls on a photoelectric surface and electrons with the maximum kinetic energy of 0.17 eV are emitted. Determine (a) the work function and (b) the cutoff frequency of the surface. (c) What is the stopping potential when the surface is illuminated with light of wavelength 400 nm?
+72. The cutoff wavelength for the emission of photoelectrons from a particular surface is 500 nm. Find the maximum kinetic energy of the ejected photoelectrons when the surface is illuminated with light of wavelength 600 nm.
+73. Find the wavelength of radiation that can eject 2.00-eV electrons from calcium electrode. The work function for calcium is 2.71 eV. In what range is this radiation?
+74. Find the wavelength of radiation that can eject 0.10-eV electrons from potassium electrode. The work function for potassium is 2.24 eV. In what range is this radiation?
+75. Find the maximum velocity of photoelectrons ejected by an 80-nm radiation, if the work function of photoelectrode is 4.73 eV.
+6.3 The Compton Effect
+76. What is the momentum of a 589-nm yellow photon?
+77. What is the momentum of a 4-cm microwave photon?
+78. In a beam of white light (wavelengths from 400 to 750 nm), what range of momentum can the photons have?
+79. What is the energy of a photon whose momentum is 3.0×10−24kg⋅m/s ?
+80. What is the wavelength of (a) a 12-keV X-ray photon; (b) a 2.0-MeV γ-ray photon?
+81. Find the momentum and energy of a 1.0-Å photon.
+82. Find the wavelength and energy of a photon with momentum 5.00×10−29kg⋅m/s.
+83. A γ-ray photon has a momentum of 8.00×10−21kg⋅m/s. Find its wavelength and energy.
+84. (a) Calculate the momentum of a 2.5-µm photon. (b) Find the velocity of an electron with the same momentum. (c) What is the kinetic energy of the electron, and how does it compare to that of the photon?
+85. Show that p=h/λ and Ef=hf are consistent with the relativistic formula E2=p2c2+m20c2.
+86. Show that the energy E in eV of a photon is given by E=1.241×10−6eV⋅m/λ, where λ is its wavelength in meters.
+87. For collisions with free electrons, compare the Compton shift of a photon scattered as an angle of 30° to that of a photon scattered at 45°.
+88. X-rays of wavelength 12.5 pm are scattered from a block of carbon. What are the wavelengths of photons scattered at (a) 30°; (b) 90°; and, (c) 180° ?
+6.4 Bohr’s Model of the Hydrogen Atom
+89. Calculate the wavelength of the first line in the Lyman series and show that this line lies in the ultraviolet part of the spectrum.
+90. Calculate the wavelength of the fifth line in the Lyman series and show that this line lies in the ultraviolet part of the spectrum.
+91. Calculate the energy changes corresponding to the transitions of the hydrogen atom: (a) from n=3 to n=4; (b) from n=2 to n=1; and (c) from n=3 to n=∞.
+92. Determine the wavelength of the third Balmer line (transition from n=5 to n=2).
+93. What is the frequency of the photon absorbed when the hydrogen atom makes the transition from the ground state to the n=4 state?
+94. When a hydrogen atom is in its ground state, what are the shortest and longest wavelengths of the photons it can absorb without being ionized?
+95. When a hydrogen atom is in its third excided state, what are the shortest and longest wavelengths of the photons it can emit?
+96. What is the longest wavelength that light can have if it is to be capable of ionizing the hydrogen atom in its ground state?
+97. For an electron in a hydrogen atom in the n=2 state, compute: (a) the angular momentum; (b) the kinetic energy; (c) the potential energy; and (d) the total energy.
+98. Find the ionization energy of a hydrogen atom in the fourth energy state.
+99. It has been measured that it required 0.850 eV to remove an electron from the hydrogen atom. In what state was the atom before the ionization happened?
+100. What is the radius of a hydrogen atom when the electron is in the first excited state?
+101. Find the shortest wavelength in the Balmer series. In what part of the spectrum does this line lie?
+102. Show that the entire Paschen series lies in the infrared part of the spectrum.
+103. Do the Balmer series and the Lyman series overlap? Why? Why not? (Hint: calculate the shortest Balmer line and the longest Lyman line.)
+104. (a) Which line in the Balmer series is the first one in the UV part of the spectrum? (b) How many Balmer lines lie in the visible part of the spectrum? (c) How many Balmer lines lie in the UV?
+105. A 4.653-μm emission line of atomic hydrogen corresponds to transition between the states nf=5 and ni. Find ni.
+6.5 De Broglie’s Matter Waves
+106. At what velocity will an electron have a wavelength of 1.00 m?
+107. What is the de Broglie wavelength of an electron travelling at a speed of 5.0×106m/s ?
+108. What is the de Broglie wavelength of an electron that is accelerated from rest through a potential difference of 20 kV?
+109. What is the de Broglie wavelength of a proton whose kinetic energy is 2.0 MeV? 10.0 MeV?
+110. What is the de Broglie wavelength of a young cheetah running at a speed of 8.0 m/s?
+111. (a) What is the energy of an electron whose de Broglie wavelength is that of a photon of yellow light with wavelength 590 nm? (b) What is the de Broglie wavelength of an electron whose energy is that of the photon of yellow light?
+112. The de Broglie wavelength of a neutron is 0.01 nm. What is the speed and energy of this neutron?
+113. What is the wavelength of an electron that is moving at a 3% of the speed of light?
+114. At what velocity does a proton have a 6.0-fm wavelength (about the size of a nucleus)? Give your answer in units of c.
+115. What is the velocity of a 0.400-kg billiard ball if its wavelength is 7.50 fm?
+116. Find the wavelength of a proton that is moving at 1.00% of the speed of light (when β=0.01).
+6.6 Wave-Particle Duality
+117. An AM radio transmitter radiates 500 kW at a frequency of 760 kHz. How many photons per second does the emitter emit?
+118. Find the Lorentz factor γ and de Broglie’s wavelength for a 50-GeV electron in a particle accelerator.
+119. Find the Lorentz factor γ and de Broglie’s wavelength for a 1.0-TeV proton in a particle accelerator.
+120. What is the kinetic energy of a 0.01-nm electron in a TEM?
+121. If electron is to be diffracted significantly by a crystal, its wavelength must be about equal to the spacing, d, of crystalline planes. Assuming d=0.250nm, estimate the potential difference through which an electron must be accelerated from rest if it is to be diffracted by these planes.
+122. X-rays form ionizing radiation that is dangerous to living tissue and undetectable to the human eye. Suppose that a student researcher working in an X-ray diffraction laboratory is accidentally exposed to a fatal dose of radiation. Calculate the temperature increase of the researcher under the following conditions: the energy of X-ray photons is 200 keV and the researcher absorbs 4×1013 photons per each kilogram of body weight during the exposure. Assume that the specific heat of the student’s body is 0.83kcal/kg⋅K.
+123. Solar wind (radiation) that is incident on the top of Earth’s atmosphere has an average intensity of 1.3kW/m2. Suppose that you are building a solar sail that is to propel a small toy spaceship with a mass of 0.1 kg in the space between the International Space Station and the moon. The sail is made from a very light material, which perfectly reflects the incident radiation. To assess whether such a project is feasible, answer the following questions, assuming that radiation photons are incident only in normal direction to the sail reflecting surface. (a) What is the radiation pressure (force per m2) of the radiation falling on the mirror-like sail? (b) Given the radiation pressure computed in (a), what will be the acceleration of the spaceship when the sail has of an area of 10.0m2 ? (c) Given the acceleration estimate in (b), how fast will the spaceship be moving after 24 hours when it starts from rest?
+124. Treat the human body as a blackbody and determine the percentage increase in the total power of its radiation when its temperature increases from 98.6 ° F to 103 ° F.
+125. Show that Wien’s displacement law results from Planck’s radiation law. (Hint: substitute x=hc/λkT and write Planck’s law in the form I(x,T)=Ax5/(ex−1), where A=2π(kT)5/(h4c3). Now, for fixed T, find the position of the maximum in I(x,T) by solving for x in the equation dI(x,T)/dx=0.)
+126. Show that Stefan’s law results from Planck’s radiation law. Hint: To compute the total power of blackbody radiation emitted across the entire spectrum of wavelengths at a given temperature, integrate Planck’s law over the entire spectrum P(T)=∫∞0I(λ,T)dλ. Use the substitution x=hc/λkT and the tabulated value of the integral ∫∞0dxx3/(ex−1)=π4/15.

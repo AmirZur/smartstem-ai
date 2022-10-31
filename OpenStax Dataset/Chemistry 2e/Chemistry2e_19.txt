@@ -1,0 +1,246 @@
+19.1 Occurrence, Preparation, and Properties of Transition Metals and Their Compounds
+1. Write the electron configurations for each of the following elements:
+(a) Sc
+
+(b) Ti
+
+(c) Cr
+
+(d) Fe
+
+(e) Ru
+
+2. Write the electron configurations for each of the following elements and its ions:
+(a) Ti
+
+(b) Ti2+
+
+(c) Ti3+
+
+(d) Ti4+
+
+3. Write the electron configurations for each of the following elements and its 3+ ions:
+(a) La
+
+(b) Sm
+
+(c) Lu
+
+4. Why are the lanthanoid elements not found in nature in their elemental forms?
+5. Which of the following elements is most likely to be used to prepare La by the reduction of La2O3: Al, C, or Fe? Why?
+6. Which of the following is the strongest oxidizing agent: VO43, CrO42−, or MnO4−?
+7. Which of the following elements is most likely to form an oxide with the formula MO3: Zr, Nb, or Mo?
+8. The following reactions all occur in a blast furnace. Which of these are redox reactions?
+(a) 3Fe2O3(𝑠)+CO(𝑔)⟶2Fe3O4(𝑠)+CO2(𝑔)
+
+(b) Fe3O4(𝑠)+CO(𝑔)⟶3FeO(𝑠)+CO2(𝑔)
+
+(c) FeO(𝑠)+CO(𝑔)⟶Fe(𝑙)+CO2(𝑔)
+
+(d) C(𝑠)+O2(𝑔)⟶CO2(𝑔)
+
+(e) C(𝑠)+CO2(𝑔)⟶2CO(𝑔)
+
+(f) CaCO3(𝑠)⟶CaO(𝑠)+CO2(𝑔)
+
+(g) CaO(𝑠)+SiO2(𝑠)⟶CaSiO3(𝑙)
+
+9. Why is the formation of slag useful during the smelting of iron?
+10. Would you expect an aqueous manganese(VII) oxide solution to have a pH greater or less than 7.0? Justify your answer.
+11. Iron(II) can be oxidized to iron(III) by dichromate ion, which is reduced to chromium(III) in acid solution. A 2.5000-g sample of iron ore is dissolved and the iron converted into iron(II). Exactly 19.17 mL of 0.0100 M Na2Cr2O7 is required in the titration. What percentage of the ore sample was iron?
+12. How many cubic feet of air at a pressure of 760 torr and 0 °C is required per ton of Fe2O3 to convert that Fe2O3 into iron in a blast furnace? For this exercise, assume air is 19% oxygen by volume.
+13. Find the potentials of the following electrochemical cell:
+Cd | Cd2+, M = 0.10 ‖ Ni2+, M = 0.50 | Ni
+
+14. A 2.5624-g sample of a pure solid alkali metal chloride is dissolved in water and treated with excess silver nitrate. The resulting precipitate, filtered and dried, weighs 3.03707 g. What was the percent by mass of chloride ion in the original compound? What is the identity of the salt?
+15. The standard reduction potential for the reaction [Co(H2O)6]3+(𝑎𝑞)+e−⟶[Co(H2O)6]2+(𝑎𝑞) is about 1.8 V. The reduction potential for the reaction [Co(NH3)6]3+(𝑎𝑞)+e−⟶[Co(NH3)6]2+(𝑎𝑞) is +0.1 V. Calculate the cell potentials to show whether the complex ions, [Co(H2O)6]2+ and/or [Co(NH3)6]2+, can be oxidized to the corresponding cobalt(III) complex by oxygen.
+16. Predict the products of each of the following reactions. (Note: In addition to using the information in this chapter, also use the knowledge you have accumulated at this stage of your study, including information on the prediction of reaction products.)
+(a) MnCO3(𝑠)+HI(𝑎𝑞)⟶
+
+(b) CoO(𝑠)+O2(𝑔)⟶
+
+(c) La(𝑠)+O2(𝑔)⟶
+
+(d) V(𝑠)+VCl4(𝑠)⟶
+
+(e) Co(𝑠)+𝑥𝑠F2(𝑔)⟶
+
+(f) CrO3(𝑠)+CsOH(𝑎𝑞)⟶
+
+17. Predict the products of each of the following reactions. (Note: In addition to using the information in this chapter, also use the knowledge you have accumulated at this stage of your study, including information on the prediction of reaction products.)
+(a) Fe(𝑠)+H2SO4(𝑎𝑞)⟶
+
+(b) FeCl3(𝑎𝑞)+NaOH(𝑎𝑞)⟶
+
+(c) Mn(OH)2(𝑠)+HBr(𝑎𝑞)⟶
+
+(d) Cr(𝑠)+O2(𝑔)⟶
+
+(e) Mn2O3(𝑠)+HCl(𝑎𝑞)⟶
+
+(f) Ti(𝑠)+𝑥𝑠F2(𝑔)⟶
+
+18. Describe the electrolytic process for refining copper.
+19. Predict the products of the following reactions and balance the equations.
+(a) Zn is added to a solution of Cr2(SO4)3 in acid.
+
+(b) FeCl2 is added to a solution containing an excess of Cr2O72− in hydrochloric acid.
+
+(c) Cr2+ is added to Cr2O72− in acid solution.
+
+(d) Mn is heated with CrO3.
+
+(e) CrO is added to 2HNO3 in water.
+
+(f) FeCl3 is added to an aqueous solution of NaOH.
+
+20. What is the gas produced when iron(II) sulfide is treated with a nonoxidizing acid?
+21. Predict the products of each of the following reactions and then balance the chemical equations.
+(a) Fe is heated in an atmosphere of steam.
+
+(b) NaOH is added to a solution of Fe(NO3)3.
+
+(c) FeSO4 is added to an acidic solution of KMnO4.
+
+(d) Fe is added to a dilute solution of H2SO4.
+
+(e) A solution of Fe(NO3)2 and HNO3 is allowed to stand in air.
+
+(f) FeCO3 is added to a solution of HClO4.
+
+(g) Fe is heated in air.
+
+22. Balance the following equations by oxidation-reduction methods; note that three elements change oxidation state.
+Co(NO3)2(𝑠)⟶Co2O3(𝑠)+NO2(𝑔)+O2(𝑔)
+23. Dilute sodium cyanide solution is slowly dripped into a slowly stirred silver nitrate solution. A white precipitate forms temporarily but dissolves as the addition of sodium cyanide continues. Use chemical equations to explain this observation. Silver cyanide is similar to silver chloride in its solubility.
+24. Predict which will be more stable, [CrO4]2− or [WO4]2−, and explain.
+25. Give the oxidation state of the metal for each of the following oxides of the first transition series. (Hint: Oxides of formula M3O4 are examples of mixed valence compounds in which the metal ion is present in more than one oxidation state. It is possible to write these compound formulas in the equivalent format MO·M2O3, to permit estimation of the metal’s two oxidation states.)
+(a) Sc2O3
+
+(b) TiO2
+
+(c) V2O5
+
+(d) CrO3
+
+(e) MnO2
+
+(f) Fe3O4
+
+(g) Co3O4
+
+(h) NiO
+
+(i) Cu2O
+
+19.2 Coordination Chemistry of Transition Metals
+26. Indicate the coordination number for the central metal atom in each of the following coordination compounds:
+(a) [Pt(H2O)2Br2]
+
+(b) [Pt(NH3)(py)(Cl)(Br)] (py = pyridine, C5H5N)
+
+(c) [Zn(NH3)2Cl2]
+
+(d) [Zn(NH3)(py)(Cl)(Br)]
+
+(e) [Ni(H2O)4Cl2]
+
+(f) [Fe(en)2(CN)2]+ (en = ethylenediamine, C2H8N2)
+
+27. Give the coordination numbers and write the formulas for each of the following, including all isomers where appropriate:
+(a) tetrahydroxozincate(II) ion (tetrahedral)
+
+(b) hexacyanopalladate(IV) ion
+
+(c) dichloroaurate(I) ion (note that aurum is Latin for "gold")
+
+(d) diamminedichloroplatinum(II)
+
+(e) potassium diamminetetrachlorochromate(III)
+
+(f) hexaamminecobalt(III) hexacyanochromate(III)
+
+(g) dibromobis(ethylenediamine) cobalt(III) nitrate
+
+28. Give the coordination number for each metal ion in the following compounds:
+(a) [Co(CO3)3]3− (note that CO32− is bidentate in this complex)
+
+(b) [Cu(NH3)4]2+
+
+(c) [Co(NH3)4Br2]2(SO4)3
+
+(d) [Pt(NH3)4][PtCl4]
+
+(e) [Cr(en)3](NO3)3
+
+(f) [Pd(NH3)2Br2] (square planar)
+
+(g) K3[Cu(Cl)5]
+
+(h) [Zn(NH3)2Cl2]
+
+29. Sketch the structures of the following complexes. Indicate any cis, trans, and optical isomers.
+(a) [Pt(H2O)2Br2] (square planar)
+
+(b) [Pt(NH3)(py)(Cl)(Br)] (square planar, py = pyridine, C5H5N)
+
+(c) [Zn(NH3)3Cl]+ (tetrahedral)
+
+(d) [Pt(NH3)3Cl]+ (square planar)
+
+(e) [Ni(H2O)4Cl2]
+
+(f) [Co(C2O4)2Cl2]3− (note that C2O42− is the bidentate oxalate ion, −O2CCO2−)
+
+30. Draw diagrams for any cis, trans, and optical isomers that could exist for the following (en is ethylenediamine):
+(a) [Co(en)2(NO2)Cl]+
+
+(b) [Co(en)2Cl2]+
+
+(c) [Pt(NH3)2Cl4]
+
+(d) [Cr(en)3]3+
+
+(e) [Pt(NH3)2Cl2]
+
+31. Name each of the compounds or ions given in Exercise 19.28, including the oxidation state of the metal.
+32. Name each of the compounds or ions given in Exercise 19.30.
+33. Specify whether the following complexes have isomers.
+(a) tetrahedral [Ni(CO)2(Cl)2]
+
+(b) trigonal bipyramidal [Mn(CO)4NO]
+
+(c) [Pt(en)2Cl2]Cl2
+
+34. Predict whether the carbonate ligand CO32−will coordinate to a metal center as a monodentate, bidentate, or tridentate ligand.
+35. Draw the geometric, linkage, and ionization isomers for [CoCl5CN][CN].
+19.3 Spectroscopic and Magnetic Properties of Coordination Compounds
+36. Determine the number of unpaired electrons expected for [Fe(NO2)6]3−and for [FeF6]3− in terms of crystal field theory.
+37. Draw the crystal field diagrams for [Fe(NO2)6]4− and [FeF6]3−. State whether each complex is high spin or low spin, paramagnetic or diamagnetic, and compare Δoct to P for each complex.
+38. Give the oxidation state of the metal, number of d electrons, and the number of unpaired electrons predicted for [Co(NH3)6]Cl3.
+39. The solid anhydrous solid CoCl2 is blue in color. Because it readily absorbs water from the air, it is used as a humidity indicator to monitor if equipment (such as a cell phone) has been exposed to excessive levels of moisture. Predict what product is formed by this reaction, and how many unpaired electrons this complex will have.
+40. Is it possible for a complex of a metal in the transition series to have six unpaired electrons? Explain.
+41. How many unpaired electrons are present in each of the following?
+(a) [CoF6]3− (high spin)
+
+(b) [Mn(CN)6]3− (low spin)
+
+(c) [Mn(CN)6]4− (low spin)
+
+(d) [MnCl6]4− (high spin)
+
+(e) [RhCl6]3− (low spin)
+
+42. Explain how the diphosphate ion, [O3P−O−PO3]4−, can function as a water softener that prevents the precipitation of Fe2+ as an insoluble iron salt.
+43. For complexes of the same metal ion with no change in oxidation number, the stability increases as the number of electrons in the t2g orbitals increases. Which complex in each of the following pairs of complexes is more stable?
+(a) [Fe(H2O)6]2+ or [Fe(CN)6]4−
+
+(b) [Co(NH3)6]3+ or [CoF6]3−
+
+(c) [Mn(CN)6]4− or [MnCl6]4−
+
+44. Trimethylphosphine, P(CH3)3, can act as a ligand by donating the lone pair of electrons on the phosphorus atom. If trimethylphosphine is added to a solution of nickel(II) chloride in acetone, a blue compound that has a molecular mass of approximately 270 g and contains 21.5% Ni, 26.0% Cl, and 52.5% P(CH3)3 can be isolated. This blue compound does not have any isomeric forms. What are the geometry and molecular formula of the blue compound?
+45. Would you expect the complex [Co(en)3]Cl3 to have any unpaired electrons? Any isomers?
+46. Would you expect the Mg3[Cr(CN)6]2 to be diamagnetic or paramagnetic? Explain your reasoning.
+47. Would you expect salts of the gold(I) ion, Au+, to be colored? Explain.
+48. [CuCl4]2− is green. [Cu(H2O)6]2+is blue. Which absorbs higher-energy photons? Which is predicted to have a larger crystal field splitting?

@@ -1,0 +1,545 @@
+Unit 1  The Chemistry of Life
+Chapter 1  The Study of Life
+Introduction
+1.1 The Science of Biology
+1.2 Themes and Concepts of Biology
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 2  The Chemical Foundation of Life
+Introduction
+2.1 Atoms, Isotopes, Ions, and Molecules: The Building Blocks
+2.2 Water
+2.3 Carbon
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 3  Biological Macromolecules
+Introduction
+3.1 Synthesis of Biological Macromolecules
+3.2 Carbohydrates
+3.3 Lipids
+3.4 Proteins
+3.5 Nucleic Acids
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Unit 2  The Cell
+Chapter 4  Cell Structure
+Introduction
+4.1 Studying Cells
+4.2 Prokaryotic Cells
+4.3 Eukaryotic Cells
+4.4 The Endomembrane System and Proteins
+4.5 The Cytoskeleton
+4.6 Connections between Cells and Cellular Activities
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 5  Structure and Function of Plasma Membranes
+Introduction
+5.1 Components and Structure
+5.2 Passive Transport
+5.3 Active Transport
+5.4 Bulk Transport
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 6  Metabolism
+Introduction
+6.1 Energy and Metabolism
+6.2 Potential, Kinetic, Free, and Activation Energy
+6.3 The Laws of Thermodynamics
+6.4 ATP: Adenosine Triphosphate
+6.5 Enzymes
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 7  Cellular Respiration
+Introduction
+7.1 Energy in Living Systems
+7.2 Glycolysis
+7.3 Oxidation of Pyruvate and the Citric Acid Cycle
+7.4 Oxidative Phosphorylation
+7.5 Metabolism without Oxygen
+7.6 Connections of Carbohydrate, Protein, and Lipid Metabolic Pathways
+7.7 Regulation of Cellular Respiration
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 8  Photosynthesis
+Introduction
+8.1 Overview of Photosynthesis
+8.2 The Light-Dependent Reactions of Photosynthesis
+8.3 Using Light Energy to Make Organic Molecules
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 9  Cell Communication
+Introduction
+9.1 Signaling Molecules and Cellular Receptors
+9.2 Propagation of the Signal
+9.3 Response to the Signal
+9.4 Signaling in Single-Celled Organisms
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 10  Cell Reproduction
+Introduction
+10.1 Cell Division
+10.2 The Cell Cycle
+10.3 Control of the Cell Cycle
+10.4 Cancer and the Cell Cycle
+10.5 Prokaryotic Cell Division
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Unit 3  Genetics
+Chapter 11  Meiosis and Sexual Reproduction
+Introduction
+11.1 The Process of Meiosis
+11.2 Sexual Reproduction
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 12  Mendel's Experiments and Heredity
+Introduction
+12.1 Mendels Experiments and the Laws of Probability
+12.2 Characteristics and Traits
+12.3 Laws of Inheritance
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 13  Modern Understandings of Inheritance
+Introduction
+13.1 Chromosomal Theory and Genetic Linkage
+13.2 Chromosomal Basis of Inherited Disorders
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 14  DNA Structure and Function
+Introduction
+14.1 Historical Basis of Modern Understanding
+14.2 DNA Structure and Sequencing
+14.3 Basics of DNA Replication
+14.4 DNA Replication in Prokaryotes
+14.5 DNA Replication in Eukaryotes
+14.6 DNA Repair
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 15  Genes and Proteins
+Introduction
+15.1 The Genetic Code
+15.2 Prokaryotic Transcription
+15.3 Eukaryotic Transcription
+15.4 RNA Processing in Eukaryotes
+15.5 Ribosomes and Protein Synthesis
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 16  Gene Expression
+Introduction
+16.1 Regulation of Gene Expression
+16.2 Prokaryotic Gene Regulation
+16.3 Eukaryotic Epigenetic Gene Regulation
+16.4 Eukaryotic Transcription Gene Regulation
+16.5 Eukaryotic Post-transcriptional Gene Regulation
+16.6 Eukaryotic Translational and Post-translational Gene Regulation
+16.7 Cancer and Gene Regulation
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 17  Biotechnology and Genomics
+Introduction
+17.1 Biotechnology
+17.2 Mapping Genomes
+17.3 Whole-Genome Sequencing
+17.4 Applying Genomics
+17.5 Genomics and Proteomics
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Unit 4  Evolutionary Processes
+Chapter 18  Evolution and the Origin of Species
+Introduction
+18.1 Understanding Evolution
+18.2 Formation of New Species
+18.3 Reconnection and Speciation Rates
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 19  The Evolution of Populations
+Introduction
+19.1 Population Evolution
+19.2 Population Genetics
+19.3 Adaptive Evolution
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 20  Phylogenies and the History of Life
+Introduction
+20.1 Organizing Life on Earth
+20.2 Determining Evolutionary Relationships
+20.3 Perspectives on the Phylogenetic Tree
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Unit 5  Biological Diversity
+Chapter 21  Viruses
+Introduction
+21.1 Viral Evolution, Morphology, and Classification
+21.2 Virus Infections and Hosts
+21.3 Prevention and Treatment of Viral Infections
+21.4 Other Acellular Entities: Prions and Viroids
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 22  Prokaryotes: Bacteria and Archaea
+Introduction
+22.1 Prokaryotic Diversity
+22.2 Structure of Prokaryotes: Bacteria and Archaea
+22.3 Prokaryotic Metabolism
+22.4 Bacterial Diseases in Humans
+22.5 Beneficial Prokaryotes
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 23  Protists
+Introduction
+23.1 Eukaryotic Origins
+23.2 Characteristics of Protists
+23.3 Groups of Protists
+23.4 Ecology of Protists
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 24  Fungi
+Introduction
+24.1 Characteristics of Fungi
+24.2 Classifications of Fungi
+24.3 Ecology of Fungi
+24.4 Fungal Parasites and Pathogens
+24.5 Importance of Fungi in Human Life
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 25  Seedless Plants
+Introduction
+25.1 Early Plant Life
+25.2 Green Algae: Precursors of Land Plants
+25.3 Bryophytes
+25.4 Seedless Vascular Plants
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 26  Seed Plants
+Introduction
+26.1 Evolution of Seed Plants
+26.2 Gymnosperms
+26.3 Angiosperms
+26.4 The Role of Seed Plants
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 27  Introduction to Animal Diversity
+Introduction
+27.1 Features of the Animal Kingdom
+27.2 Features Used to Classify Animals
+27.3 Animal Phylogeny
+27.4 The Evolutionary History of the Animal Kingdom
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 28  Invertebrates
+Introduction
+28.1 Phylum Porifera
+28.2 Phylum Cnidaria
+28.3 Superphylum Lophotrochozoa: Flatworms, Rotifers, and Nemerteans
+28.4 Superphylum Lophotrochozoa: Molluscs and Annelids
+28.5 Superphylum Ecdysozoa: Nematodes and Tardigrades
+28.6 Superphylum Ecdysozoa: Arthropods
+28.7 Superphylum Deuterostomia
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 29  Vertebrates
+Introduction
+29.1 Chordates
+29.2 Fishes
+29.3 Amphibians
+29.4 Reptiles
+29.5 Birds
+29.6 Mammals
+29.7 The Evolution of Primates
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Unit 6  Plant Structure and Function
+Chapter 30  Plant Form and Physiology
+Introduction
+30.1 The Plant Body
+30.2 Stems
+30.3 Roots
+30.4 Leaves
+30.5 Transport of Water and Solutes in Plants
+30.6 Plant Sensory Systems and Responses
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 31  Soil and Plant Nutrition
+Introduction
+31.1 Nutritional Requirements of Plants
+31.2 The Soil
+31.3 Nutritional Adaptations of Plants
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 32  Plant Reproduction
+Introduction
+32.1 Reproductive Development and Structure
+32.2 Pollination and Fertilization
+32.3 Asexual Reproduction
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Unit 7  Animal Structure and Function
+Chapter 33  The Animal Body: Basic Form and Function
+Introduction
+33.1 Animal Form and Function
+33.2 Animal Primary Tissues
+33.3 Homeostasis
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 34  Animal Nutrition and the Digestive System
+Introduction
+34.1 Digestive Systems
+34.2 Nutrition and Energy Production
+34.3 Digestive System Processes
+34.4 Digestive System Regulation
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 35  The Nervous System
+Introduction
+35.1 Neurons and Glial Cells
+35.2 How Neurons Communicate
+35.3 The Central Nervous System
+35.4 The Peripheral Nervous System
+35.5 Nervous System Disorders
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 36  Sensory Systems
+Introduction
+36.1 Sensory Processes
+36.2 Somatosensation
+36.3 Taste and Smell
+36.4 Hearing and Vestibular Sensation
+36.5 Vision
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 37  The Endocrine System
+Introduction
+37.1 Types of Hormones
+37.2 How Hormones Work
+37.3 Regulation of Body Processes
+37.4 Regulation of Hormone Production
+37.5 Endocrine Glands
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 38  The Musculoskeletal System
+Introduction
+38.1 Types of Skeletal Systems
+38.2 Bone
+38.3 Joints and Skeletal Movement
+38.4 Muscle Contraction and Locomotion
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 39  The Respiratory System
+Introduction
+39.1 Systems of Gas Exchange
+39.2 Gas Exchange across Respiratory Surfaces
+39.3 Breathing
+39.4 Transport of Gases in Human Bodily Fluids
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 40  The Circulatory System
+Introduction
+40.1 Overview of the Circulatory System
+40.2 Components of the Blood
+40.3 Mammalian Heart and Blood Vessels
+40.4 Blood Flow and Blood Pressure Regulation
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 41  Osmotic Regulation and Excretion
+Introduction
+41.1 Osmoregulation and Osmotic Balance
+41.2 The Kidneys and Osmoregulatory Organs
+41.3 Excretion Systems
+41.4 Nitrogenous Wastes
+41.5 Hormonal Control of Osmoregulatory Functions
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 42  The Immune System
+Introduction
+42.1 Innate Immune Response
+42.2 Adaptive Immune Response
+42.3 Antibodies
+42.4 Disruptions in the Immune System
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 43  Animal Reproduction and Development
+Introduction
+43.1 Reproduction Methods
+43.2 Fertilization
+43.3 Human Reproductive Anatomy and Gametogenesis
+43.4 Hormonal Control of Human Reproduction
+43.5 Human Pregnancy and Birth
+43.6 Fertilization and Early Embryonic Development
+43.7 Organogenesis and Vertebrate Formation
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Unit 8  Ecology
+Chapter 44  Ecology and the Biosphere
+Introduction
+44.1 The Scope of Ecology
+44.2 Biogeography
+44.3 Terrestrial Biomes
+44.4 Aquatic Biomes
+44.5 Climate and the Effects of Global Climate Change
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 45  Population and Community Ecology
+Introduction
+45.1 Population Demography
+45.2 Life Histories and Natural Selection
+45.3 Environmental Limits to Population Growth
+45.4 Population Dynamics and Regulation
+45.5 Human Population Growth
+45.6 Community Ecology
+45.7 Behavioral Biology: Proximate and Ultimate Causes of Behavior
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 46  Ecosystems
+Introduction
+46.1 Ecology of Ecosystems
+46.2 Energy Flow through Ecosystems
+46.3 Biogeochemical Cycles
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions
+Chapter 47  Conservation Biology and Biodiversity
+Introduction
+47.1 The Biodiversity Crisis
+47.2 The Importance of Biodiversity to Human Life
+47.3 Threats to Biodiversity
+47.4 Preserving Biodiversity
+Key Terms
+Chapter Summary
+Visual Connection Questions
+Review Questions
+Critical Thinking Questions

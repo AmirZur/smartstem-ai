@@ -1,0 +1,219 @@
+6.1 Electromagnetic Energy
+1. The light produced by a red neon sign is due to the emission of light by excited neon atoms. Qualitatively describe the spectrum produced by passing light from a neon lamp through a prism.
+2. An FM radio station found at 103.1 on the FM dial broadcasts at a frequency of 1.031 × 108 s−1 (103.1 MHz). What is the wavelength of these radio waves in meters?
+3. FM-95, an FM radio station, broadcasts at a frequency of 9.51 × 107 s−1 (95.1 MHz). What is the wavelength of these radio waves in meters?
+4. A bright violet line occurs at 435.8 nm in the emission spectrum of mercury vapor. What amount of energy, in joules, must be released by an electron in a mercury atom to produce a photon of this light?
+5. Light with a wavelength of 614.5 nm looks orange. What is the energy, in joules, per photon of this orange light? What is the energy in eV (1 eV = 1.602 × 10−19 J)?
+6. Heated lithium atoms emit photons of light with an energy of 2.961 × 10−19 J. Calculate the frequency and wavelength of one of these photons. What is the total energy in 1 mole of these photons? What is the color of the emitted light?
+7. A photon of light produced by a surgical laser has an energy of 3.027 × 10−19 J. Calculate the frequency and wavelength of the photon. What is the total energy in 1 mole of photons? What is the color of the emitted light?
+8. When rubidium ions are heated to a high temperature, two lines are observed in its line spectrum at wavelengths (a) 7.9 × 10−7 m and (b) 4.2 × 10−7 m. What are the frequencies of the two lines? What color do we see when we heat a rubidium compound?
+9. The emission spectrum of cesium contains two lines whose frequencies are (a) 3.45 × 1014 Hz and (b) 6.53 × 1014 Hz. What are the wavelengths and energies per photon of the two lines? What color are the lines?
+10. Photons of infrared radiation are responsible for much of the warmth we feel when holding our hands before a fire. These photons will also warm other objects. How many infrared photons with a wavelength of 1.5 × 10−6 m must be absorbed by the water to warm a cup of water (175 g) from 25.0 °C to 40 °C?
+11. One of the radiographic devices used in a dentist's office emits an X-ray of wavelength 2.090 × 10−11 m. What is the energy, in joules, and frequency of this X-ray?
+12. The eyes of certain reptiles pass a single visual signal to the brain when the visual receptors are struck by photons of a wavelength of 850 nm. If a total energy of 3.15 × 10−14 J is required to trip the signal, what is the minimum number of photons that must strike the receptor?
+13. RGB color television and computer displays use cathode ray tubes that produce colors by mixing red, green, and blue light. If we look at the screen with a magnifying glass, we can see individual dots turn on and off as the colors change. Using a spectrum of visible light, determine the approximate wavelength of each of these colors. What is the frequency and energy of a photon of each of these colors?
+14. Answer the following questions about a Blu-ray laser:
+(a) The laser on a Blu-ray player has a wavelength of 405 nm. In what region of the electromagnetic spectrum is this radiation? What is its frequency?
+
+(b) A Blu-ray laser has a power of 5 milliwatts (1 watt = 1 J s−1). How many photons of light are produced by the laser in 1 hour?
+
+(c) The ideal resolution of a player using a laser (such as a Blu-ray player), which determines how close together data can be stored on a compact disk, is determined using the following formula: Resolution = 0.60(λ/NA), where λ is the wavelength of the laser and NA is the numerical aperture. Numerical aperture is a measure of the size of the spot of light on the disk; the larger the NA, the smaller the spot. In a typical Blu-ray system, NA = 0.95. If the 405-nm laser is used in a Blu-ray player, what is the closest that information can be stored on a Blu-ray disk?
+
+(d) The data density of a Blu-ray disk using a 405-nm laser is 1.5 × 107 bits mm−2. Disks have an outside diameter of 120 mm and a hole of 15-mm diameter. How many data bits can be contained on the disk? If a Blu-ray disk can hold 9,400,000 pages of text, how many data bits are needed for a typed page? (Hint: Determine the area of the disk that is available to hold data. The area inside a circle is given by A = πr2, where the radius r is one-half of the diameter.)
+
+15. What is the threshold frequency for sodium metal if a photon with frequency 6.66 × 1014 s−1 ejects an electron with 7.74 × 10−20 J kinetic energy? Will the photoelectric effect be observed if sodium is exposed to orange light?
+6.2 The Bohr Model
+16. Why is the electron in a Bohr hydrogen atom bound less tightly when it has a quantum number of 3 than when it has a quantum number of 1?
+17. What does it mean to say that the energy of the electrons in an atom is quantized?
+18. Using the Bohr model, determine the energy, in joules, necessary to ionize a ground-state hydrogen atom. Show your calculations.
+19. The electron volt (eV) is a convenient unit of energy for expressing atomic-scale energies. It is the amount of energy that an electron gains when subjected to a potential of 1 volt; 1 eV = 1.602 × 10–19 J. Using the Bohr model, determine the energy, in electron volts, of the photon produced when an electron in a hydrogen atom moves from the orbit with n = 5 to the orbit with n = 2. Show your calculations.
+20. Using the Bohr model, determine the lowest possible energy, in joules, for the electron in the Li2+ ion.
+21. Using the Bohr model, determine the lowest possible energy for the electron in the He+ ion.
+22. Using the Bohr model, determine the energy of an electron with n = 6 in a hydrogen atom.
+23. Using the Bohr model, determine the energy of an electron with n = 8 in a hydrogen atom.
+24. How far from the nucleus in angstroms (1 angstrom = 1 × 10–10 m) is the electron in a hydrogen atom if it has an energy of –8.72 × 10–20 J?
+25. What is the radius, in angstroms, of the orbital of an electron with n = 8 in a hydrogen atom?
+26. Using the Bohr model, determine the energy in joules of the photon produced when an electron in a He+ ion moves from the orbit with n = 5 to the orbit with n = 2.
+27. Using the Bohr model, determine the energy in joules of the photon produced when an electron in a Li2+ ion moves from the orbit with n = 2 to the orbit with n = 1.
+28. Consider a large number of hydrogen atoms with electrons randomly distributed in the n = 1, 2, 3, and 4 orbits.
+(a) How many different wavelengths of light are emitted by these atoms as the electrons fall into lower-energy orbits?
+
+(b) Calculate the lowest and highest energies of light produced by the transitions described in part (a).
+
+(c) Calculate the frequencies and wavelengths of the light produced by the transitions described in part (b).
+
+29. How are the Bohr model and the Rutherford model of the atom similar? How are they different?
+30. The spectra of hydrogen and of calcium are shown here.
+An image is shown with 5 rows. Across the top and bottom of the image is a scale that begins at 4000 angstroms at the left and extends to 740 angstroms at the far right. The top row is a continuous band of the visible spectrum, showing the colors from violet at the far left through indigo, blue, green, yellow, orange, and red at the far right. The second row, labeled, “N a,” shows the emission spectrum for the element sodium, which includes two narrow vertical bands in the blue range, two narrow bands in the yellow-green range, two narrow bands in the yellow range, and one narrow band in the orange range. The third row, labeled, “H,” shows the emission spectrum for hydrogen. This spectrum shows single bands in the violet, indigo, blue, and orange regions. The fourth row, labeled, “C a,” shows the emission spectrum for calcium. This spectrum shows bands in the following colors and frequencies; one violet, five indigo, one blue, two green, two yellow-green, one yellow, two yellow-orange, one orange, and one red. The fifth row, labeled, “H g,” shows the emission spectrum for mercury. This spectrum shows bands in the following colors and frequencies; two violet, one indigo, two blue, one green, two yellow, two orange, and one orange-red. It is important to note that each of the color bands for the emission spectra of the elements matches to a specific wavelength of light. Extending a vertical line from the bands to the scale above or below the diagram will match the band to a specific measurement on the scale.
+What causes the lines in these spectra? Why are the colors of the lines different? Suggest a reason for the observation that the spectrum of calcium is more complicated than the spectrum of hydrogen.
+
+6.3 Development of Quantum Theory
+31. How are the Bohr model and the quantum mechanical model of the hydrogen atom similar? How are they different?
+32. What are the allowed values for each of the four quantum numbers: n, l, ml, and ms?
+33. Describe the properties of an electron associated with each of the following four quantum numbers: n, l, ml, and ms.
+34. Answer the following questions:
+(a) Without using quantum numbers, describe the differences between the shells, subshells, and orbitals of an atom.
+
+(b) How do the quantum numbers of the shells, subshells, and orbitals of an atom differ?
+
+35. Identify the subshell in which electrons with the following quantum numbers are found:
+(a) n = 2, l = 1
+
+(b) n = 4, l = 2
+
+(c) n = 6, l = 0
+
+36. Which of the subshells described in the previous question contain degenerate orbitals? How many degenerate orbitals are in each?
+37. Identify the subshell in which electrons with the following quantum numbers are found:
+(a) n = 3, l = 2
+
+(b) n = 1, l = 0
+
+(c) n = 4, l = 3
+
+38. Which of the subshells described in the previous question contain degenerate orbitals? How many degenerate orbitals are in each?
+39. Sketch the boundary surface of a 𝑑𝑥2−𝑦2 and a py orbital. Be sure to show and label the axes.
+40. Sketch the px and dxz orbitals. Be sure to show and label the coordinates.
+41. Consider the orbitals shown here in outline.
+This figure contains three diagrams. In x, a circle is drawn with a dot at the center. In y, two nearly ellipsoid shapes are oriented horizontally with a dot between them. In z, four shapes like those in y are oriented in an x shape with a dot at the center.
+(a) What is the maximum number of electrons contained in an orbital of type (x)? Of type (y)? Of type (z)?
+
+(b) How many orbitals of type (x) are found in a shell with n = 2? How many of type (y)? How many of type (z)?
+
+(c) Write a set of quantum numbers for an electron in an orbital of type (x) in a shell with n = 4. Of an orbital of type (y) in a shell with n = 2. Of an orbital of type (z) in a shell with n = 3.
+
+(d) What is the smallest possible n value for an orbital of type (x)? Of type (y)? Of type (z)?
+
+(e) What are the possible l and ml values for an orbital of type (x)? Of type (y)? Of type (z)?
+
+42. State the Heisenberg uncertainty principle. Describe briefly what the principle implies.
+43. How many electrons could be held in the second shell of an atom if the spin quantum number ms could have three values instead of just two? (Hint: Consider the Pauli exclusion principle.)
+44. Which of the following equations describe particle-like behavior? Which describe wavelike behavior? Do any involve both types of behavior? Describe the reasons for your choices.
+(a) c = λν
+
+(b) 𝐸=𝑚𝜈22
+
+(c) 𝑟=𝑛2𝑎0𝑍
+
+(d) E = hν
+
+(e) 𝜆=ℎ𝑚𝜈
+
+45. Write a set of quantum numbers for each of the electrons with an n of 4 in a Se atom.
+6.4 Electronic Structure of Atoms (Electron Configurations)
+46. Read the labels of several commercial products and identify monatomic ions of at least four transition elements contained in the products. Write the complete electron configurations of these cations.
+47. Read the labels of several commercial products and identify monatomic ions of at least six main group elements contained in the products. Write the complete electron configurations of these cations and anions.
+48. Using complete subshell notation (not abbreviations, 1s22s22p6, and so forth), predict the electron configuration of each of the following atoms:
+(a) C
+
+(b) P
+
+(c) V
+
+(d) Sb
+
+(e) Sm
+
+49. Using complete subshell notation (1s22s22p6, and so forth), predict the electron configuration of each of the following atoms:
+(a) N
+
+(b) Si
+
+(c) Fe
+
+(d) Te
+
+(e) Tb
+
+50. Is 1s22s22p6 the symbol for a macroscopic property or a microscopic property of an element? Explain your answer.
+51. What additional information do we need to answer the question “Which ion has the electron configuration 1s22s22p63s23p6”?
+52. Draw the orbital diagram for the valence shell of each of the following atoms:
+(a) C
+
+(b) P
+
+(c) V
+
+(d) Sb
+
+(e) Ru
+
+53. Use an orbital diagram to describe the electron configuration of the valence shell of each of the following atoms:
+(a) N
+
+(b) Si
+
+(c) Fe
+
+(d) Te
+
+(e) Mo
+
+54. Using complete subshell notation (1s22s22p6, and so forth), predict the electron configurations of the following ions.
+(a) N3–
+
+(b) Ca2+
+
+(c) S–
+
+(d) Cs2+
+
+(e) Cr2+
+
+(f) Gd3+
+
+55. Which atom has the electron configuration 1s22s22p63s23p64s23d104p65s24d2?
+56. Which atom has the electron configuration 1s22s22p63s23p63d74s2?
+57. Which ion with a +1 charge has the electron configuration 1s22s22p63s23p63d104s24p6? Which ion with a –2 charge has this configuration?
+58. Which of the following atoms contains only three valence electrons: Li, B, N, F, Ne?
+59. Which of the following has two unpaired electrons?
+(a) Mg
+
+(b) Si
+
+(c) S
+
+(d) Both Mg and S
+
+(e) Both Si and S.
+
+60. Which atom would be expected to have a half-filled 6p subshell?
+61. Which atom would be expected to have a half-filled 4s subshell?
+62. In one area of Australia, the cattle did not thrive despite the presence of suitable forage. An investigation showed the cause to be the absence of sufficient cobalt in the soil. Cobalt forms cations in two oxidation states, Co2+ and Co3+. Write the electron structure of the two cations.
+63. Thallium was used as a poison in the Agatha Christie mystery story “The Pale Horse.” Thallium has two possible cationic forms, +1 and +3. The +1 compounds are the more stable. Write the electron structure of the +1 cation of thallium.
+64. Write the electron configurations for the following atoms or ions:
+(a) B3+
+
+(b) O–
+
+(c) Cl3+
+
+(d) Ca2+
+
+(e) Ti
+
+65. Cobalt–60 and iodine–131 are radioactive isotopes commonly used in nuclear medicine. How many protons, neutrons, and electrons are in atoms of these isotopes? Write the complete electron configuration for each isotope.
+66. Write a set of quantum numbers for each of the electrons with an n of 3 in a Sc atom.
+6.5 Periodic Variations in Element Properties
+67. Based on their positions in the periodic table, predict which has the smallest atomic radius: Mg, Sr, Si, Cl, I.
+68. Based on their positions in the periodic table, predict which has the largest atomic radius: Li, Rb, N, F, I.
+69. Based on their positions in the periodic table, predict which has the largest first ionization energy: Mg, Ba, B, O, Te.
+70. Based on their positions in the periodic table, predict which has the smallest first ionization energy: Li, Cs, N, F, I.
+71. Based on their positions in the periodic table, rank the following atoms in order of increasing first ionization energy: F, Li, N, Rb
+72. Based on their positions in the periodic table, rank the following atoms in order of increasing first ionization energy: Mg, O, S, Si
+73. Atoms of which group in the periodic table have a valence shell electron configuration of ns2np3?
+74. Atoms of which group in the periodic table have a valence shell electron configuration of ns2?
+75. Based on their positions in the periodic table, list the following atoms in order of increasing radius: Mg, Ca, Rb, Cs.
+76. Based on their positions in the periodic table, list the following atoms in order of increasing radius: Sr, Ca, Si, Cl.
+77. Based on their positions in the periodic table, list the following ions in order of increasing radius: K+, Ca2+, Al3+, Si4+.
+78. List the following ions in order of increasing radius: Li+, Mg2+, Br–, Te2–.
+79. Which atom and/or ion is (are) isoelectronic with Br+: Se2+, Se, As–, Kr, Ga3+, Cl–?
+80. Which of the following atoms and ions is (are) isoelectronic with S2+: Si4+, Cl3+, Ar, As3+, Si, Al3+?
+81. Compare both the numbers of protons and electrons present in each to rank the following ions in order of increasing radius: As3–, Br–, K+, Mg2+.
+82. Of the five elements Al, Cl, I, Na, Rb, which has the most exothermic reaction? (E represents an atom.) What name is given to the energy for the reaction? Hint: Note the process depicted does not correspond to electron affinity.)
+E+(𝑔)+e−⟶E(𝑔)
+83. Of the five elements Sn, Si, Sb, O, Te, which has the most endothermic reaction? (E represents an atom.) What name is given to the energy for the reaction?
+E(𝑔)⟶E+(𝑔)+e−
+84. The ionic radii of the ions S2–, Cl–, and K+ are 184, 181, 138 pm respectively. Explain why these ions have different sizes even though they contain the same number of electrons.
+85. Which main group atom would be expected to have the lowest second ionization energy?
+86. Explain why Al is a member of group 13 rather than group 3?

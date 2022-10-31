@@ -1,0 +1,292 @@
+21.1 Nuclear Structure and Stability
+1. Write the following isotopes in hyphenated form (e.g., “carbon-14”)
+(a) 2411Na
+
+(b) 2913Al
+
+(c) 7336Kr
+
+(d) 19477Ir
+
+2. Write the following isotopes in nuclide notation (e.g., "146C")
+(a) oxygen-14
+
+(b) copper-70
+
+(c) tantalum-175
+
+(d) francium-217
+
+3. For the following isotopes that have missing information, fill in the missing information to complete the notation
+(a) 3414X
+
+(b) 36XP
+
+(c) 57XMn
+
+(d) 12156X
+
+4. For each of the isotopes in Exercise 21.1, determine the numbers of protons, neutrons, and electrons in a neutral atom of the isotope.
+5. Write the nuclide notation, including charge if applicable, for atoms with the following characteristics:
+(a) 25 protons, 20 neutrons, 24 electrons
+
+(b) 45 protons, 24 neutrons, 43 electrons
+
+(c) 53 protons, 89 neutrons, 54 electrons
+
+(d) 97 protons, 146 neutrons, 97 electrons
+
+6. Calculate the density of the 2412Mg nucleus in g/mL, assuming that it has the typical nuclear diameter of 1 × 10–13 cm and is spherical in shape.
+7. What are the two principal differences between nuclear reactions and ordinary chemical changes?
+8. The mass of the atom 2311Na is 22.9898 amu.
+(a) Calculate its binding energy per atom in millions of electron volts.
+
+(b) Calculate its binding energy per nucleon.
+
+9. Which of the following nuclei lie within the band of stability shown in Figure 21.2?
+(a) chlorine-37
+
+(b) calcium-40
+
+(c) 204Bi
+
+(d) 56Fe
+
+(e) 206Pb
+
+(f) 211Pb
+
+(g) 222Rn
+
+(h) carbon-14
+
+10. Which of the following nuclei lie within the band of stability shown in Figure 21.2?
+(a) argon-40
+
+(b) oxygen-16
+
+(c) 122Ba
+
+(d) 58Ni
+
+(e) 205Tl
+
+(f) 210Tl
+
+(g) 226Ra
+
+(h) magnesium-24
+
+21.2 Nuclear Equations
+11. Write a brief description or definition of each of the following:
+(a) nucleon
+
+(b) α particle
+
+(c) β particle
+
+(d) positron
+
+(e) γ ray
+
+(f) nuclide
+
+(g) mass number
+
+(h) atomic number
+
+12. Which of the various particles (α particles, β particles, and so on) that may be produced in a nuclear reaction are actually nuclei?
+13. Complete each of the following equations by adding the missing species:
+(a) 2713Al+42He⟶?+10n
+
+(b) 23994Pu+?⟶24296Cm+10n
+
+(c) 147N+42He⟶?+11H
+
+(d) 23592U⟶?+13555Cs+410n
+
+14. Complete each of the following equations:
+(a) 73Li+?⟶242He
+
+(b) 146C⟶147N+?
+
+(c) 2713Al+42He⟶?+10n
+
+(d) 25096Cm⟶?+9838Sr+410n
+
+15. Write a balanced equation for each of the following nuclear reactions:
+(a) the production of 17O from 14N by α particle bombardment
+
+(b) the production of 14C from 14N by neutron bombardment
+
+(c) the production of 233Th from 232Th by neutron bombardment
+
+(d) the production of 239U from 238U by 21H bombardment
+
+16. Technetium-99 is prepared from 98Mo. Molybdenum-98 combines with a neutron to give molybdenum-99, an unstable isotope that emits a β particle to yield an excited form of technetium-99, represented as 99Tc*. This excited nucleus relaxes to the ground state, represented as 99Tc, by emitting a γ ray. The ground state of 99Tc then emits a β particle. Write the equations for each of these nuclear reactions.
+17. The mass of the atom 199F is 18.99840 amu.
+(a) Calculate its binding energy per atom in millions of electron volts.
+
+(b) Calculate its binding energy per nucleon.
+
+18. For the reaction 146C⟶147N+?, if 100.0 g of carbon reacts, what volume of nitrogen gas (N2) is produced at 273K and 1 atm?
+21.3 Radioactive Decay
+19. What are the types of radiation emitted by the nuclei of radioactive elements?
+20. What changes occur to the atomic number and mass of a nucleus during each of the following decay scenarios?
+(a) an α particle is emitted
+
+(b) a β particle is emitted
+
+(c) γ radiation is emitted
+
+(d) a positron is emitted
+
+(e) an electron is captured
+
+21. What is the change in the nucleus that results from the following decay scenarios?
+(a) emission of a β particle
+
+(b) emission of a β+ particle
+
+(c) capture of an electron
+
+22. Many nuclides with atomic numbers greater than 83 decay by processes such as electron emission. Explain the observation that the emissions from these unstable nuclides also normally include α particles.
+23. Why is electron capture accompanied by the emission of an X-ray?
+24. Explain, in terms of Figure 21.2, how unstable heavy nuclides (atomic number > 83) may decompose to form nuclides of greater stability (a) if they are below the band of stability and (b) if they are above the band of stability.
+25. Which of the following nuclei is most likely to decay by positron emission? Explain your choice.
+(a) chromium-53
+
+(b) manganese-51
+
+(c) iron-59
+
+26. The following nuclei do not lie in the band of stability. How would they be expected to decay? Explain your answer.
+(a) 3415P
+
+(b) 23992U
+
+(c) 3820Ca
+
+(d) 31H
+
+(e) 24594Pu
+
+27. The following nuclei do not lie in the band of stability. How would they be expected to decay?
+(a) 2815P
+
+(b) 23592U
+
+(c) 3720Ca
+
+(d) 93Li
+
+(e) 24596Cm
+
+28. Predict by what mode(s) of spontaneous radioactive decay each of the following unstable isotopes might proceed:
+(a) 62He
+
+(b) 6030Zn
+
+(c) 23591Pa
+
+(d) 24194Np
+
+(e) 18F
+
+(f) 129Ba
+
+(g) 237Pu
+
+29. Write a nuclear reaction for each step in the formation of 21884Po from 23898U, which proceeds by a series of decay reactions involving the step-wise emission of α, β, β, α, α, α particles, in that order.
+30. Write a nuclear reaction for each step in the formation of 20882Pb from 22890Th, which proceeds by a series of decay reactions involving the step-wise emission of α, α, α, α, β, β, α particles, in that order.
+31. Define the term half-life and illustrate it with an example.
+32. A 1.00 × 10–6-g sample of nobelium, 254102No, has a half-life of 55 seconds after it is formed. What is the percentage of 254102No remaining at the following times?
+(a) 5.0 min after it forms
+
+(b) 1.0 h after it forms
+
+33. 239Pu is a nuclear waste byproduct with a half-life of 24,000 y. What fraction of the 239Pu present today will be present in 1000 y?
+34. The isotope 208Tl undergoes β decay with a half-life of 3.1 min.
+(a) What isotope is produced by the decay?
+
+(b) How long will it take for 99.0% of a sample of pure 208Tl to decay?
+
+(c) What percentage of a sample of pure 208Tl remains un-decayed after 1.0 h?
+
+35. If 1.000 g of 22688Ra produces 0.0001 mL of the gas 22286Rn at STP (standard temperature and pressure) in 24 h, what is the half-life of 226Ra in years?
+36. The isotope 9038Sr is one of the extremely hazardous species in the residues from nuclear power generation. The strontium in a 0.500-g sample diminishes to 0.393 g in 10.0 y. Calculate the half-life.
+37. Technetium-99 is often used for assessing heart, liver, and lung damage because certain technetium compounds are absorbed by damaged tissues. It has a half-life of 6.0 h. Calculate the rate constant for the decay of 9943Tc.
+38. What is the age of mummified primate skin that contains 8.25% of the original quantity of 14C?
+39. A sample of rock was found to contain 8.23 mg of rubidium-87 and 0.47 mg of strontium-87.
+(a) Calculate the age of the rock if the half-life of the decay of rubidium by β emission is 4.7 × 1010 y.
+
+(b) If some 8738Sr was initially present in the rock, would the rock be younger, older, or the same age as the age calculated in (a)? Explain your answer.
+
+40. A laboratory investigation shows that a sample of uranium ore contains 5.37 mg of 23892U and 2.52 mg of 20682Pb. Calculate the age of the ore. The half-life of 23892U is 4.5 × 109 yr.
+41. Plutonium was detected in trace amounts in natural uranium deposits by Glenn Seaborg and his associates in 1941. They proposed that the source of this 239Pu was the capture of neutrons by 238U nuclei. Why is this plutonium not likely to have been trapped at the time the solar system formed 4.7 × 109 years ago?
+42. A 74Be atom (mass = 7.0169 amu) decays into a 73Li atom (mass = 7.0160 amu) by electron capture. How much energy (in millions of electron volts, MeV) is produced by this reaction?
+43. A 85B atom (mass = 8.0246 amu) decays into a 84B atom (mass = 8.0053 amu) by loss of a β+ particle (mass = 0.00055 amu) or by electron capture. How much energy (in millions of electron volts) is produced by this reaction?
+44. Isotopes such as 26Al (half-life: 7.2 × 105 years) are believed to have been present in our solar system as it formed, but have since decayed and are now called extinct nuclides.
+(a) 26Al decays by β+ emission or electron capture. Write the equations for these two nuclear transformations.
+
+(b) The earth was formed about 4.7 × 109 (4.7 billion) years ago. How old was the earth when 99.999999% of the 26Al originally present had decayed?
+
+45. Write a balanced equation for each of the following nuclear reactions:
+(a) bismuth-212 decays into polonium-212
+
+(b) beryllium-8 and a positron are produced by the decay of an unstable nucleus
+
+(c) neptunium-239 forms from the reaction of uranium-238 with a neutron and then spontaneously converts into plutonium-239
+
+(d) strontium-90 decays into yttrium-90
+
+46. Write a balanced equation for each of the following nuclear reactions:
+(a) mercury-180 decays into platinum-176
+
+(b) zirconium-90 and an electron are produced by the decay of an unstable nucleus
+
+(c) thorium-232 decays and produces an alpha particle and a radium-228 nucleus, which decays into actinium-228 by beta decay
+
+(d) neon-19 decays into fluorine-19
+
+21.4 Transmutation and Nuclear Energy
+47. Write the balanced nuclear equation for the production of the following transuranium elements:
+(a) berkelium-244, made by the reaction of Am-241 and He-4
+
+(b) fermium-254, made by the reaction of Pu-239 with a large number of neutrons
+
+(c) lawrencium-257, made by the reaction of Cf-250 and B-11
+
+(d) dubnium-260, made by the reaction of Cf-249 and N-15
+
+48. How does nuclear fission differ from nuclear fusion? Why are both of these processes exothermic?
+49. Both fusion and fission are nuclear reactions. Why is a very high temperature required for fusion, but not for fission?
+50. Cite the conditions necessary for a nuclear chain reaction to take place. Explain how it can be controlled to produce energy, but not produce an explosion.
+51. Describe the components of a nuclear reactor.
+52. In usual practice, both a moderator and control rods are necessary to operate a nuclear chain reaction safely for the purpose of energy production. Cite the function of each and explain why both are necessary.
+53. Describe how the potential energy of uranium is converted into electrical energy in a nuclear power plant.
+54. The mass of a hydrogen atom (11H) is 1.007825 amu; that of a tritium atom (31H) is 3.01605 amu; and that of an α particle is 4.00150 amu. How much energy in kilojoules per mole of 42He produced is released by the following fusion reaction: 11H+31H⟶42He.
+21.5 Uses of Radioisotopes
+55. How can a radioactive nuclide be used to show that the equilibrium:
+AgCl(𝑠)⇌Ag+(𝑎𝑞)+Cl−(𝑎𝑞)
+is a dynamic equilibrium?
+56. Technetium-99m has a half-life of 6.01 hours. If a patient injected with technetium-99m is safe to leave the hospital once 75% of the dose has decayed, when is the patient allowed to leave?
+57. Iodine that enters the body is stored in the thyroid gland from which it is released to control growth and metabolism. The thyroid can be imaged if iodine-131 is injected into the body. In larger doses, I-133 is also used as a means of treating cancer of the thyroid. I-131 has a half-life of 8.70 days and decays by β− emission.
+(a) Write an equation for the decay.
+
+(b) How long will it take for 95.0% of a dose of I-131 to decay?
+
+21.6 Biological Effects of Radiation
+58. If a hospital were storing radioisotopes, what is the minimum containment needed to protect against:
+(a) cobalt-60 (a strong γ emitter used for irradiation)
+
+(b) molybdenum-99 (a beta emitter used to produce technetium-99 for imaging)
+
+59. Based on what is known about Radon-222’s primary decay method, why is inhalation so dangerous?
+60. Given specimens uranium-232 (t1/2 = 68.9 y) and uranium-233 (t1/2 = 159,200 y) of equal mass, which one would have greater activity and why?
+61. A scientist is studying a 2.234 g sample of thorium-229 (t1/2 = 7340 y) in a laboratory.
+(a) What is its activity in Bq?
+
+(b) What is its activity in Ci?
+
+62. Given specimens neon-24 (t1/2 = 3.38 min) and bismuth-211 (t1/2 = 2.14 min) of equal mass, which one would have greater activity and why?

@@ -1,0 +1,321 @@
+10.1 Intermolecular Forces
+1. In terms of their bulk properties, how do liquids and solids differ? How are they similar?
+2. In terms of the kinetic molecular theory, in what ways are liquids similar to solids? In what ways are liquids different from solids?
+3. In terms of the kinetic molecular theory, in what ways are liquids similar to gases? In what ways are liquids different from gases?
+4. Explain why liquids assume the shape of any container into which they are poured, whereas solids are rigid and retain their shape.
+5. What is the evidence that all neutral atoms and molecules exert attractive forces on each other?
+6. Open the PhET States of Matter Simulation to answer the following questions:
+(a) Select the Solid, Liquid, Gas tab. Explore by selecting different substances, heating and cooling the systems, and changing the state. What similarities do you notice between the four substances for each phase (solid, liquid, gas)? What differences do you notice?
+
+(b) For each substance, select each of the states and record the given temperatures. How do the given temperatures for each state correlate with the strengths of their intermolecular attractions? Explain.
+
+(c) Select the Interaction Potential tab, and use the default neon atoms. Move the Ne atom on the right and observe how the potential energy changes. Select the Total Force button, and move the Ne atom as before. When is the total force on each atom attractive and large enough to matter? Then select the Component Forces button, and move the Ne atom. When do the attractive (van der Waals) and repulsive (electron overlap) forces balance? How does this relate to the potential energy versus the distance between atoms graph? Explain.
+
+7. Define the following and give an example of each:
+(a) dispersion force
+
+(b) dipole-dipole attraction
+
+(c) hydrogen bond
+
+8. The types of intermolecular forces in a substance are identical whether it is a solid, a liquid, or a gas. Why then does a substance change phase from a gas to a liquid or to a solid?
+9. Why do the boiling points of the noble gases increase in the order He < Ne < Ar < Kr < Xe?
+10. Neon and HF have approximately the same molecular masses.
+(a) Explain why the boiling points of Neon and HF differ.
+
+(b) Compare the change in the boiling points of Ne, Ar, Kr, and Xe with the change of the boiling points of HF, HCl, HBr, and HI, and explain the difference between the changes with increasing atomic or molecular mass.
+
+11. Arrange each of the following sets of compounds in order of increasing boiling point temperature:
+(a) HCl, H2O, SiH4
+
+(b) F2, Cl2, Br2
+
+(c) CH4, C2H6, C3H8
+
+(d) O2, NO, N2
+
+12. The molecular mass of butanol, C4H9OH, is 74.14; that of ethylene glycol, CH2(OH)CH2OH, is 62.08, yet their boiling points are 117.2 °C and 174 °C, respectively. Explain the reason for the difference.
+13. On the basis of intermolecular attractions, explain the differences in the boiling points of n–butane (−1 °C) and chloroethane (12 °C), which have similar molar masses.
+14. On the basis of dipole moments and/or hydrogen bonding, explain in a qualitative way the differences in the boiling points of acetone (56.2 °C) and 1-propanol (97.4 °C), which have similar molar masses.
+15. The melting point of H2O(s) is 0 °C. Would you expect the melting point of H2S(s) to be −85 °C, 0 °C, or 185 °C? Explain your answer.
+16. Silane (SiH4), phosphine (PH3), and hydrogen sulfide (H2S) melt at −185 °C, −133 °C, and −85 °C, respectively. What does this suggest about the polar character and intermolecular attractions of the three compounds?
+17. Explain why a hydrogen bond between two water molecules is weaker than a hydrogen bond between two hydrogen fluoride molecules.
+18. Under certain conditions, molecules of acetic acid, CH3COOH, form “dimers,” pairs of acetic acid molecules held together by strong intermolecular attractions:
+A Lewis structure shows a carbon atom single bonded to three hydrogen atoms and one other carbon atom, that is in turn double bonded to an oxygen atom and single bonded to another oxygen atom that is single bonded to a hydrogen atom. Dotted lines connect the terminal oxygen and hydrogen atoms to a reciprocal lewis structure to the right, rotated 180 degrees. Each dotted line is labeled “hydrogen bond.”
+Draw a dimer of acetic acid, showing how two CH3COOH molecules are held together, and stating the type of IMF that is responsible.
+
+19. Proteins are chains of amino acids that can form in a variety of arrangements, one of which is a helix. What kind of IMF is responsible for holding the protein strand in this shape? On the protein image, show the locations of the IMFs that hold the protein together:
+Two turns of a helical structure are shown horizontally. Three Lewis structures are superimposed on the helix. The first shows horizontally stacked dashes next to an oxygen atom, with three dots connecting to a hydrogen atom, and a single dash connecting the hydrogen atom to a nitrogen atom. The second shows a carbon atom double bonded to an oxygen atom, then three dots connecting to a hydrogen atom which is bonded to a nitrogen atom. The third shows a carbon atom double bonded to an oxygen atom with three dots extending to the right of the oxygen atom.
+20. The density of liquid NH3 is 0.64 g/mL; the density of gaseous NH3 at STP is 0.0007 g/mL. Explain the difference between the densities of these two phases.
+21. Identify the intermolecular forces present in the following solids:
+(a) CH3CH2OH
+
+(b) CH3CH2CH3
+
+(c) CH3CH2Cl
+
+10.2 Properties of Liquids
+22. The test tubes shown here contain equal amounts of the specified motor oils. Identical metal spheres were dropped at the same time into each of the tubes, and a brief moment later, the spheres had fallen to the heights indicated in the illustration.
+Rank the motor oils in order of increasing viscosity, and explain your reasoning:
+
+An image of four graduated cylinders sitting on a table labeled “Oil viscosity ( S A E )” is shown. The left-hand cylinder, labeled “20,” is mostly filled with light tan liquid and a metal ball is drawn in the lower fifth of the cylinder, but not on the bottom. The second cylinder, labeled “30,” is mostly filled with light brown liquid and a metal ball is drawn about three-fourths of the way down cylinder. The third cylinder, labeled “40,” is mostly filled with medium brown liquid and a metal ball is drawn halfway down the cylinder. The right-hand cylinder, labeled “50,” is mostly filled with brown liquid and a metal ball is drawn near the top of the liquid in the cylinder.
+23. Although steel is denser than water, a steel needle or paper clip placed carefully lengthwise on the surface of still water can be made to float. Explain at a molecular level how this is possible.
+A photo shows a close-up, above-view, of a needle lying on the surface of a sample of water.
+Figure 10.67 (credit: Cory Zanker)
+24. The surface tension and viscosity values for diethyl ether, acetone, ethanol, and ethylene glycol are shown here.
+This table has four columns and five rows. The first row is a header row, and it labels each column: “Compound,” “Molecule,” “Surface Tension ( m N / m ),” and “Viscosity ( m P a dot s ).” Under the “compound” column are the following: diethyl ether C subscript 2 H subscript 5 O C subscript 2 H subscript 5; acetone C subscript 2 H subscript 5 O C subscript 2 H subscript 5; ethanol C subscript 2 H subscript 5 O H; ethylene glycol C H subscript 2 ( O H ) C H subscript 2 ( O H ). Under the “Molecule” column are ball-and-stick representations of each compound. The first shows two grey spheres bonded together. The first grey sphere is also bonded to three white spheres. The second grey sphere is bonded to two white spheres and a red sphere. The red sphere is bonded to another grey sphere. The grey sphere is bonded to two white spheres and another grey sphere. The last grey sphere is bonded to three white spheres. The second shows three grey spheres bonded tighter. The two grey spheres on the end are each bonded to three white spheres. The grey sphere in the middle is bonded to one red sphere. The third shows two grey spheres bonded together. The first grey sphere is bonded to three white spheres and the second grey sphere is bonded to two white spheres and a red sphere. The red sphere is bonded to a white sphere. The fourth shows two grey spheres bonded together. Each grey sphere is bonded to two white spheres and a red sphere. Each red sphere is also bonded to one white sphere. Under the “Surface Tension ( m N / m )” column are the following: 17, 23, 22 and 48. Under the “Viscosity ( m P a dot s )” column are the following: 0.22, 0.31, 1.07, and 16.1.
+(a) Explain their differences in viscosity in terms of the size and shape of their molecules and their IMFs.
+
+(b) Explain their differences in surface tension in terms of the size and shape of their molecules and their IMFs:
+
+25. You may have heard someone use the figure of speech “slower than molasses in winter” to describe a process that occurs slowly. Explain why this is an apt idiom, using concepts of molecular size and shape, molecular interactions, and the effect of changing temperature.
+26. It is often recommended that you let your car engine run idle to warm up before driving, especially on cold winter days. While the benefit of prolonged idling is dubious, it is certainly true that a warm engine is more fuel efficient than a cold one. Explain the reason for this.
+27. The surface tension and viscosity of water at several different temperatures are given in this table.
+Water	Surface Tension (mN/m)	Viscosity (mPa s)
+0 °C	75.6	1.79
+20 °C	72.8	1.00
+60 °C	66.2	0.47
+100 °C	58.9	0.28
+(a) As temperature increases, what happens to the surface tension of water? Explain why this occurs, in terms of molecular interactions and the effect of changing temperature.
+
+(b) As temperature increases, what happens to the viscosity of water? Explain why this occurs, in terms of molecular interactions and the effect of changing temperature.
+
+28. At 25 °C, how high will water rise in a glass capillary tube with an inner diameter of 0.63 mm? Refer to Example 10.4 for the required information.
+29. Water rises in a glass capillary tube to a height of 17 cm. What is the diameter of the capillary tube?
+10.3 Phase Transitions
+30. Heat is added to boiling water. Explain why the temperature of the boiling water does not change. What does change?
+31. Heat is added to ice at 0 °C. Explain why the temperature of the ice does not change. What does change?
+32. What feature characterizes the dynamic equilibrium between a liquid and its vapor in a closed container?
+33. Identify two common observations indicating some liquids have sufficient vapor pressures to noticeably evaporate?
+34. Identify two common observations indicating some solids, such as dry ice and mothballs, have vapor pressures sufficient to sublime?
+35. What is the relationship between the intermolecular forces in a liquid and its vapor pressure?
+36. What is the relationship between the intermolecular forces in a solid and its melting temperature?
+37. Why does spilled gasoline evaporate more rapidly on a hot day than on a cold day?
+38. Carbon tetrachloride, CCl4, was once used as a dry cleaning solvent, but is no longer used because it is carcinogenic. At 57.8 °C, the vapor pressure of CCl4 is 54.0 kPa, and its enthalpy of vaporization is 33.05 kJ/mol. Use this information to estimate the normal boiling point for CCl4.
+39. When is the boiling point of a liquid equal to its normal boiling point?
+40. How does the boiling of a liquid differ from its evaporation?
+41. Use the information in Figure 10.24 to estimate the boiling point of water in Denver when the atmospheric pressure is 83.3 kPa.
+42. A syringe at a temperature of 20 °C is filled with liquid ether in such a way that there is no space for any vapor. If the temperature is kept constant and the plunger is withdrawn to create a volume that can be occupied by vapor, what would be the approximate pressure of the vapor produced?
+43. Explain the following observations:
+(a) It takes longer to cook an egg in Ft. Davis, Texas (altitude, 5000 feet above sea level) than it does in Boston (at sea level).
+
+(b) Perspiring is a mechanism for cooling the body.
+
+44. The enthalpy of vaporization of water is larger than its enthalpy of fusion. Explain why.
+45. Explain why the molar enthalpies of vaporization of the following substances increase in the order CH4 < C2H6 < C3H8, even though the type of IMF (dispersion) is the same.
+46. Explain why the enthalpies of vaporization of the following substances increase in the order CH4 < NH3 < H2O, even though all three substances have approximately the same molar mass.
+47. The enthalpy of vaporization of CO2(l) is 9.8 kJ/mol. Would you expect the enthalpy of vaporization of CS2(l) to be 28 kJ/mol, 9.8 kJ/mol, or −8.4 kJ/mol? Discuss the plausibility of each of these answers.
+48. The hydrogen fluoride molecule, HF, is more polar than a water molecule, H2O (for example, has a greater dipole moment), yet the molar enthalpy of vaporization for liquid hydrogen fluoride is lesser than that for water. Explain.
+49. Ethyl chloride (boiling point, 13 °C) is used as a local anesthetic. When the liquid is sprayed on the skin, it cools the skin enough to freeze and numb it. Explain the cooling effect of liquid ethyl chloride.
+50. Which contains the compounds listed correctly in order of increasing boiling points?
+(a) N2 < CS2 < H2O < KCl
+
+(b) H2O < N2 < CS2 < KCl
+
+(c) N2 < KCl < CS2 < H2O
+
+(d) CS2 < N2 < KCl < H2O
+
+(e) KCl < H2O < CS2 < N2
+
+51. How much heat is required to convert 422 g of liquid H2O at 23.5 °C into steam at 150 °C?
+52. Evaporation of sweat requires energy and thus take excess heat away from the body. Some of the water that you drink may eventually be converted into sweat and evaporate. If you drink a 20-ounce bottle of water that had been in the refrigerator at 3.8 °C, how much heat is needed to convert all of that water into sweat and then to vapor? (Note: Your body temperature is 36.6 °C. For the purpose of solving this problem, assume that the thermal properties of sweat are the same as for water.)
+53. Titanium tetrachloride, TiCl4, has a melting point of −23.2 °C and has a ΔH fusion = 9.37 kJ/mol.
+(a) How much energy is required to melt 263.1 g TiCl4?
+
+(b) For TiCl4, which will likely have the larger magnitude: ΔH fusion or ΔH vaporization? Explain your reasoning.
+
+10.4 Phase Diagrams
+54. From the phase diagram for water (Figure 10.31), determine the state of water at:
+(a) 35 °C and 85 kPa
+
+(b) −15 °C and 40 kPa
+
+(c) −15 °C and 0.1 kPa
+
+(d) 75 °C and 3 kPa
+
+(e) 40 °C and 0.1 kPa
+
+(f) 60 °C and 50 kPa
+
+55. What phase changes will take place when water is subjected to varying pressure at a constant temperature of 0.005 °C? At 40 °C? At −40 °C?
+56. Pressure cookers allow food to cook faster because the higher pressure inside the pressure cooker increases the boiling temperature of water. A particular pressure cooker has a safety valve that is set to vent steam if the pressure exceeds 3.4 atm. What is the approximate maximum temperature that can be reached inside this pressure cooker? Explain your reasoning.
+57. From the phase diagram for carbon dioxide in Figure 10.34, determine the state of CO2 at:
+(a) 20 °C and 1000 kPa
+
+(b) 10 °C and 2000 kPa
+
+(c) 10 °C and 100 kPa
+
+(d) −40 °C and 500 kPa
+
+(e) −80 °C and 1500 kPa
+
+(f) −80 °C and 10 kPa
+
+58. Determine the phase changes that carbon dioxide undergoes as pressure is increased at a constant temperature of (a) −50 °C and (b) 50 °C. If the temperature is held at −40 °C? At 20 °C? (See the phase diagram in Figure 10.34.)
+59. Consider a cylinder containing a mixture of liquid carbon dioxide in equilibrium with gaseous carbon dioxide at an initial pressure of 65 atm and a temperature of 20 °C. Sketch a plot depicting the change in the cylinder pressure with time as gaseous carbon dioxide is released at constant temperature.
+60. Dry ice, CO2(s), does not melt at atmospheric pressure. It sublimes at a temperature of −78 °C. What is the lowest pressure at which CO2(s) will melt to give CO2(l)? At approximately what temperature will this occur? (See Figure 10.34 for the phase diagram.)
+61. If a severe storm results in the loss of electricity, it may be necessary to use a clothesline to dry laundry. In many parts of the country in the dead of winter, the clothes will quickly freeze when they are hung on the line. If it does not snow, will they dry anyway? Explain your answer.
+62. Is it possible to liquefy nitrogen at room temperature (about 25 °C)? Is it possible to liquefy sulfur dioxide at room temperature? Explain your answers.
+63. Elemental carbon has one gas phase, one liquid phase, and two different solid phases, as shown in the phase diagram:
+This figure shows an x-axis that is labeled, “Temperature ( K ),” and a y-axis labeled, “Pressure ( P a ).” The x-axis is marked off in increments of 2000 starting from 0. The y-axis is marked off at 0, 10 to the 7, ten to the 9, and ten to the 11. There is a slightly negatively sloped line that passes through the x-axis at about 3800. From this line there is a line that curves up and then down to the left to pass through the y-axis at ten to the 9. There is another line that goes up and to the right.
+(a) On the phase diagram, label the gas and liquid regions.
+
+(b) Graphite is the most stable phase of carbon at normal conditions. On the phase diagram, label the graphite phase.
+
+(c) If graphite at normal conditions is heated to 2500 K while the pressure is increased to 1010 Pa, it is converted into diamond. Label the diamond phase.
+
+(d) Circle each triple point on the phase diagram.
+
+(e) In what phase does carbon exist at 5000 K and 108 Pa?
+
+(f) If the temperature of a sample of carbon increases from 3000 K to 5000 K at a constant pressure of 106 Pa, which phase transition occurs, if any?
+
+10.5 The Solid State of Matter
+64. What types of liquids typically form amorphous solids?
+65. At very low temperatures oxygen, O2, freezes and forms a crystalline solid. Which best describes these crystals?
+(a) ionic
+
+(b) covalent network
+
+(c) metallic
+
+(d) amorphous
+
+(e) molecular crystals
+
+66. As it cools, olive oil slowly solidifies and forms a solid over a range of temperatures. Which best describes the solid?
+(a) ionic
+
+(b) covalent network
+
+(c) metallic
+
+(d) amorphous
+
+(e) molecular crystals
+
+67. Explain why ice, which is a crystalline solid, has a melting temperature of 0 °C, whereas butter, which is an amorphous solid, softens over a range of temperatures.
+68. Identify the type of crystalline solid (metallic, network covalent, ionic, or molecular) formed by each of the following substances:
+(a) SiO2
+
+(b) KCl
+
+(c) Cu
+
+(d) CO2
+
+(e) C (diamond)
+
+(f) BaSO4
+
+(g) NH3
+
+(h) NH4F
+
+(i) C2H5OH
+
+69. Identify the type of crystalline solid (metallic, network covalent, ionic, or molecular) formed by each of the following substances:
+(a) CaCl2
+
+(b) SiC
+
+(c) N2
+
+(d) Fe
+
+(e) C (graphite)
+
+(f) CH3CH2CH2CH3
+
+(g) HCl
+
+(h) NH4NO3
+
+(i) K3PO4
+
+70. Classify each substance in the table as either a metallic, ionic, molecular, or covalent network solid:
+Substance	Appearance	Melting Point	Electrical Conductivity	Solubility in Water
+X	lustrous, malleable	1500 °C	high	insoluble
+Y	soft, yellow	113 °C	none	insoluble
+Z	hard, white	800 °C	only if melted/dissolved	soluble
+71. Classify each substance in the table as either a metallic, ionic, molecular, or covalent network solid:
+Substance	Appearance	Melting Point	Electrical Conductivity	Solubility in Water
+X	brittle, white	800 °C	only if melted/dissolved	soluble
+Y	shiny, malleable	1100 °C	high	insoluble
+Z	hard, colorless	3550 °C	none	insoluble
+72. Identify the following substances as ionic, metallic, covalent network, or molecular solids:
+Substance A is malleable, ductile, conducts electricity well, and has a melting point of 1135 °C. Substance B is brittle, does not conduct electricity as a solid but does when molten, and has a melting point of 2072 °C. Substance C is very hard, does not conduct electricity, and has a melting point of 3440 °C. Substance D is soft, does not conduct electricity, and has a melting point of 185 °C.
+
+73. Substance A is shiny, conducts electricity well, and melts at 975 °C. Substance A is likely a(n):
+(a) ionic solid
+
+(b) metallic solid
+
+(c) molecular solid
+
+(d) covalent network solid
+
+74. Substance B is hard, does not conduct electricity, and melts at 1200 °C. Substance B is likely a(n):
+(a) ionic solid
+
+(b) metallic solid
+
+(c) molecular solid
+
+(d) covalent network solid
+
+10.6 Lattice Structures in Crystalline Solids
+75. Describe the crystal structure of iron, which crystallizes with two equivalent metal atoms in a cubic unit cell.
+76. Describe the crystal structure of Pt, which crystallizes with four equivalent metal atoms in a cubic unit cell.
+77. What is the coordination number of a chromium atom in the body-centered cubic structure of chromium?
+78. What is the coordination number of an aluminum atom in the face-centered cubic structure of aluminum?
+79. Cobalt metal crystallizes in a hexagonal closest packed structure. What is the coordination number of a cobalt atom?
+80. Nickel metal crystallizes in a cubic closest packed structure. What is the coordination number of a nickel atom?
+81. Tungsten crystallizes in a body-centered cubic unit cell with an edge length of 3.165 Å.
+(a) What is the atomic radius of tungsten in this structure?
+
+(b) Calculate the density of tungsten.
+
+82. Platinum (atomic radius = 1.38 Å) crystallizes in a cubic closely packed structure. Calculate the edge length of the face-centered cubic unit cell and the density of platinum.
+83. Barium crystallizes in a body-centered cubic unit cell with an edge length of 5.025 Å
+(a) What is the atomic radius of barium in this structure?
+
+(b) Calculate the density of barium.
+
+84. Aluminum (atomic radius = 1.43 Å) crystallizes in a cubic closely packed structure. Calculate the edge length of the face-centered cubic unit cell and the density of aluminum.
+85. The density of aluminum is 2.7 g/cm3; that of silicon is 2.3 g/cm3. Explain why Si has the lower density even though it has heavier atoms.
+86. The free space in a metal may be found by subtracting the volume of the atoms in a unit cell from the volume of the cell. Calculate the percentage of free space in each of the three cubic lattices if all atoms in each are of equal size and touch their nearest neighbors. Which of these structures represents the most efficient packing? That is, which packs with the least amount of unused space?
+87. Cadmium sulfide, sometimes used as a yellow pigment by artists, crystallizes with cadmium, occupying one-half of the tetrahedral holes in a closest packed array of sulfide ions. What is the formula of cadmium sulfide? Explain your answer.
+88. A compound of cadmium, tin, and phosphorus is used in the fabrication of some semiconductors. It crystallizes with cadmium occupying one-fourth of the tetrahedral holes and tin occupying one-fourth of the tetrahedral holes in a closest packed array of phosphide ions. What is the formula of the compound? Explain your answer.
+89. What is the formula of the magnetic oxide of cobalt, used in recording tapes, that crystallizes with cobalt atoms occupying one-eighth of the tetrahedral holes and one-half of the octahedral holes in a closely packed array of oxide ions?
+90. A compound containing zinc, aluminum, and sulfur crystallizes with a closest-packed array of sulfide ions. Zinc ions are found in one-eighth of the tetrahedral holes and aluminum ions in one-half of the octahedral holes. What is the empirical formula of the compound?
+91. A compound of thallium and iodine crystallizes in a simple cubic array of iodide ions with thallium ions in all of the cubic holes. What is the formula of this iodide? Explain your answer.
+92. Which of the following elements reacts with sulfur to form a solid in which the sulfur atoms form a closest-packed array with all of the octahedral holes occupied: Li, Na, Be, Ca, or Al?
+93. What is the percent by mass of titanium in rutile, a mineral that contains titanium and oxygen, if structure can be described as a closest packed array of oxide ions with titanium ions in one-half of the octahedral holes? What is the oxidation number of titanium?
+94. Explain why the chemically similar alkali metal chlorides NaCl and CsCl have different structures, whereas the chemically different NaCl and MnS have the same structure.
+95. As minerals were formed from the molten magma, different ions occupied the same cites in the crystals. Lithium often occurs along with magnesium in minerals despite the difference in the charge on their ions. Suggest an explanation.
+96. Rubidium iodide crystallizes with a cubic unit cell that contains iodide ions at the corners and a rubidium ion in the center. What is the formula of the compound?
+97. One of the various manganese oxides crystallizes with a cubic unit cell that contains manganese ions at the corners and in the center. Oxide ions are located at the center of each edge of the unit cell. What is the formula of the compound?
+98. NaH crystallizes with the same crystal structure as NaCl. The edge length of the cubic unit cell of NaH is 4.880 Å.
+(a) Calculate the ionic radius of H−. (The ionic radius of Li+ is 0.0.95 Å.)
+
+(b) Calculate the density of NaH.
+
+99. Thallium(I) iodide crystallizes with the same structure as CsCl. The edge length of the unit cell of TlI is 4.20 Å. Calculate the ionic radius of TI+. (The ionic radius of I− is 2.16 Å.)
+100. A cubic unit cell contains manganese ions at the corners and fluoride ions at the center of each edge.
+(a) What is the empirical formula of this compound? Explain your answer.
+
+(b) What is the coordination number of the Mn3+ ion?
+
+(c) Calculate the edge length of the unit cell if the radius of a Mn3+ ion is 0.65 A.
+
+(d) Calculate the density of the compound.
+
+101. What is the spacing between crystal planes that diffract X-rays with a wavelength of 1.541 nm at an angle θ of 15.55° (first order reflection)?
+102. A diffractometer using X-rays with a wavelength of 0.2287 nm produced first order diffraction peak for a crystal angle θ = 16.21°. Determine the spacing between the diffracting planes in this crystal.
+103. A metal with spacing between planes equal to 0.4164 nm diffracts X-rays with a wavelength of 0.2879 nm. What is the diffraction angle for the first order diffraction peak?
+104. Gold crystallizes in a face-centered cubic unit cell. The second-order reflection (n = 2) of X-rays for the planes that make up the tops and bottoms of the unit cells is at θ = 22.20°. The wavelength of the X-rays is 1.54 Å. What is the density of metallic gold?
+105. When an electron in an excited molybdenum atom falls from the L to the K shell, an X-ray is emitted. These X-rays are diffracted at an angle of 7.75° by planes with a separation of 2.64 Å. What is the difference in energy between the K shell and the L shell in molybdenum assuming a first order diffraction?

@@ -1,0 +1,68 @@
+7.1 Wave Functions
+27. Compute |Ψ(x,t)| 2 for the function Ψ(x,t)=ψ(x)sinω  t, where ω is a real constant.
+28. Given the complex-valued function f(x,y)=(x−iy)/(x+iy), calculate |f(x,y)| 2.
+29. Which one of the following functions, and why, qualifies to be a wave function of a particle that can move along the entire real axis? (a) ψ(x)=Ae−x 2;
+(b) ψ(x)=Ae−x; (c) ψ(x)=Atanx;
+(d) ψ(x)=A(sinx)/x; (e) ψ(x)=Ae−|x|.
+30. A particle with mass m moving along the x-axis and its quantum state is represented by the following wave function:
+Ψ(x,t)={0,Axe−α xe−i E t/ℏ,x<0,x≥0,
+
+where α=2.0×10 10m−1. (a) Find the normalization constant. (b) Find the probability that the particle can be found on the interval 0≤x≤L. (c) Find the expectation value of position. (d) Find the expectation value of kinetic energy.
+
+31. A wave function of a particle with mass m is given by
+ψ(x)={Acosαx,0,−π2α≤x≤+π2α,otherwise,
+
+where α=1.00×1010/m. (a) Find the normalization constant. (b) Find the probability that the particle can be found on the interval 0≤x≤0.5×10−10m. (c) Find the particle’s average position. (d) Find its average momentum. (e) Find its average kinetic energy −0.5×10−10m≤x≤+0.5×10−10m.
+
+7.2 The Heisenberg Uncertainty Principle
+32. A velocity measurement of an α-particle has been performed with a precision of 0.02 mm/s. What is the minimum uncertainty in its position?
+33. A gas of helium atoms at 273 K is in a cubical container with 25.0 cm on a side. (a) What is the minimum uncertainty in momentum components of helium atoms? (b) What is the minimum uncertainty in velocity components? (c) Find the ratio of the uncertainties in (b) to the mean speed of an atom in each direction.
+34. If the uncertainty in the y-component of a proton’s position is 2.0 pm, find the minimum uncertainty in the simultaneous measurement of the proton’s y-component of velocity. What is the minimum uncertainty in the simultaneous measurement of the proton’s x-component of velocity?
+35. Some unstable elementary particle has a rest energy of 80.41 GeV and an uncertainty in rest energy of 2.06 GeV. Estimate the lifetime of this particle.
+36. An atom in a metastable state has a lifetime of 5.2 ms. Find the minimum uncertainty in the measurement of energy of the excited state.
+37. Measurements indicate that an atom remains in an excited state for an average time of 50.0 ns before making a transition to the ground state with the simultaneous emission of a 2.1-eV photon. (a) Estimate the uncertainty in the frequency of the photon. (b) What fraction of the photon’s average frequency is this?
+38. Suppose an electron is confined to a region of length 0.1 nm (of the order of the size of a hydrogen atom). (a) What is the minimum uncertainty of its momentum? (b) What would the uncertainty in momentum be if the confined length region doubled to 0.2 nm?
+7.3 The Schrӧdinger Equation
+39. Combine Equation 7.17 and Equation 7.18 to show k2=ω2c2.
+40. Show that Ψ(x,t)=Aei(kx−ωt) is a valid solution to Schrӧdinger’s time-dependent equation.
+41. Show that Ψ(x,t)=Asin(kx−ωt) and Ψ(x,t)=Acos(kx−ωt) do not obey Schrӧdinger’s time-dependent equation.
+42. Show that when Ψ1(x,t) and Ψ2(x,t) are solutions to the time-dependent Schrӧdinger equation and A,B are numbers, then a function Ψ(x,t) that is a superposition of these functions is also a solution: Ψ(x,t)=AΨ1(x,t)+BΨ1(x,t).
+43. A particle with mass m is described by the following wave function: ψ(x)=Acoskx+Bsinkx, where A, B, and k are constants. Assuming that the particle is free, show that this function is the solution of the stationary Schrӧdinger equation for this particle and find the energy that the particle has in this state.
+44. Find the expectation value of the kinetic energy for the particle in the state, Ψ(x,t)=Aei(kx−ωt). What conclusion can you draw from your solution?
+45. Find the expectation value of the square of the momentum squared for the particle in the state, Ψ(x,t)=Aei(kx−ωt). What conclusion can you draw from your solution?
+46. A free proton has a wave function given by Ψ(x,t)=Ae i (5.02×1011x−8.00×1015t).
+The coefficient of x is inverse meters (m−1) and the coefficient on t is inverse seconds (s−1). Find its momentum and energy.
+
+7.4 The Quantum Particle in a Box
+47. Assume that an electron in an atom can be treated as if it were confined to a box of width 2.0 Å. What is the ground state energy of the electron? Compare your result to the ground state kinetic energy of the hydrogen atom in the Bohr’s model of the hydrogen atom.
+48. Assume that a proton in a nucleus can be treated as if it were confined to a one-dimensional box of width 10.0 fm. (a) What are the energies of the proton when it is in the states corresponding to n=1, n=2, and n=3? (b) What are the energies of the photons emitted when the proton makes the transitions from the first and second excited states to the ground state?
+49. An electron confined to a box has the ground state energy of 2.5 eV. What is the width of the box?
+50. What is the ground state energy (in eV) of a proton confined to a one-dimensional box the size of the uranium nucleus that has a radius of approximately 15.0 fm?
+51. What is the ground state energy (in eV) of an α-particle confined to a one-dimensional box the size of the uranium nucleus that has a radius of approximately 15.0 fm?
+52. To excite an electron in a one-dimensional box from its first excited state to its third excited state requires 20.0 eV. What is the width of the box?
+53. An electron confined to a box of width 0.15 nm by infinite potential energy barriers emits a photon when it makes a transition from the first excited state to the ground state. Find the wavelength of the emitted photon.
+54. If the energy of the first excited state of the electron in the box is 25.0 eV, what is the width of the box?
+55. Suppose an electron confined to a box emits photons. The longest wavelength that is registered is 500.0 nm. What is the width of the box?
+56. Hydrogen H2 molecules are kept at 300.0 K in a cubical container with a side length of 20.0 cm. Assume that you can treat the molecules as though they were moving in a one-dimensional box. (a) Find the ground state energy of the hydrogen molecule in the container. (b) Assume that the molecule has a thermal energy given by kBT/2 and find the corresponding quantum number n of the quantum state that would correspond to this thermal energy.
+57. An electron is confined to a box of width 0.25 nm. (a) Draw an energy-level diagram representing the first five states of the electron. (b) Calculate the wavelengths of the emitted photons when the electron makes transitions between the fourth and the second excited states, between the second excited state and the ground state, and between the third and the second excited states.
+58. An electron in a box is in the ground state with energy 2.0 eV. (a) Find the width of the box. (b) How much energy is needed to excite the electron to its first excited state? (c) If the electron makes a transition from an excited state to the ground state with the simultaneous emission of 30.0-eV photon, find the quantum number of the excited state?
+7.5 The Quantum Harmonic Oscillator
+59. Show that the two lowest energy states of the simple harmonic oscillator, ψ0(x) and ψ1(x) from Equation 7.57, satisfy Equation 7.55.
+60. If the ground state energy of a simple harmonic oscillator is 1.25 eV, what is the frequency of its motion?
+61. When a quantum harmonic oscillator makes a transition from the (n+1) state to the n state and emits a 450-nm photon, what is its frequency?
+62. Vibrations of the hydrogen molecule H2 can be modeled as a simple harmonic oscillator with the spring constant k=1.13×103N/m and mass m=1.67×10−27kg. (a) What is the vibrational frequency of this molecule? (b) What are the energy and the wavelength of the emitted photon when the molecule makes transition between its third and second excited states?
+63. A particle with mass 0.030 kg oscillates back-and-forth on a spring with frequency 4.0 Hz. At the equilibrium position, it has a speed of 0.60 m/s. If the particle is in a state of definite energy, find its energy quantum number.
+64. Find the expectation value ⟨x 2⟩ of the square of the position for a quantum harmonic oscillator in the ground state. Note: ∫+∞−∞dxx 2e −a x 2=π−−√(2a 3/2) −1.
+65. Determine the expectation value of the potential energy for a quantum harmonic oscillator in the ground state. Use this to calculate the expectation value of the kinetic energy.
+66. Verify that ψ1(x) given by Equation 7.57 is a solution of Schrӧdinger’s equation for the quantum harmonic oscillator.
+67. Estimate the ground state energy of the quantum harmonic oscillator by Heisenberg’s uncertainty principle. Start by assuming that the product of the uncertainties Δx and Δp is at its minimum. Write Δp in terms of Δx and assume that for the ground state x≈Δx and p≈Δp, then write the ground state energy in terms of x. Finally, find the value of x that minimizes the energy and find the minimum of the energy.
+68. A mass of 0.250 kg oscillates on a spring with the force constant 110 N/m. Calculate the ground energy level and the separation between the adjacent energy levels. Express the results in joules and in electron-volts. Are quantum effects important?
+7.6 The Quantum Tunneling of Particles through Potential Barriers
+69. Show that the wave function in (a) Equation 7.68 satisfies Equation 7.61, and (b) Equation 7.69 satisfies Equation 7.63.
+70. A 6.0-eV electron impacts on a barrier with height 11.0 eV. Find the probability of the electron to tunnel through the barrier if the barrier width is (a) 0.80 nm and (b) 0.40 nm.
+71. A 5.0-eV electron impacts on a barrier of with 0.60 nm. Find the probability of the electron to tunnel through the barrier if the barrier height is (a) 7.0 eV; (b) 9.0 eV; and (c) 13.0 eV.
+72. A 12.0-eV electron encounters a barrier of height 15.0 eV. If the probability of the electron tunneling through the barrier is 2.5 %, find its width.
+73. A quantum particle with initial kinetic energy 32.0 eV encounters a square barrier with height 41.0 eV and width 0.25 nm. Find probability that the particle tunnels through this barrier if the particle is (a) an electron and, (b) a proton.
+74. A simple model of a radioactive nuclear decay assumes that α-particles are trapped inside a well of nuclear potential that walls are the barriers of a finite width 2.0 fm and height 30.0 MeV. Find the tunneling probability across the potential barrier of the wall for α-particles having kinetic energy (a) 29.0 MeV and (b) 20.0 MeV. The mass of the α-particle is m=6.64×10−27kg.
+75. A muon, a quantum particle with a mass approximately 200 times that of an electron, is incident on a potential barrier of height 10.0 eV. The kinetic energy of the impacting muon is 5.5 eV and only about 0.10% of the squared amplitude of its incoming wave function filters through the barrier. What is the barrier’s width?
+76. A grain of sand with mass 1.0 mg and kinetic energy 1.0 J is incident on a potential energy barrier with height 1.000001 J and width 2500 nm. How many grains of sand have to fall on this barrier before, on the average, one passes through?

@@ -1,0 +1,106 @@
+Problems
+10.1 Properties of Nuclei
+21. Find the atomic numbers, mass numbers, and neutron numbers for (a) 5829Cu, (b) 2411Na, (c) 21084Po, (d) 4520Ca, and (e) 20682Pb.
+22. Silver has two stable isotopes. The nucleus, 10747Ag, has atomic mass 106.905095 g/mol with an abundance of 51.83%; whereas 10947Ag has atomic mass 108.904754 g/mol with an abundance of 48.17%. Find the atomic mass of the element silver.
+23. The mass (M) and the radius (r) of a nucleus can be expressed in terms of the mass number, A. (a) Show that the density of a nucleus is independent of A. (b) Calculate the density of a gold (Au) nucleus. Compare your answer to that for iron (Fe).
+24. A particle has a mass equal to 10 u. If this mass is converted completely into energy, how much energy is released? Express your answer in mega-electron volts (MeV). (Recall that 1eV=1.6×10−19J.)
+25. Find the length of a side of a cube having a mass of 1.0 kg and the density of nuclear matter.
+26. The detail that you can observe using a probe is limited by its wavelength. Calculate the energy of a particle that has a wavelength of 1×10−16m, small enough to detect details about one-tenth the size of a nucleon.
+10.2 Nuclear Binding Energy
+27. How much energy would be released if six hydrogen atoms and six neutrons were combined to form 126C?
+28. Find the mass defect and the binding energy for the helium-4 nucleus.
+29. 56Fe is among the most tightly bound of all nuclides. It makes up more than 90% of natural iron. Note that 56Fe has even numbers of protons and neutrons. Calculate the binding energy per nucleon for 56Fe and compare it with the approximate value obtained from the graph in Figure 10.7.
+30. 209Bi is the heaviest stable nuclide, and its BEN is low compared with medium-mass nuclides. Calculate BEN for this nucleus and compare it with the approximate value obtained from the graph in Figure 10.7.
+31. (a) Calculate BEN for 235U, the rarer of the two most common uranium isotopes; (b) Calculate BEN for 238U. (Most of uranium is 238U.)
+32. The fact that BEN peaks at roughly A=60 implies that the range of the strong nuclear force is about the diameter of this nucleus.
+(a) Calculate the diameter of A=60 nucleus.
+
+(b) Compare BEN for 58Ni and90Sr. The first is one of the most tightly bound nuclides, whereas the second is larger and less tightly bound.
+
+10.3 Radioactive Decay
+33. A sample of radioactive material is obtained from a very old rock. A plot lnA verses t yields a slope value of −10−9s−1 (see Figure 10.10(b)). What is the half-life of this material?
+34. Show that: T––=1λ.
+35. The half-life of strontium-91, 9138Sr is 9.70 h. Find (a) its decay constant and (b) for an initial 1.00-g sample, the activity after 15 hours.
+36. A sample of pure carbon-14 (T1/2=5730y) has an activity of 1.0μCi. What is the mass of the sample?
+37. A radioactive sample initially contains 2.40×10−2 mol of a radioactive material whose half-life is 6.00 h. How many moles of the radioactive material remain after 6.00 h? After 12.0 h? After 36.0 h?
+38. An old campfire is uncovered during an archaeological dig. Its charcoal is found to contain less than 1/1000 the normal amount of 14C. Estimate the minimum age of the charcoal, noting that 210=1024.
+39. Calculate the activity R, in curies of 1.00 g of 226Ra. (b) Explain why your answer is not exactly 1.00 Ci, given that the curie was originally supposed to be exactly the activity of a gram of radium.
+40. Natural uranium consists of 235U (percent abundance=0.7200%, λ=3.12×10−17/s) and 238U (percent abundance=99.27%, λ=4.92×10−18/s). What were the values for percent abundance of 235U and 238U when Earth formed 4.5×109 years ago?
+41. World War II aircraft had instruments with glowing radium-painted dials. The activity of one such instrument was 1.0×105 Bq when new. (a) What mass of 226Ra was present? (b) After some years, the phosphors on the dials deteriorated chemically, but the radium did not escape. What is the activity of this instrument 57.0 years after it was made?
+42. The 210Po source used in a physics laboratory is labeled as having an activity of 1.0μCi on the date it was prepared. A student measures the radioactivity of this source with a Geiger counter and observes 1500 counts per minute. She notices that the source was prepared 120 days before her lab. What fraction of the decays is she observing with her apparatus?
+43. Armor-piercing shells with depleted uranium cores are fired by aircraft at tanks. (The high density of the uranium makes them effective.) The uranium is called depleted because it has had its 235U removed for reactor use and is nearly pure 238U. Depleted uranium has been erroneously called nonradioactive. To demonstrate that this is wrong: (a) Calculate the activity of 60.0 g of pure 238U. (b) Calculate the activity of 60.0 g of natural uranium, neglecting the 234U and all daughter nuclides.
+10.4 Nuclear Reactions
+44. 249Cf undergoes alpha decay. (a) Write the reaction equation. (b) Find the energy released in the decay.
+45. (a) Calculate the energy released in the α decay of 238U. (b) What fraction of the mass of a single 238U is destroyed in the decay? The mass of 234Th is 234.043593 u. (c) Although the fractional mass loss is large for a single nucleus, it is difficult to observe for an entire macroscopic sample of uranium. Why is this?
+46. The β− particles emitted in the decay of 3H (tritium) interact with matter to create light in a glow-in-the-dark exit sign. At the time of manufacture, such a sign contains 15.0 Ci of 3H. (a) What is the mass of the tritium? (b) What is its activity 5.00 y after manufacture?
+47. (a) Write the complete β− decay equation for 90Sr, a major waste product of nuclear reactors. (b) Find the energy released in the decay.
+48. Write a nuclear β− decay reaction that produces the 90Y nucleus. (Hint: The parent nuclide is a major waste product of reactors and has chemistry similar to calcium, so that it is concentrated in bones if ingested.)
+49. Write the complete decay equation in the complete AZXN notation for the beta (β−) decay of 3H (tritium), a manufactured isotope of hydrogen used in some digital watch displays, and manufactured primarily for use in hydrogen bombs.
+50. If a 1.50-cm-thick piece of lead can absorb 90.0% of the rays from a radioactive source, how many centimeters of lead are needed to absorb all but 0.100% of the rays?
+51. An electron can interact with a nucleus through the beta-decay process:
+AZX+e−→Y+ve.
+
+(a) Write the complete reaction equation for electron capture by 7Be.
+
+(b) Calculate the energy released.
+
+52. (a) Write the complete reaction equation for electron capture by 15O.
+(b) Calculate the energy released.
+
+53. A rare decay mode has been observed in which 222Ra emits a 14C nucleus. (a) The decay equation is 222Ra→AX+14C. Identify the nuclide AX. (b) Find the energy emitted in the decay. The mass of 222Ra is 222.015353 u.
+10.5 Fission
+54. A large power reactor that has been in operation for some months is turned off, but residual activity in the core still produces 150 MW of power. If the average energy per decay of the fission products is 1.00 MeV, what is the core activity?
+55. (a) Calculate the energy released in this rare neutron-induced fission n+238U→96Sr+140Xe+3n, given m(96Sr)=95.921750u and m(140Xe)=139.92164.
+(b) This result is about 6 MeV greater than the result for spontaneous fission. Why?
+
+(c) Confirm that the total number of nucleons and total charge are conserved in this reaction.
+
+56. (a) Calculate the energy released in the neutron-induced fission reaction n+235U→92Kr+142Ba+2n, given m(92Kr)=91.926269u and m(142Ba)=141.916361u. (b) Confirm that the total number of nucleons and total charge are conserved in this reaction.
+57. The electrical power output of a large nuclear reactor facility is 900 MW. It has a 35.0% efficiency in converting nuclear power to electrical power.
+(a) What is the thermal nuclear power output in megawatts?
+
+(b) How many 235U nuclei fission each second, assuming the average fission produces 200 MeV?
+
+(c) What mass of 235U is fissioned in 1 year of full-power operation?
+
+58. Find the total energy released if 1.00 kg of 23592U were to undergo fission.
+10.6 Nuclear Fusion
+59. Verify that the total number of nucleons, and total charge are conserved for each of the following fusion reactions in the proton-proton chain.
+(i) 1H+1H→2H+e++ve,
+
+(ii) 1H+2H→3He+γ, and (iii) 3He+3He→4He+1H+1H.
+
+(List the value of each of the conserved quantities before and after each of the reactions.)
+
+60. Calculate the energy output in each of the fusion reactions in the proton-proton chain, and verify the values determined in the preceding problem.
+61. Show that the total energy released in the proton-proton chain is 26.7 MeV, considering the overall effect in 1H+1H→2H+e++ve, 1H+2H→3He+γ, and 3He+3He→4He+1H+1H. Be sure to include the annihilation energy.
+62. Two fusion reactions mentioned in the text are n+3He→4He+γ and n+1H→2H+γ. Both reactions release energy, but the second also creates more fuel. Confirm that the energies produced in the reactions are 20.58 and 2.22 MeV, respectively. Comment on which product nuclide is most tightly bound, 4He or 2H.
+63. The power output of the Sun is 4×1026W. (a) If 90% of this energy is supplied by the proton-proton chain, how many protons are consumed per second? (b) How many neutrinos per second should there be per square meter at the surface of Earth from this process?
+64. Another set of reactions that fuses hydrogen into helium in the Sun and especially in hotter stars is called the CNO cycle:
+12C+1H→13N+γ
+
+13N→13C+e++ve
+
+13C+1H→14N+γ
+
+14N+1H→15O+γ
+
+15O→15N+e++ve
+
+15N+1H→12C+4He
+
+This process is a “cycle” because 12C appears at the beginning and end of these reactions. Write down the overall effect of this cycle (as done for the proton-proton chain in 2e−+41H→4He+2ve+6γ). Assume that the positrons annihilate electrons to form more γ rays.
+
+65. (a) Calculate the energy released by the fusion of a 1.00-kg mixture of deuterium and tritium, which produces helium. There are equal numbers of deuterium and tritium nuclei in the mixture.
+(b) If this process takes place continuously over a period of a year, what is the average power output?
+
+10.7 Medical Applications and Biological Effects of Nuclear Radiation
+66. What is the dose in mSv for: (a) a 0.1-Gy X-ray? (b) 2.5 mGy of neutron exposure to the eye? (c) 1.5m Gy of α exposure?
+67. Find the radiation dose in Gy for: (a) A 10-mSv fluoroscopic X-ray series. (b) 50 mSv of skin exposure by an α emitter. (c) 160 mSv of β− and γ rays from the 40K in your body.
+68. Find the mass of 239Pu that has an activity of 1.00μCi.
+69. In the 1980s, the term picowave was used to describe food irradiation in order to overcome public resistance by playing on the well-known safety of microwave radiation. Find the energy in MeV of a photon having a wavelength of a picometer.
+70. What is the dose in Sv in a cancer treatment that exposes the patient to 200 Gy of γ rays?
+71. One half the γ rays from 99mTc are absorbed by a 0.170-mm-thick lead shielding. Half of the γ rays that pass through the first layer of lead are absorbed in a second layer of equal thickness. What thickness of lead will absorb all but one in 1000 of these γ rays?
+72. How many Gy of exposure is needed to give a cancerous tumor a dose of 40 Sv if it is exposed to α activity?
+73. A plumber at a nuclear power plant receives a whole-body dose of 30 mSv in 15 minutes while repairing a crucial valve. Find the radiation-induced yearly risk of death from cancer and the chance of genetic defect from this maximum allowable exposure.
+74. Calculate the dose in rem/y for the lungs of a weapons plant employee who inhales and retains an activity of 1.00μCi 239Pu in an accident. The mass of affected lung tissue is 2.00 kg and the plutonium decays by emission of a 5.23-MeV α particle. Assume a RBE value of 20.

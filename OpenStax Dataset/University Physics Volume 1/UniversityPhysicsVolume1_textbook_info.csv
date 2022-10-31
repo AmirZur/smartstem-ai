@@ -1,0 +1,331 @@
+﻿Chapter Name (Topic),Chapter Number ,Subchapter Name (Subtopic),Subchapter Number,Subchapter Learning Objectives
+Units and Measurement,1,The Scope and Scale of Physics,1.1,"Describe the scope of physics.
+Calculate the order of magnitude of a quantity.
+Compare measurable length, mass, and timescales quantitatively.
+Describe the relationships among models, theories, and laws."
+Units and Measurement,1,Units and Standards,1.2,"Describe how SI base units are defined.
+Describe how derived units are created from base units.
+Express quantities given in SI units using metric prefixes."
+Units and Measurement,1,Unit Conversion,1.3,Use conversion factors to express the value of a given quantity in different units.
+Units and Measurement,1,Dimensional Analysis,1.4,"Find the dimensions of a mathematical expression involving physical quantities.
+Determine whether an equation involving physical quantities is dimensionally consistent."
+Units and Measurement,1,Estimates and Fermi Calculations,1.5,Estimate the values of physical quantities.
+Units and Measurement,1,Significant Figures,1.6,"Determine the correct number of significant figures for the result of a computation.
+Describe the relationship between the concepts of accuracy, precision, uncertainty, and discrepancy.
+Calculate the percent uncertainty of a measurement, given its value and its uncertainty.
+Determine the uncertainty of the result of a computation involving quantities with given uncertainties."
+Units and Measurement,1,Solving Problems in Physics,1.7,"Describe the process for developing a problem-solving strategy.
+Explain how to find the numerical solution to a problem.
+Summarize the process for assessing the significance of the numerical solution to a problem."
+Vectors,2,Scalars and Vectors,2.1,"Describe the difference between vector and scalar quantities.
+Identify the magnitude and direction of a vector.
+Explain the effect of multiplying a vector quantity by a scalar.
+Describe how one-dimensional vector quantities are added or subtracted.
+Explain the geometric construction for the addition or subtraction of vectors in a plane.
+Distinguish between a vector equation and a scalar equation."
+Vectors,2,Coordinate Systems and Components of a Vector,2.2,"Describe vectors in two and three dimensions in terms of their components, using unit vectors along the axes.
+Distinguish between the vector components of a vector and the scalar components of a vector.
+Explain how the magnitude of a vector is defined in terms of the components of a vector.
+Identify the direction angle of a vector in a plane.
+Explain the connection between polar coordinates and Cartesian coordinates in a plane."
+Vectors,2,Algebra of Vectors,2.3,"Apply analytical methods of vector algebra to find resultant vectors and to solve vector equations for unknown vectors.
+Interpret physical situations in terms of vector expressions."
+Vectors,2,Products of Vectors,2.4,"Explain the difference between the scalar product and the vector product of two vectors.
+Determine the scalar product of two vectors.
+Determine the vector product of two vectors.
+Describe how the products of vectors are used in physics."
+Motion Along a Straight Line,3,"Position, Displacement, and Average Velocity",3.1,"Define position, displacement, and distance traveled.
+Calculate the total displacement given the position as a function of time.
+Determine the total distance traveled.
+Calculate the average velocity given the displacement and elapsed time."
+Motion Along a Straight Line,3,Instantaneous Velocity and Speed,3.2,"Explain the difference between average velocity and instantaneous velocity.
+Describe the difference between velocity and speed.
+Calculate the instantaneous velocity given the mathematical equation for the velocity.
+Calculate the speed given the instantaneous velocity."
+Motion Along a Straight Line,3,Average and Instantaneous Acceleration,3.3,"Calculate the average acceleration between two points in time.
+Calculate the instantaneous acceleration given the functional form of velocity.
+Explain the vector nature of instantaneous acceleration and velocity.
+Explain the difference between average acceleration and instantaneous acceleration.
+Find instantaneous acceleration at a specified time on a graph of velocity versus time."
+Motion Along a Straight Line,3,Motion with Constant Acceleration,3.4,"Identify which equations of motion are to be used to solve for unknowns.
+Use appropriate equations of motion to solve a two-body pursuit problem."
+Motion Along a Straight Line,3,Free Fall,3.5,"Use the kinematic equations with the variables y and g to analyze free-fall motion.
+Describe how the values of the position, velocity, and acceleration change during a free fall.
+Solve for the position, velocity, and acceleration as functions of time when an object is in a free fall."
+Motion Along a Straight Line,3,Finding Velocity and Displacement from Acceleration,3.6,"Derive the kinematic equations for constant acceleration using integral calculus.
+Use the integral formulation of the kinematic equations in analyzing motion.
+Find the functional form of velocity versus time given the acceleration function.
+Find the functional form of position versus time given the velocity function."
+Motion in Two and Three Dimensions,4,Displacement and Velocity Vectors,4.1,"Calculate position vectors in a multidimensional displacement problem.
+Solve for the displacement in two or three dimensions.
+Calculate the velocity vector given the position vector as a function of time.
+Calculate the average velocity in multiple dimensions."
+Motion in Two and Three Dimensions,4,Acceleration Vector,4.2,"Calculate the acceleration vector given the velocity function in unit vector notation.
+Describe the motion of a particle with a constant acceleration in three dimensions.
+Use the one-dimensional motion equations along perpendicular axes to solve a problem in two or three dimensions with a constant acceleration.
+Express the acceleration in unit vector notation."
+Motion in Two and Three Dimensions,4,Projectile Motion,4.3,"Use one-dimensional motion in perpendicular directions to analyze projectile motion.
+Calculate the range, time of flight, and maximum height of a projectile that is launched and impacts a flat, horizontal surface.
+Find the time of flight and impact velocity of a projectile that lands at a different height from that of launch.
+Calculate the trajectory of a projectile."
+Motion in Two and Three Dimensions,4,Uniform Circular Motion,4.4,"Solve for the centripetal acceleration of an object moving on a circular path.
+Use the equations of circular motion to find the position, velocity, and acceleration of a particle executing circular motion.
+Explain the differences between centripetal acceleration and tangential acceleration resulting from nonuniform circular motion.
+Evaluate centripetal and tangential acceleration in nonuniform circular motion, and find the total acceleration vector."
+Motion in Two and Three Dimensions,4,Relative Motion in One and Two Dimensions,4.5,"Explain the concept of reference frames.
+Write the position and velocity vector equations for relative motion.
+Draw the position and velocity vectors for relative motion.
+Analyze one-dimensional and two-dimensional relative motion problems using the position and velocity vector equations."
+Newton's Laws of Motion,5,Forces,5.1,"Distinguish between kinematics and dynamics
+Understand the definition of force
+Identify simple free-body diagrams
+Define the SI unit of force, the newton
+Describe force as a vector"
+Newton's Laws of Motion,5,Newton's First Law,5.2,"Describe Newton's first law of motion
+Recognize friction as an external force
+Define inertia
+Identify inertial reference frames
+Calculate equilibrium for a system"
+Newton's Laws of Motion,5,Newton's Second Law,5.3,"Distinguish between external and internal forces
+Describe Newton's second law of motion
+Explain the dependence of acceleration on net force and mass"
+Newton's Laws of Motion,5,Mass and Weight,5.4,"Explain the difference between mass and weight
+Explain why falling objects on Earth are never truly in free fall
+Describe the concept of weightlessness"
+Newton's Laws of Motion,5,Newton’s Third Law,5.5,"State Newton’s third law of motion
+Identify the action and reaction forces in different situations
+Apply Newton’s third law to define systems and solve problems of motion"
+Newton's Laws of Motion,5,Common Forces,5.6,"Define normal and tension forces
+Distinguish between real and fictitious forces
+Apply Newton’s laws of motion to solve problems involving a variety of forces"
+Newton's Laws of Motion,5,Drawing Free-Body Diagrams,5.7,"Explain the rules for drawing a free-body diagram
+Construct free-body diagrams for different situations"
+Applications of Newton's Laws,6,Solving Problems with Newton’s Laws,6.1,"Apply problem-solving techniques to solve for quantities in more complex systems of forces
+Use concepts from kinematics to solve problems using Newton’s laws of motion
+Solve more complex equilibrium problems
+Solve more complex acceleration problems
+Apply calculus to more advanced dynamics problems"
+Applications of Newton's Laws,6,Friction,6.2,"Describe the general characteristics of friction
+List the various types of friction
+Calculate the magnitude of static and kinetic friction, and use these in problems involving Newton’s laws of motion"
+Applications of Newton's Laws,6,Centripetal Force,6.3,"Explain the equation for centripetal acceleration
+Apply Newton’s second law to develop the equation for centripetal force
+Use circular motion concepts in solving problems involving Newton’s laws of motion"
+Applications of Newton's Laws,6,Drag Force and Terminal Speed,6.4,"Express the drag force mathematically
+Describe applications of the drag force
+Define terminal velocity
+Determine an object’s terminal velocity given its mass"
+Work and Kinetic Energy,7,Work,7.1,"Represent the work done by any force
+Evaluate the work done for various forces"
+Work and Kinetic Energy,7,Kinetic Energy,7.2,"Calculate the kinetic energy of a particle given its mass and its velocity or momentum
+Evaluate the kinetic energy of a body, relative to different frames of reference"
+Work and Kinetic Energy,7,Work-Energy Theorem,7.3,"Apply the work-energy theorem to find information about the motion of a particle, given the forces acting on it
+Use the work-energy theorem to find information about the forces acting on a particle, given information about its motion"
+Work and Kinetic Energy,7,Power,7.4,"Relate the work done during a time interval to the power delivered
+Find the power expended by a force acting on a moving body"
+Potential Energy and Conservation of Energy,8,Potential Energy of a System,8.1,"Relate the difference of potential energy to work done on a particle for a system without friction or air drag
+Explain the meaning of the zero of the potential energy function for a system
+Calculate and apply the gravitational potential energy for an object near Earth’s surface and the elastic potential energy of a mass-spring system"
+Potential Energy and Conservation of Energy,8,Conservative and Non-Conservative Forces,8.2,"Characterize a conservative force in several different ways
+Specify mathematical conditions that must be satisfied by a conservative force and its components
+Relate the conservative force between particles of a system to the potential energy of the system
+Calculate the components of a conservative force in various cases"
+Potential Energy and Conservation of Energy,8,Conservation of Energy,8.3,"Formulate the principle of conservation of mechanical energy, with or without the presence of non-conservative forces
+Use the conservation of mechanical energy to calculate various properties of simple systems"
+Potential Energy and Conservation of Energy,8,Potential Energy Diagrams and Stability,8.4,"Create and interpret graphs of potential energy
+Explain the connection between stability and potential energy"
+Potential Energy and Conservation of Energy,8,Sources of Energy,8.5,"Describe energy transformations and conversions in general terms
+Explain what it means for an energy source to be renewable or nonrenewable"
+Linear Momentum and Collisions,9,Linear Momentum,9.1,"Explain what momentum is, physically
+Calculate the momentum of a moving object"
+Linear Momentum and Collisions,9,Impulse and Collisions,9.2,"Explain what an impulse is, physically
+Describe what an impulse does
+Relate impulses to collisions
+Apply the impulse-momentum theorem to solve problems"
+Linear Momentum and Collisions,9,Conservation of Linear Momentum,9.3,"Explain the meaning of “conservation of momentum”
+Correctly identify if a system is, or is not, closed
+Define a system whose momentum is conserved
+Mathematically express conservation of momentum for a given system
+Calculate an unknown quantity using conservation of momentum"
+Linear Momentum and Collisions,9,Types of Collisions,9.4,"Identify the type of collision
+Correctly label a collision as elastic or inelastic
+Use kinetic energy along with momentum and impulse to analyze a collision"
+Linear Momentum and Collisions,9,Collisions in Multiple Dimensions,9.5,"Express momentum as a two-dimensional vector
+Write equations for momentum conservation in component form
+Calculate momentum in two dimensions, as a vector quantity"
+Linear Momentum and Collisions,9,Center of Mass,9.6,"Explain the meaning and usefulness of the concept of center of mass
+Calculate the center of mass of a given system
+Apply the center of mass concept in two and three dimensions
+Calculate the velocity and acceleration of the center of mass"
+Linear Momentum and Collisions,9,Rocket Propulsion,9.7,"Describe the application of conservation of momentum when the mass changes with time, as well as the velocity
+Calculate the speed of a rocket in empty space, at some time, given initial conditions
+Calculate the speed of a rocket in Earth’s gravity field, at some time, given initial conditions"
+Fixed-Axis Rotation,10,Rotational Variables,10.1,"Describe the physical meaning of rotational variables as applied to fixed-axis rotation
+Explain how angular velocity is related to tangential speed
+Calculate the instantaneous angular velocity given the angular position function
+Find the angular velocity and angular acceleration in a rotating system
+Calculate the average angular acceleration when the angular velocity is changing
+Calculate the instantaneous angular acceleration given the angular velocity function"
+Fixed-Axis Rotation,10,Rotation with Constant Angular Acceleration,10.2,"Derive the kinematic equations for rotational motion with constant angular acceleration
+Select from the kinematic equations for rotational motion with constant angular acceleration the appropriate equations to solve for unknowns in the analysis of systems undergoing fixed-axis rotation
+Use solutions found with the kinematic equations to verify the graphical analysis of fixed-axis rotation with constant angular acceleration"
+Fixed-Axis Rotation,10,Relating Angular and Translational Quantities,10.3,"Given the linear kinematic equation, write the corresponding rotational kinematic equation
+Calculate the linear distances, velocities, and accelerations of points on a rotating system given the angular velocities and accelerations"
+Fixed-Axis Rotation,10,Moment of Inertia and Rotational Kinetic Energy,10.4,"Describe the differences between rotational and translational kinetic energy
+Define the physical concept of moment of inertia in terms of the mass distribution from the rotational axis
+Explain how the moment of inertia of rigid bodies affects their rotational kinetic energy
+Use conservation of mechanical energy to analyze systems undergoing both rotation and translation
+Calculate the angular velocity of a rotating system when there are energy losses due to nonconservative forces"
+Fixed-Axis Rotation,10,Calculating Moments of Inertia,10.5,"Calculate the moment of inertia for uniformly shaped, rigid bodies
+Apply the parallel axis theorem to find the moment of inertia about any axis parallel to one already known
+Calculate the moment of inertia for compound objects"
+Fixed-Axis Rotation,10,Torque,10.6,"Describe how the magnitude of a torque depends on the magnitude of the lever arm and the angle the force vector makes with the lever arm
+Determine the sign (positive or negative) of a torque using the right-hand rule
+Calculate individual torques about a common axis and sum them to find the net torque"
+Fixed-Axis Rotation,10,Newton’s Second Law for Rotation,10.7,"Calculate the torques on rotating systems about a fixed axis to find the angular acceleration
+Explain how changes in the moment of inertia of a rotating system affect angular acceleration with a fixed applied torque"
+Fixed-Axis Rotation,10,Work and Power for Rotational Motion,10.8,"Use the work-energy theorem to analyze rotation to find the work done on a system when it is rotated about a fixed axis for a finite angular displacement
+Solve for the angular velocity of a rotating rigid body using the work-energy theorem
+Find the power delivered to a rotating rigid body given the applied torque and angular velocity
+Summarize the rotational variables and equations and relate them to their translational counterparts"
+Angular Momentum,11,Rolling Motion,11.1,"Describe the physics of rolling motion without slipping
+Explain how linear variables are related to angular variables for the case of rolling motion without slipping
+Find the linear and angular accelerations in rolling motion with and without slipping
+Calculate the static friction force associated with rolling motion without slipping
+Use energy conservation to analyze rolling motion"
+Angular Momentum,11,Angular Momentum,11.2,"Describe the vector nature of angular momentum
+Find the total angular momentum and torque about a designated origin of a system of particles
+Calculate the angular momentum of a rigid body rotating about a fixed axis
+Calculate the torque on a rigid body rotating about a fixed axis
+Use conservation of angular momentum in the analysis of objects that change their rotation rate"
+Angular Momentum,11,Conservation of Angular Momentum,11.3,"Apply conservation of angular momentum to determine the angular velocity of a rotating system in which the moment of inertia is changing
+Explain how the rotational kinetic energy changes when a system undergoes changes in both moment of inertia and angular velocity"
+Angular Momentum,11,Precession of a Gyroscope,11.4,"Describe the physical processes underlying the phenomenon of precession
+Calculate the precessional angular velocity of a gyroscope"
+Static Equilibrium and Elasticity,12,Conditions for Static Equilibrium,12.1,"Identify the physical conditions of static equilibrium.
+Draw a free-body diagram for a rigid body acted on by forces.
+Explain how the conditions for equilibrium allow us to solve statics problems."
+Static Equilibrium and Elasticity,12,Examples of Static Equilibrium,12.2,"Identify and analyze static equilibrium situations
+Set up a free-body diagram for an extended object in static equilibrium
+Set up and solve static equilibrium conditions for objects in equilibrium in various physical situations"
+Static Equilibrium and Elasticity,12,"Stress, Strain, and Elastic Modulus",12.3,"Explain the concepts of stress and strain in describing elastic deformations of materials
+Describe the types of elastic deformation of objects and materials"
+Static Equilibrium and Elasticity,12,Elasticity and Plasticity,12.4,"Explain the limit where a deformation of material is elastic
+Describe the range where materials show plastic behavior
+Analyze elasticity and plasticity on a stress-strain diagram"
+Gravitation,13,Newton's Law of Universal Gravitation,13.1,"List the significant milestones in the history of gravitation
+Calculate the gravitational force between two point masses
+Estimate the gravitational force between collections of mass"
+Gravitation,13,Gravitation Near Earth's Surface,13.2,"Explain the connection between the constants  G  and  g 
+Determine the mass of an astronomical body from free-fall acceleration at its surface
+Describe how the value of  g  varies due to location and Earth’s rotation"
+Gravitation,13,Gravitational Potential Energy and Total Energy,13.3,"Determine changes in gravitational potential energy over great distances
+Apply conservation of energy to determine escape velocity
+Determine whether astronomical bodies are gravitationally bound"
+Gravitation,13,Satellite Orbits and Energy,13.4,"Describe the mechanism for circular orbits
+Find the orbital periods and speeds of satellites
+Determine whether objects are gravitationally bound"
+Gravitation,13,Kepler's Laws of Planetary Motion,13.5,"Describe the conic sections and how they relate to orbital motion
+Describe how orbital velocity is related to conservation of angular momentum
+Determine the period of an elliptical orbit from its major axis"
+Gravitation,13,Tidal Forces,13.6,"Explain the origins of Earth’s ocean tides
+Describe how neap and leap tides differ
+Describe how tidal forces affect binary systems"
+Gravitation,13,Einstein's Theory of Gravity,13.7,"Describe how the theory of general relativity approaches gravitation
+Explain the principle of equivalence
+Calculate the Schwarzschild radius of an object
+Summarize the evidence for black holes"
+Fluid Mechanics,14,"Fluids, Density, and Pressure",14.1,"State the different phases of matter
+Describe the characteristics of the phases of matter at the molecular or atomic level
+Distinguish between compressible and incompressible materials
+Define density and its related SI units
+Compare and contrast the densities of various substances
+Define pressure and its related SI units
+Explain the relationship between pressure and force
+Calculate force given pressure and area"
+Fluid Mechanics,14,Measuring Pressure,14.2,"Define gauge pressure and absolute pressure
+Explain various methods for measuring pressure
+Understand the working of open-tube barometers
+Describe in detail how manometers and barometers operate"
+Fluid Mechanics,14,Pascal's Principle and Hydraulics,14.3,"State Pascal’s principle
+Describe applications of Pascal’s principle
+Derive relationships between forces in a hydraulic system"
+Fluid Mechanics,14,Archimedes’ Principle and Buoyancy,14.4,"Define buoyant force
+State Archimedes’ principle
+Describe the relationship between density and Archimedes’ principle"
+Fluid Mechanics,14,Fluid Dynamics,14.5,"Describe the characteristics of flow
+Calculate flow rate
+Describe the relationship between flow rate and velocity
+Explain the consequences of the equation of continuity to the conservation of mass"
+Fluid Mechanics,14,Bernoulli’s Equation,14.6,"Explain the terms in Bernoulli’s equation
+Explain how Bernoulli’s equation is related to the conservation of energy
+Describe how to derive Bernoulli’s principle from Bernoulli’s equation
+Perform calculations using Bernoulli’s principle
+Describe some applications of Bernoulli’s principle"
+Fluid Mechanics,14,Viscosity and Turbulence,14.7,"Explain what viscosity is
+Calculate flow and resistance with Poiseuille's law
+Explain how pressure drops due to resistance
+Calculate the Reynolds number for an object moving through a fluid
+Use the Reynolds number for a system to determine whether it is laminar or turbulent
+Describe the conditions under which an object has a terminal speed"
+Oscillations,15,Simple Harmonic Motion,15.1,"Define the terms period and frequency
+List the characteristics of simple harmonic motion
+Explain the concept of phase shift
+Write the equations of motion for the system of a mass and spring undergoing simple harmonic motion
+Describe the motion of a mass oscillating on a vertical spring"
+Oscillations,15,Energy in Simple Harmonic Motion,15.2,"Describe the energy conservation of the system of a mass and a spring
+Explain the concepts of stable and unstable equilibrium points"
+Oscillations,15,Comparing Simple Harmonic Motion and Circular Motion,15.3,"Describe how the sine and cosine functions relate to the concepts of circular motion
+Describe the connection between simple harmonic motion and circular motion"
+Oscillations,15,Pendulums,15.4,"State the forces that act on a simple pendulum
+Determine the angular frequency, frequency, and period of a simple pendulum in terms of the length of the pendulum and the acceleration due to gravity
+Define the period for a physical pendulum
+Define the period for a torsional pendulum"
+Oscillations,15,Damped Oscillations,15.5,"Describe the motion of damped harmonic motion
+Write the equations of motion for damped harmonic oscillations
+Describe the motion of driven, or forced, damped harmonic motion
+Write the equations of motion for forced, damped harmonic motion"
+Oscillations,15,Forced Oscillations,15.6,"Define forced oscillations
+List the equations of motion associated with forced oscillations
+Explain the concept of resonance and its impact on the amplitude of an oscillator
+List the characteristics of a system oscillating in resonance"
+Waves,16,Traveling Waves,16.1,"Describe the basic characteristics of wave motion
+Define the terms wavelength, amplitude, period, frequency, and wave speed
+Explain the difference between longitudinal and transverse waves, and give examples of each type
+List the different types of waves"
+Waves,16,Mathematics of Waves,16.2,"Model a wave, moving with a constant wave velocity, with a mathematical expression
+Calculate the velocity and acceleration of the medium
+Show how the velocity of the medium differs from the wave velocity (propagation velocity)"
+Waves,16,Wave Speed on a Stretched String,16.3,"Determine the factors that affect the speed of a wave on a string
+Write a mathematical expression for the speed of a wave on a string and generalize these concepts for other media"
+Waves,16,Energy and Power of a Wave,16.4,"Explain how energy travels with a pulse or wave
+Describe, using a mathematical expression, how the energy in a wave depends on the amplitude of the wave"
+Waves,16,Interference of Waves,16.5,"Explain how mechanical waves are reflected and transmitted at the boundaries of a medium
+Define the terms interference and superposition
+Find the resultant wave of two identical sinusoidal waves that differ only by a phase shift"
+Waves,16,Standing Waves and Resonance,16.6,"Describe standing waves and explain how they are produced
+Describe the modes of a standing wave on a string
+Provide examples of standing waves beyond the waves on a string"
+Sounds,17,Sound Waves,17.1,"Explain the difference between sound and hearing
+Describe sound as a wave
+List the equations used to model sound waves
+Describe compression and rarefactions as they relate to sound"
+Sounds,17,Speed of Sound,17.2,"Explain the relationship between wavelength and frequency of sound
+Determine the speed of sound in different media
+Derive the equation for the speed of sound in air
+Determine the speed of sound in air for a given temperature"
+Sounds,17,Sound Intensity,17.3,"Define the term intensity
+Explain the concept of sound intensity level
+Describe how the human ear translates sound"
+Sounds,17,Normal Modes of a Standing Sound Wave,17.4,"Explain the mechanism behind sound-reducing headphones
+Describe resonance in a tube closed at one end and open at the other end
+Describe resonance in a tube open at both ends"
+Sounds,17,Sources of Musical Sound,17.5,"Describe the resonant frequencies in instruments that can be modeled as a tube with symmetrical boundary conditions
+Describe the resonant frequencies in instruments that can be modeled as a tube with anti-symmetrical boundary conditions"
+Sounds,17,Beats,17.6,"Determine the beat frequency produced by two sound waves that differ in frequency
+Describe how beats are produced by musical instruments"
+Sounds,17,The Doppler Effect,17.7,"Explain the change in observed frequency as a moving source of sound approaches or departs from a stationary observer
+Explain the change in observed frequency as an observer moves toward or away from a stationary source of sound"
+Sounds,17,Shock Waves,17.8,"Explain the mechanism behind sonic booms
+Describe the difference between sonic booms and shock waves
+Describe a bow wake"

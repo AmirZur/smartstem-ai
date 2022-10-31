@@ -1,0 +1,544 @@
+18.1 Periodicity
+1. How do alkali metals differ from alkaline earth metals in atomic structure and general properties?
+2. Why does the reactivity of the alkali metals decrease from cesium to lithium?
+3. Predict the formulas for the nine compounds that may form when each species in column 1 of the table reacts with each species in column 2.
+1	2
+Na	I
+Sr	Se
+Al	O
+4. Predict the best choice in each of the following. You may wish to review the chapter on electronic structure for relevant examples.
+(a) the most metallic of the elements Al, Be, and Ba
+
+(b) the most covalent of the compounds NaCl, CaCl2, and BeCl2
+
+(c) the lowest first ionization energy among the elements Rb, K, and Li
+
+(d) the smallest among Al, Al+, and Al3+
+
+(e) the largest among Cs+, Ba2+, and Xe
+
+5. Sodium chloride and strontium chloride are both white solids. How could you distinguish one from the other?
+6. The reaction of quicklime, CaO, with water produces slaked lime, Ca(OH)2, which is widely used in the construction industry to make mortar and plaster. The reaction of quicklime and water is highly exothermic:
+CaO(𝑠)+H2O(𝑙)⟶Ca(OH)2(𝑠)Δ𝐻=−350 kJmol−1
+(a) What is the enthalpy of reaction per gram of quicklime that reacts?
+
+(b) How much heat, in kilojoules, is associated with the production of 1 ton of slaked lime?
+
+7. Write a balanced equation for the reaction of elemental strontium with each of the following:
+(a) oxygen
+
+(b) hydrogen bromide
+
+(c) hydrogen
+
+(d) phosphorus
+
+(e) water
+
+8. How many moles of ionic species are present in 1.0 L of a solution marked 1.0 M mercury(I) nitrate?
+9. What is the mass of fish, in kilograms, that one would have to consume to obtain a fatal dose of mercury, if the fish contains 30 parts per million of mercury by weight? (Assume that all the mercury from the fish ends up as mercury(II) chloride in the body and that a fatal dose is 0.20 g of HgCl2.) How many pounds of fish is this?
+10. The elements sodium, aluminum, and chlorine are in the same period.
+(a) Which has the greatest electronegativity?
+
+(b) Which of the atoms is smallest?
+
+(c) Write the Lewis structure for the simplest covalent compound that can form between aluminum and chlorine.
+
+(d) Will the oxide of each element be acidic, basic, or amphoteric?
+
+11. Does metallic tin react with HCl?
+12. What is tin pest, also known as tin disease?
+13. Compare the nature of the bonds in PbCl2 to that of the bonds in PbCl4.
+14. Is the reaction of rubidium with water more or less vigorous than that of sodium? How does the rate of reaction of magnesium compare?
+18.2 Occurrence and Preparation of the Representative Metals
+15. Write an equation for the reduction of cesium chloride by elemental calcium at high temperature.
+16. Why is it necessary to keep the chlorine and sodium, resulting from the electrolysis of sodium chloride, separate during the production of sodium metal?
+17. Give balanced equations for the overall reaction in the electrolysis of molten lithium chloride and for the reactions occurring at the electrodes. You may wish to review the chapter on electrochemistry for relevant examples.
+18. The electrolysis of molten sodium chloride or of aqueous sodium chloride produces chlorine.
+Calculate the mass of chlorine produced from 3.00 kg sodium chloride in each case. You may wish to review the chapter on electrochemistry for relevant examples.
+
+19. What mass, in grams, of hydrogen gas forms during the complete reaction of 10.01 g of calcium with water?
+20. How many grams of oxygen gas are necessary to react completely with 3.01 × 1021 atoms of magnesium to yield magnesium oxide?
+21. Magnesium is an active metal; it burns in the form of powder, ribbons, and filaments to provide flashes of brilliant light. Why is it possible to use magnesium in construction?
+22. Why is it possible for an active metal like aluminum to be useful as a structural metal?
+23. Describe the production of metallic aluminum by electrolytic reduction.
+24. What is the common ore of tin and how is tin separated from it?
+25. A chemist dissolves a 1.497-g sample of a type of metal (an alloy of Sn, Pb, Sb, and Cu) in nitric acid, and metastannic acid, H2SnO3, is precipitated. She heats the precipitate to drive off the water, which leaves 0.4909 g of tin(IV) oxide. What was the percentage of tin in the original sample?
+26. Consider the production of 100 kg of sodium metal using a current of 50,000 A, assuming a 100% yield.
+(a) How long will it take to produce the 100 kg of sodium metal?
+
+(b) What volume of chlorine at 25 °C and 1.00 atm forms?
+
+27. What mass of magnesium forms when 100,000 A is passed through a MgCl2 melt for 1.00 h if the yield of magnesium is 85% of the theoretical yield?
+18.3 Structure and General Properties of the Metalloids
+28. Give the hybridization of the metalloid and the molecular geometry for each of the following compounds or ions. You may wish to review the chapters on chemical bonding and advanced covalent bonding for relevant examples.
+(a) GeH4
+
+(b) SbF3
+
+(c) Te(OH)6
+
+(d) H2Te
+
+(e) GeF2
+
+(f) TeCl4
+
+(g) SiF62−
+
+(h) SbCl5
+
+(i) TeF6
+
+29. Write a Lewis structure for each of the following molecules or ions. You may wish to review the chapter on chemical bonding.
+(a) H3BPH3
+
+(b) BF4−
+
+(c) BBr3
+
+(d) B(CH3)3
+
+(e) B(OH)3
+
+30. Describe the hybridization of boron and the molecular structure about the boron in each of the following:
+(a) H3BPH3
+
+(b) BF4−
+
+(c) BBr3
+
+(d) B(CH3)3
+
+(e) B(OH)3
+
+31. Using only the periodic table, write the complete electron configuration for silicon, including any empty orbitals in the valence shell. You may wish to review the chapter on electronic structure.
+32. Write a Lewis structure for each of the following molecules and ions:
+(a) (CH3)3SiH
+
+(b) SiO44−
+
+(c) Si2H6
+
+(d) Si(OH)4
+
+(e) SiF62−
+
+33. Describe the hybridization of silicon and the molecular structure of the following molecules and ions:
+(a) (CH3)3SiH
+
+(b) SiO44−
+
+(c) Si2H6
+
+(d) Si(OH)4
+
+(e) SiF62−
+
+34. Describe the hybridization and the bonding of a silicon atom in elemental silicon.
+35. Classify each of the following molecules as polar or nonpolar. You may wish to review the chapter on chemical bonding.
+(a) SiH4
+
+(b) Si2H6
+
+(c) SiCl3H
+
+(d) SiF4
+
+(e) SiCl2F2
+
+36. Silicon reacts with sulfur at elevated temperatures. If 0.0923 g of silicon reacts with sulfur to give 0.3030 g of silicon sulfide, determine the empirical formula of silicon sulfide.
+37. Name each of the following compounds:
+(a) TeO2
+
+(b) Sb2S3
+
+(c) GeF4
+
+(d) SiH4
+
+(e) GeH4
+
+38. Write a balanced equation for the reaction of elemental boron with each of the following (most of these reactions require high temperature):
+(a) F2
+
+(b) O2
+
+(c) S
+
+(d) Se
+
+(e) Br2
+
+39. Why is boron limited to a maximum coordination number of four in its compounds?
+40. Write a formula for each of the following compounds:
+(a) silicon dioxide
+
+(b) silicon tetraiodide
+
+(c) silane
+
+(d) silicon carbide
+
+(e) magnesium silicide
+
+41. From the data given in Appendix G, determine the standard enthalpy change and the standard free energy change for each of the following reactions:
+(a) BF3(𝑔)+3H2O(𝑙)⟶B(OH)3(𝑠)+3HF(𝑔)
+
+(b) BCl3(𝑔)+3H2O(𝑙)⟶B(OH)3(𝑠)+3HCl(𝑔)
+
+(c) B2H6(𝑔)+6H2O(𝑙)⟶2B(OH)3(𝑠)+6H2(𝑔)
+
+42. A hydride of silicon prepared by the reaction of Mg2Si with acid exerted a pressure of 306 torr at 26 °C in a bulb with a volume of 57.0 mL. If the mass of the hydride was 0.0861 g, what is its molecular mass? What is the molecular formula for the hydride?
+43. Suppose you discovered a diamond completely encased in a silicate rock. How would you chemically free the diamond without harming it?
+18.4 Structure and General Properties of the Nonmetals
+44. Carbon forms a number of allotropes, two of which are graphite and diamond. Silicon has a diamond structure. Why is there no allotrope of silicon with a graphite structure?
+45. Nitrogen in the atmosphere exists as very stable diatomic molecules. Why does phosphorus form less stable P4 molecules instead of P2 molecules?
+46. Write balanced chemical equations for the reaction of the following acid anhydrides with water:
+(a) SO3
+
+(b) N2O3
+
+(c) Cl2O7
+
+(d) P4O10
+
+(e) NO2
+
+47. Determine the oxidation number of each element in each of the following compounds:
+(a) HCN
+
+(b) OF2
+
+(c) AsCl3
+
+48. Determine the oxidation state of sulfur in each of the following:
+(a) SO3
+
+(b) SO2
+
+(c) SO32−
+
+49. Arrange the following in order of increasing electronegativity: F; Cl; O; and S.
+50. Why does white phosphorus consist of tetrahedral P4 molecules while nitrogen consists of diatomic N2 molecules?
+18.5 Occurrence, Preparation, and Compounds of Hydrogen
+51. Why does hydrogen not exhibit an oxidation state of 1− when bonded to nonmetals?
+52. The reaction of calcium hydride, CaH2, with water can be characterized as a Lewis acid-base reaction:
+CaH2(𝑠)+2H2O(𝑙)⟶Ca(OH)2(𝑎𝑞)+2H2(𝑔)
+Identify the Lewis acid and the Lewis base among the reactants. The reaction is also an oxidation-reduction reaction. Identify the oxidizing agent, the reducing agent, and the changes in oxidation number that occur in the reaction.
+
+53. In drawing Lewis structures, we learn that a hydrogen atom forms only one bond in a covalent compound. Why?
+54. What mass of CaH2 is necessary to react with water to provide enough hydrogen gas to fill a balloon at 20 °C and 0.8 atm pressure with a volume of 4.5 L? The balanced equation is:
+CaH2(𝑠)+2H2O(𝑙)⟶Ca(OH)2(𝑎𝑞)+2H2(𝑔)
+55. What mass of hydrogen gas results from the reaction of 8.5 g of KH with water?
+KH+H2O⟶KOH+H2
+18.6 Occurrence, Preparation, and Properties of Carbonates
+56. Carbon forms the CO32− ion, yet silicon does not form an analogous SiO32− ion. Why?
+57. Complete and balance the following chemical equations:
+(a) hardening of plaster containing slaked lime
+Ca(OH)2+CO2⟶
+
+(b) removal of sulfur dioxide from the flue gas of power plants
+CaO+SO2⟶
+
+(c) the reaction of baking powder that produces carbon dioxide gas and causes bread to rise
+NaHCO3+NaH2PO4⟶
+
+58. Heating a sample of Na2CO3⋅xH2O weighing 4.640 g until the removal of the water of hydration leaves 1.720 g of anhydrous Na2CO3. What is the formula of the hydrated compound?
+18.7 Occurrence, Preparation, and Properties of Nitrogen
+59. Write the Lewis structures for each of the following:
+(a) NH2−
+
+(b) N2F4
+
+(c) NH2−
+
+(d) NF3
+
+(e) N3−
+
+60. For each of the following, indicate the hybridization of the nitrogen atom (for N3−, the central nitrogen).
+(a) N2F4
+
+(b) NH2−
+
+(c) NF3
+
+(d) N3−
+
+61. Explain how ammonia can function both as a Brønsted base and as a Lewis base.
+62. Determine the oxidation state of nitrogen in each of the following. You may wish to review the chapter on chemical bonding for relevant examples.
+(a) NCl3
+
+(b) ClNO
+
+(c) N2O5
+
+(d) N2O3
+
+(e) NO2−
+
+(f) N2O4
+
+(g) N2O
+
+(h) NO3−
+
+(i) HNO2
+
+(j) HNO3
+
+63. For each of the following, draw the Lewis structure, predict the ONO bond angle, and give the hybridization of the nitrogen. You may wish to review the chapters on chemical bonding and advanced theories of covalent bonding for relevant examples.
+(a) NO2
+
+(b) NO2−
+
+(c) NO2+
+
+64. How many grams of gaseous ammonia will the reaction of 3.0 g hydrogen gas and 3.0 g of nitrogen gas produce?
+65. Although PF5 and AsF5 are stable, nitrogen does not form NF5 molecules. Explain this difference among members of the same group.
+66. The equivalence point for the titration of a 25.00-mL sample of CsOH solution with 0.1062 M HNO3 is at 35.27 mL. What is the concentration of the CsOH solution?
+18.8 Occurrence, Preparation, and Properties of Phosphorus
+67. Write the Lewis structure for each of the following. You may wish to review the chapter on chemical bonding and molecular geometry.
+(a) PH3
+
+(b) PH4+
+
+(c) P2H4
+
+(d) PO43−
+
+(e) PF5
+
+68. Describe the molecular structure of each of the following molecules or ions listed. You may wish to review the chapter on chemical bonding and molecular geometry.
+(a) PH3
+
+(b) PH4+
+
+(c) P2H4
+
+(d) PO43−
+
+69. Complete and balance each of the following chemical equations. (In some cases, there may be more than one correct answer.)
+(a) P4+Al⟶
+
+(b) P4+Na⟶
+
+(c) P4+F2⟶
+
+(d) P4+Cl2⟶
+
+(e) P4+O2⟶
+
+(f) P4O6+O2⟶
+
+70. Describe the hybridization of phosphorus in each of the following compounds: P4O10, P4O6, PH4I (an ionic compound), PBr3, H3PO4, H3PO3, PH3, and P2H4. You may wish to review the chapter on advanced theories of covalent bonding.
+71. What volume of 0.200 M NaOH is necessary to neutralize the solution produced by dissolving 2.00 g of PCl3 is an excess of water? Note that when H3PO3 is titrated under these conditions, only one proton of the acid molecule reacts.
+72. How much POCl3 can form from 25.0 g of PCl5 and the appropriate amount of H2O?
+73. How many tons of Ca3(PO4)2 are necessary to prepare 5.0 tons of phosphorus if the yield is 90%?
+74. Write equations showing the stepwise ionization of phosphorous acid.
+75. Draw the Lewis structures and describe the geometry for the following:
+(a) PF4+
+
+(b) PF5
+
+(c) PF6−
+
+(d) POF3
+
+76. Why does phosphorous acid form only two series of salts, even though the molecule contains three hydrogen atoms?
+77. Assign an oxidation state to phosphorus in each of the following:
+(a) NaH2PO3
+
+(b) PF5
+
+(c) P4O6
+
+(d) K3PO4
+
+(e) Na3P
+
+(f) Na4P2O7
+
+78. Phosphoric acid, one of the acids used in some cola drinks, is produced by the reaction of phosphorus(V) oxide, an acidic oxide, with water. Phosphorus(V) oxide is prepared by the combustion of phosphorus.
+(a) Write the empirical formula of phosphorus(V) oxide.
+
+(b) What is the molecular formula of phosphorus(V) oxide if the molar mass is about 280.
+
+(c) Write balanced equations for the production of phosphorus(V) oxide and phosphoric acid.
+
+(d) Determine the mass of phosphorus required to make 1.00 × 104 kg of phosphoric acid, assuming a yield of 98.85%.
+
+18.9 Occurrence, Preparation, and Compounds of Oxygen
+79. Predict the product of burning francium in air.
+80. Using equations, describe the reaction of water with potassium and with potassium oxide.
+81. Write balanced chemical equations for the following reactions:
+(a) zinc metal heated in a stream of oxygen gas
+
+(b) zinc carbonate heated until loss of mass stops
+
+(c) zinc carbonate added to a solution of acetic acid, CH3CO2H
+
+(d) zinc added to a solution of hydrobromic acid
+
+82. Write balanced chemical equations for the following reactions:
+(a) cadmium burned in air
+
+(b) elemental cadmium added to a solution of hydrochloric acid
+
+(c) cadmium hydroxide added to a solution of acetic acid, CH3CO2H
+
+83. Illustrate the amphoteric nature of aluminum hydroxide by citing suitable equations.
+84. Write balanced chemical equations for the following reactions:
+(a) metallic aluminum burned in air
+
+(b) elemental aluminum heated in an atmosphere of chlorine
+
+(c) aluminum heated in hydrogen bromide gas
+
+(d) aluminum hydroxide added to a solution of nitric acid
+
+85. Write balanced chemical equations for the following reactions:
+(a) sodium oxide added to water
+
+(b) cesium carbonate added to an excess of an aqueous solution of HF
+
+(c) aluminum oxide added to an aqueous solution of HClO4
+
+(d) a solution of sodium carbonate added to solution of barium nitrate
+
+(e) titanium metal produced from the reaction of titanium tetrachloride with elemental sodium
+
+86. What volume of 0.250 M H2SO4 solution is required to neutralize a solution that contains 5.00 g of CaCO3?
+87. Which is the stronger acid, HClO4 or HBrO4? Why?
+88. Write a balanced chemical equation for the reaction of an excess of oxygen with each of the following. Remember that oxygen is a strong oxidizing agent and tends to oxidize an element to its maximum oxidation state.
+(a) Mg
+
+(b) Rb
+
+(c) Ga
+
+(d) C2H2
+
+(e) CO
+
+89. Which is the stronger acid, H2SO4 or H2SeO4? Why? You may wish to review the chapter on acid-base equilibria.
+18.10 Occurrence, Preparation, and Properties of Sulfur
+90. Explain why hydrogen sulfide is a gas at room temperature, whereas water, which has a lower molecular mass, is a liquid.
+91. Give the hybridization and oxidation state for sulfur in SO2, in SO3, and in H2SO4.
+92. Which is the stronger acid, NaHSO3 or NaHSO4?
+93. Determine the oxidation state of sulfur in SF6, SO2F2, and KHS.
+94. Which is a stronger acid, sulfurous acid or sulfuric acid? Why?
+95. Oxygen forms double bonds in O2, but sulfur forms single bonds in S8. Why?
+96. Give the Lewis structure of each of the following:
+(a) SF4
+
+(b) K2SO4
+
+(c) SO2Cl2
+
+(d) H2SO3
+
+(e) SO3
+
+97. Write two balanced chemical equations in which sulfuric acid acts as an oxidizing agent.
+98. Explain why sulfuric acid, H2SO4, which is a covalent molecule, dissolves in water and produces a solution that contains ions.
+99. How many grams of Epsom salts (MgSO4⋅7H2O) will form from 5.0 kg of magnesium?
+18.11 Occurrence, Preparation, and Properties of Halogens
+100. What does it mean to say that mercury(II) halides are weak electrolytes?
+101. Why is SnCl4 not classified as a salt?
+102. The following reactions are all similar to those of the industrial chemicals. Complete and balance the equations for these reactions:
+(a) reaction of a weak base and a strong acid
+NH3+HClO4⟶
+
+(b) preparation of a soluble silver salt for silver plating
+Ag2CO3+HNO3⟶
+
+(c) preparation of strontium hydroxide by electrolysis of a solution of strontium chloride
+SrCl2(𝑎𝑞)+H2O(𝑙)−→−−−−−−−electrolysis
+
+103. Which is the stronger acid, HClO3 or HBrO3? Why?
+104. What is the hybridization of iodine in IF3 and IF5?
+105. Predict the molecular geometries and draw Lewis structures for each of the following. You may wish to review the chapter on chemical bonding and molecular geometry.
+(a) IF5
+
+(b) I3−
+
+(c) PCl5
+
+(d) SeF4
+
+(e) ClF3
+
+106. Which halogen has the highest ionization energy? Is this what you would predict based on what you have learned about periodic properties?
+107. Name each of the following compounds:
+(a) BrF3
+
+(b) NaBrO3
+
+(c) PBr5
+
+(d) NaClO4
+
+(e) KClO
+
+108. Explain why, at room temperature, fluorine and chlorine are gases, bromine is a liquid, and iodine is a solid.
+109. What is the oxidation state of the halogen in each of the following?
+(a) H5IO6
+
+(b) IO4−
+
+(c) ClO2
+
+(d) ICl3
+
+(e) F2
+
+110. Physiological saline concentration—that is, the sodium chloride concentration in our bodies—is approximately 0.16 M. A saline solution for contact lenses is prepared to match the physiological concentration. If you purchase 25 mL of contact lens saline solution, how many grams of sodium chloride have you bought?
+18.12 Occurrence, Preparation, and Properties of the Noble Gases
+111. Give the hybridization of xenon in each of the following. You may wish to review the chapter on the advanced theories of covalent bonding.
+(a) XeF2
+
+(b) XeF4
+
+(c) XeO3
+
+(d) XeO4
+
+(e) XeOF4
+
+112. What is the molecular structure of each of the following molecules? You may wish to review the chapter on chemical bonding and molecular geometry.
+(a) XeF2
+
+(b) XeF4
+
+(c) XeO3
+
+(d) XeO4
+
+(e) XeOF4
+
+113. Indicate whether each of the following molecules is polar or nonpolar. You may wish to review the chapter on chemical bonding and molecular geometry.
+(a) XeF2
+
+(b) XeF4
+
+(c) XeO3
+
+(d) XeO4
+
+(e) XeOF4
+
+114. What is the oxidation state of the noble gas in each of the following? You may wish to review the chapter on chemical bonding and molecular geometry.
+(a) XeO2F2
+
+(b) KrF2
+
+(c) XeF3+
+
+(d) XeO64−
+
+(e) XeO3
+
+115. A mixture of xenon and fluorine was heated. A sample of the white solid that formed reacted with hydrogen to yield 81 mL of xenon (at STP) and hydrogen fluoride, which was collected in water, giving a solution of hydrofluoric acid. The hydrofluoric acid solution was titrated, and 68.43 mL of 0.3172 M sodium hydroxide was required to reach the equivalence point. Determine the empirical formula for the white solid and write balanced chemical equations for the reactions involving xenon.
+116. Basic solutions of Na4XeO6 are powerful oxidants. What mass of Mn(NO3)2•6H2O reacts with 125.0 mL of a 0.1717 M basic solution of Na4XeO6 that contains an excess of sodium hydroxide if the products include Xe and solution of sodium permanganate?

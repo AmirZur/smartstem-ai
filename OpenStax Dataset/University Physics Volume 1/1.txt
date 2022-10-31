@@ -1,0 +1,74 @@
+1.1 The Scope and Scale of Physics
+14. Find the order of magnitude of the following physical quantities. (a) The mass of Earth’s atmosphere: 5.1×1018kg; (b) The mass of the Moon’s atmosphere: 25,000 kg; (c) The mass of Earth’s hydrosphere: 1.4×1021kg; (d) The mass of Earth: 5.97×1024kg; (e) The mass of the Moon: 7.34×1022kg; (f) The Earth–Moon distance (semimajor axis): 3.84×108m; (g) The mean Earth–Sun distance: 1.5×1011m; (h) The equatorial radius of Earth: 6.38×106m; (i) The mass of an electron: 9.11×10−31kg; (j) The mass of a proton: 1.67×10−27kg; (k) The mass of the Sun: 1.99×1030kg.
+15. Use the orders of magnitude you found in the previous problem to answer the following questions to within an order of magnitude. (a) How many electrons would it take to equal the mass of a proton? (b) How many Earths would it take to equal the mass of the Sun? (c) How many Earth–Moon distances would it take to cover the distance from Earth to the Sun? (d) How many Moon atmospheres would it take to equal the mass of Earth’s atmosphere? (e) How many moons would it take to equal the mass of Earth? (f) How many protons would it take to equal the mass of the Sun?
+For the remaining questions, you need to use Figure 1.4 to obtain the necessary orders of magnitude of lengths, masses, and times.
+
+16. Roughly how many heartbeats are there in a lifetime?
+17. A generation is about one-third of a lifetime. Approximately how many generations have passed since the year 0?
+18. Roughly how many times longer than the mean life of an extremely unstable atomic nucleus is the lifetime of a human?
+19. Calculate the approximate number of atoms in a bacterium. Assume the average mass of an atom in the bacterium is 10 times the mass of a proton.
+20. (a) Calculate the number of cells in a hummingbird assuming the mass of an average cell is 10 times the mass of a bacterium. (b) Making the same assumption, how many cells are there in a human?
+21. Assuming one nerve impulse must end before another can begin, what is the maximum firing rate of a nerve in impulses per second?
+22. About how many floating-point operations can a supercomputer perform each year?
+23. Roughly how many floating-point operations can a supercomputer perform in a human lifetime?
+1.2 Units and Standards
+24. The following times are given using metric prefixes on the base SI unit of time: the second. Rewrite them in scientific notation without the prefix. For example, 47 Ts would be rewritten as 4.7×1013s. (a) 980 Ps; (b) 980 fs; (c) 17 ns; (d) 577μs.
+25. The following times are given in seconds. Use metric prefixes to rewrite them so the numerical value is greater than one but less than 1000. For example, 7.9×10−2s could be written as either 7.9 cs or 79 ms. (a) 9.57×105s; (b) 0.045 s; (c) 5.5×10−7s; (d) 3.16×107s.
+26. The following lengths are given using metric prefixes on the base SI unit of length: the meter. Rewrite them in scientific notation without the prefix. For example, 4.2 Pm would be rewritten as 4.2×1015m. (a) 89 Tm; (b) 89 pm; (c) 711 mm; (d) 0.45μm.
+27. The following lengths are given in meters. Use metric prefixes to rewrite them so the numerical value is bigger than one but less than 1000. For example, 7.9×10−2m could be written either as 7.9 cm or 79 mm. (a) 7.59×107m; (b) 0.0074 m; (c) 8.8×10−11m; (d) 1.63×1013m.
+28. The following masses are written using metric prefixes on the gram. Rewrite them in scientific notation in terms of the SI base unit of mass: the kilogram. For example, 40 Mg would be written as 4×104kg. (a) 23 mg; (b) 320 Tg; (c) 42 ng; (d) 7 g; (e) 9 Pg.
+29. The following masses are given in kilograms. Use metric prefixes on the gram to rewrite them so the numerical value is bigger than one but less than 1000. For example, 7×10−4kg could be written as 70 cg or 700 mg. (a) 3.8×10−5kg; (b) 2.3×1017kg; (c) 2.4×10−11kg; (d) 8×1015kg; (e) 4.2×10−3kg.
+1.3 Unit Conversion
+30. The volume of Earth is on the order of 1021 m3. (a) What is this in cubic kilometers (km3)? (b) What is it in cubic miles (mi3)? (c) What is it in cubic centimeters (cm3)?
+31. The speed limit on some interstate highways is roughly 100 km/h. (a) What is this in meters per second? (b) How many miles per hour is this?
+32. A car is traveling at a speed of 33 m/s. (a) What is its speed in kilometers per hour? (b) Is it exceeding the 90 km/h speed limit?
+33. In SI units, speeds are measured in meters per second (m/s). But, depending on where you live, you’re probably more comfortable of thinking of speeds in terms of either kilometers per hour (km/h) or miles per hour (mi/h). In this problem, you will see that 1 m/s is roughly 4 km/h or 2 mi/h, which is handy to use when developing your physical intuition. More precisely, show that (a) 1.0m/s=3.6km/h and (b) 1.0m/s=2.2mi/h.
+34. American football is played on a 100-yd-long field, excluding the end zones. How long is the field in meters? (Assume that 1 m = 3.281 ft.)
+35. Soccer fields vary in size. A large soccer field is 115 m long and 85.0 m wide. What is its area in square feet? (Assume that 1 m = 3.281 ft.)
+36. What is the height in meters of a person who is 6 ft 1.0 in. tall?
+37. Mount Everest, at 29,028 ft, is the tallest mountain on Earth. What is its height in kilometers? (Assume that 1 m = 3.281 ft.)
+38. The speed of sound is measured to be 342 m/s on a certain day. What is this measurement in kilometers per hour?
+39. Tectonic plates are large segments of Earth’s crust that move slowly. Suppose one such plate has an average speed of 4.0 cm/yr. (a) What distance does it move in 1.0 s at this speed? (b) What is its speed in kilometers per million years?
+40. The average distance between Earth and the Sun is 1.5×1011m. (a) Calculate the average speed of Earth in its orbit (assumed to be circular) in meters per second. (b) What is this speed in miles per hour?
+41. The density of nuclear matter is about 1018 kg/m3. Given that 1 mL is equal in volume to cm3, what is the density of nuclear matter in megagrams per microliter (that is, Mg/μL)?
+42. The density of aluminum is 2.7 g/cm3. What is the density in kilograms per cubic meter?
+43. A commonly used unit of mass in the English system is the pound-mass, abbreviated lbm, where 1 lbm = 0.454 kg. What is the density of water in pound-mass per cubic foot?
+44. A furlong is 220 yd. A fortnight is 2 weeks. Convert a speed of one furlong per fortnight to millimeters per second.
+45. It takes 2π radians (rad) to get around a circle, which is the same as 360°. How many radians are in 1°?
+46. Light travels a distance of about 3×108m/s. A light-minute is the distance light travels in 1 min. If the Sun is 1.5×1011m from Earth, how far away is it in light-minutes?
+47. A light-nanosecond is the distance light travels in 1 ns. Convert 1 ft to light-nanoseconds.
+48. An electron has a mass of 9.11×10−31kg. A proton has a mass of 1.67×10−27kg. What is the mass of a proton in electron-masses?
+49. A fluid ounce is about 30 mL. What is the volume of a 12 fl-oz can of soda pop in cubic meters?
+1.4 Dimensional Analysis
+50. A student is trying to remember some formulas from geometry. In what follows, assume A is area, V is volume, and all other variables are lengths. Determine which formulas are dimensionally consistent. (a) V=πr2h; (b) A=2πr2+2πrh; (c) V=0.5bh; (d) V=πd2; (e) V=πd3/6.
+51. Consider the physical quantities s, v, a, and t with dimensions [s]=L, [v]=LT−1, [a]=LT−2, and [t]=T. Determine whether each of the following equations is dimensionally consistent. (a) v2=2as; (b) s=vt2+0.5at2; (c) v=s/t; (d) a=v/t.
+52. Consider the physical quantities m, s, v, a, and t with dimensions [m] = M, [s] = L, [v] = LT–1, [a] = LT–2, and [t] = T. Assuming each of the following equations is dimensionally consistent, find the dimension of the quantity on the left-hand side of the equation: (a) F = ma; (b) K = 0.5mv2; (c) p = mv; (d) W = mas; (e) L = mvr.
+53. Suppose quantity s is a length and quantity t is a time. Suppose the quantities v and a are defined by v = ds/dt and a = dv/dt. (a) What is the dimension of v? (b) What is the dimension of the quantity a? What are the dimensions of (c) ∫vdt, (d) ∫adt, and (e) da/dt?
+54. Suppose [V] = L3, [ρ]=ML–3, and [t] = T. (a) What is the dimension of ∫ρdV? (b) What is the dimension of dV/dt? (c) What is the dimension of ρ(dV/dt)?
+55. The arc length formula says the length s of arc subtended by angle Ɵ in a circle of radius r is given by the equation s=rƟ. What are the dimensions of (a) s, (b) r, and (c) Ɵ?
+1.5 Estimates and Fermi Calculations
+56. Assuming the human body is made primarily of water, estimate the volume of a person.
+57. Assuming the human body is primarily made of water, estimate the number of molecules in it. (Note that water has a molecular mass of 18 g/mol and there are roughly 1024 atoms in a mole.)
+58. Estimate the mass of air in a classroom.
+59. Estimate the number of molecules that make up Earth, assuming an average molecular mass of 30 g/mol. (Note there are on the order of 1024 objects per mole.)
+60. Estimate the surface area of a person.
+61. Roughly how many solar systems would it take to tile the disk of the Milky Way?
+62. (a) Estimate the density of the Moon. (b) Estimate the diameter of the Moon. (c) Given that the Moon subtends at an angle of about half a degree in the sky, estimate its distance from Earth.
+63. The average density of the Sun is on the order 103 kg/m3. (a) Estimate the diameter of the Sun. (b) Given that the Sun subtends at an angle of about half a degree in the sky, estimate its distance from Earth.
+64. Estimate the mass of a virus.
+65. A floating-point operation is a single arithmetic operation such as addition, subtraction, multiplication, or division. (a) Estimate the maximum number of floating-point operations a human being could possibly perform in a lifetime. (b) How long would it take a supercomputer to perform that many floating-point operations?
+1.6 Significant Figures
+66. Consider the equation 4000/400 = 10.0. Assuming the number of significant figures in the answer is correct, what can you say about the number of significant figures in 4000 and 400?
+67. Suppose your bathroom scale reads your mass as 65 kg with a 3% uncertainty. What is the uncertainty in your mass (in kilograms)?
+68. A good-quality measuring tape can be off by 0.50 cm over a distance of 20 m. What is its percent uncertainty?
+69. An infant’s pulse rate is measured to be 130 ± 5 beats/min. What is the percent uncertainty in this measurement?
+70. (a) Suppose that a person has an average heart rate of 72.0 beats/min. How many beats does he or she have in 2.0 years? (b) In 2.00 years? (c) In 2.000 years?
+71. A can contains 375 mL of soda. How much is left after 308 mL is removed?
+72. State how many significant figures are proper in the results of the following calculations: (a) (106.7)(98.2)/(46.210)(1.01); (b) (18.7)2; (c) (1.60×10−19)(3712)
+73. (a) How many significant figures are in the numbers 99 and 100.? (b) If the uncertainty in each number is 1, what is the percent uncertainty in each? (c) Which is a more meaningful way to express the accuracy of these two numbers: significant figures or percent uncertainties?
+74. (a) If your speedometer has an uncertainty of 2.0 km/h at a speed of 90 km/h, what is the percent uncertainty? (b) If it has the same percent uncertainty when it reads 60 km/h, what is the range of speeds you could be going?
+75. (a) A person’s blood pressure is measured to be 120±2mm Hg. What is its percent uncertainty? (b) Assuming the same percent uncertainty, what is the uncertainty in a blood pressure measurement of 80 mm Hg?
+76. A person measures his or her heart rate by counting the number of beats in 30 s. If 40 ± 1 beats are counted in 30.0 ± 0.5 s, what is the heart rate and its uncertainty in beats per minute?
+77. What is the area of a circle 3.102 cm in diameter?
+78. Determine the number of significant figures in the following measurements: (a) 0.0009, (b) 15,450.0, (c) 6×103, (d) 87.990, and (e) 30.42.
+79. Perform the following calculations and express your answer using the correct number of significant digits. (a) A woman has two bags weighing 13.5 lb and one bag with a weight of 10.2 lb. What is the total weight of the bags? (b) The force F on an object is equal to its mass m multiplied by its acceleration a. If a wagon with mass 55 kg accelerates at a rate of 0.0255 m/s2, what is the force on the wagon? (The unit of force is called the newton and it is expressed with the symbol N.)

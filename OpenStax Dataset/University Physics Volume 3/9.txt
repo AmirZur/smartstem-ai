@@ -1,0 +1,52 @@
+Problems
+9.1 Types of Molecular Bonds
+40. The electron configuration of carbon is 1s22s22p2. Given this electron configuration, what other element might exhibit the same type of hybridization as carbon?
+41. Potassium chloride (KCl) is a molecule formed by an ionic bond. At equilibrium separation the atoms are r0=0.279nm apart. Determine the electrostatic potential energy of the atoms.
+42. The electron affinity of Cl is 3.89 eV and the ionization energy of K is 4.34 eV. Use the preceding problem to find the dissociation energy. (Neglect the energy of repulsion.)
+43. The measured energy dissociated energy of KCl is 4.43 eV. Use the results of the preceding problem to determine the energy of repulsion of the ions due to the exclusion principle.
+9.2 Molecular Spectra
+44. In a physics lab, you measure the vibrational-rotational spectrum of HCl. The estimated separation between absorption peaks is Δf≈5.5×1011Hz. The central frequency of the band is f0=9.0×1013Hz. (a) What is the moment of inertia (I)? (b) What is the energy of vibration for the molecule?
+45. For the preceding problem, find the equilibrium separation of the H and Cl atoms. Compare this with the actual value.
+46. The separation between oxygen atoms in an O2 molecule is about 0.121 nm. Determine the characteristic energy of rotation in eV.
+47. The characteristic energy of the N2 molecule is 2.48×10−4eV. Determine the separation distance between the nitrogen atoms
+48. The characteristic energy for KCl is 1.4×10−5eV. (a) Determine μ for the KCl molecule. (b) Find the separation distance between the K and Cl atoms.
+49. A diatomic F2 molecule is in the l=1 state. (a) What is the energy of the molecule? (b) How much energy is radiated in a transition from a l=2 to a l=1 state?
+50. In a physics lab, you measure the vibrational-rotational spectrum of potassium bromide (KBr). The estimated separation between absorption peaks is Δf≈5.35×1010Hz. The central frequency of the band is f0=8.75×1012Hz. (a) What is the moment of inertia (I)? (b) What is the energy of vibration for the molecule?
+9.3 Bonding in Crystalline Solids
+51. The CsI crystal structure is BCC. The equilibrium spacing is approximately r0=0.46nm. If Cs+ ion occupies a cubic volume of r30, what is the distance of this ion to its “nearest neighbor” I+ ion?
+52. The potential energy of a crystal is −8.10eV/ion pair. Find the dissociation energy for four moles of the crystal.
+53. The measured density of a NaF crystal is 2.558g/cm3. What is the equilibrium separate distance of Na+ and Fl− ions?
+54. What value of the repulsion constant, n, gives the measured dissociation energy of 221 kcal/mole for NaF?
+55. Determine the dissociation energy of 12 moles of sodium chloride (NaCl). (Hint: the repulsion constant n is approximately 8.)
+56. The measured density of a KCl crystal is 1.984g/cm3. What is the equilibrium separation distance of K+ and Cl− ions?
+57. What value of the repulsion constant, n, gives the measured dissociation energy of 171 kcal/mol for KCl?
+58. The measured density of a CsCl crystal is 3.988g/cm3. What is the equilibrium separate distance of Cs+ and Cl− ions?
+9.4 Free Electron Model of Metals
+59. What is the difference in energy between the nx=ny=nz=4 state and the state with the next higher energy? What is the percentage change in the energy between the nx=ny=nz=4 state and the state with the next higher energy? (b) Compare these with the difference in energy and the percentage change in the energy between the nx=ny=nz=400 state and the state with the next higher energy.
+60. An electron is confined to a metal cube of l=0.8cm on each side. Determine the density of states at (a) E=0.80eV; (b) E=2.2eV; and (c) E=5.0eV.
+61. What value of energy corresponds to a density of states of 1.10×1024eV−1 ?
+62. Compare the density of states at 2.5 eV and 0.25 eV.
+63. Consider a cube of copper with edges 1.50 mm long. Estimate the number of electron quantum states in this cube whose energies are in the range 3.75 to 3.77 eV.
+64. If there is one free electron per atom of copper, what is the electron number density of this metal?
+65. Determine the Fermi energy and temperature for copper at T=0K.
+9.5 Band Theory of Solids
+66. For a one-dimensional crystal, write the lattice spacing (a) in terms of the electron wavelength.
+67. What is the main difference between an insulator and a semiconductor?
+68. What is the longest wavelength for a photon that can excite a valence electron into the conduction band across an energy gap of 0.80 eV?
+69. A valence electron in a crystal absorbs a photon of wavelength, λ=0.300nm. This is just enough energy to allow the electron to jump from the valence band to the conduction band. What is the size of the energy gap?
+9.6 Semiconductors and Doping
+70. An experiment is performed to demonstrate the Hall effect. A thin rectangular strip of semiconductor with width 10 cm and length 30 cm is attached to a battery and immersed in a 1.50-T field perpendicular to its surface. This produced a Hall voltage of 12 V. What is the drift velocity of the charge carriers?
+71. Suppose that the cross-sectional area of the strip (the area of the face perpendicular to the electric current) presented to the in the preceding problem is 1mm2 and the current is independently measured to be 2 mA. What is the number density of the charge carriers?
+72. A current-carrying copper wire with cross-section σ=2mm2 has a drift velocity of 0.02 cm/s. Find the total current running through the wire.
+73. The Hall effect is demonstrated in the laboratory. A thin rectangular strip of semiconductor with width 5 cm and cross-sectional area 2mm2 is attached to a battery and immersed in a field perpendicular to its surface. The Hall voltage reads 12.5 V and the measured drift velocity is 50 m/s. What is the magnetic field?
+9.7 Semiconductor Devices
+74. Show that for V less than zero, Inet≈−I0.
+75. A p-n diode has a reverse saturation current 1.44×10−8A. It is forward biased so that it has a current of 6.78×10−1A moving through it. What bias voltage is being applied if the temperature is 300 K?
+76. The collector current of a transistor is 3.4 A for a base current of 4.2 mA. What is the current gain?
+77. Applying the positive end of a battery to the p-side and the negative end to the n-side of a p-n junction, the measured current is 8.76×10−1A. Reversing this polarity give a reverse saturation current of 4.41×10−8A. What is the temperature if the bias voltage is 1.2 V?
+78. The base current of a transistor is 4.4 A, and its current gain 1126. What is the collector current?
+9.8 Superconductivity
+79. At what temperature, in terms of TC, is the critical field of a superconductor one-half its value at T=0K ?
+80. What is the critical magnetic field for lead at T=2.8K ?
+81. A Pb wire wound in a tight solenoid of diameter of 4.0 mm is cooled to a temperature of 5.0 K. The wire is connected in series with a 50-Ω resistor and a variable source of emf. As the emf is increased, what value does it have when the superconductivity of the wire is destroyed?
+82. A tightly wound solenoid at 4.0 K is 50 cm long and is constructed from Nb wire of radius 1.5 mm. What maximum current can the solenoid carry if the wire is to remain superconducting?

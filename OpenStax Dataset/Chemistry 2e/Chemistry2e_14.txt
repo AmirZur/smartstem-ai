@@ -1,0 +1,474 @@
+14.1 Brønsted-Lowry Acids and Bases
+1. Write equations that show NH3 as both a conjugate acid and a conjugate base.
+2. Write equations that show H2PO4− acting both as an acid and as a base.
+3. Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry acid:
+(a) H3O+
+
+(b) HCl
+
+(c) NH3
+
+(d) CH3CO2H
+
+(e) NH4+
+
+(f) HSO4−
+
+4. Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry acid:
+(a) HNO3
+
+(b) PH4+
+
+(c) H2S
+
+(d) CH3CH2COOH
+
+(e) H2PO4−
+
+(f) HS−
+
+5. Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry base:
+(a) H2O
+
+(b) OH−
+
+(c) NH3
+
+(d) CN−
+
+(e) S2−
+
+(f) H2PO4−
+
+6. Show by suitable net ionic equations that each of the following species can act as a Brønsted-Lowry base:
+(a) HS−
+
+(b) PO43−
+
+(c) NH2−
+
+(d) C2H5OH
+
+(e) O2−
+
+(f) H2PO4−
+
+7. What is the conjugate acid of each of the following? What is the conjugate base of each?
+(a) OH−
+
+(b) H2O
+
+(c) HCO3−
+
+(d) NH3
+
+(e) HSO4−
+
+(f) H2O2
+
+(g) HS−
+
+(h) H5N2+
+
+8. What is the conjugate acid of each of the following? What is the conjugate base of each?
+(a) H2S
+
+(b) H2PO4−
+
+(c) PH3
+
+(d) HS−
+
+(e) HSO3−
+
+(f) H3O2+
+
+(g) H4N2
+
+(h) CH3OH
+
+9. Identify and label the Brønsted-Lowry acid, its conjugate base, the Brønsted-Lowry base, and its conjugate acid in each of the following equations:
+(a) HNO3+H2O⟶H3O++NO3−
+
+(b) CN−+H2O⟶HCN+OH−
+
+(c) H2SO4+Cl−⟶HCl+HSO4−
+
+(d) HSO4−+OH−⟶SO42−+H2O
+
+(e) O2−+H2O⟶2OH−
+
+(f) [Cu(H2O)3(OH)]++[Al(H2O)6]3+⟶[Cu(H2O)4]2++[Al(H2O)5(OH)]2+
+
+(g) H2S+NH2−⟶HS−+NH3
+
+10. Identify and label the Brønsted-Lowry acid, its conjugate base, the Brønsted-Lowry base, and its conjugate acid in each of the following equations:
+(a) NO2−+H2O⟶HNO2+OH−
+
+(b) HBr+H2O⟶H3O++Br−
+
+(c) HS−+H2O⟶H2S+OH−
+
+(d) H2PO4−+OH−⟶HPO42−+H2O
+
+(e) H2PO4−+HCl⟶H3PO4+Cl−
+
+(f) [Fe(H2O)5(OH)]2++[Al(H2O)6]3+⟶[Fe(H2O)6]3++[Al(H2O)5(OH)]2+
+
+(g) CH3OH+H−⟶CH3O−+H2
+
+11. What are amphiprotic species? Illustrate with suitable equations.
+12. State which of the following species are amphiprotic and write chemical equations illustrating the amphiprotic character of these species:
+(a) H2O
+
+(b) H2PO4−
+
+(c) S2−
+
+(d) CO32−
+
+(e) HSO4−
+
+13. State which of the following species are amphiprotic and write chemical equations illustrating the amphiprotic character of these species.
+(a) NH3
+
+(b) HPO4−
+
+(c) Br−
+
+(d) NH4+
+
+(e) ASO43−
+
+14. Is the self-ionization of water endothermic or exothermic? The ionization constant for water (Kw) is 2.9 × 10−14 at 40 °C and 9.3 × 10−14 at 60 °C.
+14.2 pH and pOH
+15. Explain why a sample of pure water at 40 °C is neutral even though [H3O+] = 1.7 × 10−7 M. Kw is 2.9 × 10−14 at 40 °C.
+16. The ionization constant for water (Kw) is 2.9 × 10−14 at 40 °C. Calculate [H3O+], [OH−], pH, and pOH for pure water at 40 °C.
+17. The ionization constant for water (Kw) is 9.311 × 10−14 at 60 °C. Calculate [H3O+], [OH−], pH, and pOH for pure water at 60 °C.
+18. Calculate the pH and the pOH of each of the following solutions at 25 °C for which the substances ionize completely:
+(a) 0.200 M HCl
+
+(b) 0.0143 M NaOH
+
+(c) 3.0 M HNO3
+
+(d) 0.0031 M Ca(OH)2
+
+19. Calculate the pH and the pOH of each of the following solutions at 25 °C for which the substances ionize completely:
+(a) 0.000259 M HClO4
+
+(b) 0.21 M NaOH
+
+(c) 0.000071 M Ba(OH)2
+
+(d) 2.5 M KOH
+
+20. What are the pH and pOH of a solution of 2.0 M HCl, which ionizes completely?
+21. What are the hydronium and hydroxide ion concentrations in a solution whose pH is 6.52?
+22. Calculate the hydrogen ion concentration and the hydroxide ion concentration in wine from its pH. See Figure 14.2 for useful information.
+23. Calculate the hydronium ion concentration and the hydroxide ion concentration in lime juice from its pH. See Figure 14.2 for useful information.
+24. The hydronium ion concentration in a sample of rainwater is found to be 1.7 × 10−6 M at 25 °C. What is the concentration of hydroxide ions in the rainwater?
+25. The hydroxide ion concentration in household ammonia is 3.2 × 10−3 M at 25 °C. What is the concentration of hydronium ions in the solution?
+14.3 Relative Strengths of Acids and Bases
+26. Explain why the neutralization reaction of a strong acid and a weak base gives a weakly acidic solution.
+27. Explain why the neutralization reaction of a weak acid and a strong base gives a weakly basic solution.
+28. Use this list of important industrial compounds (and Figure 14.8) to answer the following questions regarding: Ca(OH)2, CH3CO2H, HCl, H2CO3, HF, HNO2, HNO3, H3PO4, H2SO4, NH3, NaOH, Na2CO3.
+(a) Identify the strong Brønsted-Lowry acids and strong Brønsted-Lowry bases.
+
+(b) Identify the compounds that can behave as Brønsted-Lowry acids with strengths lying between those of H3O+ and H2O.
+
+(c) Identify the compounds that can behave as Brønsted-Lowry bases with strengths lying between those of H2O and OH−.
+
+29. The odor of vinegar is due to the presence of acetic acid, CH3CO2H, a weak acid. List, in order of descending concentration, all of the ionic and molecular species present in a 1-M aqueous solution of this acid.
+30. Household ammonia is a solution of the weak base NH3 in water. List, in order of descending concentration, all of the ionic and molecular species present in a 1-M aqueous solution of this base.
+31. Explain why the ionization constant, Ka, for H2SO4 is larger than the ionization constant for H2SO3.
+32. Explain why the ionization constant, Ka, for HI is larger than the ionization constant for HF.
+33. Gastric juice, the digestive fluid produced in the stomach, contains hydrochloric acid, HCl. Milk of Magnesia, a suspension of solid Mg(OH)2 in an aqueous medium, is sometimes used to neutralize excess stomach acid. Write a complete balanced equation for the neutralization reaction, and identify the conjugate acid-base pairs.
+34. Nitric acid reacts with insoluble copper(II) oxide to form soluble copper(II) nitrate, Cu(NO3)2, a compound that has been used to prevent the growth of algae in swimming pools. Write the balanced chemical equation for the reaction of an aqueous solution of HNO3 with CuO.
+35. What is the ionization constant at 25 °C for the weak acid CH3NH3+, the conjugate acid of the weak base CH3NH2, Kb = 4.4 × 10−4.
+36. What is the ionization constant at 25 °C for the weak acid (CH3)2NH2+, the conjugate acid of the weak base (CH3)2NH, Kb = 5.9 × 10−4?
+37. Which base, CH3NH2 or (CH3)2NH, is the stronger base? Which conjugate acid, (CH3)2NH2+ or CH3NH3+, is the stronger acid?
+38. Which is the stronger acid, NH4+ or HBrO?
+39. Which is the stronger base, (CH3)3N or H2BO3−?
+40. Predict which acid in each of the following pairs is the stronger and explain your reasoning for each.
+(a) H2O or HF
+
+(b) B(OH)3 or Al(OH)3
+
+(c) HSO3− or HSO4−
+
+(d) NH3 or H2S
+
+(e) H2O or H2Te
+
+41. Predict which compound in each of the following pairs of compounds is more acidic and explain your reasoning for each.
+(a) HSO4− or HSeO4−
+
+(b) NH3 or H2O
+
+(c) PH3 or HI
+
+(d) NH3 or PH3
+
+(e) H2S or HBr
+
+42. Rank the compounds in each of the following groups in order of increasing acidity or basicity, as indicated, and explain the order you assign.
+(a) acidity: HCl, HBr, HI
+
+(b) basicity: H2O, OH−, H−, Cl−
+
+(c) basicity: Mg(OH)2, Si(OH)4, ClO3(OH) (Hint: Formula could also be written as HClO4.)
+
+(d) acidity: HF, H2O, NH3, CH4
+
+43. Rank the compounds in each of the following groups in order of increasing acidity or basicity, as indicated, and explain the order you assign.
+(a) acidity: NaHSO3, NaHSeO3, NaHSO4
+
+(b) basicity: BrO2−, ClO2−, IO2−
+
+(c) acidity: HOCl, HOBr, HOI
+
+(d) acidity: HOCl, HOClO, HOClO2, HOClO3
+
+(e) basicity: NH2−, HS−, HTe−, PH2−
+
+(f) basicity: BrO−, BrO2−, BrO3−, BrO4−
+
+44. Both HF and HCN ionize in water to a limited extent. Which of the conjugate bases, F− or CN−, is the stronger base?
+45. The active ingredient formed by aspirin in the body is salicylic acid, C6H4OH(CO2H). The carboxyl group (−CO2H) acts as a weak acid. The phenol group (an OH group bonded to an aromatic ring) also acts as an acid but a much weaker acid. List, in order of descending concentration, all of the ionic and molecular species present in a 0.001-M aqueous solution of C6H4OH(CO2H).
+46. Are the concentrations of hydronium ion and hydroxide ion in a solution of an acid or a base in water directly proportional or inversely proportional? Explain your answer.
+47. What two common assumptions can simplify calculation of equilibrium concentrations in a solution of a weak acid or base?
+48. Which of the following will increase the percent of NH3 that is converted to the ammonium ion in water?
+(a) addition of NaOH
+
+(b) addition of HCl
+
+(c) addition of NH4Cl
+
+49. Which of the following will increase the percentage of HF that is converted to the fluoride ion in water?
+(a) addition of NaOH
+
+(b) addition of HCl
+
+(c) addition of NaF
+
+50. What is the effect on the concentrations of NO2−, HNO2, and OH− when the following are added to a solution of KNO2 in water:
+(a) HCl
+
+(b) HNO2
+
+(c) NaOH
+
+(d) NaCl
+
+(e) KNO
+
+51. What is the effect on the concentration of hydrofluoric acid, hydronium ion, and fluoride ion when the following are added to separate solutions of hydrofluoric acid?
+(a) HCl
+
+(b) KF
+
+(c) NaCl
+
+(d) KOH
+
+(e) HF
+
+52. Why is the hydronium ion concentration in a solution that is 0.10 M in HCl and 0.10 M in HCOOH determined by the concentration of HCl?
+53. From the equilibrium concentrations given, calculate Ka for each of the weak acids and Kb for each of the weak bases.
+(a) CH3CO2H: [H3O+] = 1.34 × 10−3 M;
+[CH3CO2−] = 1.34 × 10−3 M;
+
+[CH3CO2H] = 9.866 × 10−2 M;
+
+(b) ClO−: [OH−] = 4.0 × 10−4 M;
+
+[HClO] = 2.38 × 10−4 M;
+
+[ClO−] = 0.273 M;
+
+(c) HCO2H: [HCO2H] = 0.524 M;
+[H3O+] = 9.8 × 10−3 M;
+[HCO2−] = 9.8 × 10−3 M;
+
+(d) C6H5NH3+: [C6H5NH3+] = 0.233 M;
+
+[C6H5NH2] = 2.3 × 10−3 M;
+[H3O+] = 2.3 × 10−3 M
+
+54. From the equilibrium concentrations given, calculate Ka for each of the weak acids and Kb for each of the weak bases.
+(a) NH3: [OH−] = 3.1 × 10−3 M;
+[NH4+] = 3.1 × 10−3 M;
+
+[NH3] = 0.533 M;
+
+(b) HNO2: [H3O+] = 0.011 M;
+[NO2−] = 0.0438 M;
+
+[HNO2] = 1.07 M;
+
+(c) (CH3)3N: [(CH3)3N] = 0.25 M;
+[(CH3)3NH+] = 4.3 × 10−3 M;
+
+[OH−] = 3.7 × 10−3 M;
+
+(d) NH4+: [NH4+] = 0.100 M;
+
+[NH3] = 7.5 × 10−6 M;
+[H3O+] = 7.5 × 10−6 M
+
+55. Determine Kb for the nitrite ion, NO2−. In a 0.10-M solution this base is 0.0015% ionized.
+56. Determine Ka for hydrogen sulfate ion, HSO4−. In a 0.10-M solution the acid is 29% ionized.
+57. Calculate the ionization constant for each of the following acids or bases from the ionization constant of its conjugate base or conjugate acid:
+(a) F−
+
+(b) NH4+
+
+(c) AsO43−
+
+(d) (CH3)2NH2+
+
+(e) NO2−
+
+(f) HC2O4− (as a base)
+
+58. Calculate the ionization constant for each of the following acids or bases from the ionization constant of its conjugate base or conjugate acid:
+(a) HTe− (as a base)
+
+(b) (CH3)3NH+
+
+(c) HAsO42– (as a base)
+
+(d) HO2− (as a base)
+
+(e) C6H5NH3+
+
+(f) HSO3− (as a base)
+
+59. Using the Ka value of 1.4 × 10−5, place Al(H2O)63+ in the correct location in Figure 14.7.
+60. Calculate the concentration of all solute species in each of the following solutions of acids or bases. Assume that the ionization of water can be neglected, and show that the change in the initial concentrations can be neglected.
+(a) 0.0092 M HClO, a weak acid
+
+(b) 0.0784 M C6H5NH2, a weak base
+
+(c) 0.0810 M HCN, a weak acid
+
+(d) 0.11 M (CH3)3N, a weak base
+
+(e) 0.120 M Fe(H2O)62+ a weak acid, Ka = 1.6 × 10−7
+
+61. Propionic acid, C2H5CO2H (Ka = 1.34 × 10−5), is used in the manufacture of calcium propionate, a food preservative. What is the pH of a 0.698-M solution of C2H5CO2H?
+62. White vinegar is a 5.0% by mass solution of acetic acid in water. If the density of white vinegar is 1.007 g/cm3, what is the pH?
+63. The ionization constant of lactic acid, CH3CH(OH)CO2H, an acid found in the blood after strenuous exercise, is 1.36 × 10−4. If 20.0 g of lactic acid is used to make a solution with a volume of 1.00 L, what is the concentration of hydronium ion in the solution?
+64. Nicotine, C10H14N2, is a base that will accept two protons (Kb1 = 7 × 10−7, Kb2 = 1.4 × 10−11). What is the concentration of each species present in a 0.050-M solution of nicotine?
+65. The pH of a 0.23-M solution of HF is 1.92. Determine Ka for HF from these data.
+66. The pH of a 0.15-M solution of HSO4− is 1.43. Determine Ka for HSO4− from these data.
+67. The pH of a 0.10-M solution of caffeine is 11.70. Determine Kb for caffeine from these data:
+C8H10N4O2(𝑎𝑞)+H2O(𝑙)⇌C8H10N4O2H+(𝑎𝑞)+OH−(𝑎𝑞)
+68. The pH of a solution of household ammonia, a 0.950 M solution of NH3, is 11.612. Determine Kb for NH3 from these data.
+14.4 Hydrolysis of Salts
+69. Determine whether aqueous solutions of the following salts are acidic, basic, or neutral:
+(a) Al(NO3)3
+
+(b) RbI
+
+(c) KHCO2
+
+(d) CH3NH3Br
+
+70. Determine whether aqueous solutions of the following salts are acidic, basic, or neutral:
+(a) FeCl3
+
+(b) K2CO3
+
+(c) NH4Br
+
+(d) KClO4
+
+71. Novocaine, C13H21O2N2Cl, is the salt of the base procaine and hydrochloric acid. The ionization constant for procaine is 7 × 10−6. Is a solution of novocaine acidic or basic? What are [H3O+], [OH−], and pH of a 2.0% solution by mass of novocaine, assuming that the density of the solution is 1.0 g/mL.
+14.5 Polyprotic Acids
+72. Which of the following concentrations would be practically equal in a calculation of the equilibrium concentrations in a 0.134-M solution of H2CO3, a diprotic acid: [H3O+], [OH−], [H2CO3], [HCO3−], [CO32−]? No calculations are needed to answer this question.
+73. Calculate the concentration of each species present in a 0.050-M solution of H2S.
+74. Calculate the concentration of each species present in a 0.010-M solution of phthalic acid, C6H4(CO2H)2.
+C6H4(CO2H)2(𝑎𝑞)+H2O(𝑙)⇌H3O+(𝑎𝑞)+C6H4(CO2H)(CO2)−(𝑎𝑞)𝐾a=1.1×10−3C6H4(CO2H)(CO2)(𝑎𝑞)+H2O(𝑙)⇌H3O+(𝑎𝑞)+C6H4(CO2)22−(𝑎𝑞)𝐾a=3.9×10−6
+75. Salicylic acid, HOC6H4CO2H, and its derivatives have been used as pain relievers for a long time. Salicylic acid occurs in small amounts in the leaves, bark, and roots of some vegetation (most notably historically in the bark of the willow tree). Extracts of these plants have been used as medications for centuries. The acid was first isolated in the laboratory in 1838.
+(a) Both functional groups of salicylic acid ionize in water, with Ka = 1.0 × 10−3 for the—CO2H group and 4.2 × 10−13 for the −OH group. What is the pH of a saturated solution of the acid (solubility = 1.8 g/L).
+
+(b) Aspirin was discovered as a result of efforts to produce a derivative of salicylic acid that would not be irritating to the stomach lining. Aspirin is acetylsalicylic acid, CH3CO2C6H4CO2H. The −CO2H functional group is still present, but its acidity is reduced, Ka = 3.0 × 10−4. What is the pH of a solution of aspirin with the same concentration as a saturated solution of salicylic acid (See Part a).
+
+76. The ion HTe− is an amphiprotic species; it can act as either an acid or a base.
+(a) What is Ka for the acid reaction of HTe− with H2O?
+
+(b) What is Kb for the reaction in which HTe− functions as a base in water?
+
+(c) Demonstrate whether or not the second ionization of H2Te can be neglected in the calculation of [HTe−] in a 0.10 M solution of H2Te.
+
+14.6 Buffers
+77. Explain why a buffer can be prepared from a mixture of NH4Cl and NaOH but not from NH3 and NaOH.
+78. Explain why the pH does not change significantly when a small amount of an acid or a base is added to a solution that contains equal amounts of the acid H3PO4 and a salt of its conjugate base NaH2PO4.
+79. Explain why the pH does not change significantly when a small amount of an acid or a base is added to a solution that contains equal amounts of the base NH3 and a salt of its conjugate acid NH4Cl.
+80. What is [H3O+] in a solution of 0.25 M CH3CO2H and 0.030 M NaCH3CO2?
+CH3CO2H(𝑎𝑞)+H2O(𝑙)⇌H3O+(𝑎𝑞)+CH3CO2−(𝑎𝑞)𝐾a=1.8×10−5
+81. What is [H3O+] in a solution of 0.075 M HNO2 and 0.030 M NaNO2?
+HNO2(𝑎𝑞)+H2O(𝑙)⇌H3O+(𝑎𝑞)+NO2−(𝑎𝑞)𝐾a=4.5×10−5
+82. What is [OH−] in a solution of 0.125 M CH3NH2 and 0.130 M CH3NH3Cl?
+CH3NH2(𝑎𝑞)+H2O(𝑙)⇌CH3NH3+(𝑎𝑞)+OH−(𝑎𝑞)𝐾b=4.4×10−4
+83. What is [OH−] in a solution of 1.25 M NH3 and 0.78 M NH4NO3?
+NH3(𝑎𝑞)+H2O(𝑙)⇌NH4+(𝑎𝑞)+OH−(𝑎𝑞)𝐾b=1.8×10−5
+84. What is the effect on the concentration of acetic acid, hydronium ion, and acetate ion when the following are added to an acidic buffer solution of equal concentrations of acetic acid and sodium acetate:
+(a) HCl
+
+(b) KCH3CO2
+
+(c) NaCl
+
+(d) KOH
+
+(e) CH3CO2H
+
+85. What is the effect on the concentration of ammonia, hydroxide ion, and ammonium ion when the following are added to a basic buffer solution of equal concentrations of ammonia and ammonium nitrate:
+(a) KI
+
+(b) NH3
+
+(c) HI
+
+(d) NaOH
+
+(e) NH4Cl
+
+86. What will be the pH of a buffer solution prepared from 0.20 mol NH3, 0.40 mol NH4NO3, and just enough water to give 1.00 L of solution?
+87. Calculate the pH of a buffer solution prepared from 0.155 mol of phosphoric acid, 0.250 mole of KH2PO4, and enough water to make 0.500 L of solution.
+88. How much solid NaCH3CO2•3H2O must be added to 0.300 L of a 0.50-M acetic acid solution to give a buffer with a pH of 5.00? (Hint: Assume a negligible change in volume as the solid is added.)
+89. What mass of NH4Cl must be added to 0.750 L of a 0.100-M solution of NH3 to give a buffer solution with a pH of 9.26? (Hint: Assume a negligible change in volume as the solid is added.)
+90. A buffer solution is prepared from equal volumes of 0.200 M acetic acid and 0.600 M sodium acetate. Use 1.80 × 10−5 as Ka for acetic acid.
+(a) What is the pH of the solution?
+
+(b) Is the solution acidic or basic?
+
+(c) What is the pH of a solution that results when 3.00 mL of 0.034 M HCl is added to 0.200 L of the original buffer?
+
+91. A 5.36–g sample of NH4Cl was added to 25.0 mL of 1.00 M NaOH and the resulting solution
+diluted to 0.100 L.
+
+(a) What is the pH of this buffer solution?
+
+(b) Is the solution acidic or basic?
+
+(c) What is the pH of a solution that results when 3.00 mL of 0.034 M HCl is added to the solution?
+
+14.7 Acid-Base Titrations
+92. Explain how to choose the appropriate acid-base indicator for the titration of a weak base with a strong acid.
+93. Explain why an acid-base indicator changes color over a range of pH values rather than at a specific pH.
+94. Calculate the pH at the following points in a titration of 40 mL (0.040 L) of 0.100 M barbituric acid (Ka = 9.8 × 10−5) with 0.100 M KOH.
+(a) no KOH added
+
+(b) 20 mL of KOH solution added
+
+(c) 39 mL of KOH solution added
+
+(d) 40 mL of KOH solution added
+
+(e) 41 mL of KOH solution added
+
+95. The indicator dinitrophenol is an acid with a Ka of 1.1 × 10−4. In a 1.0 × 10−4-M solution, it is colorless in acid and yellow in base. Calculate the pH range over which it goes from 10% ionized (colorless) to 90% ionized (yellow).

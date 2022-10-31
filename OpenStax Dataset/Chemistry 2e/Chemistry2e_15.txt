@@ -1,0 +1,400 @@
+15.1 Precipitation and Dissolution
+1. Complete the changes in concentrations for each of the following reactions:
+(a)
+AgI(𝑠)⟶Ag+(𝑎𝑞)𝑥+I−(𝑎𝑞)_____
+
+(b)
+CaCO3(𝑠)⟶Ca2+(𝑎𝑞)+____CO32−(𝑎𝑞)𝑥
+
+(c)
+Mg(OH)2(𝑠)⟶Mg2+(𝑎𝑞)+𝑥2OH−(𝑎𝑞)_____
+
+(d)
+Mg3(PO4)2(𝑠)⟶3Mg2+(𝑎𝑞)+𝑥2PO43−(𝑎𝑞)_____
+
+(e)
+Ca5(PO4)3OH(𝑠)⟶5Ca2+(𝑎𝑞)+_____3PO43−(𝑎𝑞)+_____OH−(𝑎𝑞)𝑥
+
+2. Complete the changes in concentrations for each of the following reactions:
+(a)
+BaSO4(𝑠)⟶Ba2+(𝑎𝑞)+𝑥SO42−(𝑎𝑞)_____
+
+(b
+Ag2SO4(𝑠)⟶2Ag+(𝑎𝑞)+_____SO42−(𝑎𝑞)𝑥
+
+(c)
+Al(OH)3(𝑠)⟶Al3+(𝑎𝑞)+𝑥3OH−(𝑎𝑞)_____
+
+(d)
+Pb(OH)Cl(𝑠)⟶Pb2+(𝑎𝑞)+_____OH−(𝑎𝑞)+𝑥Cl−(𝑎𝑞)_____
+
+(e)
+Ca3(AsO4)2(𝑠)⟶3Ca2+(𝑎𝑞)+3𝑥2AsO43−(𝑎𝑞)_____
+
+3. How do the concentrations of Ag+ and CrO42− in a saturated solution above 1.0 g of solid Ag2CrO4 change when 100 g of solid Ag2CrO4 is added to the system? Explain.
+4. How do the concentrations of Pb2+ and S2– change when K2S is added to a saturated solution of PbS?
+5. What additional information do we need to answer the following question: How is the equilibrium of solid silver bromide with a saturated solution of its ions affected when the temperature is raised?
+6. Which of the following slightly soluble compounds has a solubility greater than that calculated from its solubility product because of hydrolysis of the anion present: CoSO3, CuI, PbCO3, PbCl2, Tl2S, KClO4?
+7. Which of the following slightly soluble compounds has a solubility greater than that calculated from its solubility product because of hydrolysis of the anion present: AgCl, BaSO4, CaF2, Hg2I2, MnCO3, and ZnS?
+8. Write the ionic equation for dissolution and the solubility product (Ksp) expression for each of the following slightly soluble ionic compounds:
+(a) PbCl2
+
+(b) Ag2S
+
+(c) Sr3(PO4)2
+
+(d) SrSO4
+
+9. Write the ionic equation for the dissolution and the Ksp expression for each of the following slightly soluble ionic compounds:
+(a) LaF3
+
+(b) CaCO3
+
+(c) Ag2SO4
+
+(d) Pb(OH)2
+
+10. The Handbook of Chemistry and Physics gives solubilities of the following compounds in grams per 100 mL of water. Because these compounds are only slightly soluble, assume that the volume does not change on dissolution and calculate the solubility product for each.
+(a) BaSiF6, 0.026 g/100 mL (contains SiF62− ions)
+
+(b) Ce(IO3)4, 1.5 × 10–2 g/100 mL
+
+(c) Gd2(SO4)3, 3.98 g/100 mL
+
+(d) (NH4)2PtBr6, 0.59 g/100 mL (contains PtBr62− ions)
+
+11. The Handbook of Chemistry and Physics gives solubilities of the following compounds in grams per 100 mL of water. Because these compounds are only slightly soluble, assume that the volume does not change on dissolution and calculate the solubility product for each.
+(a) BaSeO4, 0.0118 g/100 mL
+
+(b) Ba(BrO3)2·H2O, 0.30 g/100 mL
+
+(c) NH4MgAsO4·6H2O, 0.038 g/100 mL
+
+(d) La2(MoO4)3, 0.00179 g/100 mL
+
+12. Use solubility products and predict which of the following salts is the most soluble, in terms of moles per liter, in pure water: CaF2, Hg2Cl2, PbI2, or Sn(OH)2.
+13. Assuming that no equilibria other than dissolution are involved, calculate the molar solubility of each of the following from its solubility product:
+(a) KHC4H4O6
+
+(b) PbI2
+
+(c) Ag4[Fe(CN)6], a salt containing the Fe(CN)64– ion
+
+(d) Hg2I2
+
+14. Assuming that no equilibria other than dissolution are involved, calculate the molar solubility of each of the following from its solubility product:
+(a) Ag2SO4
+
+(b) PbBr2
+
+(c) AgI
+
+(d) CaC2O4·H2O
+
+15. Assuming that no equilibria other than dissolution are involved, calculate the concentration of all solute species in each of the following solutions of salts in contact with a solution containing a common ion. Show that changes in the initial concentrations of the common ions can be neglected.
+(a) AgCl(s) in 0.025 M NaCl
+
+(b) CaF2(s) in 0.00133 M KF
+
+(c) Ag2SO4(s) in 0.500 L of a solution containing 19.50 g of K2SO4
+
+(d) Zn(OH)2(s) in a solution buffered at a pH of 11.45
+
+16. Assuming that no equilibria other than dissolution are involved, calculate the concentration of all solute species in each of the following solutions of salts in contact with a solution containing a common ion. Show that changes in the initial concentrations of the common ions can be neglected.
+(a) TlCl(s) in 1.250 M HCl
+
+(b) PbI2(s) in 0.0355 M CaI2
+
+(c) Ag2CrO4(s) in 0.225 L of a solution containing 0.856 g of K2CrO4
+
+(d) Cd(OH)2(s) in a solution buffered at a pH of 10.995
+
+17. Assuming that no equilibria other than dissolution are involved, calculate the concentration of all solute species in each of the following solutions of salts in contact with a solution containing a common ion. Show that it is not appropriate to neglect the changes in the initial concentrations of the common ions.
+(a) TlCl(s) in 0.025 M TlNO3
+
+(b) BaF2(s) in 0.0313 M KF
+
+(c) MgC2O4 in 2.250 L of a solution containing 8.156 g of Mg(NO3)2
+
+(d) Ca(OH)2(s) in an unbuffered solution initially with a pH of 12.700
+
+18. Explain why the changes in concentrations of the common ions in Exercise 15.17 can be neglected.
+19. Explain why the changes in concentrations of the common ions in Exercise 15.18 cannot be neglected.
+20. Calculate the solubility of aluminum hydroxide, Al(OH)3, in a solution buffered at pH 11.00.
+21. Refer to Appendix J for solubility products for calcium salts. Determine which of the calcium salts listed is most soluble in moles per liter and which is most soluble in grams per liter.
+22. Most barium compounds are very poisonous; however, barium sulfate is often administered internally as an aid in the X-ray examination of the lower intestinal tract (Figure 15.4). This use of BaSO4 is possible because of its low solubility. Calculate the molar solubility of BaSO4 and the mass of barium present in 1.00 L of water saturated with BaSO4.
+23. Public Health Service standards for drinking water set a maximum of 250 mg/L (2.60 × 10–3 M) of SO42− because of its cathartic action (it is a laxative). Does natural water that is saturated with CaSO4 (“gyp” water) as a result or passing through soil containing gypsum, CaSO4·2H2O, meet these standards? What is the concentration of SO42− in such water?
+24. Perform the following calculations:
+(a) Calculate [Ag+] in a saturated aqueous solution of AgBr.
+
+(b) What will [Ag+] be when enough KBr has been added to make [Br–] = 0.050 M?
+
+(c) What will [Br–] be when enough AgNO3 has been added to make [Ag+] = 0.020 M?
+
+25. The solubility product of CaSO4·2H2O is 2.4 × 10–5. What mass of this salt will dissolve in 1.0 L of 0.010 M SO42−?
+26. Assuming that no equilibria other than dissolution are involved, calculate the concentrations of ions in a saturated solution of each of the following (see Appendix J for solubility products).
+(a) TlCl
+
+(b) BaF2
+
+(c) Ag2CrO4
+
+(d) CaC2O4·H2O
+
+(e) the mineral anglesite, PbSO4
+
+27. Assuming that no equilibria other than dissolution are involved, calculate the concentrations of ions in a saturated solution of each of the following (see Appendix J for solubility products):
+(a) AgI
+
+(b) Ag2SO4
+
+(c) Mn(OH)2
+
+(d) Sr(OH)2·8H2O
+
+(e) the mineral brucite, Mg(OH)2
+
+28. The following concentrations are found in mixtures of ions in equilibrium with slightly soluble solids. From the concentrations given, calculate Ksp for each of the slightly soluble solids indicated:
+(a) AgBr: [Ag+] = 5.7 × 10–7 M, [Br–] = 5.7 × 10–7 M
+
+(b) CaCO3: [Ca2+] = 5.3 × 10–3 M, [CO32−] = 9.0 × 10–7 M
+
+(c) PbF2: [Pb2+] = 2.1 × 10–3 M, [F–] = 4.2 × 10–3 M
+
+(d) Ag2CrO4: [Ag+] = 5.3 × 10–5 M, 3.2 × 10–3 M
+
+(e) InF3: [In3+] = 2.3 × 10–3 M, [F–] = 7.0 × 10–3 M
+
+29. The following concentrations are found in mixtures of ions in equilibrium with slightly soluble solids. From the concentrations given, calculate Ksp for each of the slightly soluble solids indicated:
+(a) TlCl: [Tl+] = 1.21 × 10–2 M, [Cl–] = 1.2 × 10–2 M
+
+(b) Ce(IO3)4: [Ce4+] = 1.8 × 10–4 M, [IO3−] = 2.6 × 10–13 M
+
+(c) Gd2(SO4)3: [Gd3+] = 0.132 M, [SO42−] = 0.198 M
+
+(d) Ag2SO4: [Ag+] = 2.40 × 10–2 M, [SO42−] = 2.05 × 10–2 M
+
+(e) BaSO4: [Ba2+] = 0.500 M, [SO42−] = 4.6 × 10−8 M
+
+30. Which of the following compounds precipitates from a solution that has the concentrations indicated? (See Appendix J for Ksp values.)
+(a) KClO4: [K+] = 0.01 M, [ClO4−] = 0.01 M
+
+(b) K2PtCl6: [K+] = 0.01 M, [PtCl62−] = 0.01 M
+
+(c) PbI2: [Pb2+] = 0.003 M, [I–] = 1.3 × 10–3 M
+
+(d) Ag2S: [Ag+] = 1 × 10–10 M, [S2–] = 1 × 10–13 M
+
+31. Which of the following compounds precipitates from a solution that has the concentrations indicated? (See Appendix J for Ksp values.)
+(a) CaCO3: [Ca2+] = 0.003 M, [CO32−] = 0.003 M
+
+(b) Co(OH)2: [Co2+] = 0.01 M, [OH–] = 1 × 10–7 M
+
+(c) CaHPO4: [Ca2+] = 0.01 M, [HPO42−] = 2 × 10–6 M
+
+(d) Pb3(PO4)2: [Pb2+] = 0.01 M, [PO43−]= 1 × 10–13 M
+
+32. Calculate the concentration of Tl+ when TlCl just begins to precipitate from a solution that is 0.0250 M in Cl–.
+33. Calculate the concentration of sulfate ion when BaSO4 just begins to precipitate from a solution that is 0.0758 M in Ba2+.
+34. Calculate the concentration of Sr2+ when SrCrO4 starts to precipitate from a solution that is 0.0025 M in CrO42–.
+35. Calculate the concentration of PO43− when Ag3PO4 starts to precipitate from a solution that is 0.0125 M in Ag+.
+36. Calculate the concentration of F– required to begin precipitation of CaF2 in a solution that is 0.010 M in Ca2+.
+37. Calculate the concentration of Ag+ required to begin precipitation of Ag2CO3 in a solution that is 2.50 × 10–6 M in CO32−.
+38. What [Ag+] is required to reduce [CO32−] to 8.2 × 10–4 M by precipitation of Ag2CO3?
+39. What [F–] is required to reduce [Ca2+] to 1.0 × 10–4 M by precipitation of CaF2?
+40. A volume of 0.800 L of a 2 × 10–4-M Ba(NO3)2 solution is added to 0.200 L of 5 × 10–4 M Li2SO4. Does BaSO4 precipitate? Explain your answer.
+41. Perform these calculations for nickel(II) carbonate. (a) With what volume of water must a precipitate containing NiCO3 be washed to dissolve 0.100 g of this compound? Assume that the wash water becomes saturated with NiCO3 (Ksp = 1.36 × 10–7).
+(b) If the NiCO3 were a contaminant in a sample of CoCO3 (Ksp = 1.0 × 10–12), what mass of CoCO3 would have been lost? Keep in mind that both NiCO3 and CoCO3 dissolve in the same solution.
+
+42. Iron concentrations greater than 5.4 × 10–6 M in water used for laundry purposes can cause staining. What [OH–] is required to reduce [Fe2+] to this level by precipitation of Fe(OH)2?
+43. A solution is 0.010 M in both Cu2+ and Cd2+. What percentage of Cd2+ remains in the solution when 99.9% of the Cu2+ has been precipitated as CuS by adding sulfide?
+44. A solution is 0.15 M in both Pb2+ and Ag+. If Cl– is added to this solution, what is [Ag+] when PbCl2 begins to precipitate?
+45. What reagent might be used to separate the ions in each of the following mixtures, which are 0.1 M with respect to each ion? In some cases it may be necessary to control the pH. (Hint: Consider the Ksp values given in Appendix J.)
+(a) Hg22+ and Cu2+
+
+(b) SO42− and Cl–
+
+(c) Hg2+ and Co2+
+
+(d) Zn2+ and Sr2+
+
+(e) Ba2+ and Mg2+
+
+(f) CO32− and OH–
+
+46. A solution contains 1.0 × 10–5 mol of KBr and 0.10 mol of KCl per liter. AgNO3 is gradually added to this solution. Which forms first, solid AgBr or solid AgCl?
+47. A solution contains 1.0 × 10–2 mol of KI and 0.10 mol of KCl per liter. AgNO3 is gradually added to this solution. Which forms first, solid AgI or solid AgCl?
+48. The calcium ions in human blood serum are necessary for coagulation (Figure 15.5). Potassium oxalate, K2C2O4, is used as an anticoagulant when a blood sample is drawn for laboratory tests because it removes the calcium as a precipitate of CaC2O4·H2O. It is necessary to remove all but 1.0% of the Ca2+ in serum in order to prevent coagulation. If normal blood serum with a buffered pH of 7.40 contains 9.5 mg of Ca2+ per 100 mL of serum, what mass of K2C2O4 is required to prevent the coagulation of a 10 mL blood sample that is 55% serum by volume? (All volumes are accurate to two significant figures. Note that the volume of serum in a 10-mL blood sample is 5.5 mL. Assume that the Ksp value for CaC2O4 in serum is the same as in water.)
+49. About 50% of urinary calculi (kidney stones) consist of calcium phosphate, Ca3(PO4)2. The normal mid range calcium content excreted in the urine is 0.10 g of Ca2+ per day. The normal mid range amount of urine passed may be taken as 1.4 L per day. What is the maximum concentration of phosphate ion that urine can contain before a calculus begins to form?
+50. The pH of normal urine is 6.30, and the total phosphate concentration ([PO43−] + [HPO42−] + [H2PO4−] + [H3PO4]) is 0.020 M. What is the minimum concentration of Ca2+ necessary to induce kidney stone formation? (See Exercise 15.49 for additional information.)
+51. Magnesium metal (a component of alloys used in aircraft and a reducing agent used in the production of uranium, titanium, and other active metals) is isolated from sea water by the following sequence of reactions:
+Mg2+(𝑎𝑞)+Ca(OH)2(𝑎𝑞)⟶Mg(OH)2(𝑠)+Ca2+(𝑎𝑞)
+
+Mg(OH)2(𝑠)+2HCl(𝑎𝑞)⟶MgCl2(𝑠)+2H2O(𝑙)
+
+MgCl2(𝑙)−→−−−−−−−electrolysisMg(𝑠)+Cl2(𝑔)
+
+Sea water has a density of 1.026 g/cm3 and contains 1272 parts per million of magnesium as Mg2+(aq) by mass. What mass, in kilograms, of Ca(OH)2 is required to precipitate 99.9% of the magnesium in 1.00 × 103 L of sea water?
+
+52. Hydrogen sulfide is bubbled into a solution that is 0.10 M in both Pb2+ and Fe2+ and 0.30 M in HCl. After the solution has come to equilibrium it is saturated with H2S ([H2S] = 0.10 M). What concentrations of Pb2+ and Fe2+ remain in the solution? For a saturated solution of H2S we can use the equilibrium:
+H2S(𝑎𝑞)+2H2O(𝑙)⇌2H3O+(𝑎𝑞)+S2−(𝑎𝑞)𝐾=1.0×10−26
+(Hint: The [H3O+] changes as metal sulfides precipitate.)
+
+53. Perform the following calculations involving concentrations of iodate ions:
+(a) The iodate ion concentration of a saturated solution of La(IO3)3 was found to be 3.1 × 10–3 mol/L. Find the Ksp.
+
+(b) Find the concentration of iodate ions in a saturated solution of Cu(IO3)2 (Ksp = 7.4 × 10–8).
+
+54. Calculate the molar solubility of AgBr in 0.035 M NaBr (Ksp = 5 × 10–13).
+55. How many grams of Pb(OH)2 will dissolve in 500 mL of a 0.050-M PbCl2 solution (Ksp = 1.2 × 10–15)?
+56. Use the simulation from the earlier Link to Learning to complete the following exercise. Using 0.01 g CaF2, give the Ksp values found in a 0.2-M solution of each of the salts. Discuss why the values change as you change soluble salts.
+57. How many grams of Milk of Magnesia, Mg(OH)2 (s) (58.3 g/mol), would be soluble in 200 mL of water. Ksp = 7.1 × 10–12. Include the ionic reaction and the expression for Ksp in your answer. (Kw = 1 × 10–14 = [H3O+][OH–])
+58. Two hypothetical salts, LM2 and LQ, have the same molar solubility in H2O. If Ksp for LM2 is 3.20 × 10–5, what is the Ksp value for LQ?
+59. The carbonate ion concentration is gradually increased in a solution containing equal concentrations of the divalent cations of magnesium, calcium, strontium, barium, and manganese. Which of the following carbonates will precipitate first? Which will precipitate last? Explain.
+(a) MgCO3•3H2O𝐾sp=1×10−5
+
+(b) CaCO3𝐾sp=8.7×10−9
+
+(c) SrCO3𝐾sp=7×10−10
+
+(d) BaCO3𝐾sp=1.6×10−9
+
+(e) MnCO3𝐾sp=8.8×10−11
+
+60. How many grams of Zn(CN)2(s) (117.44 g/mol) would be soluble in 100 mL of H2O? Include the balanced reaction and the expression for Ksp in your answer. The Ksp value for Zn(CN)2(s) is 3.0 × 10–16.
+15.2 Lewis Acids and Bases
+61. Even though Ca(OH)2 is an inexpensive base, its limited solubility restricts its use. What is the pH of a saturated solution of Ca(OH)2?
+62. Under what circumstances, if any, does a sample of solid AgCl completely dissolve in pure water?
+63. Explain why the addition of NH3 or HNO3 to a saturated solution of Ag2CO3 in contact with solid Ag2CO3 increases the solubility of the solid.
+64. Calculate the cadmium ion concentration, [Cd2+], in a solution prepared by mixing 0.100 L of 0.0100 M Cd(NO3)2 with 0.150 L of 0.100 NH3(aq).
+65. Explain why addition of NH3 or HNO3 to a saturated solution of Cu(OH)2 in contact with solid Cu(OH)2 increases the solubility of the solid.
+66. Sometimes equilibria for complex ions are described in terms of dissociation constants, Kd. For the complex ion AlF63− the dissociation reaction is:
+AlF63−⇌Al3++6F− and 𝐾d=[Al3+][F−]6[AlF63−]=2×10−24
+
+Calculate the value of the formation constant, Kf, for AlF63−.
+
+67. Using the value of the formation constant for the complex ion Co(NH3)62+, calculate the dissociation constant.
+68. Using the dissociation constant, Kd = 7.8 × 10–18, calculate the equilibrium concentrations of Cd2+ and CN– in a 0.250-M solution of Cd(CN)42−.
+69. Using the dissociation constant, Kd = 3.4 × 10–15, calculate the equilibrium concentrations of Zn2+ and OH– in a 0.0465-M solution of Zn(OH)42−.
+70. Using the dissociation constant, Kd = 2.2 × 10–34, calculate the equilibrium concentrations of Co3+ and NH3 in a 0.500-M solution of Co(NH3)63+.
+71. Using the dissociation constant, Kd = 1 × 10–44, calculate the equilibrium concentrations of Fe3+ and CN– in a 0.333 M solution of Fe(CN)63−.
+72. Calculate the mass of potassium cyanide ion that must be added to 100 mL of solution to dissolve 2.0 × 10–2 mol of silver cyanide, AgCN.
+73. Calculate the minimum concentration of ammonia needed in 1.0 L of solution to dissolve 3.0 × 10–3 mol of silver bromide.
+74. A roll of 35-mm black and white photographic film contains about 0.27 g of unexposed AgBr before developing. What mass of Na2S2O3·5H2O (sodium thiosulfate pentahydrate or hypo) in 1.0 L of developer is required to dissolve the AgBr as Ag(S2O3)23− (Kf = 4.7 × 1013)?
+75. We have seen an introductory definition of an acid: An acid is a compound that reacts with water and increases the amount of hydronium ion present. In the chapter on acids and bases, we saw two more definitions of acids: a compound that donates a proton (a hydrogen ion, H+) to another compound is called a Brønsted-Lowry acid, and a Lewis acid is any species that can accept a pair of electrons. Explain why the introductory definition is a macroscopic definition, while the Brønsted-Lowry definition and the Lewis definition are microscopic definitions.
+76. Write the Lewis structures of the reactants and product of each of the following equations, and identify the Lewis acid and the Lewis base in each:
+(a) CO2+OH−⟶HCO3−
+
+(b) B(OH)3+OH−⟶B(OH)4−
+
+(c) I−+I2⟶I3−
+
+(d) AlCl3+Cl−⟶AlCl4− (use Al-Cl single bonds)
+
+(e) O2−+SO3⟶SO42−
+
+77. Write the Lewis structures of the reactants and product of each of the following equations, and identify the Lewis acid and the Lewis base in each:
+(a) CS2+SH−⟶HCS3−
+
+(b) BF3+F−⟶BF4−
+
+(c) I−+SnI2⟶SnI3−
+
+(d) Al(OH)3+OH−⟶Al(OH)4−
+
+(e) F−+SO3⟶SFO3−
+
+78. Using Lewis structures, write balanced equations for the following reactions:
+(a) HCl(𝑔)+PH3(𝑔)⟶
+
+(b) H3O++CH3−⟶
+
+(c) CaO+SO3⟶
+
+(d) NH4++C2H5O−⟶
+
+79. Calculate [HgCl42−] in a solution prepared by adding 0.0200 mol of NaCl to 0.250 L of a 0.100-M HgCl2 solution.
+80. In a titration of cyanide ion, 28.72 mL of 0.0100 M AgNO3 is added before precipitation begins. [The reaction of Ag+ with CN– goes to completion, producing the Ag(CN)2− complex.] Precipitation of solid AgCN takes place when excess Ag+ is added to the solution, above the amount needed to complete the formation of Ag(CN)2−. How many grams of NaCN were in the original sample?
+81. What are the concentrations of Ag+, CN–, and Ag(CN)2− in a saturated solution of AgCN?
+82. In dilute aqueous solution HF acts as a weak acid. However, pure liquid HF (boiling point = 19.5 °C) is a strong acid. In liquid HF, HNO3 acts like a base and accepts protons. The acidity of liquid HF can be increased by adding one of several inorganic fluorides that are Lewis acids and accept F– ion (for example, BF3 or SbF5). Write balanced chemical equations for the reaction of pure HNO3 with pure HF and of pure HF with BF3.
+83. The simplest amino acid is glycine, H2NCH2CO2H. The common feature of amino acids is that they contain the functional groups: an amine group, –NH2, and a carboxylic acid group, –CO2H. An amino acid can function as either an acid or a base. For glycine, the acid strength of the carboxyl group is about the same as that of acetic acid, CH3CO2H, and the base strength of the amino group is slightly greater than that of ammonia, NH3.
+(a) Write the Lewis structures of the ions that form when glycine is dissolved in 1 M HCl and in 1 M KOH.
+
+(b) Write the Lewis structure of glycine when this amino acid is dissolved in water. (Hint: Consider the relative base strengths of the –NH2 and −CO2− groups.)
+
+84. Boric acid, H3BO3, is not a Brønsted-Lowry acid but a Lewis acid.
+(a) Write an equation for its reaction with water.
+
+(b) Predict the shape of the anion thus formed.
+
+(c) What is the hybridization on the boron consistent with the shape you have predicted?
+
+15.3 Coupled Equilibria
+85. A saturated solution of a slightly soluble electrolyte in contact with some of the solid electrolyte is said to be a system in equilibrium. Explain. Why is such a system called a heterogeneous equilibrium?
+86. Calculate the equilibrium concentration of Ni2+ in a 1.0-M solution [Ni(NH3)6](NO3)2.
+87. Calculate the equilibrium concentration of Zn2+ in a 0.30-M solution of Zn(CN)42−.
+88. Calculate the equilibrium concentration of Cu2+ in a solution initially with 0.050 M Cu2+ and 1.00 M NH3.
+89. Calculate the equilibrium concentration of Zn2+ in a solution initially with 0.150 M Zn2+ and 2.50 M CN–.
+90. Calculate the Fe3+ equilibrium concentration when 0.0888 mole of K3[Fe(CN)6] is added to a solution with 0.0.00010 M CN–.
+91. Calculate the Co2+ equilibrium concentration when 0.010 mole of [Co(NH3)6](NO3)2 is added to a solution with 0.25 M NH3. Assume the volume is 1.00 L.
+92. Calculate the molar solubility of Sn(OH)2 in a buffer solution containing equal concentrations of NH3 and NH4+.
+93. Calculate the molar solubility of Al(OH)3 in a buffer solution with 0.100 M NH3 and 0.400 M NH4+.
+94. What is the molar solubility of CaF2 in a 0.100-M solution of HF? Ka for HF = 6.4 × 10–4.
+95. What is the molar solubility of BaSO4 in a 0.250-M solution of NaHSO4? Ka for HSO4− = 1.2 × 10–2.
+96. What is the molar solubility of Tl(OH)3 in a 0.10-M solution of NH3?
+97. What is the molar solubility of Pb(OH)2 in a 0.138-M solution of CH3NH2?
+98. A solution of 0.075 M CoBr2 is saturated with H2S ([H2S] = 0.10 M). What is the minimum pH at which CoS begins to precipitate?
+CoS(𝑠)⇌Co2+(𝑎𝑞)+S2−(𝑎𝑞)𝐾sp=2.3×1027
+
+H2S(𝑎𝑞)+2H2O(𝑙)⇌2H3O+(𝑎𝑞)+S2−(𝑎𝑞)𝐾=8.9×10−27
+
+99. A 0.125-M solution of Mn(NO3)2 is saturated with H2S ([H2S] = 0.10 M). At what pH does MnS begin to precipitate?
+MnS(𝑠)⇌Mn2+(𝑎𝑞)+S2−(𝑎𝑞)𝐾sp=2.3×10−13
+
+H2S(𝑎𝑞)+2H2O(𝑙)⇌2H3O+(𝑎𝑞)+S2−(𝑎𝑞)𝐾=1.0×10−26
+
+100. Both AgCl and AgI dissolve in NH3.
+(a) What mass of AgI dissolves in 1.0 L of 1.0 M NH3?
+
+(b) What mass of AgCl dissolves in 1.0 L of 1.0 M NH3?
+
+101. The following question is taken from a Chemistry Advanced Placement Examination and is used with the permission of the Educational Testing Service.
+Solve the following problem:
+
+MgF2(𝑠)⇌Mg2+(𝑎𝑞)+2F−(𝑎𝑞)
+
+In a saturated solution of MgF2 at 18 °C, the concentration of Mg2+ is 1.21 × 10–3 M. The equilibrium is represented by the preceding equation.
+
+(a) Write the expression for the solubility-product constant, Ksp, and calculate its value at 18 °C.
+
+(b) Calculate the equilibrium concentration of Mg2+ in 1.000 L of saturated MgF2 solution at 18 °C to which 0.100 mol of solid KF has been added. The KF dissolves completely. Assume the volume change is negligible.
+
+(c) Predict whether a precipitate of MgF2 will form when 100.0 mL of a 3.00 × 10–3-M solution of Mg(NO3)2 is mixed with 200.0 mL of a 2.00 × 10–3-M solution of NaF at 18 °C. Show the calculations to support your prediction.
+
+(d) At 27 °C the concentration of Mg2+ in a saturated solution of MgF2 is 1.17 × 10–3 M. Is the dissolving of MgF2 in water an endothermic or an exothermic process? Give an explanation to support your conclusion.
+
+102. Which of the following compounds, when dissolved in a 0.01-M solution of HClO4, has a solubility greater than in pure water: CuCl, CaCO3, MnS, PbBr2, CaF2? Explain your answer.
+103. Which of the following compounds, when dissolved in a 0.01-M solution of HClO4, has a solubility greater than in pure water: AgBr, BaF2, Ca3(PO4)2, ZnS, PbI2? Explain your answer.
+104. What is the effect on the amount of solid Mg(OH)2 that dissolves and the concentrations of Mg2+ and OH– when each of the following are added to a mixture of solid Mg(OH)2 and water at equilibrium?
+(a) MgCl2
+
+(b) KOH
+
+(c) HClO4
+
+(d) NaNO3
+
+(e) Mg(OH)2
+
+105. What is the effect on the amount of CaHPO4 that dissolves and the concentrations of Ca2+ and HPO42− when each of the following are added to a mixture of solid CaHPO4 and water at equilibrium?
+(a) CaCl2
+
+(b) HCl
+
+(c) KClO4
+
+(d) NaOH
+
+(e) CaHPO4
+
+106. Identify all chemical species present in an aqueous solution of Ca3(PO4)2 and list these species in decreasing order of their concentrations. (Hint: Remember that the PO43− ion is a weak base.)

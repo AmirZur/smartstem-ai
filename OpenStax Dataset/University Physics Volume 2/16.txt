@@ -1,0 +1,82 @@
+Problems
+16.1 Maxwell’s Equations and Electromagnetic Waves
+33. Show that the magnetic field at a distance r from the axis of two circular parallel plates, produced by placing charge Q(t) on the plates is
+Bind=μ02πrdQ(t)dt.
+34. Express the displacement current in a capacitor in terms of the capacitance and the rate of change of the voltage across the capacitor.
+35. A potential difference V(t)=V0sinωt is maintained across a parallel-plate capacitor with capacitance C consisting of two circular parallel plates. A thin wire with resistance R connects the centers of the two plates, allowing charge to leak between plates while they are charging.
+(a) Obtain expressions for the leakage current Ires(t) in the thin wire. Use these results to obtain an expression for the current Ireal(t) in the wires connected to the capacitor.
+(b) Find the displacement current in the space between the plates from the changing electric field between the plates.
+(c) Compare Ireal(t) with the sum of the displacement current Id(t) and resistor current Ires(t) between the plates, and explain why the relationship you observe would be expected.
+36. Suppose the parallel-plate capacitor shown below is accumulating charge at a rate of 0.010 C/s. What is the induced magnetic field at a distance of 10 cm from the capacitator?Figure shows a capacitor with two circular parallel plates. A wire is connected to each plate. A current I flows through the wire. A point below the capacitor is highlighted. This is 10 cm from the centre of the plates.
+37. The potential difference V(t) between parallel plates shown above is instantaneously increasing at a rate of 107V/s. What is the displacement current between the plates if the separation of the plates is 1.00 cm and they have an area of 0.200m2 ?
+38. A parallel-plate capacitor has a plate area of A=0.250m2 and a separation of 0.0100 m. What must be must be the angular frequency ω for a voltage V(t)=V0sinωt with V0=100V to produce a maximum displacement induced current of 1.00 A between the plates?
+39. The voltage across a parallel-plate capacitor with area A=800cm2 and separation d=2mm varies sinusoidally as V=(15mV)cos(150t), where t is in seconds. Find the displacement current between the plates.
+40. The voltage across a parallel-plate capacitor with area A and separation d varies with time t as V=at2, where a is a constant. Find the displacement current between the plates.
+16.2 Plane Electromagnetic Waves
+41. If the Sun suddenly turned off, we would not know it until its light stopped coming. How long would that be, given that the Sun is 1.496×1011m away?
+42. What is the maximum electric field strength in an electromagnetic wave that has a maximum magnetic field strength of 5.00×10−4T (about 10 times Earth’s magnetic field)?
+43. An electromagnetic wave has a frequency of 12 MHz. What is its wavelength in vacuum?
+44. If electric and magnetic field strengths vary sinusoidally in time at frequency 1.00 GHz, being zero at t=0, then E=E0sin2πft and B=B0sin2πft. (a) When are the field strengths next equal to zero? (b) When do they reach their most negative value? (c) How much time is needed for them to complete one cycle?
+45. The electric field of an electromagnetic wave traveling in vacuum is described by the following wave function:
+E⃗ =(5.00V/m)cos[kx−(6.00×109s−1)t+0.40]jˆ
+where k is the wavenumber in rad/m, x is in m, t is in s.
+Find the following quantities:
+(a) amplitude
+(b) frequency
+(c) wavelength
+(d) the direction of the travel of the wave
+(e) the associated magnetic field wave
+46. A plane electromagnetic wave of frequency 20 GHz moves in the positive y-axis direction such that its electric field is pointed along the z-axis. The amplitude of the electric field is 10 V/m. The start of time is chosen so that at t=0, the electric field has a value 10 V/m at the origin. (a) Write the wave function that will describe the electric field wave. (b) Find the wave function that will describe the associated magnetic field wave.
+47. The following represents an electromagnetic wave traveling in the direction of the positive y-axis: Ex=0;Ey=E0cos(kx−ωt);Ez=0Bx=0;By=0;Bz=B0cos(kx−ωt).
+The wave is passing through a wide tube of circular cross-section of radius R whose axis is along the y-axis. Find the expression for the displacement current through the tube.
+16.3 Energy Carried by Electromagnetic Waves
+48. While outdoors on a sunny day, a student holds a large convex lens of radius 4.0 cm above a sheet of paper to produce a bright spot on the paper that is 1.0 cm in radius, rather than a sharp focus. By what factor is the electric field in the bright spot of light related to the electric field of sunlight leaving the side of the lens facing the paper?
+49. A plane electromagnetic wave travels northward. At one instant, its electric field has a magnitude of 6.0 V/m and points eastward. What are the magnitude and direction of the magnetic field at this instant?
+50. The electric field of an electromagnetic wave is given by E =
+(6.0×10−3V/m)sin[2π(x18m−t6.0×10−8s)]jˆ.
+Write the equations for the associated magnetic field and Poynting vector.
+51. A radio station broadcasts at a frequency of 760 kHz. At a receiver some distance from the antenna, the maximum magnetic field of the electromagnetic wave detected is 2.15×10−11T.
+(a) What is the maximum electric field? (b) What is the wavelength of the electromagnetic wave?
+52. The filament in a clear incandescent light bulb radiates visible light at a power of 5.00 W. Model the glass part of the bulb as a sphere of radius r0=3.00cm and calculate the amount of electromagnetic energy from visible light inside the bulb.
+53. At what distance does a 100-W lightbulb produce the same intensity of light as a 75-W lightbulb produces 10 m away? (Assume both have the same efficiency for converting electrical energy in the circuit into emitted electromagnetic energy.)
+54. An incandescent light bulb emits only 2.6 W of its power as visible light. What is the rms electric field of the emitted light at a distance of 3.0 m from the bulb?
+55. A 150-W lightbulb emits 5% of its energy as electromagnetic radiation. What is the magnitude of the average Poynting vector 10 m from the bulb?
+56. A small helium-neon laser has a power output of 2.5 mW. What is the electromagnetic energy in a 1.0-m length of the beam?
+57. At the top of Earth’s atmosphere, the time-averaged Poynting vector associated with sunlight has a magnitude of about 1.4kW/m2.
+(a) What are the maximum values of the electric and magnetic fields for a wave of this intensity? (b) What is the total power radiated by the sun? Assume that the Earth is 1.5×1011m from the Sun and that sunlight is composed of electromagnetic plane waves.
+58. The magnetic field of a plane electromagnetic wave moving along the z axis is given by B⃗ =B0(coskz+ωt)jˆ, where B0=5.00×10−10T and k=3.14×10−2m−1.
+(a) Write an expression for the electric field associated with the wave. (b) What are the frequency and the wavelength of the wave? (c) What is its average Poynting vector?
+59. What is the intensity of an electromagnetic wave with a peak electric field strength of 125 V/m?
+60. Assume the helium-neon lasers commonly used in student physics laboratories have power outputs of 0.500 mW. (a) If such a laser beam is projected onto a circular spot 1.00 mm in diameter, what is its intensity? (b) Find the peak magnetic field strength. (c) Find the peak electric field strength.
+61. An AM radio transmitter broadcasts 50.0 kW of power uniformly in all directions. (a) Assuming all of the radio waves that strike the ground are completely absorbed, and that there is no absorption by the atmosphere or other objects, what is the intensity 30.0 km away? (Hint: Half the power will be spread over the area of a hemisphere.) (b) What is the maximum electric field strength at this distance?
+62. Suppose the maximum safe intensity of microwaves for human exposure is taken to be 1.00W/m2. (a) If a radar unit leaks 10.0 W of microwaves (other than those sent by its antenna) uniformly in all directions, how far away must you be to be exposed to an intensity considered to be safe? Assume that the power spreads uniformly over the area of a sphere with no complications from absorption or reflection. (b) What is the maximum electric field strength at the safe intensity? (Note that early radar units leaked more than modern ones do. This caused identifiable health problems, such as cataracts, for people who worked near them.)
+63. A 2.50-m-diameter university communications satellite dish receives TV signals that have a maximum electric field strength (for one channel) of 7.50μV/m (see below). (a) What is the intensity of this wave? (b) What is the power received by the antenna? (c) If the orbiting satellite broadcasts uniformly over an area of 1.50×1013m2 (a large fraction of North America), how much power does it radiate?Figure shows waves incident on a dish antenna.
+64. Lasers can be constructed that produce an extremely high intensity electromagnetic wave for a brief time—called pulsed lasers. They are used to initiate nuclear fusion, for example. Such a laser may produce an electromagnetic wave with a maximum electric field strength of 1.00×1011V/m for a time of 1.00 ns. (a) What is the maximum magnetic field strength in the wave? (b) What is the intensity of the beam? (c) What energy does it deliver on an 1.00-mm2 area?
+16.4 Momentum and Radiation Pressure
+65. A 150-W lightbulb emits 5% of its energy as electromagnetic radiation. What is the radiation pressure on an absorbing sphere of radius 10 m that surrounds the bulb?
+66. What pressure does light emitted uniformly in all directions from a 100-W incandescent light bulb exert on a mirror at a distance of 3.0 m, if 2.6 W of the power is emitted as visible light?
+67. A microscopic spherical dust particle of radius 2μm and mass 10μg is moving in outer space at a constant speed of 30 cm/sec. A wave of light strikes it from the opposite direction of its motion and gets absorbed. Assuming the particle accelerates opposite to the motion uniformly to zero speed in one second, what is the average electric field amplitude in the light?
+68. A Styrofoam spherical ball of radius 2 mm and mass 20μg is to be suspended by the radiation pressure in a vacuum tube in a lab. How much intensity will be required if the light is completely absorbed by the ball?
+69. Suppose that S⃗ avg for sunlight at a point on the surface of Earth is 900W/m2. (a) If sunlight falls perpendicularly on a kite with a reflecting surface of area 0.75m2, what is the average force on the kite due to radiation pressure? (b) How is your answer affected if the kite material is black and absorbs all sunlight?
+70. Sunlight reaches the ground with an intensity of about 1.0kW/m2. A sunbather has a body surface area of 0.8m2 facing the sun while reclining on a beach chair on a clear day. (a) how much energy from direct sunlight reaches the sunbather’s skin per second? (b) What pressure does the sunlight exert if it is absorbed?
+71. Suppose a spherical particle of mass m and radius R in space absorbs light of intensity I for time t. (a) How much work does the radiation pressure do to accelerate the particle from rest in the given time it absorbs the light? (b) How much energy carried by the electromagnetic waves is absorbed by the particle over this time based on the radiant energy incident on the particle?
+16.5 The Electromagnetic Spectrum
+72. How many helium atoms, each with a radius of about 31 pm, must be placed end to end to have a length equal to one wavelength of 470 nm blue light?
+73. If you wish to detect details of the size of atoms (about 0.2 nm) with electromagnetic radiation, it must have a wavelength of about this size. (a) What is its frequency? (b) What type of electromagnetic radiation might this be?
+74. Find the frequency range of visible light, given that it encompasses wavelengths from 380 to 760 nm.
+75. (a) Calculate the wavelength range for AM radio given its frequency range is 540 to 1600 kHz. (b) Do the same for the FM frequency range of 88.0 to 108 MHz.
+76. Radio station WWVB, operated by the National Institute of Standards and Technology (NIST) from Fort Collins, Colorado, at a low frequency of 60 kHz, broadcasts a time synchronization signal whose range covers the entire continental US. The timing of the synchronization signal is controlled by a set of atomic clocks to an accuracy of 1×10−12s, and repeats every 1 minute. The signal is used for devices, such as radio-controlled watches, that automatically synchronize with it at preset local times. WWVB’s long wavelength signal tends to propagate close to the ground.
+(a) Calculate the wavelength of the radio waves from WWVB.
+(b) Estimate the error that the travel time of the signal causes in synchronizing a radio controlled watch in Norfolk, Virginia, which is 1570 mi (2527 km) from Fort Collins, Colorado.
+77. An outdoor WiFi unit for a picnic area has a 100-mW output and a range of about 30 m. What output power would reduce its range to 12 m for use with the same devices as before? Assume there are no obstacles in the way and that microwaves into the ground are simply absorbed.
+78. 7. The prefix “mega” (M) and “kilo” (k), when referring to amounts of computer data, refer to factors of 1024 or 210 rather than 1000 for the prefix kilo, and 10242=220 rather than 1,000,000 for the prefix Mega (M). If a wireless (WiFi) router transfers 150 Mbps of data, how many bits per second is that in decimal arithmetic?
+79. A computer user finds that his wireless router transmits data at a rate of 75 Mbps (megabits per second). Compare the average time to transmit one bit of data with the time difference between the wifi signal reaching an observer’s cell phone directly and by bouncing back to the observer from a wall 8.00 m past the observer.
+80. (a) The ideal size (most efficient) for a broadcast antenna with one end on the ground is one-fourth the wavelength (λ/4) of the electromagnetic radiation being sent out. If a new radio station has such an antenna that is 50.0 m high, what frequency does it broadcast most efficiently? Is this in the AM or FM band? (b) Discuss the analogy of the fundamental resonant mode of an air column closed at one end to the resonance of currents on an antenna that is one-fourth their wavelength.
+81. What are the wavelengths of (a) X-rays of frequency 2.0×1017Hz? (b) Yellow light of frequency 5.1×1014Hz? (c) Gamma rays of frequency 1.0×1023Hz?
+82. For red light of λ=660nm, what are f, ω, and k?
+83. A radio transmitter broadcasts plane electromagnetic waves whose maximum electric field at a particular location is 1.55×10−3V/m. What is the maximum magnitude of the oscillating magnetic field at that location? How does it compare with Earth’s magnetic field?
+84. (a) Two microwave frequencies authorized for use in microwave ovens are: 915 and 2450 MHz. Calculate the wavelength of each. (b) Which frequency would produce closer together hot spots in foods due to interference effects?
+85. During normal beating, the heart creates a maximum 4.00-mV potential across 0.300 m of a person’s chest, creating a 1.00-Hz electromagnetic wave. (a) What is the maximum electric field strength created? (b) What is the corresponding maximum magnetic field strength in the electromagnetic wave? (c) What is the wavelength of the electromagnetic wave?
+86. Distances in space are often quoted in units of light-years, the distance light travels in 1 year. (a) How many meters is a light-year? (b) How many meters is it to Andromeda, the nearest large galaxy, given that it is 2.54×106 ly away? (c) The most distant galaxy yet discovered is 13.4×109 ly away. How far is this in meters?
+87. A certain 60.0-Hz ac power line radiates an electromagnetic wave having a maximum electric field strength of 13.0 kV/m. (a) What is the wavelength of this very-low-frequency electromagnetic wave? (b) What type of electromagnetic radiation is this wave (b) What is its maximum magnetic field strength?
+88. (a) What is the frequency of the 193-nm ultraviolet radiation used in laser eye surgery? (b) Assuming the accuracy with which this electromagnetic radiation can ablate (reshape) the cornea is directly proportional to wavelength, how much more accurate can this UV radiation be than the shortest visible wavelength of light?

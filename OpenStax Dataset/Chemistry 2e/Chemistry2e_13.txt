@@ -1,0 +1,467 @@
+13.1 Chemical Equilibria
+1. What does it mean to describe a reaction as “reversible”?
+2. When writing an equation, how is a reversible reaction distinguished from a nonreversible reaction?
+3. If a reaction is reversible, when can it be said to have reached equilibrium?
+4. Is a system at equilibrium if the rate constants of the forward and reverse reactions are equal?
+5. If the concentrations of products and reactants are equal, is the system at equilibrium?
+13.2 Equilibrium Constants
+6. Explain why there may be an infinite number of values for the reaction quotient of a reaction at a given temperature but there can be only one value for the equilibrium constant at that temperature.
+7. Explain why an equilibrium between Br2(l) and Br2(g) would not be established if the container were not a closed vessel shown in Figure 13.4.
+8. If you observe the following reaction at equilibrium, is it possible to tell whether the reaction started with pure NO2 or with pure N2O4?
+2NO2(𝑔)⇌N2O4(𝑔)
+9. Among the solubility rules previously discussed is the statement: All chlorides are soluble except Hg2Cl2, AgCl, PbCl2, and CuCl.
+(a) Write the expression for the equilibrium constant for the reaction represented by the equation AgCl(𝑠)⇌Ag+(𝑎𝑞)+Cl−(𝑎𝑞). Is Kc > 1, < 1, or ≈ 1? Explain your answer.
+
+(b) Write the expression for the equilibrium constant for the reaction represented by the equation Pb2+(𝑎𝑞)+2Cl−(𝑎𝑞)⇌PbCl2(𝑠). Is Kc > 1, < 1, or ≈ 1? Explain your answer.
+
+10. Among the solubility rules previously discussed is the statement: Carbonates, phosphates, borates, and arsenates—except those of the ammonium ion and the alkali metals—are insoluble.
+(a) Write the expression for the equilibrium constant for the reaction represented by the equation CaCO3(𝑠)⇌Ca2+(𝑎𝑞)+CO32−(aq). Is Kc > 1, < 1, or ≈ 1? Explain your answer.
+
+(b) Write the expression for the equilibrium constant for the reaction represented by the equation 3Ba2+(𝑎𝑞)+2PO43−(𝑎𝑞)⇌Ba3(PO4)2(𝑠). Is Kc > 1, < 1, or ≈ 1? Explain your answer.
+
+11. Benzene is one of the compounds used as octane enhancers in unleaded gasoline. It is manufactured by the catalytic conversion of acetylene to benzene: 3C2H2(𝑔)⇌C6H6(𝑔). Which value of Kc would make this reaction most useful commercially? Kc ≈ 0.01, Kc ≈ 1, or Kc ≈ 10. Explain your answer.
+12. Show that the complete chemical equation, the total ionic equation, and the net ionic equation for the reaction represented by the equation KI(𝑎𝑞)+I2(𝑎𝑞)⇌KI3(𝑎𝑞) give the same expression for the reaction quotient. KI3 is composed of the ions K+ and I3−.
+13. For a titration to be effective, the reaction must be rapid and the yield of the reaction must essentially be 100%. Is Kc > 1, < 1, or ≈ 1 for a titration reaction?
+14. For a precipitation reaction to be useful in a gravimetric analysis, the product of the reaction must be insoluble. Is Kc > 1, < 1, or ≈ 1 for a useful precipitation reaction?
+15. Write the mathematical expression for the reaction quotient, Qc, for each of the following reactions:
+(a) CH4(𝑔)+Cl2(𝑔)⇌CH3Cl(𝑔)+HCl(𝑔)
+
+(b) N2(𝑔)+O2(𝑔)⇌2NO(𝑔)
+
+(c) 2SO2(𝑔)+O2(𝑔)⇌2SO3(𝑔)
+
+(d) BaSO3(𝑠)⇌BaO(𝑠)+SO2(𝑔)
+
+(e) P4(𝑔)+5O2(𝑔)⇌P4O10(𝑠)
+
+(f) Br2(𝑔)⇌2Br(𝑔)
+
+(g) CH4(𝑔)+2O2(𝑔)⇌CO2(𝑔)+2H2O(𝑙)
+
+(h) CuSO4·5H2O(𝑠)⇌CuSO4(𝑠)+5H2O(𝑔)
+
+16. Write the mathematical expression for the reaction quotient, Qc, for each of the following reactions:
+(a) N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)
+
+(b) 4NH3(𝑔)+5O2(𝑔)⇌4NO(𝑔)+6H2O(𝑔)
+
+(c) N2O4(𝑔)⇌2NO2(𝑔)
+
+(d) CO2(𝑔)+H2(𝑔)⇌CO(𝑔)+H2O(𝑔)
+
+(e) NH4Cl(𝑠)⇌NH3(𝑔)+HCl(𝑔)
+
+(f) 2Pb(NO3)2(𝑠)⇌2PbO(𝑠)+4NO2(𝑔)+O2(𝑔)
+
+(g) 2H2(𝑔)+O2(𝑔)⇌2H2O(𝑙)
+
+(h) S8(𝑔)⇌8S(𝑔)
+
+17. The initial concentrations or pressures of reactants and products are given for each of the following systems. Calculate the reaction quotient and determine the direction in which each system will proceed to reach equilibrium.
+(a) 2NH3(𝑔)⇌N2(𝑔)+3H2(𝑔)𝐾𝑐=17; [NH3] = 0.20 M, [N2] = 1.00 M, [H2] = 1.00 M
+
+(b) 2NH3(𝑔)⇌N2(𝑔)+3H2(𝑔)𝐾𝑃=6.8×104; NH3 = 3.0 atm, N2 = 2.0 atm, H2 = 1.0 atm
+
+(c) 2SO3(𝑔)⇌2SO2(𝑔)+O2(𝑔)𝐾𝑐=0.230; [SO3] = 0.00 M, [SO2] = 1.00 M, [O2] = 1.00 M
+
+(d) 2SO3(𝑔)⇌2SO2(𝑔)+O2(𝑔)𝐾𝑃=16.5; SO3 = 1.00 atm, SO2 = 1.00 atm, O2 = 1.00 atm
+
+(e) 2NO(𝑔)+Cl2(𝑔)⇌2NOCl(𝑔)𝐾𝑐=4.6×104; [NO] = 1.00 M, [Cl2] = 1.00 M, [NOCl] = 0 M
+
+(f) N2(𝑔)+O2(𝑔)⇌2NO(𝑔)𝐾𝑃=0.050; NO = 10.0 atm, N2 = O2 = 5 atm
+
+18. The initial concentrations or pressures of reactants and products are given for each of the following systems. Calculate the reaction quotient and determine the direction in which each system will proceed to reach equilibrium.
+(a) 2NH3(𝑔)⇌N2(𝑔)+3H2(𝑔)𝐾𝑐=17; [NH3] = 0.50 M, [N2] = 0.15 M, [H2] = 0.12 M
+
+(b) 2NH3(𝑔)⇌N2(𝑔)+3H2(𝑔)𝐾𝑃=6.8×104; NH3 = 2.00 atm, N2 = 10.00 atm, H2 = 10.00 atm
+
+(c) 2SO3(𝑔)⇌2SO2(𝑔)+O2(𝑔)𝐾𝑐=0.230; [SO3] = 2.00 M, [SO2] = 2.00 M, [O2] = 2.00 M
+
+(d) 2SO3(𝑔)⇌2SO2(𝑔)+O2(𝑔)𝐾𝑃=6.5atm; SO2 = 1.00 atm, O2 = 1.130 atm, SO3 = 0 atm
+
+(e) 2NO(𝑔)+Cl2(𝑔)⇌2NOCl(𝑔)𝐾𝑃=2.5×103; NO = 1.00 atm, Cl2 = 1.00 atm, NOCl = 0 atm
+
+(f) N2(𝑔)+O2(𝑔)⇌2NO(𝑔)𝐾𝑐=0.050; [N2] = 0.100 M, [O2] = 0.200 M, [NO] = 1.00 M
+
+19. The following reaction has KP = 4.50 × 10−5 at 720 K.
+N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)
+If a reaction vessel is filled with each gas to the partial pressures listed, in which direction will it shift to reach equilibrium? P(NH3) = 93 atm, P(N2) = 48 atm, and P(H2) = 52 atm
+
+20. Determine if the following system is at equilibrium. If not, in which direction will the system need to shift to reach equilibrium?
+SO2Cl2(𝑔)⇌SO2(𝑔)+Cl2(𝑔)
+[SO2Cl2] = 0.12 M, [Cl2] = 0.16 M and [SO2] = 0.050 M. Kc for the reaction is 0.078.
+
+21. Which of the systems described in Exercise 13.15 are homogeneous equilibria? Which are heterogeneous equilibria?
+22. Which of the systems described in Exercise 13.16 are homogeneous equilibria? Which are heterogeneous equilibria?
+23. For which of the reactions in Exercise 13.15 does Kc (calculated using concentrations) equal KP (calculated using pressures)?
+24. For which of the reactions in Exercise 13.16 does Kc (calculated using concentrations) equal KP (calculated using pressures)?
+25. Convert the values of Kc to values of KP or the values of KP to values of Kc.
+(a) N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)𝐾𝑐=0.50at400°C
+
+(b) H2(𝑔)+I2(𝑔)⇌2HI(𝑔)𝐾𝑐=50.2at448°C
+
+(c) Na2SO4·10H2O(𝑠)⇌Na2SO4(𝑠)+10H2O(𝑔)𝐾𝑃=4.08×10−25at25°C
+
+(d) H2O(𝑙)⇌H2O(𝑔)𝐾𝑃=0.122at50°C
+
+26. Convert the values of Kc to values of KP or the values of KP to values of Kc.
+(a) Cl2(𝑔)+Br2(𝑔)⇌2BrCl(𝑔)𝐾𝑐=4.7×10−2at25°C
+
+(b) 2SO2(𝑔)+O2(𝑔)⇌2SO3(𝑔)𝐾𝑃=48.2at500°C
+
+(c) CaCl2·6H2O(𝑠)⇌CaCl2(𝑠)+6H2O(𝑔)𝐾𝑃=5.09×10−44at25°C
+
+(d) H2O(𝑙)⇌H2O(𝑔)𝐾𝑃=0.196at60°C
+
+27. What is the value of the equilibrium constant expression for the change H2O(𝑙)⇌H2O(𝑔) at 30 °C? (See Appendix E.)
+28. Write the expression of the reaction quotient for the ionization of HOCN in water.
+29. Write the reaction quotient expression for the ionization of NH3 in water.
+30. What is the approximate value of the equilibrium constant KP for the change C2H5OC2H5(𝑙)⇌C2H5OC2H5(𝑔) at 25 °C. (The equilibrium vapor pressure for this substance is 570 torr at 25 °C.)
+13.3 Shifting Equilibria: Le Châtelier’s Principle
+31. The following equation represents a reversible decomposition:
+CaCO3(𝑠)⇌CaO(𝑠)+CO2(𝑔)
+Under what conditions will decomposition in a closed container proceed to completion so that no CaCO3 remains?
+
+32. Explain how to recognize the conditions under which changes in volume will affect gas-phase systems at equilibrium.
+33. What property of a reaction can we use to predict the effect of a change in temperature on the value of an equilibrium constant?
+34. The following reaction occurs when a burner on a gas stove is lit:
+CH4(𝑔)+2O2(𝑔)⇌CO2(𝑔)+2H2O(𝑔)
+Is an equilibrium among CH4, O2, CO2, and H2O established under these conditions? Explain your answer.
+
+35. A necessary step in the manufacture of sulfuric acid is the formation of sulfur trioxide, SO3, from sulfur dioxide, SO2, and oxygen, O2, shown here. At high temperatures, the rate of formation of SO3 is higher, but the equilibrium amount (concentration or partial pressure) of SO3 is lower than it would be at lower temperatures.
+2SO2(𝑔)+O2(𝑔)⇌2SO3(𝑔)
+(a) Does the equilibrium constant for the reaction increase, decrease, or remain about the same as the temperature increases?
+
+(b) Is the reaction endothermic or exothermic?
+
+36. Suggest four ways in which the concentration of hydrazine, N2H4, could be increased in an equilibrium described by the following equation:
+N2(𝑔)+2H2(𝑔)⇌N2H4(𝑔)Δ𝐻=95kJ
+37. Suggest four ways in which the concentration of PH3 could be increased in an equilibrium described by the following equation:
+P4(𝑔)+6H2(𝑔)⇌4PH3(𝑔)Δ𝐻=110.5kJ
+38. How will an increase in temperature affect each of the following equilibria? How will a decrease in the volume of the reaction vessel affect each?
+(a) 2NH3(𝑔)⇌N2(𝑔)+3H2(𝑔)Δ𝐻=92kJ
+
+(b) N2(𝑔)+O2(𝑔)⇌2NO(𝑔)Δ𝐻=181kJ
+
+(c) 2O3(𝑔)⇌3O2(𝑔)Δ𝐻=−285kJ
+
+(d) CaO(𝑠)+CO2(𝑔)⇌CaCO3(𝑠)Δ𝐻=−176kJ
+
+39. How will an increase in temperature affect each of the following equilibria? How will a decrease in the volume of the reaction vessel affect each?
+(a) 2H2O(𝑔)⇌2H2(𝑔)+O2(𝑔)Δ𝐻=484kJ
+
+(b) N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)Δ𝐻=−92.2kJ
+
+(c) 2Br(𝑔)⇌Br2(𝑔)Δ𝐻=−224kJ
+
+(d) H2(𝑔)+I2(𝑠)⇌2HI(𝑔)Δ𝐻=53kJ
+
+40. Methanol can be prepared from carbon monoxide and hydrogen at high temperature and pressure in the presence of a suitable catalyst.
+(a) Write the expression for the equilibrium constant (Kc) for the reversible reaction
+2H2(𝑔)+CO(𝑔)⇌CH3OH(𝑔)Δ𝐻=−90.2kJ
+
+(b) What will happen to the concentrations of H2, CO, and CH3OH at equilibrium if more H2 is added?
+
+(c) What will happen to the concentrations of H2, CO, and CH3OH at equilibrium if CO is removed?
+
+(d) What will happen to the concentrations of H2, CO, and CH3OH at equilibrium if CH3OH is added?
+
+(e) What will happen to the concentrations of H2, CO, and CH3OH at equilibrium if the temperature of the system is increased?
+
+(f) What will happen to the concentrations of H2, CO, and CH3OH at equilibrium if more catalyst is added?
+
+41. Nitrogen and oxygen react at high temperatures.
+(a) Write the expression for the equilibrium constant (Kc) for the reversible reaction
+N2(𝑔)+O2(𝑔)⇌2NO(𝑔)Δ𝐻=181kJ
+
+(b) What will happen to the concentrations of N2, O2, and NO at equilibrium if more O2 is added?
+
+(c) What will happen to the concentrations of N2, O2, and NO at equilibrium if N2 is removed?
+
+(d) What will happen to the concentrations of N2, O2, and NO at equilibrium if NO is added?
+
+(e) What will happen to the concentrations of N2, O2, and NO at equilibrium if the volume of the reaction vessel is decreased?
+
+(f) What will happen to the concentrations of N2, O2, and NO at equilibrium if the temperature of the system is increased?
+
+(g) What will happen to the concentrations of N2, O2, and NO at equilibrium if a catalyst is added?
+
+42. Water gas, a mixture of H2 and CO, is an important industrial fuel produced by the reaction of steam with red hot coke, essentially pure carbon.
+(a) Write the expression for the equilibrium constant for the reversible reaction
+C(𝑠)+H2O(𝑔)⇌CO(𝑔)+H2(𝑔)Δ𝐻=131.30kJ
+
+(b) What will happen to the concentration of each reactant and product at equilibrium if more C is added?
+
+(c) What will happen to the concentration of each reactant and product at equilibrium if H2O is removed?
+
+(d) What will happen to the concentration of each reactant and product at equilibrium if CO is added?
+
+(e) What will happen to the concentration of each reactant and product at equilibrium if the temperature of the system is increased?
+
+43. Pure iron metal can be produced by the reduction of iron(III) oxide with hydrogen gas.
+(a) Write the expression for the equilibrium constant (Kc) for the reversible reaction
+Fe2O3(𝑠)+3H2(𝑔)⇌2Fe(𝑠)+3H2O(𝑔)Δ𝐻=98.7kJ
+
+(b) What will happen to the concentration of each reactant and product at equilibrium if more Fe is added?
+
+(c) What will happen to the concentration of each reactant and product at equilibrium if H2O is removed?
+
+(d) What will happen to the concentration of each reactant and product at equilibrium if H2 is added?
+
+(e) What will happen to the concentration of each reactant and product at equilibrium if the volume of the reaction vessel is decreased?
+
+(f) What will happen to the concentration of each reactant and product at equilibrium if the temperature of the system is increased?
+
+44. Ammonia is a weak base that reacts with water according to this equation:
+NH3(𝑎𝑞)+H2O(𝑙)⇌NH4+(𝑎𝑞)+OH−(𝑎𝑞)
+Will any of the following increase the percent of ammonia that is converted to the ammonium ion in water?
+
+(a) Addition of NaOH
+
+(b) Addition of HCl
+
+(c) Addition of NH4Cl
+
+45. Acetic acid is a weak acid that reacts with water according to this equation:
+CH3CO2H(𝑎𝑞)+H2O(𝑎𝑞)⇌H3O+(𝑎𝑞)+CH3CO2−(𝑎𝑞)
+Will any of the following increase the percent of acetic acid that reacts and produces CH3CO2− ion?
+
+(a) Addition of HCl
+
+(b) Addition of NaOH
+
+(c) Addition of NaCH3CO2
+
+46. Suggest two ways in which the equilibrium concentration of Ag+ can be reduced in a solution of Na+, Cl−, Ag+, and NO3−, in contact with solid AgCl.
+Na+(𝑎𝑞)+Cl−(𝑎𝑞)+Ag+(𝑎𝑞)+NO3−(𝑎𝑞)⇌AgCl(𝑠)+Na+(𝑎𝑞)+NO3−(𝑎𝑞)
+Δ𝐻=−65.9kJ
+47. How can the pressure of water vapor be increased in the following equilibrium?
+H2O(𝑙)⇌H2O(𝑔)Δ𝐻=41kJ
+48. A solution is saturated with silver sulfate and contains excess solid silver sulfate:
+Ag2SO4(𝑠)⇌2Ag+(𝑎𝑞)+SO42−(𝑎𝑞)
+A small amount of solid silver sulfate containing a radioactive isotope of silver is added to this solution. Within a few minutes, a portion of the solution phase is sampled and tests positive for radioactive Ag+ ions. Explain this observation.
+
+49. When equal molar amounts of HCl and HOCl are dissolved separately in equal amounts of water, the solution of HCl freezes at a lower temperature. Which compound has the larger equilibrium constant for acid ionization?
+(a) HCl
+
+(b) H+ + Cl–
+
+(c) HOCl
+
+(d) H+ + OCl–
+
+13.4 Equilibrium Calculations
+50. A reaction is represented by this equation: A(𝑎𝑞)+2B(𝑎𝑞)⇌2C(𝑎𝑞)𝐾𝑐=1×103
+(a) Write the mathematical expression for the equilibrium constant.
+
+(b) Using concentrations ≤1 M, identify two sets of concentrations that describe a mixture of A, B, and C at equilibrium.
+
+51. A reaction is represented by this equation: 2W(𝑎𝑞)⇌X(𝑎𝑞)+2Y(𝑎𝑞)𝐾𝑐=5×10−4
+(a) Write the mathematical expression for the equilibrium constant.
+
+(b) Using concentrations of ≤1 M, identify two sets of concentrations that describe a mixture of W, X, and Y at equilibrium.
+
+52. What is the value of the equilibrium constant at 500 °C for the formation of NH3 according to the following equation?
+N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)
+
+An equilibrium mixture of NH3(g), H2(g), and N2(g) at 500 °C was found to contain 1.35 M H2, 1.15 M N2, and 4.12 × 10−1 M NH3.
+
+53. Hydrogen is prepared commercially by the reaction of methane and water vapor at elevated temperatures.
+CH4(𝑔)+H2O(𝑔)⇌3H2(𝑔)+CO(𝑔)
+
+What is the equilibrium constant for the reaction if a mixture at equilibrium contains gases with the following concentrations: CH4, 0.126 M; H2O, 0.242 M; CO, 0.126 M; H2 1.15 M, at a temperature of 760 °C?
+
+54. A 0.72-mol sample of PCl5 is put into a 1.00-L vessel and heated. At equilibrium, the vessel contains 0.40 mol of PCl3(g) and 0.40 mol of Cl2(g). Calculate the value of the equilibrium constant for the decomposition of PCl5 to PCl3 and Cl2 at this temperature.
+55. At 1 atm and 25 °C, NO2 with an initial concentration of 1.00 M is 0.0033% decomposed into NO and O2. Calculate the value of the equilibrium constant for the reaction.
+2NO2(𝑔)⇌2NO(𝑔)+O2(𝑔)
+
+56. Calculate the value of the equilibrium constant KP for the reaction 2NO(𝑔)+Cl2(𝑔)⇌2NOCl(𝑔) from these equilibrium pressures: NO, 0.050 atm; Cl2, 0.30 atm; NOCl, 1.2 atm.
+57. When heated, iodine vapor dissociates according to this equation:
+I2(𝑔)⇌2I(𝑔)
+
+At 1274 K, a sample exhibits a partial pressure of I2 of 0.1122 atm and a partial pressure due to I atoms of 0.1378 atm. Determine the value of the equilibrium constant, KP, for the decomposition at 1274 K.
+
+58. A sample of ammonium chloride was heated in a closed container.
+NH4Cl(𝑠)⇌NH3(𝑔)+HCl(𝑔)
+
+At equilibrium, the pressure of NH3(g) was found to be 1.75 atm. What is the value of the equilibrium constant KP for the decomposition at this temperature?
+
+59. At a temperature of 60 °C, the vapor pressure of water is 0.196 atm. What is the value of the equilibrium constant KP for the vaporization equilibrium at 60 °C?
+H2O(𝑙)⇌H2O(𝑔)
+
+60. Complete the following partial ICE tables.
+(a)
+
+change2SO3(𝑔)___⇌2SO2(𝑔)+___O2(𝑔)+𝑥
+
+(b)
+
+change4NH3(𝑔)___+3O2(𝑔)+𝑥⇌2N2(𝑔)+___6H2O(𝑔)___
+
+(c)
+
+change2CH4(𝑔)___⇌C2H2(𝑔)++𝑥3H2(𝑔)___
+
+(d)
+
+changeCH4(𝑔)+___H2O(𝑔)+𝑥⇌CO(𝑔)+___3H2(𝑔)___
+
+(e)
+
+NH4Cl(𝑠)change⇌NH3(𝑔)++𝑥HCl(𝑔)___
+
+(f)
+
+Ni(𝑠)+change4CO(𝑔)+𝑥⇌Ni(CO)4(𝑔)___
+
+61. Complete the following partial ICE tables.
+(a)
+
+change2H2(𝑔)+___O2(𝑔)___⇌2H2O(𝑔)+𝑥
+
+(b)
+
+changeCS2(𝑔)++𝑥4H2(𝑔)___⇌CH4(𝑔)+___2H2S(𝑔)___
+
+(c)
+
+changeH2(𝑔)++𝑥Cl2(𝑔)___⇌2HCl(𝑔)___
+
+(d)
+
+change2NH3(𝑔)___+2O2(𝑔)___⇌N2O(𝑔)+___3H2O(𝑔)+𝑥
+
+(e)
+
+NH4HS(𝑠)change⇌NH3(𝑔)++𝑥H2S(𝑔)___
+
+(f)
+
+Fe(𝑠)+change5CO(𝑔)___⇌Fe(CO)5(𝑔)+𝑥
+
+62. Why are there no changes specified for Ni in Exercise 13.60, part (f)? What property of Ni does change?
+63. Why are there no changes specified for NH4HS in Exercise 13.61, part (e)? What property of NH4HS does change?
+64. Analysis of the gases in a sealed reaction vessel containing NH3, N2, and H2 at equilibrium at 400 °C established the concentration of N2 to be 1.2 M and the concentration of H2 to be 0.24 M.
+N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)𝐾𝑐=0.50at400°C
+
+Calculate the equilibrium molar concentration of NH3.
+
+65. Calculate the number of moles of HI that are at equilibrium with 1.25 mol of H2 and 1.25 mol of I2 in a 5.00−L flask at 448 °C.
+H2+I2⇌2HI𝐾𝑐=50.2at448°C
+
+66. What is the pressure of BrCl in an equilibrium mixture of Cl2, Br2, and BrCl if the pressure of Cl2 in the mixture is 0.115 atm and the pressure of Br2 in the mixture is 0.450 atm?
+Cl2(𝑔)+Br2(𝑔)⇌2BrCl(𝑔)𝐾𝑃=4.7×10−2
+
+67. What is the pressure of CO2 in a mixture at equilibrium that contains 0.50 atm H2, 2.0 atm of H2O, and 1.0 atm of CO at 990 °C?
+H2(𝑔)+CO2(𝑔)⇌H2O(𝑔)+CO(𝑔)𝐾𝑃=1.6at990°C
+
+68. Cobalt metal can be prepared by reducing cobalt(II) oxide with carbon monoxide.
+CoO(𝑠)+CO(𝑔)⇌Co(𝑠)+CO2(𝑔)𝐾𝑐=4.90×102at550°C
+
+What concentration of CO remains in an equilibrium mixture with [CO2] = 0.100 M?
+
+69. Carbon reacts with water vapor at elevated temperatures.
+C(𝑠)+H2O(𝑔)⇌CO(𝑔)+H2(𝑔)𝐾𝑐=0.2at1000°C
+
+Assuming a reaction mixture initially contains only reactants, what is the concentration of CO in an equilibrium mixture with [H2O] = 0.500 M at 1000 °C?
+
+70. Sodium sulfate 10−hydrate, Na2SO4·10H2O, dehydrates according to the equation
+Na2SO4·10H2O(𝑠)⇌Na2SO4(𝑠)+10H2O(𝑔)𝐾𝑃=4.08×10−25at25°C
+
+What is the pressure of water vapor at equilibrium with a mixture of Na2SO4·10H2O and NaSO4?
+
+71. Calcium chloride 6−hydrate, CaCl2·6H2O, dehydrates according to the equation
+CaCl2·6H2O(𝑠)⇌CaCl2(𝑠)+6H2O(𝑔)𝐾𝑃=5.09×10−44at25°C
+
+What is the pressure of water vapor at equilibrium with a mixture of CaCl2·6H2O and CaCl2 at 25 °C?
+
+72. A student solved the following problem and found the equilibrium concentrations to be [SO2] = 0.590 M, [O2] = 0.0450 M, and [SO3] = 0.260 M. How could this student check the work without reworking the problem? The problem was: For the following reaction at 600 °C:
+2SO2(𝑔)+O2(𝑔)⇌2SO3(𝑔)𝐾𝑐=4.32
+
+73. A student solved the following problem and found [N2O4] = 0.16 M at equilibrium. How could this student recognize that the answer was wrong without reworking the problem? The problem was: What is the equilibrium concentration of N2O4 in a mixture formed from a sample of NO2 with a concentration of 0.10 M?
+2NO2(𝑔)⇌N2O4(𝑔)𝐾𝑐=160
+
+74. Assume that the change in concentration of N2O4 is small enough to be neglected in the following problem.
+(a) Calculate the equilibrium concentration of both species in 1.00 L of a solution prepared from 0.129 mol of N2O4 with chloroform as the solvent.
+
+N2O4(𝑔)⇌2NO2(𝑔)𝐾𝑐=1.07×10−5 in chloroform
+
+(b) Confirm that the change is small enough to be neglected.
+
+75. Assume that the change in concentration of COCl2 is small enough to be neglected in the following problem.
+(a) Calculate the equilibrium concentration of all species in an equilibrium mixture that results from the decomposition of COCl2 with an initial concentration of 0.3166 M.
+
+COCl2(𝑔)⇌CO(𝑔)+Cl2(𝑔)𝐾𝑐=2.2×10−10
+
+(b) Confirm that the change is small enough to be neglected.
+
+76. Assume that the change in pressure of H2S is small enough to be neglected in the following problem.
+(a) Calculate the equilibrium pressures of all species in an equilibrium mixture that results from the decomposition of H2S with an initial pressure of 0.824 atm.
+
+2H2S(𝑔)⇌2H2(𝑔)+S2(𝑔)𝐾𝑃=2.2×10−6
+
+(b) Confirm that the change is small enough to be neglected.
+
+77. What are all concentrations after a mixture that contains [H2O] = 1.00 M and [Cl2O] = 1.00 M comes to equilibrium at 25 °C?
+H2O(𝑔)+Cl2O(𝑔)⇌2HOCl(𝑔)𝐾𝑐=0.0900
+
+78. What are the concentrations of PCl5, PCl3, and Cl2 in an equilibrium mixture produced by the decomposition of a sample of pure PCl5 with [PCl5] = 2.00 M?
+PCl5(𝑔)⇌PCl3(𝑔)+Cl2(𝑔)𝐾𝑐=0.0211
+
+79. Calculate the number of grams of HI that are at equilibrium with 1.25 mol of H2 and 63.5 g of iodine at 448 °C.
+H2+I2⇌2HI𝐾𝑐=50.2at448°C
+
+80. Butane exists as two isomers, n−butane and isobutane.
+Three Lewis structures are shown. The first is labeled, “n dash Butane,” and has a C H subscript 3 single bonded to a C H subscript 2 group. This C H subscript 2 group is single bonded to another C H subscript 2 group which is single bonded to a C H subscript 3 group. The second is labeled, “iso dash Butane,” and is composed of a C H group single bonded to three C H subscript 3 groups. The third structure shows a chain of atoms: “C H subscript 3, C H subscript 2, C H subscript 2, C H subscript 3,” a double-headed arrow, then a carbon atom single bonded to three C H subscript 3 groups as well as a hydrogen atom.
+KP = 2.5 at 25 °C
+
+What is the pressure of isobutane in a container of the two isomers at equilibrium with a total pressure of 1.22 atm?
+
+81. What is the minimum mass of CaCO3 required to establish equilibrium at a certain temperature in a 6.50-L container if the equilibrium constant (Kc) is 0.50 for the decomposition reaction of CaCO3 at that temperature?
+CaCO3(𝑠)⇌CaO(𝑠)+CO2(𝑔)
+
+82. The equilibrium constant (Kc) for this reaction is 1.60 at 990 °C:
+H2(𝑔)+CO2(𝑔)⇌H2O(𝑔)+CO(𝑔)
+
+Calculate the number of moles of each component in the final equilibrium mixture obtained from adding 1.00 mol of H2, 2.00 mol of CO2, 0.750 mol of H2O, and 1.00 mol of CO to a 5.00-L container at 990 °C.
+
+83. In a 3.0-L vessel, the following equilibrium partial pressures are measured: N2, 190 torr; H2, 317 torr; NH3, 1.00 × 103 torr.
+N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)
+
+(a) How will the partial pressures of H2, N2, and NH3 change if H2 is removed from the system? Will they increase, decrease, or remain the same?
+
+(b) Hydrogen is removed from the vessel until the partial pressure of nitrogen, at equilibrium, is 250 torr. Calculate the partial pressures of the other substances under the new conditions.
+
+84. The equilibrium constant (Kc) for this reaction is 5.0 at a given temperature.
+CO(𝑔)+H2O(𝑔)⇌CO2(𝑔)+H2(𝑔)
+
+(a) On analysis, an equilibrium mixture of the substances present at the given temperature was found to contain 0.20 mol of CO, 0.30 mol of water vapor, and 0.90 mol of H2 in a liter. How many moles of CO2 were there in the equilibrium mixture?
+
+(b) Maintaining the same temperature, additional H2 was added to the system, and some water vapor was removed by drying. A new equilibrium mixture was thereby established containing 0.40 mol of CO, 0.30 mol of water vapor, and 1.2 mol of H2 in a liter. How many moles of CO2 were in the new equilibrium mixture? Compare this with the quantity in part (a), and discuss whether the second value is reasonable. Explain how it is possible for the water vapor concentration to be the same in the two equilibrium solutions even though some vapor was removed before the second equilibrium was established.
+
+85. Antimony pentachloride decomposes according to this equation:
+SbCl5(𝑔)⇌SbCl3(𝑔)+Cl2(𝑔)
+
+An equilibrium mixture in a 5.00-L flask at 448 °C contains 3.85 g of SbCl5, 9.14 g of SbCl3, and 2.84 g of Cl2. How many grams of each will be found if the mixture is transferred into a 2.00-L flask at the same temperature?
+
+86. Consider the equilibrium
+4NO2(𝑔)+6H2O(𝑔)⇌4NH3(𝑔)+7O2(𝑔)
+
+(a) What is the expression for the equilibrium constant (Kc) of the reaction?
+
+(b) How must the concentration of NH3 change to reach equilibrium if the reaction quotient is less than the equilibrium constant?
+
+(c) If the reaction were at equilibrium, how would an increase in the volume of the reaction vessel affect the pressure of NO2?
+
+(d) If the change in the pressure of NO2 is 28 torr as a mixture of the four gases reaches equilibrium, how much will the pressure of O2 change?
+
+87. The binding of oxygen by hemoglobin (Hb), giving oxyhemoglobin (HbO2), is partially regulated by the concentration of H3O+ and dissolved CO2 in the blood. Although the equilibrium is complicated, it can be summarized as
+HbO2(𝑎𝑞)+H3O+(𝑎𝑞)+CO2(𝑔)⇌CO2−Hb−H++O2(𝑔)+H2O(𝑙)
+
+(a) Write the equilibrium constant expression for this reaction.
+
+(b) Explain why the production of lactic acid and CO2 in a muscle during exertion stimulates release of O2 from the oxyhemoglobin in the blood passing through the muscle.
+
+88. Liquid N2O3 is dark blue at low temperatures, but the color fades and becomes greenish at higher temperatures as the compound decomposes to NO and NO2. At 25 °C, a value of KP = 1.91 has been established for this decomposition. If 0.236 moles of N2O3 are placed in a 1.52-L vessel at 25 °C, calculate the equilibrium partial pressures of N2O3(g), NO2(g), and NO(g).
+89. A 1.00-L vessel at 400 °C contains the following equilibrium concentrations: N2, 1.00 M; H2, 0.50 M; and NH3, 0.25 M. How many moles of hydrogen must be removed from the vessel to increase the concentration of nitrogen to 1.1 M? The equilibrium reaction is
+N2(𝑔)+3H2(𝑔)⇌2NH3(𝑔)

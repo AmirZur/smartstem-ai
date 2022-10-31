@@ -1,0 +1,229 @@
+5.1 Energy Basics
+1. A burning match and a bonfire may have the same temperature, yet you would not sit around a burning match on a fall evening to stay warm. Why not?
+2. Prepare a table identifying several energy transitions that take place during the typical operation of an automobile.
+3. Explain the difference between heat capacity and specific heat of a substance.
+4. Calculate the heat capacity, in joules and in calories per degree, of the following:
+(a) 28.4 g of water
+
+(b) 1.00 oz of lead
+
+5. Calculate the heat capacity, in joules and in calories per degree, of the following:
+(a) 45.8 g of nitrogen gas
+
+(b) 1.00 pound of aluminum metal
+
+6. How much heat, in joules and in calories, must be added to a 75.0–g iron block with a specific heat of 0.449 J/g °C to increase its temperature from 25 °C to its melting temperature of 1535 °C?
+7. How much heat, in joules and in calories, is required to heat a 28.4-g (1-oz) ice cube from −23.0 °C to −1.0 °C?
+8. How much would the temperature of 275 g of water increase if 36.5 kJ of heat were added?
+9. If 14.5 kJ of heat were added to 485 g of liquid water, how much would its temperature increase?
+10. A piece of unknown substance weighs 44.7 g and requires 2110 J to increase its temperature from 23.2 °C to 89.6 °C.
+(a) What is the specific heat of the substance?
+
+(b) If it is one of the substances found in Table 5.1, what is its likely identity?
+
+11. A piece of unknown solid substance weighs 437.2 g, and requires 8460 J to increase its temperature from 19.3 °C to 68.9 °C.
+(a) What is the specific heat of the substance?
+
+(b) If it is one of the substances found in Table 5.1, what is its likely identity?
+
+12. An aluminum kettle weighs 1.05 kg.
+(a) What is the heat capacity of the kettle?
+
+(b) How much heat is required to increase the temperature of this kettle from 23.0 °C to 99.0 °C?
+
+(c) How much heat is required to heat this kettle from 23.0 °C to 99.0 °C if it contains 1.25 L of water (density of 0.997 g/mL and a specific heat of 4.184 J/g °C)?
+
+13. Most people find waterbeds uncomfortable unless the water temperature is maintained at about 85 °F. Unless it is heated, a waterbed that contains 892 L of water cools from 85 °F to 72 °F in 24 hours. Estimate the amount of electrical energy required over 24 hours, in kWh, to keep the bed from cooling. Note that 1 kilowatt-hour (kWh) = 3.6 × 106 J, and assume that the density of water is 1.0 g/mL (independent of temperature). What other assumptions did you make? How did they affect your calculated result (i.e., were they likely to yield “positive” or “negative” errors)?
+5.2 Calorimetry
+14. A 500-mL bottle of water at room temperature and a 2-L bottle of water at the same temperature were placed in a refrigerator. After 30 minutes, the 500-mL bottle of water had cooled to the temperature of the refrigerator. An hour later, the 2-L of water had cooled to the same temperature. When asked which sample of water lost the most heat, one student replied that both bottles lost the same amount of heat because they started at the same temperature and finished at the same temperature. A second student thought that the 2-L bottle of water lost more heat because there was more water. A third student believed that the 500-mL bottle of water lost more heat because it cooled more quickly. A fourth student thought that it was not possible to tell because we do not know the initial temperature and the final temperature of the water. Indicate which of these answers is correct and describe the error in each of the other answers.
+15. Would the amount of heat measured for the reaction in Example 5.5 be greater, lesser, or remain the same if we used a calorimeter that was a poorer insulator than a coffee cup calorimeter? Explain your answer.
+16. Would the amount of heat absorbed by the dissolution in Example 5.6 appear greater, lesser, or remain the same if the experimenter used a calorimeter that was a poorer insulator than a coffee cup calorimeter? Explain your answer.
+17. Would the amount of heat absorbed by the dissolution in Example 5.6 appear greater, lesser, or remain the same if the heat capacity of the calorimeter were taken into account? Explain your answer.
+18. How many milliliters of water at 23 °C with a density of 1.00 g/mL must be mixed with 180 mL (about 6 oz) of coffee at 95 °C so that the resulting combination will have a temperature of 60 °C? Assume that coffee and water have the same density and the same specific heat.
+19. How much will the temperature of a cup (180 g) of coffee at 95 °C be reduced when a 45 g silver spoon (specific heat 0.24 J/g °C) at 25 °C is placed in the coffee and the two are allowed to reach the same temperature? Assume that the coffee has the same density and specific heat as water.
+20. A 45-g aluminum spoon (specific heat 0.88 J/g °C) at 24 °C is placed in 180 mL (180 g) of coffee at 85 °C and the temperature of the two become equal.
+(a) What is the final temperature when the two become equal? Assume that coffee has the same specific heat as water.
+
+(b) The first time a student solved this problem she got an answer of 88 °C. Explain why this is clearly an incorrect answer.
+
+21. The temperature of the cooling water as it leaves the hot engine of an automobile is 240 °F. After it passes through the radiator it has a temperature of 175 °F. Calculate the amount of heat transferred from the engine to the surroundings by one gallon of water with a specific heat of 4.184 J/g °C.
+22. A 70.0-g piece of metal at 80.0 °C is placed in 100 g of water at 22.0 °C contained in a calorimeter like that shown in Figure 5.12. The metal and water come to the same temperature at 24.6 °C. How much heat did the metal give up to the water? What is the specific heat of the metal?
+23. If a reaction produces 1.506 kJ of heat, which is trapped in 30.0 g of water initially at 26.5 °C in a calorimeter like that in Figure 5.12, what is the resulting temperature of the water?
+24. A 0.500-g sample of KCl is added to 50.0 g of water in a calorimeter (Figure 5.12). If the temperature decreases by 1.05 °C, what is the approximate amount of heat involved in the dissolution of the KCl, assuming the specific heat of the resulting solution is 4.18 J/g °C? Is the reaction exothermic or endothermic?
+25. Dissolving 3.0 g of CaCl2(s) in 150.0 g of water in a calorimeter (Figure 5.12) at 22.4 °C causes the temperature to rise to 25.8 °C. What is the approximate amount of heat involved in the dissolution, assuming the specific heat of the resulting solution is 4.18 J/g °C? Is the reaction exothermic or endothermic?
+26. When 50.0 g of 0.200 M NaCl(aq) at 24.1 °C is added to 100.0 g of 0.100 M AgNO3(aq) at 24.1 °C in a calorimeter, the temperature increases to 25.2 °C as AgCl(s) forms. Assuming the specific heat of the solution and products is 4.20 J/g °C, calculate the approximate amount of heat in joules produced.
+27. The addition of 3.15 g of Ba(OH)2·8H2O to a solution of 1.52 g of NH4SCN in 100 g of water in a calorimeter caused the temperature to fall by 3.1 °C. Assuming the specific heat of the solution and products is 4.20 J/g °C, calculate the approximate amount of heat absorbed by the reaction, which can be represented by the following equation:
+Ba(OH)2·8H2O(s) + 2NH4SCN(aq) ⟶ Ba(SCN)2(aq) + 2NH3(aq) + 10H2O(l)
+
+28. The reaction of 50 mL of acid and 50 mL of base described in Example 5.5 increased the temperature of the solution by 6.9 ºC. How much would the temperature have increased if 100 mL of acid and 100 mL of base had been used in the same calorimeter starting at the same temperature of 22.0 ºC? Explain your answer.
+29. If the 3.21 g of NH4NO3 in Example 5.6 were dissolved in 100.0 g of water under the same conditions, how much would the temperature change? Explain your answer.
+30. When 1.0 g of fructose, C6H12O6(s), a sugar commonly found in fruits, is burned in oxygen in a bomb calorimeter, the temperature of the calorimeter increases by 1.58 °C. If the heat capacity of the calorimeter and its contents is 9.90 kJ/°C, what is q for this combustion?
+31. When a 0.740-g sample of trinitrotoluene (TNT), C7H5N2O6, is burned in a bomb calorimeter, the temperature increases from 23.4 °C to 26.9 °C. The heat capacity of the calorimeter is 534 J/°C, and it contains 675 mL of water. How much heat was produced by the combustion of the TNT sample?
+32. One method of generating electricity is by burning coal to heat water, which produces steam that drives an electric generator. To determine the rate at which coal is to be fed into the burner in this type of plant, the heat of combustion per ton of coal must be determined using a bomb calorimeter. When 1.00 g of coal is burned in a bomb calorimeter (Figure 5.17), the temperature increases by 1.48 °C. If the heat capacity of the calorimeter is 21.6 kJ/°C, determine the heat produced by combustion of a ton of coal (2.000 × 103 pounds).
+33. The amount of fat recommended for someone with a daily diet of 2000 Calories is 65 g. What percent of the calories in this diet would be supplied by this amount of fat if the average number of Calories for fat is
+9.1 Calories/g?
+34. A teaspoon of the carbohydrate sucrose (common sugar) contains 16 Calories (16 kcal). What is the mass of one teaspoon of sucrose if the average number of Calories for carbohydrates is 4.1 Calories/g?
+35. What is the maximum mass of carbohydrate in a 6-oz serving of diet soda that contains less than 1 Calorie per can if the average number of Calories for carbohydrates is 4.1 Calories/g?
+36. A pint of premium ice cream can contain 1100 Calories. What mass of fat, in grams and pounds, must be produced in the body to store an extra 1.1 × 103 Calories if the average number of Calories for fat is
+9.1 Calories/g?
+37. A serving of a breakfast cereal contains 3 g of protein, 18 g of carbohydrates, and 6 g of fat. What is the Calorie content of a serving of this cereal if the average number of Calories for fat is 9.1 Calories/g, for carbohydrates is 4.1 Calories/g, and for protein is 4.1 Calories/g?
+38. Which is the least expensive source of energy in kilojoules per dollar: a box of breakfast cereal that weighs 32 ounces and costs $4.23, or a liter of isooctane (density, 0.6919 g/mL) that costs $0.45? Compare the nutritional value of the cereal with the heat produced by combustion of the isooctane under standard conditions. A 1.0-ounce serving of the cereal provides 130 Calories.
+5.3 Enthalpy
+39. Explain how the heat measured in Example 5.5 differs from the enthalpy change for the exothermic reaction described by the following equation:
+HCl(𝑎𝑞)+NaOH(𝑎𝑞)⟶NaCl(𝑎𝑞)+H2O(𝑙)
+40. Using the data in the check your learning section of Example 5.5, calculate ΔH in kJ/mol of AgNO3(aq) for the reaction: NaCl(𝑎𝑞)+AgNO3(𝑎𝑞)⟶AgCl(𝑠)+NaNO3(𝑎𝑞)
+41. Calculate the enthalpy of solution (ΔH for the dissolution) per mole of NH4NO3 under the conditions described in Example 5.6.
+42. Calculate ΔH for the reaction described by the equation. (Hint: Use the value for the approximate amount of heat absorbed by the reaction that you calculated in a previous exercise.)
+Ba(OH)2·8H2O(𝑠)+2NH4SCN(𝑎𝑞)⟶Ba(SCN)2(𝑎𝑞)+2NH3(𝑎𝑞)+10H2O(𝑙)
+43. Calculate the enthalpy of solution (ΔH for the dissolution) per mole of CaCl2 (refer to Exercise 5.25).
+44. Although the gas used in an oxyacetylene torch (Figure 5.7) is essentially pure acetylene, the heat produced by combustion of one mole of acetylene in such a torch is likely not equal to the enthalpy of combustion of acetylene listed in Table 5.2. Considering the conditions for which the tabulated data are reported, suggest an explanation.
+45. How much heat is produced by burning 4.00 moles of acetylene under standard state conditions?
+46. How much heat is produced by combustion of 125 g of methanol under standard state conditions?
+47. How many moles of isooctane must be burned to produce 100 kJ of heat under standard state conditions?
+48. What mass of carbon monoxide must be burned to produce 175 kJ of heat under standard state conditions?
+49. When 2.50 g of methane burns in oxygen, 125 kJ of heat is produced. What is the enthalpy of combustion per mole of methane under these conditions?
+50. How much heat is produced when 100 mL of 0.250 M HCl (density, 1.00 g/mL) and 200 mL of 0.150 M NaOH (density, 1.00 g/mL) are mixed?
+HCl(𝑎𝑞)+NaOH(𝑎𝑞)⟶NaCl(𝑎𝑞)+H2O(𝑙)Δ𝐻°=−58kJ
+If both solutions are at the same temperature and the specific heat of the products is 4.19 J/g °C, how much will the temperature increase? What assumption did you make in your calculation?
+
+51. A sample of 0.562 g of carbon is burned in oxygen in a bomb calorimeter, producing carbon dioxide. Assume both the reactants and products are under standard state conditions, and that the heat released is directly proportional to the enthalpy of combustion of graphite. The temperature of the calorimeter increases from 26.74 °C to 27.93 °C. What is the heat capacity of the calorimeter and its contents?
+52. Before the introduction of chlorofluorocarbons, sulfur dioxide (enthalpy of vaporization, 6.00 kcal/mol) was used in household refrigerators. What mass of SO2 must be evaporated to remove as much heat as evaporation of 1.00 kg of CCl2F2 (enthalpy of vaporization is 17.4 kJ/mol)?
+The vaporization reactions for SO2 and CCl2F2 are SO2(𝑙)⟶SO2(𝑔) and CCl2F(𝑙)⟶CCl2F2(𝑔), respectively.
+
+53. Homes may be heated by pumping hot water through radiators. What mass of water will provide the same amount of heat when cooled from 95.0 to 35.0 °C, as the heat provided when 100 g of steam is cooled from 110 °C to 100 °C.
+54. Which of the enthalpies of combustion in Table 5.2 the table are also standard enthalpies of formation?
+55. Does the standard enthalpy of formation of H2O(g) differ from ΔH° for the reaction 2H2(𝑔)+O2(𝑔)⟶2H2O(𝑔)?
+56. Joseph Priestly prepared oxygen in 1774 by heating red mercury(II) oxide with sunlight focused through a lens. How much heat is required to decompose exactly 1 mole of red HgO(s) to Hg(l) and O2(g) under standard conditions?
+57. How many kilojoules of heat will be released when exactly 1 mole of manganese, Mn, is burned to form Mn3O4(s) at standard state conditions?
+58. How many kilojoules of heat will be released when exactly 1 mole of iron, Fe, is burned to form Fe2O3(s) at standard state conditions?
+59. The following sequence of reactions occurs in the commercial production of aqueous nitric acid:
+4NH3(𝑔)+5O2(𝑔)⟶4NO(𝑔)+6H2O(𝑙)Δ𝐻=−907kJ
+2NO(𝑔)+O2(𝑔)⟶2NO2(𝑔)Δ𝐻=−113kJ
+3NO2+H2O(𝑙)⟶2HNO3(𝑎𝑞)+NO(𝑔)Δ𝐻=−139kJ
+Determine the total energy change for the production of one mole of aqueous nitric acid by this process.
+
+60. Both graphite and diamond burn.
+C(𝑠,diamond)+O2(𝑔)⟶CO2(𝑔)
+For the conversion of graphite to diamond:
+C(𝑠,graphite)⟶C(𝑠,diamond)Δ𝐻°=1.90kJ
+
+Which produces more heat, the combustion of graphite or the combustion of diamond?
+
+61. From the molar heats of formation in Appendix G, determine how much heat is required to evaporate one mole of water: H2O(𝑙)⟶H2O(𝑔)
+62. Which produces more heat?
+Os(𝑠)⟶2O2(𝑔)⟶OsO4(𝑠)
+or
+Os(𝑠)⟶2O2(𝑔)⟶OsO4(𝑔)
+for the phase change OsO4(𝑠)⟶OsO4(𝑔)Δ𝐻=56.4kJ
+
+63. Calculate Δ𝐻° for the process
+Sb(𝑠)+52Cl2(𝑔)⟶SbCl5(𝑠)
+from the following information:
+Sb(𝑠)+32Cl2(𝑔)⟶SbCl3(𝑠)Δ𝐻°=−314kJSbCl3(𝑠)+Cl2(𝑔)⟶SbCl5(𝑠)Δ𝐻°=−80kJ
+
+64. Calculate Δ𝐻° for the process Zn(𝑠)+S(𝑠)+2O2(𝑔)⟶ZnSO4(𝑠)
+from the following information:
+Zn(𝑠)+S(𝑠)⟶ZnS(𝑠)Δ𝐻°=−206.0kJZnS(𝑠)+2O2(𝑔)⟶ZnSO4(𝑠)Δ𝐻°=−776.8kJ
+
+65. Calculate ΔH for the process Hg2Cl2(𝑠)⟶2Hg(𝑙)+Cl2(𝑔)
+from the following information:
+Hg(𝑙)+Cl2(𝑔)⟶HgCl2(𝑠)Δ𝐻=−224kJHg(𝑙)+HgCl2(𝑠)⟶Hg2Cl2(𝑠)Δ𝐻=−41.2kJ
+
+66. Calculate Δ𝐻° for the process Co3O4(𝑠)⟶3Co(𝑠)+2O2(𝑔)
+from the following information:
+Co(𝑠)+12O2(𝑔)⟶CoO(𝑠)Δ𝐻°=−237.9kJ3CoO(𝑠)+12O2(𝑔)⟶Co3O4(𝑠)Δ𝐻°=−177.5kJ
+
+67. Calculate the standard molar enthalpy of formation of NO(g) from the following data:
+N2(𝑔)+2O2⟶2NO2(𝑔)Δ𝐻°=66.4kJ2NO(𝑔)+O2⟶2NO2(𝑔)Δ𝐻°=−114.1kJ
+68. Using the data in Appendix G, calculate the standard enthalpy change for each of the following reactions:
+(a) N2(𝑔)+O2(𝑔)⟶2NO(𝑔)
+
+(b) Si(𝑠)+2Cl2(𝑔)⟶SiCl4(𝑔)
+
+(c) Fe2O3(𝑠)+3H2(𝑔)⟶2Fe(𝑠)+3H2O(𝑙)
+
+(d) 2LiOH(𝑠)+CO2(𝑔)⟶Li2CO3(𝑠)+H2O(𝑔)
+
+69. Using the data in Appendix G, calculate the standard enthalpy change for each of the following reactions:
+(a) Si(𝑠)+2F2(𝑔)⟶SiF4(𝑔)
+
+(b) 2C(𝑠)+2H2(𝑔)+O2(𝑔)⟶CH3CO2H(𝑙)
+
+(c) CH4(𝑔)+N2(𝑔)⟶HCN(𝑔)+NH3(𝑔);
+
+(d) CS2(𝑔)+3Cl2(𝑔)⟶CCl4(𝑔)+S2Cl2(𝑔)
+
+70. The following reactions can be used to prepare samples of metals. Determine the enthalpy change under standard state conditions for each.
+(a) 2Ag2O(𝑠)⟶4Ag(𝑠)+O2(𝑔)
+
+(b) SnO(𝑠)+CO(𝑔)⟶Sn(𝑠)+CO2(𝑔)
+
+(c) Cr2O3(𝑠)+3H2(𝑔)⟶2Cr(𝑠)+3H2O(𝑙)
+
+(d) 2Al(𝑠)+Fe2O3(𝑠)⟶Al2O3(𝑠)+2Fe(𝑠)
+
+71. The decomposition of hydrogen peroxide, H2O2, has been used to provide thrust in the control jets of various space vehicles. Using the data in Appendix G, determine how much heat is produced by the decomposition of exactly 1 mole of H2O2 under standard conditions.
+2H2O2(𝑙)⟶2H2O(𝑔)+O2(𝑔)
+72. Calculate the enthalpy of combustion of propane, C3H8(g), for the formation of H2O(g) and CO2(g). The enthalpy of formation of propane is −104 kJ/mol.
+73. Calculate the enthalpy of combustion of butane, C4H10(g) for the formation of H2O(g) and CO2(g). The enthalpy of formation of butane is −126 kJ/mol.
+74. Both propane and butane are used as gaseous fuels. Which compound produces more heat per gram when burned?
+75. The white pigment TiO2 is prepared by the reaction of titanium tetrachloride, TiCl4, with water vapor in the gas phase: TiCl4(𝑔)+2H2O(𝑔)⟶TiO2(𝑠)+4HCl(𝑔).
+How much heat is evolved in the production of exactly 1 mole of TiO2(s) under standard state conditions?
+
+76. Water gas, a mixture of H2 and CO, is an important industrial fuel produced by the reaction of steam with red hot coke, essentially pure carbon: C(𝑠)+H2O(𝑔)⟶CO(𝑔)+H2(𝑔).
+(a) Assuming that coke has the same enthalpy of formation as graphite, calculate Δ𝐻° for this reaction.
+
+(b) Methanol, a liquid fuel that could possibly replace gasoline, can be prepared from water gas and additional hydrogen at high temperature and pressure in the presence of a suitable catalyst: 2H2(𝑔)+CO(𝑔)⟶CH3OH(𝑔).
+
+Under the conditions of the reaction, methanol forms as a gas. Calculate Δ𝐻° for this reaction and for the condensation of gaseous methanol to liquid methanol.
+
+(c) Calculate the heat of combustion of 1 mole of liquid methanol to H2O(g) and CO2(g).
+
+77. In the early days of automobiles, illumination at night was provided by burning acetylene, C2H2. Though no longer used as auto headlamps, acetylene is still used as a source of light by some cave explorers. The acetylene is (was) prepared in the lamp by the reaction of water with calcium carbide, CaC2:
+CaC2(𝑠)+2H2O(𝑙)⟶Ca(OH)2(𝑠)+C2H2(𝑔).
+Calculate the standard enthalpy of the reaction. The Δ𝐻∘f of CaC2 is −15.14 kcal/mol.
+78. From the data in Table 5.2, determine which of the following fuels produces the greatest amount of heat per gram when burned under standard conditions: CO(g), CH4(g), or C2H2(g).
+79. The enthalpy of combustion of hard coal averages −35 kJ/g, that of gasoline, 1.28 × 105 kJ/gal. How many kilograms of hard coal provide the same amount of heat as is available from 1.0 gallon of gasoline? Assume that the density of gasoline is 0.692 g/mL (the same as the density of isooctane).
+80. Ethanol, C2H5OH, is used as a fuel for motor vehicles, particularly in Brazil.
+(a) Write the balanced equation for the combustion of ethanol to CO2(g) and H2O(g), and, using the data in Appendix G, calculate the enthalpy of combustion of 1 mole of ethanol.
+
+(b) The density of ethanol is 0.7893 g/mL. Calculate the enthalpy of combustion of exactly 1 L of ethanol.
+
+(c) Assuming that an automobile’s mileage is directly proportional to the heat of combustion of the fuel, calculate how much farther an automobile could be expected to travel on 1 L of gasoline than on 1 L of ethanol. Assume that gasoline has the heat of combustion and the density of n–octane, C8H18 (Δ𝐻∘f=−208.4kJ/mol; density = 0.7025 g/mL).
+
+81. Among the substances that react with oxygen and that have been considered as potential rocket fuels are diborane [B2H6, produces B2O3(s) and H2O(g)], methane [CH4, produces CO2(g) and H2O(g)], and hydrazine [N2H4, produces N2(g) and H2O(g)]. On the basis of the heat released by 1.00 g of each substance in its reaction with oxygen, which of these compounds offers the best possibility as a rocket fuel? The Δ𝐻∘f of B2H6(g), CH4(g), and N2H4(l) may be found in Appendix G.
+82. How much heat is produced when 1.25 g of chromium metal reacts with oxygen gas under standard conditions?
+83. Ethylene, C2H4, a byproduct from the fractional distillation of petroleum, is fourth among the 50 chemical compounds produced commercially in the largest quantities. About 80% of synthetic ethanol is manufactured from ethylene by its reaction with water in the presence of a suitable catalyst. C2H4(𝑔)+H2O(𝑔)⟶C2H5OH(𝑙)
+Using the data in the table in Appendix G, calculate ΔH° for the reaction.
+
+84. The oxidation of the sugar glucose, C6H12O6, is described by the following equation:
+C6H12O6(𝑠)+6O2(𝑔)⟶6CO2(𝑔)+6H2O(𝑙)Δ𝐻=−2816kJ
+The metabolism of glucose gives the same products, although the glucose reacts with oxygen in a series of steps in the body.
+
+(a) How much heat in kilojoules can be produced by the metabolism of 1.0 g of glucose?
+
+(b) How many Calories can be produced by the metabolism of 1.0 g of glucose?
+
+85. Propane, C3H8, is a hydrocarbon that is commonly used as a fuel.
+(a) Write a balanced equation for the complete combustion of propane gas.
+
+(b) Calculate the volume of air at 25 °C and 1.00 atmosphere that is needed to completely combust 25.0 grams of propane. Assume that air is 21.0 percent O2 by volume. (Hint: We will see how to do this calculation in a later chapter on gases—for now use the information that 1.00 L of air at 25 °C and 1.00 atm contains 0.275 g of O2.)
+
+(c) The heat of combustion of propane is −2,219.2 kJ/mol. Calculate the heat of formation, Δ𝐻∘f of propane given that Δ𝐻∘f of H2O(l) = −285.8 kJ/mol and Δ𝐻∘f of CO2(g) = −393.5 kJ/mol.
+
+(d) Assuming that all of the heat released in burning 25.0 grams of propane is transferred to 4.00 kilograms of water, calculate the increase in temperature of the water.
+
+86. During a recent winter month in Sheboygan, Wisconsin, it was necessary to obtain 3500 kWh of heat provided by a natural gas furnace with 89% efficiency to keep a small house warm (the efficiency of a gas furnace is the percent of the heat produced by combustion that is transferred into the house).
+(a) Assume that natural gas is pure methane and determine the volume of natural gas in cubic feet that was required to heat the house. The average temperature of the natural gas was 56 °F; at this temperature and a pressure of 1 atm, natural gas has a density of 0.681 g/L.
+
+(b) How many gallons of LPG (liquefied petroleum gas) would be required to replace the natural gas used? Assume the LPG is liquid propane [C3H8: density, 0.5318 g/mL; enthalpy of combustion, 2219 kJ/mol for the formation of CO2(g) and H2O(l)] and the furnace used to burn the LPG has the same efficiency as the gas furnace.
+
+(c) What mass of carbon dioxide is produced by combustion of the methane used to heat the house?
+
+(d) What mass of water is produced by combustion of the methane used to heat the house?
+
+(e) What volume of air is required to provide the oxygen for the combustion of the methane used to heat the house? Air contains 23% oxygen by mass. The average density of air during the month was 1.22 g/L.
+
+(f) How many kilowatt–hours (1 kWh = 3.6 × 106 J) of electricity would be required to provide the heat necessary to heat the house? Note electricity is 100% efficient in producing heat inside a house.
+
+(g) Although electricity is 100% efficient in producing heat inside a house, production and distribution of electricity is not 100% efficient. The efficiency of production and distribution of electricity produced in a coal-fired power plant is about 40%. A certain type of coal provides 2.26 kWh per pound upon combustion. What mass of this coal in kilograms will be required to produce the electrical energy necessary to heat the house if the efficiency of generation and distribution is 40%?

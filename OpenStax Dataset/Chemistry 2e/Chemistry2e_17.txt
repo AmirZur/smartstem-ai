@@ -1,0 +1,201 @@
+17.1 Review of Redox Chemistry
+1. Identify each half-reaction below as either oxidation or reduction.
+(a) Fe3++3e−⟶Fe
+
+(b) Cr⟶Cr3++3e−
+
+(c) MnO42−⟶MnO4−+e−
+
+(d) Li++e−⟶Li
+
+2. Identify each half-reaction below as either oxidation or reduction.
+(a) Cl−⟶Cl2
+
+(b) Mn2+⟶MnO2
+
+(c) H2⟶H+
+
+(d) NO3−⟶NO
+
+3. Assuming each pair of half-reactions below takes place in an acidic solution, write a balanced equation for the overall reaction.
+(a) Ca⟶Ca2++2e−, F2+2e−⟶2F−
+
+(b) Li⟶Li++e−, Cl2+2e−⟶2Cl−
+
+(c) Fe⟶Fe3++3e−, Br2+2e−⟶2Br−
+
+(d) Ag⟶Ag++e−, MnO4−+4H++3e−⟶MnO2+2H2O
+
+4. Balance the equations below assuming they occur in an acidic solution.
+(a) H2O2+Sn2+⟶H2O+Sn4+
+
+(b) PbO2+Hg⟶Hg22++Pb2+
+
+(c) Al+Cr2O72−⟶Al3++Cr3+
+
+5. Identify the oxidant and reductant of each reaction of the previous exercise.
+6. Balance the equations below assuming they occur in a basic solution.
+(a) SO32−(𝑎𝑞)+Cu(OH)2(𝑠)⟶SO42−(𝑎𝑞)+Cu(OH)(𝑠)
+
+(b) O2(𝑔)+Mn(OH)2(𝑠)⟶MnO2(𝑠)
+
+(c) NO3−(𝑎𝑞)+H2(𝑔)⟶NO(𝑔)
+
+(d) Al(𝑠)+CrO42−(𝑎𝑞)⟶Al(OH)3(𝑠)+Cr(OH)4−(𝑎𝑞)
+
+7. Identify the oxidant and reductant of each reaction of the previous exercise.
+8. Why don’t hydroxide ions appear in equations for half-reactions occurring in acidic solution?
+9. Why don’t hydrogen ions appear in equations for half-reactions occurring in basic solution?
+10. Why must the charge balance in oxidation-reduction reactions?
+17.2 Galvanic Cells
+11. Write cell schematics for the following cell reactions, using platinum as an inert electrode as needed.
+(a) Mg(𝑠)+Ni2+(𝑎𝑞)⟶Mg2+(𝑎𝑞)+Ni(𝑠)
+
+(b) 2Ag+(𝑎𝑞)+Cu(𝑠)⟶Cu2+(𝑎𝑞)+2Ag(𝑠)
+
+(c) Mn(𝑠)+Sn(NO3)2(𝑎𝑞)⟶Mn(NO3)2(𝑎𝑞)+Sn(𝑠)
+
+(d) 3CuNO3(𝑎𝑞)+Au(NO3)3(𝑎𝑞)⟶3Cu(NO3)2(𝑎𝑞)+Au(𝑠)
+
+12. Assuming the schematics below represent galvanic cells as written, identify the half-cell reactions occurring in each.
+(a) Mg(𝑠)│Mg2+(𝑎𝑞)║Cu2+(𝑎𝑞)│Cu(𝑠)
+
+(b) Ni(𝑠)│Ni2+(𝑎𝑞)║Ag+(𝑎𝑞)│Ag(𝑠)
+
+13. Write a balanced equation for the cell reaction of each cell in the previous exercise.
+14. Balance each reaction below, and write a cell schematic representing the reaction as it would occur in a galvanic cell.
+(a) Al(𝑠)+Zr4+(𝑎𝑞)⟶Al3+(𝑎𝑞)+Zr(𝑠)
+
+(b) Ag+(𝑎𝑞)+NO(𝑔)⟶Ag(𝑠)+NO3−(𝑎𝑞)(acidic solution)
+
+(c) SiO32−(𝑎𝑞)+Mg(𝑠)⟶Si(𝑠)+Mg(OH)2(𝑠)(basic solution)
+
+(d) ClO3−(𝑎𝑞)+MnO2(𝑠)⟶Cl−(𝑎𝑞)+MnO4−(𝑎𝑞)(basic solution)
+
+15. Identify the oxidant and reductant in each reaction of the previous exercise.
+16. From the information provided, use cell notation to describe the following systems:
+(a) In one half-cell, a solution of Pt(NO3)2 forms Pt metal, while in the other half-cell, Cu metal goes into a Cu(NO3)2 solution with all solute concentrations 1 M.
+
+(b) The cathode consists of a gold electrode in a 0.55 M Au(NO3)3 solution and the anode is a magnesium electrode in 0.75 M Mg(NO3)2 solution.
+
+(c) One half-cell consists of a silver electrode in a 1 M AgNO3 solution, and in the other half-cell, a copper electrode in 1 M Cu(NO3)2 is oxidized.
+
+17. Why is a salt bridge necessary in galvanic cells like the one in Figure 17.3?
+18. An active (metal) electrode was found to gain mass as the oxidation-reduction reaction was allowed to proceed. Was the electrode an anode or a cathode? Explain.
+19. An active (metal) electrode was found to lose mass as the oxidation-reduction reaction was allowed to proceed. Was the electrode an anode or a cathode? Explain.
+20. The masses of three electrodes (A, B, and C), each from three different galvanic cells, were measured before and after the cells were allowed to pass current for a while. The mass of electrode A increased, that of electrode B was unchanged, and that of electrode C decreased. Identify each electrode as active or inert, and note (if possible) whether it functioned as anode or cathode.
+17.3 Electrode and Cell Potentials
+21. Calculate the standard cell potential for each reaction below, and note whether the reaction is spontaneous under standard state conditions.
+(a) Mg(𝑠)+Ni2+(𝑎𝑞)⟶Mg2+(𝑎𝑞)+Ni(𝑠)
+
+(b) 2Ag+(𝑎𝑞)+Cu(𝑠)⟶Cu2+(𝑎𝑞)+2Ag(𝑠)
+
+(c) Mn(𝑠)+Sn(NO3)2(𝑎𝑞)⟶Mn(NO3)2(𝑎𝑞)+Sn(𝑠)
+
+(d) 3Fe(NO3)2(𝑎𝑞)+Au(NO3)3(𝑎𝑞)⟶3Fe(NO3)3(𝑎𝑞)+Au(𝑠)
+
+22. Calculate the standard cell potential for each reaction below, and note whether the reaction is spontaneous under standard state conditions.
+(a) Mn(𝑠)+Ni2+(𝑎𝑞)⟶Mn2+(𝑎𝑞)+Ni(𝑠)
+
+(b) 3Cu2+(𝑎𝑞)+2Al(𝑠)⟶2Al3+(𝑎𝑞)+3Cu(𝑠)
+
+(c) Na(𝑠)+LiNO3(𝑎𝑞)⟶NaNO3(𝑎𝑞)+Li(𝑠)
+
+(d) Ca(NO3)2(𝑎𝑞)+Ba(𝑠)⟶Ba(NO3)2(𝑎𝑞)+Ca(𝑠)
+
+23. Write the balanced cell reaction for the cell schematic below, calculate the standard cell potential, and note whether the reaction is spontaneous under standard state conditions.
+Cu(𝑠)│Cu2+(𝑎𝑞)║Au3+(𝑎𝑞)│Au(𝑠)
+
+24. Determine the cell reaction and standard cell potential at 25 °C for a cell made from a cathode half-cell consisting of a silver electrode in 1 M silver nitrate solution and an anode half-cell consisting of a zinc electrode in 1 M zinc nitrate. Is the reaction spontaneous at standard conditions?
+25. Determine the cell reaction and standard cell potential at 25 °C for a cell made from an anode half-cell containing a cadmium electrode in 1 M cadmium nitrate and a cathode half-cell consisting of an aluminum electrode in 1 M aluminum nitrate solution. Is the reaction spontaneous at standard conditions?
+26. Write the balanced cell reaction for the cell schematic below, calculate the standard cell potential, and note whether the reaction is spontaneous under standard state conditions.
+Pt(𝑠)│H2(𝑔)│H+(𝑎𝑞)║Br2(𝑎𝑞),Br−(𝑎𝑞)│Pt(𝑠)
+17.4 Potential, Free Energy, and Equilibrium
+27. For each pair of standard cell potential and electron stoichiometry values below, calculate a corresponding standard free energy change (kJ).
+(a) 0.000 V, n = 2
+
+(b) +0.434 V, n = 2
+
+(c) −2.439 V, n = 1
+
+28. For each pair of standard free energy change and electron stoichiometry values below, calculate a corresponding standard cell potential.
+(a) 12 kJ/mol, n = 3
+
+(b) −45 kJ/mol, n = 1
+
+29. Determine the standard cell potential and the cell potential under the stated conditions for the electrochemical reactions described here. State whether each is spontaneous or nonspontaneous under each set of conditions at 298.15 K.
+(a) Hg(𝑙)+S2−(𝑎𝑞, 0.10𝑀)+2Ag+(𝑎𝑞, 0.25𝑀)⟶2Ag(𝑠)+HgS(𝑠)
+
+(b) The cell made from an anode half-cell consisting of an aluminum electrode in 0.015 M aluminum nitrate solution and a cathode half-cell consisting of a nickel electrode in 0.25 M nickel(II) nitrate solution.
+
+(c) The cell comprised of a half-cell in which aqueous bromine (1.0 M) is being oxidized to bromide ion (0.11 M) and a half-cell in which Al3+ (0.023 M) is being reduced to aluminum metal.
+
+30. Determine ΔG and ΔG° for each of the reactions in the previous problem.
+31. Use the data in Appendix L to calculate equilibrium constants for the following reactions. Assume 298.15 K if no temperature is given.
+(a) AgCl(𝑠)⇌Ag+(𝑎𝑞)+Cl−(𝑎𝑞)
+
+(b) CdS(𝑠)⇌Cd2+(𝑎𝑞)+S2−(𝑎𝑞)at 377 K
+
+(c) Hg2+(𝑎𝑞)+4Br−(𝑎𝑞)⇌[HgBr4]2−(𝑎𝑞)
+
+(d) H2O(𝑙)⇌H+(𝑎𝑞)+OH−(𝑎𝑞)at 25°C
+
+17.5 Batteries and Fuel Cells
+32. Consider a battery made from one half-cell that consists of a copper electrode in 1 M CuSO4 solution and another half-cell that consists of a lead electrode in 1 M Pb(NO3)2 solution.
+(a) What is the standard cell potential for the battery?
+
+(b) What are the reactions at the anode, cathode, and the overall reaction?
+
+(c) Most devices designed to use dry-cell batteries can operate between 1.0 and 1.5 V. Could this cell be used to make a battery that could replace a dry-cell battery? Why or why not.
+
+(d) Suppose sulfuric acid is added to the half-cell with the lead electrode and some PbSO4(s) forms. Would the cell potential increase, decrease, or remain the same?
+
+33. Consider a battery with the overall reaction: Cu(𝑠)+2Ag+(𝑎𝑞)⟶2Ag(𝑠)+Cu2+(𝑎𝑞).
+(a) What is the reaction at the anode and cathode?
+
+(b) A battery is “dead” when its cell potential is zero. What is the value of Q when this battery is dead?
+
+(c) If a particular dead battery was found to have [Cu2+] = 0.11 M, what was the concentration of silver ion?
+
+34. Why do batteries go dead, but fuel cells do not?
+35. Use the Nernst equation to explain the drop in voltage observed for some batteries as they discharge.
+36. Using the information thus far in this chapter, explain why battery-powered electronics perform poorly in low temperatures.
+17.6 Corrosion
+37. Which member of each pair of metals is more likely to corrode (oxidize)?
+(a) Mg or Ca
+
+(b) Au or Hg
+
+(c) Fe or Zn
+
+(d) Ag or Pt
+
+38. Consider the following metals: Ag, Au, Mg, Ni, and Zn. Which of these metals could be used as a sacrificial anode in the cathodic protection of an underground steel storage tank? Steel is an alloy composed mostly of iron, so use −0.447 V as the standard reduction potential for steel.
+39. Aluminum (𝐸∘Al3+/Al=−2.07 V) is more easily oxidized than iron (𝐸∘Fe3+/Fe=−0.477 V), and yet when both are exposed to the environment, untreated aluminum has very good corrosion resistance while the corrosion resistance of untreated iron is poor. What might explain this observation?
+40. If a sample of iron and a sample of zinc come into contact, the zinc corrodes but the iron does not. If a sample of iron comes into contact with a sample of copper, the iron corrodes but the copper does not. Explain this phenomenon.
+41. Suppose you have three different metals, A, B, and C. When metals A and B come into contact, B corrodes and A does not corrode. When metals A and C come into contact, A corrodes and C does not corrode. Based on this information, which metal corrodes and which metal does not corrode when B and C come into contact?
+42. Why would a sacrificial anode made of lithium metal be a bad choice
+17.7 Electrolysis
+43. If a 2.5 A current flows through a circuit for 35 minutes, how many coulombs of charge moved through the circuit?
+44. For the scenario in the previous question, how many electrons moved through the circuit?
+45. Write the half-reactions and cell reaction occurring during electrolysis of each molten salt below.
+(a) CaCl2
+
+(b) LiH
+
+(c) AlCl3
+
+(d) CrBr3
+
+46. What mass of each product is produced in each of the electrolytic cells of the previous problem if a total charge of 3.33 × 105 C passes through each cell?
+47. How long would it take to reduce 1 mole of each of the following ions using the current indicated?
+(a) Al3+, 1.234 A
+
+(b) Ca2+, 22.2 A
+
+(c) Cr5+, 37.45 A
+
+(d) Au3+, 3.57 A
+
+48. A current of 2.345 A passes through the cell shown in Figure 17.19 for 45 minutes. What is the volume of the hydrogen collected at room temperature if the pressure is exactly 1 atm? (Hint: Is hydrogen the only gas present above the water?)
+49. An irregularly shaped metal part made from a particular alloy was galvanized with zinc using a Zn(NO3)2 solution. When a current of 2.599 A was used, it took exactly 1 hour to deposit a 0.01123-mm layer of zinc on the part. What was the total surface area of the part? The density of zinc is 7.140 g/cm3.
