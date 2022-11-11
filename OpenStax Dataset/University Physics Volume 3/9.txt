@@ -1,4 +1,3 @@
-Problems
 9.1 Types of Molecular Bonds
 40. The electron configuration of carbon is 1s22s22p2. Given this electron configuration, what other element might exhibit the same type of hybridization as carbon?
 41. Potassium chloride (KCl) is a molecule formed by an ionic bond. At equilibrium separation the atoms are r0=0.279nm apart. Determine the electrostatic potential energy of the atoms.

@@ -1,4 +1,3 @@
-Problems
 12.1 The Biot-Savart Law
 16. A 10-A current flows through the wire shown. What is the magnitude of the magnetic field due to a 0.5-mm segment of wire as measured at (a) point A and (b) point B?This figure shows a piece of wire. Point A is located 3 centimeters above the 0.5 mm segment of wire. Point B is located 4 centimeters to the right of point A.
 17. Ten amps flow through a square loop where each side is 20 cm in length. At each corner of the loop is a 0.01-cm segment that connects the longer wires as shown. Calculate the magnitude of the magnetic field at the center of the loop.A square loop is shown with rounded corners. There are no markings.

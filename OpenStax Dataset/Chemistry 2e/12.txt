@@ -96,10 +96,10 @@ Rate (mol L−1 h−1)	3.80 × 10−7	1.52 × 10−6	3.42 × 10−6
 2NO(𝑔)+Cl2(𝑔)⟶2NOCl(𝑔)
 The following initial rates of reaction have been observed for certain reactant concentrations:
 
-[NO] (mol/L)	[Cl2] (mol/L)	Rate (mol L−1 h−1)
-0.50	0.50	1.14
-1.00	0.50	4.56
-1.00	1.00	9.12
+[NO]  (mol/L)	[Cl2] (mol/L)	Rate (mol L−1 h−1)
+.5	0.50	1.14
+1 	0.50	4.56
+1 	1.00	9.12
 What is the rate law that describes the rate’s dependence on the concentrations of NO and Cl2? What is the rate constant? What are the orders with respect to each reactant?
 
 26. Hydrogen reacts with nitrogen monoxide to form dinitrogen monoxide (laughing gas) according to the equation: H2(𝑔)+2NO(𝑔)⟶N2O(𝑔)+H2O(𝑔)
@@ -167,14 +167,13 @@ Time (s)	5.0	10.0	15.0	20.0	25.0	30.0	35.0	40.0
 41. The half-life of a reaction of compound A to give compounds D and E is 8.50 min when the initial concentration of A is 0.150 M. How long will it take for the concentration to drop to 0.0300 M if the reaction is (a) first order with respect to A or (b) second order with respect to A?
 42. Some bacteria are resistant to the antibiotic penicillin because they produce penicillinase, an enzyme with a molecular weight of 3 × 104 g/mol that converts penicillin into inactive molecules. Although the kinetics of enzyme-catalyzed reactions can be complex, at low concentrations this reaction can be described by a rate law that is first order in the catalyst (penicillinase) and that also involves the concentration of penicillin. From the following data: 1.0 L of a solution containing 0.15 µg (0.15 × 10−6 g) of penicillinase, determine the order of the reaction with respect to penicillin and the value of the rate constant.
 [Penicillin] (M)	Rate (mol L−1 min−1)
-2.0 × 10−6	1.0 × 10−10
-3.0 × 10−6	1.5 × 10−10
-4.0 × 10−6	2.0 × 10−10
+2 × 10−6	1.0 × 10−10
+3 × 10−6	1.5 × 10−10
+4 × 10−6	2.0 × 10−10
 43. Both technetium-99 and thallium-201 are used to image heart muscle in patients with suspected heart problems. The half-lives are 6 h and 73 h, respectively. What percent of the radioactivity would remain for each of the isotopes after 2 days (48 h)?
 44. There are two molecules with the formula C3H6. Propene, CH3CH=CH2, is the monomer of the polymer polypropylene, which is used for indoor-outdoor carpets. Cyclopropane is used as an anesthetic:
 A structural formula for cyclopropane is shown. Three C H subscript 2 groups are positioned as vertices of an equilateral triangle connected with single bonds represented by line segments.
-When heated to 499 °C, cyclopropane rearranges (isomerizes) and forms propene with a rate constant of
-5.95 × 10−4 s−1. What is the half-life of this reaction? What fraction of the cyclopropane remains after 0.75 h at 499 °C?
+When heated to 499 °C, cyclopropane rearranges (isomerizes) and forms propene with a rate constant of 5.95 × 10−4 s−1. What is the half-life of this reaction? What fraction of the cyclopropane remains after 0.75 h at 499 °C?
 
 45. Fluorine-18 is a radioactive isotope that decays by positron emission to form oxygen-18 with a half-life of 109.7 min. (A positron is a particle with the mass of an electron and a single unit of positive charge; the equation is 189F⟶188O+0+1e) Physicians use 18F to study the brain by injecting a quantity of fluoro-substituted glucose into the blood of a patient. The glucose accumulates in the regions where the brain is active and needs nourishment.
 (a) What is the rate constant for the decomposition of fluorine-18?

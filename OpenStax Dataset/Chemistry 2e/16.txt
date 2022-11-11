@@ -279,9 +279,7 @@ SbCl5(𝑔)⟶SbCl3(𝑔)+Cl2(𝑔)
 An equilibrium mixture in a 5.00 L flask at 448 °C contains 3.85 g of SbCl5, 9.14 g of SbCl3, and 2.84 g of Cl2.
 
 (b) Chlorine molecules dissociate according to this reaction:
-Cl2(𝑔)⟶2Cl(𝑔)
-
-1.00% of Cl2 molecules dissociate at 975 K and a pressure of 1.00 atm.
+Cl2(𝑔)⟶2Cl(𝑔) 1.00% of Cl2 molecules dissociate at 975 K and a pressure of 1.00 atm.
 
 57. Given that the Δ𝐺∘f for Pb2+(aq) and Cl−(aq) is −24.3 kJ/mole and −131.2 kJ/mole respectively, determine the solubility product, Ksp, for PbCl2(s).
 58. Determine the standard free energy change, Δ𝐺∘f, for the formation of S2−(aq) given that the Δ𝐺∘f for Ag+(aq) and Ag2S(s) are 77.1 kJ/mole and −39.5 kJ/mole respectively, and the solubility product for Ag2S(s) is 8 × 10−51.

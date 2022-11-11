@@ -1,4 +1,3 @@
-Problems
 16.1 Maxwell’s Equations and Electromagnetic Waves
 33. Show that the magnetic field at a distance r from the axis of two circular parallel plates, produced by placing charge Q(t) on the plates is
 Bind=μ02πrdQ(t)dt.

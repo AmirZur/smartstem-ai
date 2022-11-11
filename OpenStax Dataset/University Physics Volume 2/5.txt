@@ -1,4 +1,3 @@
-Problems
 5.1 Electric Charge
 37. Common static electricity involves charges ranging from nanocoulombs to microcoulombs. (a) How many electrons are needed to form a charge of −2.00 nC? (b) How many electrons must be removed from a neutral object to leave a net charge of 0.500μC?
 38. If 1.80×1020 electrons move through a pocket calculator during a full day’s operation, how many coulombs of charge moved through it?

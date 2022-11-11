@@ -1,4 +1,3 @@
-Problems
 10.1 Properties of Nuclei
 21. Find the atomic numbers, mass numbers, and neutron numbers for (a) 5829Cu, (b) 2411Na, (c) 21084Po, (d) 4520Ca, and (e) 20682Pb.
 22. Silver has two stable isotopes. The nucleus, 10747Ag, has atomic mass 106.905095 g/mol with an abundance of 51.83%; whereas 10947Ag has atomic mass 108.904754 g/mol with an abundance of 48.17%. Find the atomic mass of the element silver.

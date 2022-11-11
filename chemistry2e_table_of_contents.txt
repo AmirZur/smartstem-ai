@@ -1,0 +1,237 @@
+Chapter 1  Essential Ideas
+Introduction
+1.1 Chemistry in Context
+1.2 Phases and Classification of Matter
+1.3 Physical and Chemical Properties
+1.4 Measurements
+1.5 Measurement Uncertainty, Accuracy, and Precision
+1.6 Mathematical Treatment of Measurement Results
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 2  Atoms, Molecules, and Ions
+Introduction
+2.1 Early Ideas in Atomic Theory
+2.2 Evolution of Atomic Theory
+2.3 Atomic Structure and Symbolism
+2.4 Chemical Formulas
+2.5 The Periodic Table
+2.6 Ionic and Molecular Compounds
+2.7 Chemical Nomenclature
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 3  Composition of Substances and Solutions
+Introduction
+3.1 Formula Mass and the Mole Concept
+3.2 Determining Empirical and Molecular Formulas
+3.3 Molarity
+3.4 Other Units for Solution Concentrations
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 4  Stoichiometry of Chemical Reactions
+Introduction
+4.1 Writing and Balancing Chemical Equations
+4.2 Classifying Chemical Reactions
+4.3 Reaction Stoichiometry
+4.4 Reaction Yields
+4.5 Quantitative Chemical Analysis
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 5  Thermochemistry
+Introduction
+5.1 Energy Basics
+5.2 Calorimetry
+5.3 Enthalpy
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 6  Electronic Structure and Periodic Properties of Elements
+Introduction
+6.1 Electromagnetic Energy
+6.2 The Bohr Model
+6.3 Development of Quantum Theory
+6.4 Electronic Structure of Atoms Electron Configurations
+6.5 Periodic Variations in Element Properties
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 7  Chemical Bonding and Molecular Geometry
+Introduction
+7.1 Ionic Bonding
+7.2 Covalent Bonding
+7.3 Lewis Symbols and Structures
+7.4 Formal Charges and Resonance
+7.5 Strengths of Ionic and Covalent Bonds
+7.6 Molecular Structure and Polarity
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 8  Advanced Theories of Covalent Bonding
+Introduction
+8.1 Valence Bond Theory
+8.2 Hybrid Atomic Orbitals
+8.3 Multiple Bonds
+8.4 Molecular Orbital Theory
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 9  Gases
+Introduction
+9.1 Gas Pressure
+9.2 Relating Pressure, Volume, Amount, and Temperature: The Ideal Gas Law
+9.3 Stoichiometry of Gaseous Substances, Mixtures, and Reactions
+9.4 Effusion and Diffusion of Gases
+9.5 The Kinetic-Molecular Theory
+9.6 Non-Ideal Gas Behavior
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 10  Liquids and Solids
+Introduction
+10.1 Intermolecular Forces
+10.2 Properties of Liquids
+10.3 Phase Transitions
+10.4 Phase Diagrams
+10.5 The Solid State of Matter
+10.6 Lattice Structures in Crystalline Solids
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 11  Solutions and Colloids
+Introduction
+11.1 The Dissolution Process
+11.2 Electrolytes
+11.3 Solubility
+11.4 Colligative Properties
+11.5 Colloids
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 12  Kinetics
+Introduction
+12.1 Chemical Reaction Rates
+12.2 Factors Affecting Reaction Rates
+12.3 Rate Laws
+12.4 Integrated Rate Laws
+12.5 Collision Theory
+12.6 Reaction Mechanisms
+12.7 Catalysis
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 13  Fundamental Equilibrium Concepts
+Introduction
+13.1 Chemical Equilibria
+13.2 Equilibrium Constants
+13.3 Shifting Equilibria: Le Chateliers Principle
+13.4 Equilibrium Calculations
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 14  Acid-Base Equilibria
+Introduction
+14.1 Bronsted-Lowry Acids and Bases
+14.2 pH and pOH
+14.3 Relative Strengths of Acids and Bases
+14.4 Hydrolysis of Salts
+14.5 Polyprotic Acids
+14.6 Buffers
+14.7 Acid-Base Titrations
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 15  Equilibria of Other Reaction Classes
+Introduction
+15.1 Precipitation and Dissolution
+15.2 Lewis Acids and Bases
+15.3 Coupled Equilibria
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 16  Thermodynamics
+Introduction
+16.1 Spontaneity
+16.2 Entropy
+16.3 The Second and Third Laws of Thermodynamics
+16.4 Free Energy
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 17  Electrochemistry
+Introduction
+17.1 Review of Redox Chemistry
+17.2 Galvanic Cells
+17.3 Electrode and Cell Potentials
+17.4 Potential, Free Energy, and Equilibrium
+17.5 Batteries and Fuel Cells
+17.6 Corrosion
+17.7 Electrolysis
+Key Terms
+Key Equations
+Summary
+Exercises
+Chapter 18  Representative Metals, Metalloids, and Nonmetals
+Introduction
+18.1 Periodicity
+18.2 Occurrence and Preparation of the Representative Metals
+18.3 Structure and General Properties of the Metalloids
+18.4 Structure and General Properties of the Nonmetals
+18.5 Occurrence, Preparation, and Compounds of Hydrogen
+18.6 Occurrence, Preparation, and Properties of Carbonates
+18.7 Occurrence, Preparation, and Properties of Nitrogen
+18.8 Occurrence, Preparation, and Properties of Phosphorus
+18.9 Occurrence, Preparation, and Compounds of Oxygen
+18.10 Occurrence, Preparation, and Properties of Sulfur
+18.11 Occurrence, Preparation, and Properties of Halogens
+18.12 Occurrence, Preparation, and Properties of the Noble Gases
+Key Terms
+Summary
+Exercises
+Chapter 19  Transition Metals and Coordination Chemistry
+Introduction
+19.1 Occurrence, Preparation, and Properties of Transition Metals and Their Compounds
+19.2 Coordination Chemistry of Transition Metals
+19.3 Spectroscopic and Magnetic Properties of Coordination Compounds
+Key Terms
+Summary
+Exercises
+Chapter 20  Organic Chemistry
+Introduction
+20.1 Hydrocarbons
+20.2 Alcohols and Ethers
+20.3 Aldehydes, Ketones, Carboxylic Acids, and Esters
+20.4 Amines and Amides
+Key Terms
+Summary
+Exercises
+Chapter 21  Nuclear Chemistry
+Introduction
+21.1 Nuclear Structure and Stability
+21.2 Nuclear Equations
+21.3 Radioactive Decay
+21.4 Transmutation and Nuclear Energy
+21.5 Uses of Radioisotopes
+21.6 Biological Effects of Radiation
+Key Terms
+Key Equations
+Summary
+Exercises

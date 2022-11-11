@@ -1,0 +1,263 @@
+Unit 1  Mechanics
+Chapter 1  Units and Measurement
+Introduction
+1.1 The Scope and Scale of Physics
+1.2 Units and Standards
+1.3 Unit Conversion
+1.4 Dimensional Analysis
+1.5 Estimates and Fermi Calculations
+1.6 Significant Figures
+1.7 Solving Problems in Physics
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 2  Vectors
+Introduction
+2.1 Scalars and Vectors
+2.2 Coordinate Systems and Components of a Vector
+2.3 Algebra of Vectors
+2.4 Products of Vectors
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 3  Motion Along a Straight Line
+Introduction
+3.1 Position, Displacement, and Average Velocity
+3.2 Instantaneous Velocity and Speed
+3.3 Average and Instantaneous Acceleration
+3.4 Motion with Constant Acceleration
+3.5 Free Fall
+3.6 Finding Velocity and Displacement from Acceleration
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 4  Motion in Two and Three Dimensions
+Introduction
+4.1 Displacement and Velocity Vectors
+4.2 Acceleration Vector
+4.3 Projectile Motion
+4.4 Uniform Circular Motion
+4.5 Relative Motion in One and Two Dimensions
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 5  Newton's Laws of Motion
+Introduction
+5.1 Forces
+5.2 Newtons First Law
+5.3 Newtons Second Law
+5.4 Mass and Weight
+5.5 Newtons Third Law
+5.6 Common Forces
+5.7 Drawing Free-Body Diagrams
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 6  Applications of Newton's Laws
+Introduction
+6.1 Solving Problems with Newtons Laws
+6.2 Friction
+6.3 Centripetal Force
+6.4 Drag Force and Terminal Speed
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 7  Work and Kinetic Energy
+Introduction
+7.1 Work
+7.2 Kinetic Energy
+7.3 Work-Energy Theorem
+7.4 Power
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 8  Potential Energy and Conservation of Energy
+Introduction
+8.1 Potential Energy of a System
+8.2 Conservative and Non-Conservative Forces
+8.3 Conservation of Energy
+8.4 Potential Energy Diagrams and Stability
+8.5 Sources of Energy
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Chapter 9  Linear Momentum and Collisions
+Introduction
+9.1 Linear Momentum
+9.2 Impulse and Collisions
+9.3 Conservation of Linear Momentum
+9.4 Types of Collisions
+9.5 Collisions in Multiple Dimensions
+9.6 Center of Mass
+9.7 Rocket Propulsion
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 10  Fixed-Axis Rotation
+Introduction
+10.1 Rotational Variables
+10.2 Rotation with Constant Angular Acceleration
+10.3 Relating Angular and Translational Quantities
+10.4 Moment of Inertia and Rotational Kinetic Energy
+10.5 Calculating Moments of Inertia
+10.6 Torque
+10.7 Newtons Second Law for Rotation
+10.8 Work and Power for Rotational Motion
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 11  Angular Momentum
+Introduction
+11.1 Rolling Motion
+11.2 Angular Momentum
+11.3 Conservation of Angular Momentum
+11.4 Precession of a Gyroscope
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 12  Static Equilibrium and Elasticity
+Introduction
+12.1 Conditions for Static Equilibrium
+12.2 Examples of Static Equilibrium
+12.3 Stress, Strain, and Elastic Modulus
+12.4 Elasticity and Plasticity
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 13  Gravitation
+Introduction
+13.1 Newtons Law of Universal Gravitation
+13.2 Gravitation Near Earths Surface
+13.3 Gravitational Potential Energy and Total Energy
+13.4 Satellite Orbits and Energy
+13.5 Keplers Laws of Planetary Motion
+13.6 Tidal Forces
+13.7 Einsteins Theory of Gravity
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 14  Fluid Mechanics
+Introduction
+14.1 Fluids, Density, and Pressure
+14.2 Measuring Pressure
+14.3 Pascals Principle and Hydraulics
+14.4 Archimedes Principle and Buoyancy
+14.5 Fluid Dynamics
+14.6 Bernoullis Equation
+14.7 Viscosity and Turbulence
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Unit 2  Waves and Acoustics
+Chapter 15  Oscillations
+Introduction
+15.1 Simple Harmonic Motion
+15.2 Energy in Simple Harmonic Motion
+15.3 Comparing Simple Harmonic Motion and Circular Motion
+15.4 Pendulums
+15.5 Damped Oscillations
+15.6 Forced Oscillations
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 16  Waves
+Introduction
+16.1 Traveling Waves
+16.2 Mathematics of Waves
+16.3 Wave Speed on a Stretched String
+16.4 Energy and Power of a Wave
+16.5 Interference of Waves
+16.6 Standing Waves and Resonance
+Chapter Review
+Key Terms
+Key Equations
+Summary
+Conceptual Questions
+Problems
+Additional Problems
+Challenge Problems
+Chapter 17  Sound
+Introduction
+17.1 Sound Waves
+17.2 Speed of Sound
+17.3 Sound Intensity
+17.4 Normal Modes of a Standing Sound Wave
+17.5 Sources of Musical Sound
+17.6 Beats
+17.7 The Doppler Effect
+17.8 Shock Waves
+Chapter Review

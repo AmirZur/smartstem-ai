@@ -1,4 +1,3 @@
-Problems
 8.1 The Hydrogen Atom
 25. The wave function is evaluated at rectangular coordinates (x,y,z) = (2, 1, 1) in arbitrary units. What are the spherical coordinates of this position?
 26. If an atom has an electron in the n=5 state with m=3, what are the possible values of l?

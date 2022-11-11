@@ -1,4 +1,3 @@
-Problems
 2.1 Images Formed by Plane Mirrors
 26. Consider a pair of flat mirrors that are positioned so that they form an angle of 120°. An object is placed on the bisector between the mirrors. Construct a ray diagram as in Figure 2.4 to show how many images are formed.
 27. Consider a pair of flat mirrors that are positioned so that they form an angle of 60°. An object is placed on the bisector between the mirrors. Construct a ray diagram as in Figure 2.4 to show how many images are formed.
@@ -43,8 +42,6 @@ Problems
 63. An object of height 3.0 cm is placed at 25 cm in front of a diverging lens of focal length 20 cm. Behind the diverging lens, there is a converging lens of focal length 20 cm. The distance between the lenses is 5.0 cm. Find the location and size of the final image.
 64. Two convex lenses of focal lengths 20 cm and 10 cm are placed 30 cm apart, with the lens with the longer focal length on the right. An object of height 2.0 cm is placed midway between them and observed through each lens from the left and from the right. Describe what you will see, such as where the image(s) will appear, whether they will be upright or inverted and their magnifications.
 2.5 The Eye
-Unless otherwise stated, the lens-to-retina distance is 2.00 cm.
-
 65. What is the power of the eye when viewing an object 50.0 cm away?
 66. Calculate the power of the eye when viewing an object 3.00 m away.
 67. The print in many books averages 3.50 mm in height. How high is the image of the print on the retina when the book is held 30.0 cm from the eye?

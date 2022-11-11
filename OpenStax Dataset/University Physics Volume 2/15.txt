@@ -1,4 +1,3 @@
-Problems
 15.1 AC Sources
 14. Write an expression for the output voltage of an ac source that has an amplitude of 12 V and a frequency of 200 Hz.
 15.2 Simple AC Circuits

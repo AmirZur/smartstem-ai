@@ -1,4 +1,3 @@
-Problems
 11.1 Introduction to Particle Physics
 31. How much energy is released when an electron and a positron at rest annihilate each other? (For particle masses, see Table 11.1.)
 32. If 1.0×1030MeV of energy is released in the annihilation of a sphere of matter and antimatter, and the spheres are equal mass, what are the masses of the spheres?

@@ -1,4 +1,3 @@
-Problems
 3.2 Mathematics of Interference
 16. At what angle is the first-order maximum for 450-nm wavelength blue light falling on double slits separated by 0.0500 mm?
 17. Calculate the angle for the third-order maximum of 580-nm wavelength yellow light falling on double slits separated by 0.100 mm.

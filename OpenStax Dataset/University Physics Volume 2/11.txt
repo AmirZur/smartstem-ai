@@ -1,4 +1,3 @@
-Problems
 11.2 Magnetic Fields and Lines
 15. What is the direction of the magnetic force on a positive charge that moves as shown in each of the six cases?Case a: B is out of the page, v is down. Case b: B is to the right, v is up. Case c: B is in, v is to the right. Case d: B is to the right, v is to the left. Case e: B is up, v is into the page. Case f: B is to the left, v is out of the page.
 16. Repeat previous exercise for a negative charge.

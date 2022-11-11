@@ -1,4 +1,3 @@
-Problems
 13.1 Faraday’s Law
 24. A 50-turn coil has a diameter of 15 cm. The coil is placed in a spatially uniform magnetic field of magnitude 0.50 T so that the face of the coil and the magnetic field are perpendicular. Find the magnitude of the emf induced in the coil if the magnetic field is reduced to zero uniformly in (a) 0.10 s, (b) 1.0 s, and (c) 60 s.
 25. Repeat your calculations of the preceding problem’s time of 0.1 s with the plane of the coil making an angle of (a) 30°, (b) 60°, and (c) 90° with the magnetic field.

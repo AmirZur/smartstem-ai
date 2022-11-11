@@ -1,4 +1,3 @@
-Problems
 7.1 Electric Potential Energy
 29. Consider a charge Q1(+5.0μC) fixed at a site with another charge Q2 (charge +3.0μC, mass 6.0μg) moving in the neighboring space. (a) Evaluate the potential energy of Q2 when it is 4.0 cm from Q1. (b) If Q2 starts from rest from a point 4.0 cm from Q1, what will be its speed when it is 8.0 cm from Q1? (Note: Q1 is held fixed in its place.)
 30. Two charges Q1(+2.00μC) and Q2(+2.00μC) are placed symmetrically along the x-axis at x=±3.00cm. Consider a charge Q3 of charge +4.00μC and mass 10.0 mg moving along the y-axis. If Q3 starts from rest at y=2.00cm, what is its speed when it reaches y=4.00cm?

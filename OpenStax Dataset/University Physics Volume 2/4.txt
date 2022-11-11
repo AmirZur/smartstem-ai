@@ -1,4 +1,3 @@
-Problems
 4.1 Reversible and Irreversible Processes
 18. A tank contains 111.0 g chlorine gas (Cl2), which is at temperature 82.0°C and absolute pressure 5.70×105Pa. The temperature of the air outside the tank is 20.0°C. The molar mass of Cl2 is 70.9 g/mol. (a) What is the volume of the tank? (b) What is the internal energy of the gas? (c) What is the work done by the gas if the temperature and pressure inside the tank drop to 31.0°C and 3.80×105Pa, respectively, due to a leak?
 19. A mole of ideal monatomic gas at 0°C and 1.00 atm is warmed up to expand isobarically to triple its volume. How much heat is transferred during the process?

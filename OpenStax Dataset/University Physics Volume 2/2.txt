@@ -1,4 +1,3 @@
-Problems
 2.1 Molecular Model of an Ideal Gas
 18. The gauge pressure in your car tires is 2.50×105N/m2 at a temperature of 35.0°C when you drive it onto a ship in Los Angeles to be sent to Alaska. What is their gauge pressure on a night in Alaska when their temperature has dropped to −40.0°C ? Assume the tires have not gained or lost any air.
 19. Suppose a gas-filled incandescent light bulb is manufactured so that the gas inside the bulb is at atmospheric pressure when the bulb has a temperature of 20.0°C. (a) Find the gauge pressure inside such a bulb when it is hot, assuming its average temperature is 60.0°C (an approximation) and neglecting any change in volume due to thermal expansion or gas leaks. (b) The actual final pressure for the light bulb will be less than calculated in part (a) because the glass bulb will expand. Is this effect significant?
@@ -18,8 +17,6 @@ Problems
 33. Calculate the depth to which Avogadro’s number of table tennis balls would cover Earth. Each ball has a diameter of 3.75 cm. Assume the space between balls adds an extra 25.0% to their volume and assume they are not crushed by their own weight.
 34. (a) What is the gauge pressure in a 25.0°C car tire containing 3.60 mol of gas in a 30.0-L volume? (b) What will its gauge pressure be if you add 1.00 L of gas originally at atmospheric pressure and 25.0°C ? Assume the temperature remains at 25.0°C and the volume remains constant.
 2.2 Pressure, Temperature, and RMS Speed
-In the problems in this section, assume all gases are ideal.
-
 35. A person hits a tennis ball with a mass of 0.058 kg against a wall. The average component of the ball’s velocity perpendicular to the wall is 11 m/s, and the ball hits the wall every 2.1 s on average, rebounding with the opposite perpendicular velocity component. (a) What is the average force exerted on the wall? (b) If the part of the wall the person hits has an area of 3.0m2, what is the average pressure on that area?
 36. A person is in a closed room (a racquetball court) with V=453m3 hitting a ball (m=42.0g) around at random without any pauses. The average kinetic energy of the ball is 2.30 J. (a) What is the average value of v2x? Does it matter which direction you take to be x? (b) Applying the methods of this chapter, find the average pressure on the walls? (c) Aside from the presence of only one “molecule” in this problem, what is the main assumption in Pressure, Temperature, and RMS Speed that does not apply here?
 37. Five bicyclists are riding at the following speeds: 5.4 m/s, 5.7 m/s, 5.8 m/s, 6.0 m/s, and 6.5 m/s. (a) What is their average speed? (b) What is their rms speed?

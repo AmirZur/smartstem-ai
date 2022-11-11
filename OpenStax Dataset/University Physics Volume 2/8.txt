@@ -1,4 +1,3 @@
-Problems
 8.1 Capacitors and Capacitance
 19. What charge is stored in a 180.0-μF capacitor when 120.0 V is applied to it?
 20. Find the charge stored when 5.50 V is applied to an 8.00-pF capacitor.
