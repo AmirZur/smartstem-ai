@@ -111,6 +111,8 @@ class OpenstaxDataset(dataset.Dataset):
         # group data by learning goal
         # columns: question (list), learning_goal (str), course (list of single str)
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+        # shuffle order of learning goals for training!!
+        self.data_by_learning_goal = self.data_by_learning_goal.sample(frac=1., random_state=SEED)
 
     def _tokenize(self, x):
         return self.tokenizer(

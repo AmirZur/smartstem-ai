@@ -230,9 +230,13 @@ class ProtoNet:
     def test_on_course(self, dataloader_test):
         accuracies = []
         f1_scores = []
-        for task_batch in dataloader_test:
-            predictions = self._predict(task_batch).cpu().numpy()
+        for i, task_batch in enumerate(dataloader_test):
+            if i >= 10:
+                break
+            predictions = self._predict(task_batch).squeeze(1).cpu().numpy()
             labels_query = np.array([task[-1][0] for task in task_batch], dtype=np.int64)
+            print(predictions.dtype, labels_query.dtype)
+            print(np.unique(labels_query), np.unique(predictions))
 
             f1_scores.append(metrics.f1_score(y_true=labels_query, y_pred=predictions))
             accuracies.append((predictions == labels_query).sum() / len(predictions))
@@ -241,16 +245,16 @@ class ProtoNet:
         mean_95_confidence_interval_acc = 1.96 * std_accuracy / np.sqrt(len(accuracies))
         print(
             f'Accuracy over {len(accuracies)} test questions: '
-            f'mean {mean_accuracy:.3f}'
-            f'95% confidence interval {mean_95_confidence_interval_acc:.3f}'
+            f'mean {mean_accuracy * 100:.3f}'
+            f'95% confidence interval {mean_95_confidence_interval_acc * 100:.3f}'
         )
         mean_f1 = np.mean(f1_scores)
         std_f1 = np.std(f1_scores)
         mean_95_confidence_interval_f1 = 1.96 * std_f1 / np.sqrt(len(accuracies))
         print(
-            f'Accuracy over {len(accuracies)} test questions: '
-            f'mean {mean_f1:.3f}'
-            f'95% confidence interval {mean_95_confidence_interval_f1:.3f}'
+            f'F1 score over {len(accuracies)} test questions: '
+            f'mean {mean_f1 * 100:.3f}'
+            f'95% confidence interval {mean_95_confidence_interval_f1 * 100:.3f}'
         )
 
     def load(self, checkpoint_step):
@@ -298,8 +302,8 @@ def main(args):
     print(f'log_dir: {log_dir}')
     writer = tensorboard.SummaryWriter(log_dir=log_dir)
 
-    tokenizer = AutoTokenizer.from_pretrained('prajjwal1/bert-tiny')
-    model = BertModel.from_pretrained('prajjwal1/bert-tiny')
+    tokenizer = AutoTokenizer.from_pretrained(f'prajjwal1/bert-{args.model_size}')
+    model = BertModel.from_pretrained(f'prajjwal1/bert-{args.model_size}')
 
     protonet = ProtoNet(model, args.learning_rate, log_dir)
 
@@ -392,6 +396,8 @@ if __name__ == '__main__':
                         help='train or test')
     parser.add_argument('--course_name', type=str, default=None,
                         help='Course to test on (only applies if --test flag is true)')
+    parser.add_argument('--model_size', type=str, default='small', 
+                        help='Size of (bert) model to use.')
     parser.add_argument('--checkpoint_step', type=int, default=-1,
                         help=('checkpoint iteration to load for resuming '
                               'training, or for evaluation (-1 is ignored)'))
