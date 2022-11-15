@@ -19,7 +19,7 @@ SUMMARY_INTERVAL = 10
 SAVE_INTERVAL = 100
 PRINT_INTERVAL = 10
 VAL_INTERVAL = PRINT_INTERVAL * 5
-NUM_TEST_TASKS = 600
+NUM_TEST_TASKS = 1000
 
 
 class ProtoNet:
@@ -43,6 +43,37 @@ class ProtoNet:
         os.makedirs(self._log_dir, exist_ok=True)
 
         self._start_train_step = 0
+
+    def _predict(self, task_batch):
+        predictions_batch = []
+        for task in task_batch:
+            support, labels_support, query, labels_query = task
+
+            support = {k: v.to(self._device) for k, v in support.items()}
+            query = {k: v.to(self._device) for k, v in query.items()}
+            labels_support = labels_support.to(self._device)
+            labels_query = labels_query.to(self._device)
+            n = 2
+            k = labels_support.shape[0] // n
+            # (nk, dim)
+            support_representations = self._network(
+                **support
+            )[1]
+
+            # (nq, dim)
+            query_representations = self._network(
+                **query
+            )[1]
+
+            # (n, dim)
+            prototypes = support_representations.view(n, k, -1).mean(dim=1)
+
+            # (nq, n) 
+            query_distances = torch.cdist(query_representations, prototypes) 
+            query_logits = F.softmax(-query_distances, dim=1)
+
+            predictions_batch.append(torch.argmax(query_logits, dim=-1))
+        return torch.stack(predictions_batch)
 
     def _step(self, task_batch):
         """Computes ProtoNet mean loss (and accuracy) on a batch of tasks.
@@ -204,11 +235,10 @@ class ProtoNet:
         Raises:
             ValueError: if checkpoint for checkpoint_step is not found
         """
-        # target_path = (
-        #     f'{os.path.join(self._log_dir, "state")}'
-        #     f'{checkpoint_step}.pt'
-        # )
-        target_path = checkpoint_step
+        target_path = (
+            f'{os.path.join(self._log_dir, "state")}'
+            f'{checkpoint_step}.pt'
+        )
         if os.path.isfile(target_path):
             state = torch.load(target_path)
             self._network.load_state_dict(state['network_state_dict'])
@@ -241,8 +271,8 @@ def main(args):
     print(f'log_dir: {log_dir}')
     writer = tensorboard.SummaryWriter(log_dir=log_dir)
 
-    tokenizer = AutoTokenizer.from_pretrained('prajjwal1/bert-tiny')
-    model = BertModel.from_pretrained('prajjwal1/bert-tiny')
+    tokenizer = AutoTokenizer.from_pretrained('prajjwal1/bert-small')
+    model = BertModel.from_pretrained('prajjwal1/bert-small')
 
     protonet = ProtoNet(model, args.learning_rate, log_dir)
 
@@ -289,7 +319,6 @@ def main(args):
     else:
         print(
             f'Testing on tasks with composition '
-            f'num_way={args.num_way}, '
             f'num_support={args.num_support}, '
             f'num_query={args.num_query}'
         )
