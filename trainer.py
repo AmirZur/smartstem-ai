@@ -327,9 +327,9 @@ def main(args):
             num_query=args.num_query,
             num_tasks_per_epoch=num_training_tasks,
             tokenizer=tokenizer,
-            num_workers=8,
+            num_workers=args.num_workers,
             max_length=args.max_length,
-            num_folds=1
+            sample_by_learning_goal=args.sample_by_learning_goal
         )
         dataloader_val = openstax_dataset.get_openstax_dataloader(
             split='val',
@@ -340,7 +340,7 @@ def main(args):
             tokenizer=tokenizer,
             num_workers=args.num_workers,
             max_length=args.max_length,
-            num_folds=1
+            sample_by_learning_goal=args.sample_by_learning_goal
         )
         protonet.train(
             dataloader_train,
@@ -348,31 +348,35 @@ def main(args):
             writer
         )
     else:
-        print(
-            f'Testing on tasks with composition '
-            f'num_support={args.num_support}, '
-            f'num_query={args.num_query}'
-        )
-        # dataloader_test = openstax_dataset.get_openstax_dataloader(
-        #     split='test',
-        #     batch_size=args.batch_size,
-        #     num_support=args.num_support,
-        #     num_query=args.num_query,
-        #     num_tasks_per_epoch=NUM_TEST_TASKS,
-        #     tokenizer=tokenizer,
-        #     num_workers=args.num_workers,
-        #     max_length=args.max_length
-        # )
-        # protonet.test(dataloader_test)
-        dataset_test = openstax_dataset.OpenstaxTestDataset(
-            course_name=args.course_name,
-            num_support=args.num_support,
-            num_query=args.num_query,
-            tokenizer=tokenizer,
-            max_length=args.max_length
-        )
-        protonet.test_on_course(dataset_test)
-
+        if args.course_name is not None:
+            print(f'Testing on tagging for course {args.course_name}')
+            dataset_test = openstax_dataset.OpenstaxTestDataset(
+                course_name=args.course_name,
+                num_support=args.num_support,
+                num_query=args.num_query,
+                tokenizer=tokenizer,
+                max_length=args.max_length
+            )
+            protonet.test_on_course(dataset_test)
+        else:
+            print(
+                f'Testing on tasks with composition '
+                f'num_support={args.num_support}, '
+                f'num_query={args.num_query}'
+            )
+            dataloader_test = openstax_dataset.get_openstax_dataloader(
+                split='test',
+                batch_size=args.batch_size,
+                num_support=args.num_support,
+                num_query=args.num_query,
+                num_tasks_per_epoch=NUM_TEST_TASKS,
+                tokenizer=tokenizer,
+                num_workers=args.num_workers,
+                max_length=args.max_length,
+                sample_by_learning_goal=args.sample_by_learning_goal
+            )
+            protonet.test(dataloader_test)
+        
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('Train a ProtoNet!')
@@ -398,6 +402,8 @@ if __name__ == '__main__':
                         help='Course to test on (only applies if --test flag is true)')
     parser.add_argument('--model_size', type=str, default='small', 
                         help='Size of (bert) model to use.')
+    parser.add_argument('--sample_by_learning_goal', default=False, action='store_true',
+                        help='Set true to sample by learning goal instead of by question')
     parser.add_argument('--checkpoint_step', type=int, default=-1,
                         help=('checkpoint iteration to load for resuming '
                               'training, or for evaluation (-1 is ignored)'))

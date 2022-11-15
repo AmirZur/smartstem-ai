@@ -10,10 +10,9 @@ from torch.utils.data import dataset, sampler, dataloader
 
 import util
 
-NUM_TRAIN_CLASSES = 800
-NUM_VAL_CLASSES = 188
-NUM_TEST_CLASSES = 100
-NUM_SAMPLES_PER_CLASS = 20
+FRAC_TRAIN_CLASSES = 0.8
+FRAC_VAL_CLASSES = 0.1
+FRAC_TEST_CLASSES = 0.1
 
 SEED = 42
 
@@ -89,13 +88,14 @@ class OpenstaxDataset(dataset.Dataset):
         'University Physics Volume 3'
     ]
 
-    def __init__(self, num_support, num_query, tokenizer, max_length=128) -> None:
+    def __init__(self, num_support, num_query, tokenizer, max_length=128, seed=SEED) -> None:
         super().__init__()
 
         self.num_support = num_support
         self.num_query = num_query
         self.tokenizer = tokenizer
         self.max_length = max_length
+        self.seed = seed
 
         # load questions from Openstax Dataset
         # columns: question, learning_goal, course (all text)
@@ -105,14 +105,27 @@ class OpenstaxDataset(dataset.Dataset):
         ])
 
         # group data by question
+        # dictionary mapping from course name to dataframe of questions within this course
         # columns: question (str), learning_goal (list), course (list of single str)
-        self.data_by_question = data.groupby('question').agg(list)
+        self.data_by_question = {
+            course_name: data[data['course'] == course_name].groupby('question').agg(list)
+            for course_name in data['course'].unique()
+        }
 
         # group data by learning goal
         # columns: question (list), learning_goal (str), course (list of single str)
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+        # ignore learning goals that do not have enough training examples
+        # NOTE: questions under these learning goals can still appear as NEGATIVE examples, just not positive examples
+        self.data_by_learning_goal = self.data_by_learning_goal[
+            self.data_by_learning_goal['question'].apply(len) >= self.num_support + self.num_query
+        ]
         # shuffle order of learning goals for training!!
-        self.data_by_learning_goal = self.data_by_learning_goal.sample(frac=1., random_state=SEED)
+        self.data_by_learning_goal = self.data_by_learning_goal.sample(frac=1., random_state=self.seed)
+
+        # construct a random number generator
+        self.rng = np.random.default_rng(seed=self.seed)
+        
 
     def _tokenize(self, x):
         return self.tokenizer(
@@ -125,32 +138,59 @@ class OpenstaxDataset(dataset.Dataset):
             return_attention_mask=True
         )
 
-    def __getitem__(self, index_and_seed):
-        index, seed = index_and_seed
+    def get_data_by_learning_goal(self):
+        return self.data_by_learning_goal
 
-        # get learning goal from index
-        learning_goal = self.data_by_learning_goal.iloc[index]
+    def __getitem__(self, index):
+        if isinstance(index, tuple):
+            support = query = labels_support = labels_query = []
+            for label, i in enumerate(index):
+                learning_goal = self.data_by_learning_goal.iloc[i]
+                # choose examples from learning goal that were not already used in another class
+                examples = [q for q in learning_goal.question if q not in support and q not in query]
+                support_and_query = self.rng.choice(
+                    examples, self.num_support + self.num_query, replace=False
+                )
 
-        # select examples that match the sampled learning goal
-        examples_1 = learning_goal.question
-        support_1 = np.random.default_rng(seed=seed).choice(examples_1, self.num_support)
-        query_1 = np.random.default_rng(seed=seed).choice(examples_1, self.num_query)
+                support.extend(list(support_and_query[:self.num_support]))
+                query.extend(list(support_and_query[self.num_support:]))
+                labels_support.extend([label] * self.num_support)
+                labels_query.extend([label] * self.num_query)
+            if self.tokenizer:
+                support, query = self._tokenize(support), self._tokenize(query)
+            labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
+            
+            return support, labels_support, query, labels_query
+        else:
+            # get learning goal from index
+            learning_goal = self.data_by_learning_goal.iloc[index]
 
-        # select examples that do not have this learning goal
-        examples_0 = self.data_by_question.drop(learning_goal.question).index
-        support_0 = np.random.default_rng(seed=seed).choice(examples_0, self.num_support)
-        query_0 = np.random.default_rng(seed=seed).choice(examples_0, self.num_query)
+            # select examples that match the sampled learning goal
+            examples_1 = learning_goal.question
+            support_and_query_1 = self.rng.choice(
+                examples_1, self.num_support + self.num_query, replace=False
+            )
+            support_1 = support_and_query_1[:self.num_support]
+            query_1 = support_and_query_1[self.num_support:]
 
-        support = list(support_0) + list(support_1)
-        query = list(query_0) + list(query_1)
-        labels_support = ([0] * self.num_support) + ([1] * self.num_support)
-        labels_query = ([0] * self.num_query) + ([1] * self.num_query)
+            # select examples that do not have this learning goal
+            examples_0 = self.data_by_question[learning_goal.course[0]].drop(learning_goal.question).index
+            support_and_query_0 = self.rng.choice(
+                examples_0, self.num_support + self.num_query, replace=False
+            )
+            support_0 = support_and_query_0[:self.num_support]
+            query_0 = support_and_query_0[self.num_support:]
 
-        if self.tokenizer:
-            support, query = self._tokenize(support), self._tokenize(query)
-        labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
+            support = list(support_0) + list(support_1)
+            query = list(query_0) + list(query_1)
+            labels_support = ([0] * self.num_support) + ([1] * self.num_support)
+            labels_query = ([0] * self.num_query) + ([1] * self.num_query)
 
-        return support, labels_support, query, labels_query
+            if self.tokenizer:
+                support, query = self._tokenize(support), self._tokenize(query)
+            labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
+
+            return support, labels_support, query, labels_query
 
     def __len__(self) -> int:
         return self.data_by_learning_goal.shape[0]
@@ -250,17 +290,44 @@ class OmniglotDataset(dataset.Dataset):
 
 
 class OpenstaxSampler(sampler.Sampler):
-    def __init__(self, split_idx, num_tasks, num_seeds) -> None:
+    def __init__(self, split_idx, num_tasks, seed=SEED) -> None:
         super().__init__(None)
         self._num_tasks = num_tasks
-        self._indices = np.array(list(itertools.product(split_idx, range(num_seeds))))
+        self._indices = split_idx
+        self.rng = np.random.default_rng(seed=seed)
     
     def __iter__(self):
         return (
-            self._indices[np.random.default_rng(seed=SEED).choice(self._indices.shape[0], replace=False)]
+            self.rng.choice(self._indices, replace=False)
             for _ in range(self._num_tasks)
         )
     
+    def __len__(self):
+        return self._num_tasks
+
+
+class OpenstaxSamplerV2(sampler.Sampler):
+    def __init__(self, dataset : OpenstaxDataset, split_idx, num_tasks, seed=SEED) -> None:
+        super().__init__(dataset)
+        self._num_tasks = num_tasks
+        self._indices = split_idx
+        self.rng = np.random.default_rng(seed=seed)
+        self.data_by_learning_goal = dataset.get_data_by_learning_goal().reset_index()
+
+    def _sample_learning_goal_index(self, index):
+        lg = self.data_by_learning_goal.iloc[index]
+        safe_lgs = self.data_by_learning_goal[
+            self.data_by_learning_goal['question'].apply(lambda l: all([q not in lg.question for q in l]))
+        ]
+        return self.rng.choice(safe_lgs.index)
+    
+    def __iter__(self):
+        return (
+            (i, self._sample_learning_goal_index(i))
+            for i in range(self.rng.choice(self.data_by_learning_goal.index, size=self.num_tasks, replace=False))
+        )
+
+
     def __len__(self):
         return self._num_tasks
 
@@ -306,19 +373,30 @@ def get_openstax_dataloader(
     tokenizer,
     num_workers=8,
     max_length=128,
-    num_folds=10
+    sample_by_learning_goal=False,
+    seed=SEED
 ):
+    dataset = OpenstaxDataset(num_support, num_query, tokenizer, max_length=max_length)
+    num_train_classes = int(len(dataset) * FRAC_TRAIN_CLASSES)
+    num_val_classes = int(len(dataset) * FRAC_VAL_CLASSES)
+    num_test_classes = int(len(dataset) * FRAC_TEST_CLASSES)
+
     if split == 'train':
-        split_idxs = range(NUM_TRAIN_CLASSES)
+        split_idxs = range(num_train_classes)
     elif split == 'val':
-        split_idxs = range(NUM_TRAIN_CLASSES, NUM_TRAIN_CLASSES + NUM_VAL_CLASSES)
+        split_idxs = range(num_train_classes, num_train_classes + num_val_classes)
     else:
-        split_idxs = range(NUM_TRAIN_CLASSES + NUM_VAL_CLASSES, NUM_TRAIN_CLASSES + NUM_VAL_CLASSES + NUM_TEST_CLASSES)
+        split_idxs = range(num_train_classes + num_val_classes, num_train_classes + num_val_classes + num_test_classes)
     
+    if sample_by_learning_goal:
+        sampler = OpenstaxSamplerV2(dataset, split_idxs, num_tasks_per_epoch, seed)
+    else:
+        sampler = OpenstaxSampler(split_idxs, num_tasks_per_epoch, seed)
+
     return dataloader.DataLoader(
-        dataset=OpenstaxDataset(num_support, num_query, tokenizer, max_length=max_length),
+        dataset=dataset,
         batch_size=batch_size,
-        sampler=OpenstaxSampler(split_idxs, num_tasks_per_epoch, num_folds),
+        sampler=sampler,
         num_workers=num_workers,
         collate_fn=identity,
         pin_memory=torch.cuda.is_available(),
