@@ -7,6 +7,14 @@ import pandas as pd
 
 OPENSTAX_DIR = 'OpenStax Dataset'
 
+def get_model_name(size):
+    size_to_model = {
+        'tiny': 'prajjwal1/bert-tiny',
+        'small': 'prajjwal1/bert-small',
+        'bert': 'bert-base-uncased'
+    }
+    return size_to_model[size]
+
 
 def parse_openstax_questions_file(filename, folder_path):
     chapter_num = int(filename[:-4]) # everything before .txt extension

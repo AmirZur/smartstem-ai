@@ -302,8 +302,8 @@ def main(args):
     print(f'log_dir: {log_dir}')
     writer = tensorboard.SummaryWriter(log_dir=log_dir)
 
-    tokenizer = AutoTokenizer.from_pretrained(f'prajjwal1/bert-{args.model_size}')
-    model = BertModel.from_pretrained(f'prajjwal1/bert-{args.model_size}')
+    tokenizer = AutoTokenizer.from_pretrained(util.get_model_name(args.model_size))
+    model = BertModel.from_pretrained(util.get_model_name(args.model_size))
 
     protonet = ProtoNet(model, args.learning_rate, log_dir)
 
