@@ -17,6 +17,69 @@ NUM_SAMPLES_PER_CLASS = 20
 
 SEED = 42
 
+class OpenstaxTestDataset(dataset.Dataset):
+    def __init__(self, course_name, num_support, num_query, tokenizer, max_length=128) -> None:
+        super().__init__()
+
+        self.num_support = num_support
+        self.num_query = num_query
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+
+        # load questions from Openstax Dataset
+        # columns: question, learning_goal, course (all text)
+        # multiple learning goals per question, multiple questions per course
+        data = util.load_openstax_course(course_name)
+
+        # group data by question
+        # columns: question (str), learning_goal (list), course (list of single str)
+        self.data_by_question = data.groupby('question').agg(list)
+
+        # group data by learning goal
+        # columns: question (list), learning_goal (str), course (list of single str)
+        self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+
+    def _tokenize(self, x):
+        return self.tokenizer(
+            x,
+            return_tensors='pt',
+            max_length=self.max_length,
+            add_special_tokens=True,
+            padding='max_length',
+            truncation=True,
+            return_attention_mask=True
+        )
+
+    def __getitem__(self, question_index):
+        question = self.data_by_question.iloc[question_index].name
+
+        tasks = []
+        for learning_goal in self.data_by_learning_goal.index:
+            # select examples that match the sampled learning goal
+            examples_1 = self.data_by_learning_goal.loc[learning_goal].question
+            support_1 = np.random.default_rng(seed=SEED).choice(examples_1, self.num_support)
+
+            # select examples that do not have this learning goal
+            examples_0 = self.data_by_question.drop(examples_1).index
+            support_0 = np.random.default_rng(seed=SEED).choice(examples_0, self.num_support)
+
+            support = list(support_0) + list(support_1)
+            query = [question]
+            labels_support = ([0] * self.num_support) + ([1] * self.num_support)
+            labels_query = [int(question in examples_1)]
+
+            if self.tokenizer:
+                support, query = self._tokenize(support), self._tokenize(query)
+            labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
+            tasks.append(
+                (support, labels_support, query, labels_query)
+            )
+
+        return tasks
+
+    def __len__(self) -> int:
+        return self.data_by_question.shape[0]
+
 
 class OpenstaxDataset(dataset.Dataset):
     _COURSES = [

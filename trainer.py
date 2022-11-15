@@ -9,6 +9,7 @@ from torch import nn
 import torch.nn.functional as F
 from torch.utils import tensorboard
 from transformers import AutoTokenizer, BertModel
+import sklearn.metrics as metrics
 
 import openstax_dataset
 
@@ -225,6 +226,32 @@ class ProtoNet:
             f'mean {mean:.3f}, '
             f'95% confidence interval {mean_95_confidence_interval:.3f}'
         )
+    
+    def test_on_course(self, dataloader_test):
+        accuracies = []
+        f1_scores = []
+        for task_batch in dataloader_test:
+            predictions = self._predict(task_batch).cpu().numpy()
+            labels_query = np.array([task[-1][0] for task in task_batch], dtype=np.int64)
+
+            f1_scores.append(metrics.f1_score(y_true=labels_query, y_pred=predictions))
+            accuracies.append((predictions == labels_query).sum() / len(predictions))
+        mean_accuracy = np.mean(accuracies)
+        std_accuracy = np.std(accuracies)
+        mean_95_confidence_interval_acc = 1.96 * std_accuracy / np.sqrt(len(accuracies))
+        print(
+            f'Accuracy over {len(accuracies)} test questions: '
+            f'mean {mean_accuracy:.3f}'
+            f'95% confidence interval {mean_95_confidence_interval_acc:.3f}'
+        )
+        mean_f1 = np.mean(f1_scores)
+        std_f1 = np.std(f1_scores)
+        mean_95_confidence_interval_f1 = 1.96 * std_f1 / np.sqrt(len(accuracies))
+        print(
+            f'Accuracy over {len(accuracies)} test questions: '
+            f'mean {mean_f1:.3f}'
+            f'95% confidence interval {mean_95_confidence_interval_f1:.3f}'
+        )
 
     def load(self, checkpoint_step):
         """Loads a checkpoint.
@@ -271,8 +298,8 @@ def main(args):
     print(f'log_dir: {log_dir}')
     writer = tensorboard.SummaryWriter(log_dir=log_dir)
 
-    tokenizer = AutoTokenizer.from_pretrained('prajjwal1/bert-small')
-    model = BertModel.from_pretrained('prajjwal1/bert-small')
+    tokenizer = AutoTokenizer.from_pretrained('prajjwal1/bert-tiny')
+    model = BertModel.from_pretrained('prajjwal1/bert-tiny')
 
     protonet = ProtoNet(model, args.learning_rate, log_dir)
 
@@ -322,17 +349,25 @@ def main(args):
             f'num_support={args.num_support}, '
             f'num_query={args.num_query}'
         )
-        dataloader_test = openstax_dataset.get_openstax_dataloader(
-            split='test',
-            batch_size=args.batch_size,
+        # dataloader_test = openstax_dataset.get_openstax_dataloader(
+        #     split='test',
+        #     batch_size=args.batch_size,
+        #     num_support=args.num_support,
+        #     num_query=args.num_query,
+        #     num_tasks_per_epoch=NUM_TEST_TASKS,
+        #     tokenizer=tokenizer,
+        #     num_workers=args.num_workers,
+        #     max_length=args.max_length
+        # )
+        # protonet.test(dataloader_test)
+        dataset_test = openstax_dataset.OpenstaxTestDataset(
+            course_name=args.course_name,
             num_support=args.num_support,
             num_query=args.num_query,
-            num_tasks_per_epoch=NUM_TEST_TASKS,
             tokenizer=tokenizer,
-            num_workers=args.num_workers,
             max_length=args.max_length
         )
-        protonet.test(dataloader_test)
+        protonet.test_on_course(dataset_test)
 
 
 if __name__ == '__main__':
@@ -355,6 +390,8 @@ if __name__ == '__main__':
                         help='number of workers to use for data loading')
     parser.add_argument('--test', default=False, action='store_true',
                         help='train or test')
+    parser.add_argument('--course_name', type=str, default=None,
+                        help='Course to test on (only applies if --test flag is true)')
     parser.add_argument('--checkpoint_step', type=int, default=-1,
                         help=('checkpoint iteration to load for resuming '
                               'training, or for evaluation (-1 is ignored)'))
