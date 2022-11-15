@@ -125,8 +125,8 @@ class ProtoNet:
             accuracy_query = util.score(query_logits, labels_query)
 
             loss_batch.append(loss)
-            accuracy_support_batch.append(accuracy_support)
-            accuracy_query_batch.append(accuracy_query)
+            accuracy_support_batch.append(accuracy_support.cpu().numpy())
+            accuracy_query_batch.append(accuracy_query.cpu().numpy())
         return (
             torch.mean(torch.stack(loss_batch)),
             np.mean(accuracy_support_batch),
