@@ -13,6 +13,8 @@ import sklearn.metrics as metrics
 
 import openstax_dataset
 
+from tqdm import tqdm
+
 import util
 
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -26,14 +28,26 @@ NUM_TEST_TASKS = 1000
 class ProtoNet:
     """Trains and assesses a prototypical network."""
 
-    def __init__(self, model, learning_rate, log_dir):
+    def __init__(
+        self, 
+        model, 
+        learning_rate, 
+        log_dir,
+        num_epochs=5,
+        gradient_accumulation_steps=1,
+        max_grad_norm=None,
+        early_stopping=False,
+        n_iter_no_change=3,
+        tolerance=1e-5,
+        device=DEVICE
+    ):
         """Inits ProtoNet.
 
         Args:
             learning_rate (float): learning rate for the Adam optimizer
             log_dir (str): path to logging directory
         """
-        self._device = DEVICE
+        self._device = device
 
         self._network = model.to(self._device)
         self._optimizer = torch.optim.Adam(
@@ -43,37 +57,47 @@ class ProtoNet:
         self._log_dir = log_dir
         os.makedirs(self._log_dir, exist_ok=True)
 
-        self._start_train_step = 0
+        self._start_train_epoch = 0
+        self.num_epochs = num_epochs
+        self.gradient_accumulation_steps = gradient_accumulation_steps
+        self.max_grad_norm = max_grad_norm
+        self.early_stopping = early_stopping
+        self.n_iter_no_change = n_iter_no_change
+        self.tolerance = tolerance
+        self.no_improvement_count = 0
+        self.best_loss = np.inf
+        self.best_score = -np.inf
 
     def _predict(self, task_batch):
-        predictions_batch = []
-        for task in task_batch:
-            support, labels_support, query, labels_query = task
+        with torch.no_grad():
+            predictions_batch = []
+            for task in task_batch:
+                support, labels_support, query, labels_query = task
 
-            support = {k: v.to(self._device) for k, v in support.items()}
-            query = {k: v.to(self._device) for k, v in query.items()}
-            labels_support = labels_support.to(self._device)
-            labels_query = labels_query.to(self._device)
-            n = 2
-            k = labels_support.shape[0] // n
-            # (nk, dim)
-            support_representations = self._network(
-                **support
-            )[1]
+                support = {k: v.to(self._device) for k, v in support.items()}
+                query = {k: v.to(self._device) for k, v in query.items()}
+                labels_support = labels_support.to(self._device)
+                labels_query = labels_query.to(self._device)
+                n = 2
+                k = labels_support.shape[0] // n
+                # (nk, dim)
+                support_representations = self._network(
+                    **support
+                )[1]
 
-            # (nq, dim)
-            query_representations = self._network(
-                **query
-            )[1]
+                # (nq, dim)
+                query_representations = self._network(
+                    **query
+                )[1]
 
-            # (n, dim)
-            prototypes = support_representations.view(n, k, -1).mean(dim=1)
+                # (n, dim)
+                prototypes = support_representations.view(n, k, -1).mean(dim=1)
 
-            # (nq, n) 
-            query_distances = torch.cdist(query_representations, prototypes) 
-            query_logits = F.softmax(-query_distances, dim=1)
+                # (nq, n) 
+                query_distances = torch.cdist(query_representations, prototypes) 
+                query_logits = F.softmax(-query_distances, dim=1)
 
-            predictions_batch.append(torch.argmax(query_logits, dim=-1))
+                predictions_batch.append(torch.argmax(query_logits, dim=-1))
         return torch.stack(predictions_batch)
 
     def _step(self, task_batch):
@@ -146,68 +170,125 @@ class ProtoNet:
             dataloader_val (DataLoader): loader for validation tasks
             writer (SummaryWriter): TensorBoard logger
         """
-        print(f'Starting training at iteration {self._start_train_step}.')
-        for i_step, task_batch in enumerate(
-                dataloader_train,
-                start=self._start_train_step
-        ):
-            self._optimizer.zero_grad()
-            loss, accuracy_support, accuracy_query = self._step(task_batch)
-            loss.backward()
-            self._optimizer.step()
+        print(f'Starting training at epoch {self._start_train_epoch}.')
+        self._network.to(self._device)
+        self._network.train()
 
-            if i_step % PRINT_INTERVAL == 0:
-                print(
-                    f'Iteration {i_step}: '
-                    f'loss: {loss.item():.3f}, '
-                    f'support accuracy: {accuracy_support.item():.3f}, '
-                    f'query accuracy: {accuracy_query.item():.3f}'
-                )
-                writer.add_scalar('loss/train', loss.item(), i_step)
-                writer.add_scalar(
-                    'train_accuracy/support',
-                    accuracy_support.item(),
-                    i_step
-                )
-                writer.add_scalar(
-                    'train_accuracy/query',
-                    accuracy_query.item(),
-                    i_step
-                )
+        self._optimizer.zero_grad()
 
-            if i_step % VAL_INTERVAL == 0:
-                with torch.no_grad():
-                    losses, accuracies_support, accuracies_query = [], [], []
-                    for val_task_batch in dataloader_val:
-                        loss, accuracy_support, accuracy_query = (
-                            self._step(val_task_batch)
+        for epoch in range(self._start_train_epoch + 1, self._start_train_epoch + self.num_epochs + 1):
+            epoch_loss = 0
+
+            with tqdm(dataloader_train, desc=f'Epoch {epoch}') as progress_bar:
+                for i_step, task_batch in enumerate(progress_bar):
+                    loss, accuracy_support, accuracy_query = self._step(task_batch)
+
+                    if self.gradient_accumulation_steps > 1 and self.loss.reduction == "mean":
+                        loss /= self.gradient_accumulation_steps
+                    
+                    loss.backward()
+
+                    epoch_loss += loss.item()
+
+                    if i_step % self.gradient_accumulation_steps == 0 or i_step == len(dataloader_train):
+                        if self.max_grad_norm is not None:
+                            torch.nn.utils.clip_grad_norm_(
+                                self._network.parameters(), self.max_grad_norm
+                            )
+                        self._optimizer.step()
+                        self._optimizer.zero_grad()
+                    
+                    progress_bar.set_postfix(loss=loss.item(), accuracy=accuracy_query.item())
+
+                    if i_step % PRINT_INTERVAL == 0:
+                        writer.add_scalar('loss/train', loss.item(), i_step)
+                        writer.add_scalar(
+                            'train_accuracy/support',
+                            accuracy_support.item(),
+                            i_step
                         )
-                        losses.append(loss.item())
-                        accuracies_support.append(accuracy_support)
-                        accuracies_query.append(accuracy_query)
-                    loss = np.mean(losses)
-                    accuracy_support = np.mean(accuracies_support)
-                    accuracy_query = np.mean(accuracies_query)
-                print(
-                    f'Validation: '
-                    f'loss: {loss:.3f}, '
-                    f'support accuracy: {accuracy_support:.3f}, '
-                    f'query accuracy: {accuracy_query:.3f}'
-                )
-                writer.add_scalar('loss/val', loss, i_step)
-                writer.add_scalar(
-                    'val_accuracy/support',
-                    accuracy_support,
-                    i_step
-                )
-                writer.add_scalar(
-                    'val_accuracy/query',
-                    accuracy_query,
-                    i_step
-                )
+                        writer.add_scalar(
+                            'train_accuracy/query',
+                            accuracy_query.item(),
+                            i_step
+                        )
+            
+            epoch_loss = epoch_loss / len(progress_bar)
 
-            if i_step % SAVE_INTERVAL == 0:
-                self._save(i_step)
+            # Validation
+            val_loss, val_accuracy_support, val_accuracy_query = self.score(dataloader_val)            
+            print(
+                f'Validation: '
+                f'training loss = {epoch_loss:.3f}, '
+                f'validation loss = {val_loss:.3f}, '
+                f'support accuracy = {val_accuracy_support:.3f}, '
+                f'query accuracy = {val_accuracy_query:.3f}'
+            )
+            writer.add_scalar('loss/val', val_loss, i_step)
+            writer.add_scalar(
+                'val_accuracy/support',
+                val_accuracy_support,
+                i_step
+            )
+            writer.add_scalar(
+                'val_accuracy/query',
+                val_accuracy_query,
+                i_step
+            )
+
+            if self.early_stopping:
+                self._update_no_improvement_count_early_stopping(val_accuracy_query, epoch)
+                if self.no_improvement_count > self.n_iter_no_change:
+                    print(
+                        f"Stopping after epoch {epoch}. Validation score did "
+                        f"not improve by tol={self.tolerance} for more than {self.n_iter_no_change} epochs. "
+                        f"Final error is {epoch_loss}"
+                    )
+                    break
+            else:
+                self._update_no_improvement_count_early_stopping(epoch_loss, epoch)
+                if self.no_improvement_count > self.n_iter_no_change:
+                    print(
+                        f"Stopping after epoch {epoch}. Training loss did "
+                        f"not improve by tol={self.tolerance} for more than {self.n_iter_no_change} epochs. "
+                        f"Final error is {epoch_loss}"
+                    )
+                    break
+    
+    def _update_no_improvement_count_early_stopping(self, val_accuracy_query, epoch):
+        if val_accuracy_query < (self.best_score + self.tolerance):
+            self.no_improvement_count += 1
+        else:
+            self.no_improvement_count = 0
+        
+        if val_accuracy_query > self.best_score:
+            self.best_score = val_accuracy_query
+            self._save(epoch)
+
+    def _update_no_improvement_count_early_stopping(self, loss, epoch):
+        if loss > (self.best_loss - self.tolerance):
+            self.no_improvement_count += 1
+        else:
+            self.no_improvement_count = 0
+        
+        if loss < self.best_loss:
+            self.best_loss = loss
+            self._save(epoch)
+
+    def score(self, dataloader_val):
+        with torch.no_grad():
+            losses, accuracies_support, accuracies_query = [], [], []
+            for val_task_batch in tqdm(dataloader_val, desc='Validation'):
+                loss, accuracy_support, accuracy_query = (
+                    self._step(val_task_batch)
+                )
+                losses.append(loss.item())
+                accuracies_support.append(accuracy_support)
+                accuracies_query.append(accuracy_query)
+            loss = np.mean(losses)
+            accuracy_support = np.mean(accuracies_support)
+            accuracy_query = np.mean(accuracies_query)
+        return loss, accuracy_support, accuracy_query
 
     def test(self, dataloader_test):
         """Evaluate the ProtoNet on test tasks.
@@ -215,47 +296,47 @@ class ProtoNet:
         Args:
             dataloader_test (DataLoader): loader for test tasks
         """
-        accuracies = []
-        for task_batch in dataloader_test:
-            accuracies.append(self._step(task_batch)[2])
-        mean = np.mean(accuracies)
-        std = np.std(accuracies)
-        mean_95_confidence_interval = 1.96 * std / np.sqrt(NUM_TEST_TASKS)
-        print(
-            f'Accuracy over {NUM_TEST_TASKS} test tasks: '
-            f'mean {mean:.3f}, '
-            f'95% confidence interval {mean_95_confidence_interval:.3f}'
-        )
+        with torch.no_grad():
+            accuracies = []
+            for task_batch in dataloader_test:
+                accuracies.append(self._step(task_batch)[2])
+            mean = np.mean(accuracies)
+            std = np.std(accuracies)
+            mean_95_confidence_interval = 1.96 * std / np.sqrt(NUM_TEST_TASKS)
+            print(
+                f'Accuracy over {NUM_TEST_TASKS} test tasks: '
+                f'mean {mean:.3f}, '
+                f'95% confidence interval {mean_95_confidence_interval:.3f}'
+            )
     
     def test_on_course(self, dataloader_test):
-        accuracies = []
-        f1_scores = []
-        for i, task_batch in enumerate(dataloader_test):
-            if i >= 10:
-                break
-            predictions = self._predict(task_batch).squeeze(1).cpu().numpy()
-            labels_query = np.array([task[-1][0] for task in task_batch], dtype=np.int64)
-            print(predictions.dtype, labels_query.dtype)
-            print(np.unique(labels_query), np.unique(predictions))
+        with torch.no_grad():
+            accuracies = []
+            f1_scores = []
+            for i, task_batch in enumerate(dataloader_test):
+                if i >= 10:
+                    break
+                predictions = self._predict(task_batch).squeeze(1).cpu().numpy()
+                labels_query = np.array([task[-1][0] for task in task_batch], dtype=np.int64)
 
-            f1_scores.append(metrics.f1_score(y_true=labels_query, y_pred=predictions))
-            accuracies.append((predictions == labels_query).sum() / len(predictions))
-        mean_accuracy = np.mean(accuracies)
-        std_accuracy = np.std(accuracies)
-        mean_95_confidence_interval_acc = 1.96 * std_accuracy / np.sqrt(len(accuracies))
-        print(
-            f'Accuracy over {len(accuracies)} test questions: '
-            f'mean {mean_accuracy * 100:.3f}'
-            f'95% confidence interval {mean_95_confidence_interval_acc * 100:.3f}'
-        )
-        mean_f1 = np.mean(f1_scores)
-        std_f1 = np.std(f1_scores)
-        mean_95_confidence_interval_f1 = 1.96 * std_f1 / np.sqrt(len(accuracies))
-        print(
-            f'F1 score over {len(accuracies)} test questions: '
-            f'mean {mean_f1 * 100:.3f}'
-            f'95% confidence interval {mean_95_confidence_interval_f1 * 100:.3f}'
-        )
+                f1_scores.append(metrics.f1_score(y_true=labels_query, y_pred=predictions))
+                accuracies.append((predictions == labels_query).sum() / len(predictions))
+            mean_accuracy = np.mean(accuracies)
+            std_accuracy = np.std(accuracies)
+            mean_95_confidence_interval_acc = 1.96 * std_accuracy / np.sqrt(len(accuracies))
+            print(
+                f'Accuracy over {len(accuracies)} test questions: '
+                f'mean {mean_accuracy * 100:.3f}'
+                f'95% confidence interval {mean_95_confidence_interval_acc * 100:.3f}'
+            )
+            mean_f1 = np.mean(f1_scores)
+            std_f1 = np.std(f1_scores)
+            mean_95_confidence_interval_f1 = 1.96 * std_f1 / np.sqrt(len(accuracies))
+            print(
+                f'F1 score over {len(accuracies)} test questions: '
+                f'mean {mean_f1 * 100:.3f}'
+                f'95% confidence interval {mean_95_confidence_interval_f1 * 100:.3f}'
+            )
 
     def load(self, checkpoint_step):
         """Loads a checkpoint.
@@ -305,7 +386,12 @@ def main(args):
     tokenizer = AutoTokenizer.from_pretrained(util.get_model_name(args.model_size))
     model = BertModel.from_pretrained(util.get_model_name(args.model_size))
 
-    protonet = ProtoNet(model, args.learning_rate, log_dir)
+    protonet = ProtoNet(
+        model, 
+        args.learning_rate, 
+        log_dir,
+        num_epochs=args.num_epochs
+    )
 
     if args.checkpoint_step > -1:
         protonet.load(args.checkpoint_step)
@@ -313,19 +399,18 @@ def main(args):
         print('Checkpoint loading skipped.')
 
     if not args.test:
-        num_training_tasks = (args.num_train_iterations - args.checkpoint_step - 1)
+        # num_training_tasks = (args.num_train_iterations - args.checkpoint_step - 1)
         print(
             f'Training on tasks with composition '
             f'num_support={args.num_support}, '
-            f'num_query={args.num_query}',
-            f'device={protonet._device}'
+            f'num_query={args.num_query}'
         )
         dataloader_train = openstax_dataset.get_openstax_dataloader(
             split='train',
             batch_size=args.batch_size,
             num_support=args.num_support,
             num_query=args.num_query,
-            num_tasks_per_epoch=num_training_tasks,
+            num_tasks_per_epoch=args.train_size,
             tokenizer=tokenizer,
             num_workers=args.num_workers,
             max_length=args.max_length,
@@ -336,7 +421,7 @@ def main(args):
             batch_size=args.batch_size,
             num_support=args.num_support,
             num_query=args.num_query,
-            num_tasks_per_epoch=args.batch_size * 4,
+            num_tasks_per_epoch=args.validation_size,
             tokenizer=tokenizer,
             num_workers=args.num_workers,
             max_length=args.max_length,
@@ -382,6 +467,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser('Train a ProtoNet!')
     parser.add_argument('--log_dir', type=str, default=None,
                         help='directory to save to or load from')
+    parser.add_argument('--model_size', type=str, default='small', 
+                        help='Size of (bert) model to use.')
     parser.add_argument('--num_support', type=int, default=1,
                         help='number of support examples per class in a task')
     parser.add_argument('--num_query', type=int, default=15,
@@ -392,18 +479,21 @@ if __name__ == '__main__':
                         help='number of tasks per outer-loop update')
     parser.add_argument('--max_length', type=int, default=128,
                         help='maximum tokenized sequence length')
-    parser.add_argument('--num_train_iterations', type=int, default=5000,
-                        help='number of outer-loop updates to train for')
+    parser.add_argument('--train_size', type=int, default=None,
+                        help='size of training set (if none, uses all learning goals, otherwise samples)')
+    parser.add_argument('--validation_size', type=int, default=None,
+                        help='size of validation set (if none, uses all learning goals, otherwise samples)')
+    parser.add_argument('--sample_by_learning_goal', default=False, action='store_true',
+                        help='Set true to sample by learning goal instead of by question')
+    parser.add_argument('--num_epochs', type=int, default=5,
+                        help='number of epochs to train for')
     parser.add_argument('--num_workers', type=int, default=8,
                         help='number of workers to use for data loading')
+    # Testing and loading models
     parser.add_argument('--test', default=False, action='store_true',
                         help='train or test')
     parser.add_argument('--course_name', type=str, default=None,
                         help='Course to test on (only applies if --test flag is true)')
-    parser.add_argument('--model_size', type=str, default='small', 
-                        help='Size of (bert) model to use.')
-    parser.add_argument('--sample_by_learning_goal', default=False, action='store_true',
-                        help='Set true to sample by learning goal instead of by question')
     parser.add_argument('--checkpoint_step', type=int, default=-1,
                         help=('checkpoint iteration to load for resuming '
                               'training, or for evaluation (-1 is ignored)'))

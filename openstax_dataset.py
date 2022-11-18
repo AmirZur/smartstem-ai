@@ -297,13 +297,19 @@ class OpenstaxSampler(sampler.Sampler):
         self.rng = np.random.default_rng(seed=seed)
     
     def __iter__(self):
-        return (
-            self.rng.choice(self._indices, replace=False)
-            for _ in range(self._num_tasks)
-        )
+        if self._num_tasks is None:
+            return (i for i in self._indices)
+        else:
+            return (
+                self.rng.choice(self._indices, replace=False)
+                for _ in range(self._num_tasks)
+            )
     
     def __len__(self):
-        return self._num_tasks
+        if self._num_tasks is None:
+            return len(self._indices)
+        else:
+            return self._num_tasks
 
 
 class OpenstaxSamplerV2(sampler.Sampler):
