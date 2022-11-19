@@ -1,5 +1,4 @@
 """Dataloading for Omniglot."""
-import itertools
 import os
 
 import numpy as np
@@ -7,6 +6,8 @@ import pandas as pd
 
 import torch
 from torch.utils.data import dataset, sampler, dataloader
+
+from sentence_transformers import SentenceTransformer
 
 import util
 
@@ -16,7 +17,7 @@ FRAC_TEST_CLASSES = 0.1
 
 SEED = 42
 
-class OpenstaxTestDataset(dataset.Dataset):
+class CourseTestDataset(dataset.Dataset):
     def __init__(self, course_name, num_support, num_query, tokenizer, max_length=128) -> None:
         super().__init__()
 
@@ -80,15 +81,17 @@ class OpenstaxTestDataset(dataset.Dataset):
         return self.data_by_question.shape[0]
 
 
-class OpenstaxDataset(dataset.Dataset):
-    _COURSES = [
+class nWaykShotDataset(dataset.Dataset):
+    _OPENSTAX_COURSES = [
         'Chemistry 2e', 
         'University Physics Volume 1', 
         'University Physics Volume 2', 
         'University Physics Volume 3'
     ]
 
-    def __init__(self, num_support, num_query, tokenizer, max_length=128, seed=SEED) -> None:
+    _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
+
+    def __init__(self, num_support, num_query, tokenizer, task_embedding_model=None, max_length=128, seed=SEED) -> None:
         super().__init__()
 
         self.num_support = num_support
@@ -96,13 +99,15 @@ class OpenstaxDataset(dataset.Dataset):
         self.tokenizer = tokenizer
         self.max_length = max_length
         self.seed = seed
+        # flag whether we're using learning goal embeddings
+        self.tam = False
 
         # load questions from Openstax Dataset
         # columns: question, learning_goal, course (all text)
         # multiple learning goals per question, multiple questions per course
         data = pd.concat([
-            util.load_openstax_course(course) for course in self._COURSES
-        ])
+            util.load_openstax_course(course) for course in self._OPENSTAX_COURSES
+        ] + [util.load_principles_of_chemistry_course(self._PRINCIPLES_OF_CHEMISTRY_COURSE)])
 
         # group data by question
         # dictionary mapping from course name to dataframe of questions within this course
@@ -123,9 +128,16 @@ class OpenstaxDataset(dataset.Dataset):
         # shuffle order of learning goals for training!!
         self.data_by_learning_goal = self.data_by_learning_goal.sample(frac=1., random_state=self.seed)
 
+        # encode learning goals as task embeddings
+        if task_embedding_model is not None:    
+            self.learning_goal_embeddings = task_embedding_model.encode(
+                self.data_by_learning_goal.index.values
+            )
+            self.tam = True
+
         # construct a random number generator
-        self.rng = np.random.default_rng(seed=self.seed)
-        
+        self.rng = np.random.default_rng(seed=self.seed)        
+
 
     def _tokenize(self, x):
         return self.tokenizer(
@@ -188,6 +200,16 @@ class OpenstaxDataset(dataset.Dataset):
 
             if self.tokenizer:
                 support, query = self._tokenize(support), self._tokenize(query)
+
+            # add in task embeddings
+            if self.tam:
+                support.update({
+                    'task_embeds': torch.tensor([self.learning_goal_embeddings[index]]).repeat(2 * self.num_support, 1).unsqueeze(1)
+                })
+                query.update({
+                    'task_embeds': torch.tensor([self.learning_goal_embeddings[index]]).repeat(2 * self.num_query, 1).unsqueeze(1)
+                })
+
             labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
 
             return support, labels_support, query, labels_query
@@ -289,7 +311,7 @@ class OmniglotDataset(dataset.Dataset):
         return images_support, labels_support, images_query, labels_query
 
 
-class OpenstaxSampler(sampler.Sampler):
+class nWaykShotSampler(sampler.Sampler):
     def __init__(self, split_idx, num_tasks, seed=SEED) -> None:
         super().__init__(None)
         self._num_tasks = num_tasks
@@ -312,8 +334,8 @@ class OpenstaxSampler(sampler.Sampler):
             return self._num_tasks
 
 
-class OpenstaxSamplerV2(sampler.Sampler):
-    def __init__(self, dataset : OpenstaxDataset, split_idx, num_tasks, seed=SEED) -> None:
+class ContrastiveSampler(sampler.Sampler):
+    def __init__(self, dataset : nWaykShotDataset, split_idx, num_tasks, seed=SEED) -> None:
         super().__init__(dataset)
         self._num_tasks = num_tasks
         self._indices = split_idx
@@ -370,19 +392,28 @@ class OmniglotSampler(sampler.Sampler):
 def identity(x):
     return x
 
-def get_openstax_dataloader(
+def get_nway_kshot_dataloader(
     split,
     batch_size,
     num_support,
     num_query,
     num_tasks_per_epoch,
     tokenizer,
+    task_embedding_model_type=None, # SBERT model to encode tasks
     num_workers=8,
     max_length=128,
     sample_by_learning_goal=False,
     seed=SEED
 ):
-    dataset = OpenstaxDataset(num_support, num_query, tokenizer, max_length=max_length)
+    task_embedding_model = SentenceTransformer(task_embedding_model_type)
+    dataset = nWaykShotDataset(
+        num_support, 
+        num_query, 
+        tokenizer, 
+        task_embedding_model=task_embedding_model, 
+        max_length=max_length,
+        seed=seed
+    )
     num_train_classes = int(len(dataset) * FRAC_TRAIN_CLASSES)
     num_val_classes = int(len(dataset) * FRAC_VAL_CLASSES)
     num_test_classes = int(len(dataset) * FRAC_TEST_CLASSES)
@@ -395,9 +426,9 @@ def get_openstax_dataloader(
         split_idxs = range(num_train_classes + num_val_classes, num_train_classes + num_val_classes + num_test_classes)
     
     if sample_by_learning_goal:
-        sampler = OpenstaxSamplerV2(dataset, split_idxs, num_tasks_per_epoch, seed)
+        sampler = ContrastiveSampler(dataset, split_idxs, num_tasks_per_epoch, seed)
     else:
-        sampler = OpenstaxSampler(split_idxs, num_tasks_per_epoch, seed)
+        sampler = nWaykShotDataset(split_idxs, num_tasks_per_epoch, seed)
 
     return dataloader.DataLoader(
         dataset=dataset,

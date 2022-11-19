@@ -9,6 +9,7 @@ from torch import nn
 import torch.nn.functional as F
 from torch.utils import tensorboard
 from transformers import AutoTokenizer, BertModel
+from models.protobert import BertModel as BertTAMModel
 import sklearn.metrics as metrics
 
 import openstax_dataset
@@ -172,13 +173,13 @@ class ProtoNet:
         """
         print(f'Starting training at epoch {self._start_train_epoch}.')
         self._network.to(self._device)
-        self._network.train()
 
         self._optimizer.zero_grad()
 
         for epoch in range(self._start_train_epoch + 1, self._start_train_epoch + self.num_epochs + 1):
             epoch_loss = 0
 
+            self._network.train()
             with tqdm(dataloader_train, desc=f'Epoch {epoch}') as progress_bar:
                 for i_step, task_batch in enumerate(progress_bar):
                     loss, accuracy_support, accuracy_query = self._step(task_batch)
@@ -276,6 +277,7 @@ class ProtoNet:
             self._save(epoch)
 
     def score(self, dataloader_val):
+        self._network.eval()
         with torch.no_grad():
             losses, accuracies_support, accuracies_query = [], [], []
             for val_task_batch in tqdm(dataloader_val, desc='Validation'):
@@ -296,6 +298,7 @@ class ProtoNet:
         Args:
             dataloader_test (DataLoader): loader for test tasks
         """
+        self._network.eval()
         with torch.no_grad():
             accuracies = []
             for task_batch in dataloader_test:
@@ -384,7 +387,11 @@ def main(args):
     writer = tensorboard.SummaryWriter(log_dir=log_dir)
 
     tokenizer = AutoTokenizer.from_pretrained(util.get_model_name(args.model_size))
-    model = BertModel.from_pretrained(util.get_model_name(args.model_size))
+    # note: can probably combine these once we trust in BertTAMModel's code
+    if args.task_embedding_model_type is not None:
+        model = BertTAMModel.from_pretrained(util.get_model_name(args.model_size), is_tam=True)
+    else:
+        model = BertModel.from_pretrained(util.get_model_name(args.model_size))
 
     protonet = ProtoNet(
         model, 
@@ -412,6 +419,7 @@ def main(args):
             num_query=args.num_query,
             num_tasks_per_epoch=args.train_size,
             tokenizer=tokenizer,
+            task_embedding_model_type=args.task_embedding_model_type,
             num_workers=args.num_workers,
             max_length=args.max_length,
             sample_by_learning_goal=args.sample_by_learning_goal
@@ -423,6 +431,7 @@ def main(args):
             num_query=args.num_query,
             num_tasks_per_epoch=args.validation_size,
             tokenizer=tokenizer,
+            task_embedding_model_type=args.task_embedding_model_type,
             num_workers=args.num_workers,
             max_length=args.max_length,
             sample_by_learning_goal=args.sample_by_learning_goal
@@ -456,6 +465,7 @@ def main(args):
                 num_query=args.num_query,
                 num_tasks_per_epoch=NUM_TEST_TASKS,
                 tokenizer=tokenizer,
+                task_embedding_model_type=args.task_embedding_model_type,
                 num_workers=args.num_workers,
                 max_length=args.max_length,
                 sample_by_learning_goal=args.sample_by_learning_goal
@@ -489,6 +499,8 @@ if __name__ == '__main__':
                         help='number of epochs to train for')
     parser.add_argument('--num_workers', type=int, default=8,
                         help='number of workers to use for data loading')
+    parser.add_argument('--task_embedding_model', type=str, default=None,
+                        help='if supplied, the SBERT model to use for task embeddings')
     # Testing and loading models
     parser.add_argument('--test', default=False, action='store_true',
                         help='train or test')
