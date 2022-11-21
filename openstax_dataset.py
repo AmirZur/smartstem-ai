@@ -130,9 +130,10 @@ class nWaykShotDataset(dataset.Dataset):
 
         # encode learning goals as task embeddings
         if task_embedding_model is not None:    
-            self.learning_goal_embeddings = task_embedding_model.encode(
-                self.data_by_learning_goal.index.values
-            )
+            with torch.no_grad():
+                self.learning_goal_embeddings = task_embedding_model.encode(
+                    self.data_by_learning_goal.index.values
+                )
             self.tam = True
 
         # construct a random number generator
@@ -204,10 +205,10 @@ class nWaykShotDataset(dataset.Dataset):
             # add in task embeddings
             if self.tam:
                 support.update({
-                    'task_embeds': torch.tensor([self.learning_goal_embeddings[index]]).repeat(2 * self.num_support, 1).unsqueeze(1)
+                    'task_embeds': torch.tensor(self.learning_goal_embeddings[index]).unsqueeze(0).repeat(2 * self.num_support, 1).unsqueeze(1)
                 })
                 query.update({
-                    'task_embeds': torch.tensor([self.learning_goal_embeddings[index]]).repeat(2 * self.num_query, 1).unsqueeze(1)
+                    'task_embeds': torch.tensor(self.learning_goal_embeddings[index]).unsqueeze(0).repeat(2 * self.num_query, 1).unsqueeze(1)
                 })
 
             labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
@@ -405,7 +406,10 @@ def get_nway_kshot_dataloader(
     sample_by_learning_goal=False,
     seed=SEED
 ):
-    task_embedding_model = SentenceTransformer(task_embedding_model_type)
+    if task_embedding_model_type is not None:
+        task_embedding_model = SentenceTransformer(task_embedding_model_type)
+    else:
+        task_embedding_model = None
     dataset = nWaykShotDataset(
         num_support, 
         num_query, 
@@ -428,7 +432,7 @@ def get_nway_kshot_dataloader(
     if sample_by_learning_goal:
         sampler = ContrastiveSampler(dataset, split_idxs, num_tasks_per_epoch, seed)
     else:
-        sampler = nWaykShotDataset(split_idxs, num_tasks_per_epoch, seed)
+        sampler = nWaykShotSampler(split_idxs, num_tasks_per_epoch, seed)
 
     return dataloader.DataLoader(
         dataset=dataset,

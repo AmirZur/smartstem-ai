@@ -1,6 +1,7 @@
 from typing import Optional, Union, Tuple, List
 
-from transformers.models.bert import BertPreTrainedModel, BertEncoder, BertPooler
+from transformers.models.bert import BertPreTrainedModel
+from transformers.models.bert.modeling_bert import BertEncoder, BertPooler
 from transformers.modeling_outputs import BaseModelOutputWithPoolingAndCrossAttentions
 
 import torch
@@ -40,7 +41,7 @@ class BertEmbeddings(nn.Module):
         position_ids: Optional[torch.LongTensor] = None,
         inputs_embeds: Optional[torch.FloatTensor] = None,
         ##### optional task embeddings to prepend ########
-        tam_embeds : Optional[torch.FloatTensor] = None, 
+        task_embeds : Optional[torch.FloatTensor] = None, 
         ##################################################
         past_key_values_length: int = 0,
     ) -> torch.Tensor:
@@ -71,10 +72,10 @@ class BertEmbeddings(nn.Module):
 
 
         # our modification: prepend task embeddings to final embeddings
-        if tam_embeds is not None and self.is_tam:
-            num_tam_toks = tam_embeds.size(1)
+        if task_embeds is not None and self.is_tam:
+            num_tam_toks = task_embeds.size(1)
             # NOTE: we remove the last token (implementation simplicity)
-            inputs_embeds = torch.cat([tam_embeds, inputs_embeds[:, :-num_tam_toks, :]], dim=1)
+            inputs_embeds = torch.cat([task_embeds, inputs_embeds[:, :-num_tam_toks, :]], dim=1)
 
         embeddings = inputs_embeds + token_type_embeddings
         if self.position_embedding_type == "absolute":
@@ -135,7 +136,7 @@ class BertModel(BertPreTrainedModel):
         head_mask: Optional[torch.Tensor] = None,
         inputs_embeds: Optional[torch.Tensor] = None,
         ### task embeddings to pass down to embedding layer ####
-        tam_embeds: Optional[torch.Tensor] = None,
+        task_embeds: Optional[torch.Tensor] = None,
         ########################################################
         encoder_hidden_states: Optional[torch.Tensor] = None,
         encoder_attention_mask: Optional[torch.Tensor] = None,
@@ -228,7 +229,7 @@ class BertModel(BertPreTrainedModel):
             token_type_ids=token_type_ids,
             inputs_embeds=inputs_embeds,
             # pass in task embeddings
-            tam_embeds=tam_embeds,
+            task_embeds=task_embeds,
             past_key_values_length=past_key_values_length,
         )
         encoder_outputs = self.encoder(

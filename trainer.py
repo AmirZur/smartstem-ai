@@ -412,7 +412,7 @@ def main(args):
             f'num_support={args.num_support}, '
             f'num_query={args.num_query}'
         )
-        dataloader_train = openstax_dataset.get_openstax_dataloader(
+        dataloader_train = openstax_dataset.get_nway_kshot_dataloader(
             split='train',
             batch_size=args.batch_size,
             num_support=args.num_support,
@@ -424,7 +424,7 @@ def main(args):
             max_length=args.max_length,
             sample_by_learning_goal=args.sample_by_learning_goal
         )
-        dataloader_val = openstax_dataset.get_openstax_dataloader(
+        dataloader_val = openstax_dataset.get_nway_kshot_dataloader(
             split='val',
             batch_size=args.batch_size,
             num_support=args.num_support,
@@ -444,7 +444,7 @@ def main(args):
     else:
         if args.course_name is not None:
             print(f'Testing on tagging for course {args.course_name}')
-            dataset_test = openstax_dataset.OpenstaxTestDataset(
+            dataset_test = openstax_dataset.CourseTestDataset(
                 course_name=args.course_name,
                 num_support=args.num_support,
                 num_query=args.num_query,
@@ -458,7 +458,7 @@ def main(args):
                 f'num_support={args.num_support}, '
                 f'num_query={args.num_query}'
             )
-            dataloader_test = openstax_dataset.get_openstax_dataloader(
+            dataloader_test = openstax_dataset.get_nway_kshot_dataloader(
                 split='test',
                 batch_size=args.batch_size,
                 num_support=args.num_support,
@@ -483,11 +483,11 @@ if __name__ == '__main__':
                         help='number of support examples per class in a task')
     parser.add_argument('--num_query', type=int, default=15,
                         help='number of query examples per class in a task')
-    parser.add_argument('--learning_rate', type=float, default=0.001,
+    parser.add_argument('--learning_rate', type=float, default=0.00001,
                         help='learning rate for the network')
     parser.add_argument('--batch_size', type=int, default=16,
                         help='number of tasks per outer-loop update')
-    parser.add_argument('--max_length', type=int, default=128,
+    parser.add_argument('--max_length', type=int, default=256,
                         help='maximum tokenized sequence length')
     parser.add_argument('--train_size', type=int, default=None,
                         help='size of training set (if none, uses all learning goals, otherwise samples)')
@@ -499,7 +499,7 @@ if __name__ == '__main__':
                         help='number of epochs to train for')
     parser.add_argument('--num_workers', type=int, default=8,
                         help='number of workers to use for data loading')
-    parser.add_argument('--task_embedding_model', type=str, default=None,
+    parser.add_argument('--task_embedding_model_type', type=str, default=None,
                         help='if supplied, the SBERT model to use for task embeddings')
     # Testing and loading models
     parser.add_argument('--test', default=False, action='store_true',
