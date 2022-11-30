@@ -1,0 +1,57 @@
+1) We saw in section that the reaction of vinegar with baking soda
+produces water, carbon dioxide, and sodium acetate. You
+repeat the experiment, this time with an open glass jar that
+has no lid. You add vinegar to the jar and find that the jar
+and the vinegar together weigh 475 g. You add 5.0 g of
+baking soda to the jar, stir, and leave the jar open as you wait
+for the reaction to finish. After the reaction is complete, you
+weigh the jar and the liquid inside again.
+a) The mass of the jar and its contents together will be:
+
+	a) Less than 480. g
+	b) 480. g
+	c) Between 480 g and 481 g.
+	d) More than 481 g.
+	e) Not enough information to say.
+
+b) Provide a one-sentence explanation for your answer above.
+
+c) You notice after the reaction that the solution is pink. What was the limiting reagent in
+this reaction? Briefly explain why/how you were able to make that determination.
+
+2) C3H10 is Nonexistane, a gaseous hydrocarbon fuel (and commercial flop).
+a) Write a balanced combustion reaction for Nonexistane.
+
+b) How many grams of Nonexistane must combust to release 1.00kg of CO2 into the
+atmosphere?
+
+3) Prof. Waymouth is scuba diving off the Channel Islands at 30.0 meters underwater,
+where the total pressure is 4.00 atm and the temperature at 30.0 m is 15.0°C. His lungs
+have a capacity of holding 6.00 liters of air.
+He sees a shark and panics. Holding his breath (stupid idea, but he panicked), he
+ascends quickly to the surface where the temperature of the water is 21.0°C. Tragically,
+he dies because his lungs explode. A replacement must be recruited to teach Chem31a.
+a) Why did his lungs explode?
+
+b) Let us suppose his lungs had not exploded. If they were fully filled with 6.00L of air
+under the water, what would have been the volume in his lungs at the surface where the
+pressure is 1.00 atm?
+
+4) Several years ago, Dr. Schwartz’s daughter managed to eat a large quantity of toothpaste.
+Ingesting too much sodium fluoride from toothpaste can be quite dangerous because excess
+fluoride ions can precipitate out the calcium ions in your blood, which play a critical role in
+maintaining the electrical signals that control muscle contractions including your heart’s!
+a) Write a balanced net ionic reaction for the formation of calcium fluoride precipitate, making
+sure to include states of matter.
+
+b) Luckily, when Dr. Schwartz contacted poison control, they determined that the quantity of
+fluoride ions was not toxic, and her daughter could avoid any major issues by ingesting several
+glasses of milk or yogurt – phew! If her daughter ingested 25% of a 160g tube of toothpaste that
+contains 0.243% sodium fluoride by mass, how many mL of milk should she drink to react with
+all the ingested fluoride? Milk generally has a calcium concentration of 8.6*10-3M.
+
+5) 4.00L liters of nitrogen gas are reacted with 12.15 g of Li at 25.0°C and 2.00atm of pressure,
+to produce 18.2g of Li3N. What is the percent yield for this reaction?
+
+6 Li(s) + N2(g) → 2 Li3N(s)
+

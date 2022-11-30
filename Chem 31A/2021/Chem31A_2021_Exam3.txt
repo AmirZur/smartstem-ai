@@ -1,0 +1,139 @@
+1) Multiple Choice: [30 POINTS] For questions i-v, Please fill in the circle corresponding to the
+correct answer, as shown in the example below. Make no marks in any of the other circles
+
+i) How many total valence electrons are present in the molecule SOCl2?
+(a) 0
+(b) 18
+(c) 26
+(d) 32
+(e) 27
+
+ii) If measured experimentally, what is the most likely bond angle X indicated for the molecule
+shown below?
+(a) 120° < X < 180°
+(b) 109.5° < X < 120°
+(c) 90° < X < 109.5°
+(d) 109.5° exactly
+(e) 120° exactly
+
+iii) Identify the element that has a ground state electron configuration of [Kr]5s24d3.
+(a) Tc
+(b) Mn
+(c) Nb
+(d) Ru
+(e) Mo
+
+iv) Choose the ground state electron configuration for the most common ion of Cs.
+(a) [Kr]5s25p6
+(b) [Kr]5s24d105p66s26p2
+(c) [Kr]5s24d105p66s1
+(d) [Kr]5s24d105p66s2
+(e) [Kr]5s24d105p6
+
+v) Which of the indicated covalent bonds below is likely the most polar?
+(a) Bond A
+(b) Bond B
+(c) Bond C
+(d) Bond D
+(e) All are equally polar
+
+2) Short Answer [45 points].
+a) Rank the following ionic compounds by magnitude of lattice energy from 1-4, where 1 is the
+lowest magnitude of lattice energy and 4 is the highest magnitude of lattice energy
+
+MgO MgSe Cs2O CsF
+
+b) Rank the following compounds by increasing ionic bond character from left to right.
+
+CaF2 KF CF4
+
+
+c) How does the radius of F compare to the radius of F—? Briefly explain why.
+
+d) Each of the following molecules are exceptions to the octet rule. Draw the best possible Lewis
+structure for each molecule. Clearly indicate your final answer for each structure. If multiple
+structures are equivalently the best you only have to draw one of them. You do not need to
+draw 3-dimensional representations.
+
+i) ClO4-
+ii) NO
+iii) AlCl3
+
+3) [36 Points]. Carbonate ([CO3]2—), hydrogen carbonate ([HCO3]—), and carbonic acid (H2CO3) are
+all found in the human bloodstream and are responsible for regulating blood pH.
+a) Three resonance structures for each molecule are shown below. Circle the resonance structure
+(or structures) that contributes the most to the actual structure of each molecule. If you feel
+that more than one structure equally contributes the most to the actual structure of a molecule,
+circle each of them.
+
+i) [CO3]2—
+ii) [HCO3] —
+iii) H2CO3
+
+b) Which of the three molecules should have 3 C-O bonds of equal length? Circle all that apply. If
+none, circle “none”
+
+[CO3]2— [HCO3]—  H2CO3  None
+
+c) Using your answers to part (a), explain your choice(s) for part (b) in a few sentences.
+
+4) [22 POINTS]. Ozone (O3) in the stratosphere absorbs high energy photons resulting in bond
+cleavage. Recombination of the oxygen atom with dioxygen regenerates an ozone molecule
+completing the chemical cycle.
+O3(g) + hn ---> O(g) + O2(g)
+O(g) + O2(g) -----> O3(g) + heat
+
+a) The minimum energy photon (E=hn), to dissociate (i.e. break) a bond in ozone has a wavelength
+of 360 nm. Calculate the average bond energy (in kJ/mole) of an ozone oxygen-oxygen
+bond.
+
+b) Draw the best possible Lewis dot structure(s) of ozone, including any equally contributing
+resonance structures, if appropriate. Clearly indicate your final answer(s). You do not need to
+draw 3-dimensional representation(s).
+
+c) Does the bond energy you calculated in part (a) agree with your Lewis dot structure(s) in part (b)
+and the average bond energies given below? Explain why or why not.
+Average bond energies: O=O, 495 kJ/mole; O-O, 146 kJ/mole
+
+5) [18 points]. Silicon is a key element in all semiconductor devices.
+Consider the successive ionization energies of Silicon: IE1, IE2, IE3... IE7.., where
+
+IE1: Si -> Si+ + 1 e- IE5: Si4+ -> Si5+ + 1 e-
+IE2: Si+ -> Si2+ + 1 e- IE6: Si5+ -> Si6+ + 1 e-
+IE3: Si2+-> Si3+ + 1 e- IE7: Si6+ -> Si7+ + 1 e-
+IE4: Si3+-> Si4+ + 1 e-
+a) Which of the successive ionization energies shown above will exhibit the largest change in the
+magnitude of the ionization energy relative to the previous ionization energy?
+
+b) Explain why the ionization energy you chose exhibits such a large increase in magnitude
+compared the previous ionization energy.
+
+Silane (SiH4) is a pyrophoric gas (it spontaneously catches fire in air) that can be used to make
+ultra-pure silicon dioxide SiO2.
+c) Draw a 3-dimensional representation of SiH4. What is the molecular geometry (i.e. the
+molecular shape) of SiH4 and the hybridization of Si in SiH4? Clearly indicate your final
+answer.
+
+6) [30 points]. Infrared radiation released from Earth's surface can be absorbed by certain atmospheric
+molecules to generate heat in the atmosphere. These molecules, called ‘greenhouse gases,’ include
+carbon dioxide (CO2) and nitrous oxide (N2O). CO2 is released into the atmosphere through the
+combustion of fossil fuels; the concentration of N2O is increasing due to agricultural and industrial
+activities.
+
+a) Draw all possible Lewis dot structure(s) of CO2 and N2O that contain full octets (include
+resonance structures as necessary). Where appropriate, indicate which resonance structure is
+likely to contribute the most to the overall structure. You do not need to draw a 3-dimensional
+representation. Clearly indicate your final answer(s).
+i) CO2
+ii) N2O
+
+b) Predict the molecular shapes of CO2 and N2O according to the VSEPR model.
+
+c) A greenhouse gas is more potent if it has a permanent dipole moment. Which molecule would
+you predict to be a more potent greenhouse gas? Explain your reasoning using your answers
+to parts (a) and (b).
+
+
+
+
+

@@ -1,0 +1,259 @@
+1) Multiple Choice: [54 POINTS] For questions i-ix, Please fill in the circle corresponding to the
+correct answer, as shown in the example below. Make no marks in any of the other circles
+
+i) Which reaction would NOT describe a standard enthalpy of formation (ΔH°f) for the product?
+(a) MgO(s) + CO2(g) à MgCO3(s)
+(b) Mg(s) + 12# O2(g) à MgO(s)
+(c) C(s) + O2(g) à CO2(g)
+(d) Mg(s) + C(s) + 32# O2(g) à MgCO3(s)
+
+ii) You have two sealed 1 liter water bottles on the table in front of you. At equilibrium, one
+contains 500 mL of liquid water and one contains 5 mL of liquid water. Which 1 L bottle
+contains a greater number of water molecules in the gas phase?
+(a) They contain the same number of water molecules in the gas phase.
+(b) The 1 liter bottle with 500mL of water will contain more water molecules in the gas phase
+(c) The 1 liter bottle with 5mL of water will contain more water molecules in the gas phase
+(d) It is not possible to tell without knowing the temperature of the room.
+
+iii) At a constant external pressure, if work was done by the system on the surroundings, would you
+expect DE for the system to be greater than, less than or the same as the DH° for the system?
+(a) ΔE for the system would be greater than DH°
+(b) ΔE for the system would be less than DH°
+(c) ΔE for the system would the same as DH°
+(d) It is impossible to determine without knowing the magnitude of work done.
+
+iv) Decreasing the external pressure on a liquid at constant temperature will do which of the
+following:
+(a) Increase the boiling point, but not affect the vapor pressure
+(b) Decrease the boiling point, but not affect the vapor pressure
+(c) Increase the vapor pressure, therefore decreasing the boiling point
+(d) Increase the amount of heat required to boil a mole of the liquid
+(e) Both B and D are true
+
+v) Consider the phase diagram at right. If the dashed line at 1
+atm of pressure is followed from 100 to 500°C, what
+phase changes will occur (in order of increasing
+temperature)?
+(a) Condensation, followed by vaporization
+(b) Sublimation, followed by deposition
+(c) Vaporization, followed by deposition
+(d) Melting, followed by vaporization
+(e) No phase change will occur across the conditions specified.
+
+vi) Based on the phase diagram above, what conclusion can you make about the density of the
+solid phase of this compound versus the density of its liquid phase?
+(a) The solid phase is more dense than the liquid phase
+(b) The solid phase is less dense than the liquid phase
+(c) The density of the liquid and solid phases is the same
+(d) It is impossible to make this comparison without knowing the molecular weight of this
+compound
+
+vii)Which of the following ideal gases will occupy the greatest volume at 25°C and 1 atm pressure?
+(a) 42 g CO
+(b) 42 g He
+(c) 42 g O2
+(d) 42 g Cl2
+(e) All of these gases would have the same volume at 25°C and 1 atm pressure.
+
+viii) Choose the paramagnetic species from below.
+(a) Ti4+
+(b) Zr2+
+(c) Ar
+(d) All of the above are paramagnetic.
+(e) None of the above are paramagnetic.
+
+ix) For a hydrogen atom, which electronic transition would result in the emission of a photon with
+the highest energy?
+(a) 3s → 4p
+(b) 2p → 6d
+(c) 5p → 3s
+(d) 6p → 5d
+
+2) Short Answer [79 points].
+a) The heat of sublimation (∆�!"#) for a substance is generally found to be greater in magnitude
+than the heat of vaporization (∆�$%&) for the same substance. Briefly explain why in 2-3
+sentences.
+
+b) At 25o C, a gas with a molecular weight of 44g/mol is contained in a vessel under very high-
+pressure conditions and has an initial density of 0.44 g/mL. The vessel is sealed by a movable
+piston of radius 5.0 cm. Assuming the gas still behaves ideally, what is the magnitude of the
+force (in Newtons) exerted by the gas on the piston?
+
+c) For each molecule or mixture below, circle each of the intermolecular forces present.
+i) CH3OH    Dispersion  Dipole-Dipole  H-Bonding  Ion-dipole
+ii) (CH3)2SO    Dispersion  Dipole-Dipole  H-Bonding  Ion-dipole
+iii) C2H6    Dispersion  Dipole-Dipole  H-Bonding  Ion-dipole
+iv) B(OH)3   Dispersion  Dipole-Dipole  H-Bonding  Ion-dipole
+v) NaCl(aq)    Dispersion  Dipole-Dipole  H-Bonding  Ion-dipole
+
+d) Dichloromethane (CH2Cl2) is a common laboratory solvent, but it must always be used in a fume
+hood to prevent inhalation of toxic vapors. The acceptable vapor pressure limit for
+dichloromethane is 12.67 Pa. At what temperature would it be safe to have an open container
+of dichloromethane outside a fume hood? The ΔHvap of dichloromethane is 33.7 kJ/mole, and
+the boiling point of dichloromethane is 39.6 °C at 101325 Pa pressure. (Assume ΔHvap is not
+temperature-dependent)
+
+e) Match the molecular orbital with the correct picture for the electron probability distribution.
+	(a) s2p
+	(b) s2s
+	(c) p2p
+	(d) s*2p
+	(e) s*2s
+	(f) p*2p
+
+f) The β-lactam ring is a key component of penicillin antibiotics. Bacterial defense mechanisms use
+an enzyme and a water molecule to break the β-lactam ring, which makes it ineffective as an
+antibiotic (example shown below)
+
+Using the provided bond energies:
+i) Estimate the enthalpy of reaction (ΔHrxn) for breaking the β-lactam ring as shown above.
+ii) Is this an exothermic or endothermic reaction?
+
+3) [25 Points]. Diatomic carbon (C2) is a neutral molecule and an important precursor to the synthesis of
+complex carbon structures like carbon nanotubes. You and a classmate have been asked to draw the
+most likely Lewis structure for C2.
+a) Your classmate suggests the following structure based on Lewis Structure guidelines
+
+Complete the provided molecular orbital diagram
+for C2. Explain why MO theory either
+supports or disputes the above Lewis
+structure.
+
+b) Draw best possible Lewis structure of C2 based on your answer to part (a). Include all non-
+bonding electrons and non-zero formal charges.
+
+c) In general, quadruple bonds are not possible in main group elements like carbon. Explain why this
+is the case using the concept of orbital overlap in sigma bonds and pi bonds. It may help to
+draw a picture (not required for full credit).
+
+4) [38 points]. Consider the diatomic neutral molecule nitric oxide (NO).
+a) Draw the two best resonance structures for NO. Include all non-zero formal charges and be sure
+to label your structures as major and minor contributors, if applicable.
+
+b) At high enough concentrations in the atmosphere, NO (g) will regularly dimerize; that is, two NO
+molecules will combine to form dinitrogen dioxide N2O2(g). Draw the best Lewis dot structure
+for N2O2 (g). What is the molecular geometry around a nitrogen atom in dinitrogen dioxide?
+
+c) Calculate the standard heat of dimerization of NO(g) to form dinitrogen dioxide N2O2(g).
+
+DH°f (NO) = 91.121 kJ/mol
+DH°f (N2O2) = 171.12 kJ/mol
+
+d) Is the dimerization of NO(g) an enthalpically favorable process? Briefly explain why based on
+both your calculations and Lewis dot structures above.
+
+5) [24 Points]. For the following questions, consider the first ionization energies of the atoms below.
+a) Rank the following in terms of increasing first ionization energy: (1 = lowest first ionization
+energy, 5 = highest first ionization energy
+
+____ ____ ____ ____ ____
+B     Li    F   N     O
+
+
+b) Briefly explain why Nitrogen has a different first ionization energy than Boron in terms of
+electron and/or nuclear configuration (2-3 sentences).
+
+c) The first ionization energy of Be is 0.90 MJ/ mol but the first ionization energy of B is 0.80
+MJ/mol. Considering the different wave-like properties of the electrons, explain why the first
+ionization energy of B is less than that of Be (2-3 sentences).
+
+6) [42 Points]. Boron is a relatively rare element most commonly found in borosilicate glass. Two
+compounds that Boron forms with hydroxide (OH) are B(OH)3 and B(OH)4−.
+
+a) Draw the best Lewis structure for B(OH)3 clearly showing the correct 3D VSEPR molecular
+geometry for Boron. Be sure to include all non-bonding electrons and non-zero formal charges.
+
+b) Draw one additional resonance structure for B(OH)3 clearly showing the correct 3D VSEPR
+molecular geometry for Boron. Be sure to include all non-bonding electrons and non-zero formal
+charges.
+
+c) Draw the best Lewis structure for B(OH)4− clearly showing the correct 3D VSEPR molecular
+geometry for Boron. Be sure to include all non-bonding electrons and non-zero formal charges.
+
+d) Based on Lewis bonding theory, predict whether the actual B-O bond lengths of B(OH)3 would be
+the same, longer, or shorter than the actual B-O bond lengths of B(OH)4−. The actual B-O bond lengths of B(OH)3 are predicted to be (circle one):
+
+the same as     shorter than      longer than
+
+the actual B-O bond lengths of B(OH)4−.
+
+e) Briefly explain your reasoning for your answer in part d).
+
+
+f) According to Valence Bond Theory:
+	i) What is the hybridization of Boron in B(OH)3?
+
+	ii) What is the hybridization of Boron in B(OH)4−?
+
+7) [22 POINTS] The graph at the bottom of the page shows the distribution of molecular velocities for
+two different molecules (A and B) at the same temperature in a 2.0 L sealed container.
+Based on this data, answer the following by filling in the circle corresponding to the correct answer:
+a) Which molecule has the higher average kinetic energy (fill in the circle for one choice)?
+	(a) Molecule A
+	(b) Molecule B
+	(c) Both are the same
+	(d) You need more information
+b) Which molecule will have the higher rate of effusion (fill in the circle for one choice)?
+	(a) Molecule A
+	(b) Molecule B
+	(c) Both are the same
+	(d) You need more information
+c) Which molecule has the high molecular weight (fill in the circle for one choice)?
+	(a) Molecule A
+	(b) Molecule B
+	(c) Both are the same
+	(d) You need more information
+d) Which molecule would have the higher vapor pressure (fill in the circle for one choice)?
+	(a) Molecule A
+	(b) Molecule B
+	(c) Both are the same
+	(d) You need more information
+e) On the graph below, draw the distribution for molecule A if the system was cooled to a lower
+temperature.
+
+8) [30 Points]. Lead acetate (MW = 325.3 g/mol) was used as a sweetener in Roman times but was
+later discovered to be toxic. Lead acetate poisoning was thought to be the cause of the demise of
+Pope Clement II and Beethoven. It is formed by boiling lead in vinegar. Vinegar is generally an
+0.833 M solution of acetic acid in water (CH3CO2H(aq)).
+
+Pb0 (s) + 2 CH3CO2H(aq) à Pb(CH3CO2)2 (aq) + H2(g)
+
+a) If 225 mL of vinegar is boiled in pitcher containing 40.0 g of Pb and the reaction goes to
+completion, what concentration of lead acetate will be produced?
+
+b) Lead acetate is toxic at a concentration of 714 mg/kg (714 mg lead acetate/ 1.00 kg water). Based
+on your answer to part a), would the concentration of lead acetate produced be toxic? Use a
+calculation to support your conclusion.
+
+9) [43 POINTS]. A 50.0mL Erlenmeyer flask completely full of water has a
+balloon attached to the top. The balloon is full of NO2 gas which will
+react with the water according to the following equation:
+3NO2(g) + H2O(l) → 2HNO3(aq) + NO(g)
+a) Use the following equations to determine the change in enthalpy for this
+reaction:
+2NO(g) + O2(g) → 2NO2(g) ΔHrxn = -116kJ/mol
+2N2(g) + 5O2(g) + 2H2O(l) → 4HNO3(aq) ΔHrxn = -256kJ/mol
+N2(g) + O2(g) → 2NO(g) ΔHrxn = +183kJ/mol
+
+
+b) Calculate the work done on/by the balloon during the reaction if the initial volume of the full
+balloon is 1.00L, the pressure inside the balloon is 1.00 atm, and the initial temperature of the
+entire system is 298K. Assume that the temperature returns to 298K following the reaction and
+there is a constant external pressure of 1.00atm. Be careful to indicate correct sign.
+
+10) [43 POINTS]. A glowing red hot 555g piece of heated iron, initially at 859°C, is dropped into an
+open bucket filled with 7.50*102mL of warm water, initially at 75.0°C. The water begins to steam.
+The heat capacity of iron is 0.460J/(g·°C) and the heat capacity of water is 4.18 J/(g·°C). The heat
+of vaporization (ΔHvap) for water is 2257 J/g at 100.0 °C.
+a) Explain why steam is rising from the bucket. Discuss this process in terms of heat exchange and
+the chemical processes occurring. Will the amount of water in the bucket increase, decrease, or
+stay the same during this process?
+
+b) Once the steaming has stopped and the system has reached equilibrium, how many milliliters of
+water remain in the bucket? Assume all heat is transferred only between the water and the iron.
+
+
+
+
+
+

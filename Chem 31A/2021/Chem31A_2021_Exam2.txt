@@ -1,0 +1,124 @@
+1) Multiple Choice: [28 POINTS] For questions i-iv, Please fill in the circle corresponding to the
+correct answer, as shown in the example below. Make no marks in any of the other circles
+
+i) Which of the gases in the graph below has the smallest molar mass? Assume there are the same
+number of molecules of each gas and all gases are at the same temperature.
+(a) Gas A
+(b) Gas B
+(c) Gas C
+(d) Gas D
+(e) Not enough information to determine
+
+ii) Identify the orbital pictured below.
+(a) pz orbital
+(b) dxy orbital
+(c) px orbital
+(d) dyz orbital
+(e) py orbital
+
+iii) If an identical amount of heat is added under identical conditions to 1.00 kg of water, olive oil, and maple syrup (all of which are liquids at the same initial temperature), which substance will
+have the largest change in temperature (ΔT)? Assume no energy is lost to the surroundings.
+(a) Water
+(b) Olive oil
+(c) Maple syrup
+(d) All three will have the same ΔT
+
+iv) Determine the longest wavelength of light capable of removing an electron from a sample of
+potassium metal, if the binding energy for an electron in K is 1.76 × 103 kJ/mol.
+(a) 147 nm
+(b) 68.0 nm
+(c) 113 nm
+(d) 885 nm
+(e) 387 nm
+
+2) Short Answer [37 points].
+a) A mixture of 20.0 g of Ne and 20.0 g Ar have a total pressure of 1.60 atm and temperature of
+298K. What is the partial pressure of Ar?
+
+b) Rust is formed in part from the reaction of solid iron (Fe0) with oxygen gas (O2) in the atmosphere to form solid iron(III) oxide, Fe2O3(s). Fe0(s) and O2(g) are the standard states of iron and oxygen,respectively at 1.00 atm and 298K.
+i) Write a balanced chemical reaction for the formation of solid iron(III) oxide.
+
+ii) The change in enthalpy for the reaction of 12.6 g of Fe0
+
+(s) with excess O2(g) to form iron(III)
+oxide at a pressure of 1.00 atm and temperature of 298K and found to be -93.2 kJ. What is
+the standard enthalpy of formation (∆��° ) ) in kJ/mol for iron(III) oxide at 298K?
+
+c) Diborane is a highly reactive molecule that was once tested as a potential source of rocket fuel,
+but it was too unstable and inefficient to pursue further use. Using the information provided below,
+calculate the ΔHrxn for the synthesis of diborane ((B2H6 (g)). Assume all ΔHrxn listed were
+measured under the same conditions. 
+
+Synthesis of diborane: 2�(�) + 3�#(�) → �#�$(�)
+
+Reaction ΔHrxn (WE PROBABLY SHOULDN'T INCLUDE THIS TABLE IF WE DON'T ALWAYS, AND VERY MISFORMATTED)
+2�(�) +32�#(�) → �#�%(�) -1273 kJ/mole
+�#�$(�) + 3�#(�) → �#�%(�) + 3�#�(�) -2035 kJ/mole
+�#(�) +12�#(�) → �#�(�) -286 kJ/mole
+�#�(�) → �#�(�) +44.0 kJ/mole
+
+3) [43 points] The kinetic theory of gases provides a microscopic explanation for the behavior of ideal
+gases. Suppose we have two insulated containers of gas: one sample contains 3.000 moles of He gas
+at 0.000°C and the other sample contains 1.000 moles of Xe gas at 100.0°C. The molar heat capacity
+of He and Xe are both equal to 12.47 J/K•mol.
+a) Calculate the average (root mean square) velocity of the following (Careful of units!!):
+i) The He gas at 0.000°C
+
+ii) The Xe gas at 100.0°C
+
+b) Next, the 3.000 mol of He gas at 0.000°C is combined with the 1.000 mole of Xe gas at 100.0°C in
+an insulated 1.00 L container (no heat escapes to the surroundings). Calculate the final
+temperature of the combined gases after they have been mixed.
+
+c) Which of the two gases increased their average (root mean square) velocity after mixing (circle
+one)?
+
+He Xe
+
+d) Explain why the gas that was initially moving at a higher root mean square velocity before mixing
+increased its velocity after mixing with a gas that was initially moving at a lower root mean
+square velocity. You should discuss kinetic energy in your answer.
+
+4) [40 points]. Sodium Azide (NaN3(s), Molar Mass = 65.01 g/mol) is used in air bags. When
+detonated by a spark, it generates nitrogen by the following balanced equation.
+
+2 NaN3(s) à 2Na0(s) + 3 N2(g)
+
+Consider a system comprised of 100.0 g of sodium azide in an airbag. Now consider what happens
+when the sodium azide detonates (initial volume of airbag = 0.00L) at constant pressure. The standard
+enthalpy of formation of sodium azide at 25.0°C (∆�&(()(!) ° , 25.0°C) is 21.3 kJ/mol.
+a) Calculate the volume in Liters of Nitrogen generated at 25.0°C with 1.00 atm of external pressure.
+
+b) Calculate the sign and magnitude of the enthalpy (ΔH) in kJ when 100.0 g of NaN3(s) is detonated
+at 1.00 atm constant pressure and 25.0°C.
+
+c) Based on the sign of the enthalpy change, does the system release or absorb heat?
+
+d) Calculate the sign and magnitude of the work (in kJ) when 100.0 g of NaN3(s) is detonated at 1.00
+atm constant pressure and 25.0°C.
+
+e) Based on the sign of the work, does the system do work on the surroundings or does the
+surroundings do work on the system?
+
+f) Calculate the change in internal energy (∆E, in kJ) of the 100.0 g sodium azide/airbag system.
+
+5) [32 points]. Sauna is a popular practice that involves spending significant amounts of time inside a closed room that can be heated as high as 110.0 °C. While saunas are primarily heated by wood-burning stoves, they also contain baskets of rocks made of a mineral called peridotite that can be heated as high as 800.0 °C. Peridotite rocks have a specific heat capacity of 1.01 J*g-1*K-1.
+
+a) Imagine you had a home sauna built. To determine how much energy is needed to heat your sauna
+to the desired temperature, you place 1.00 kg of 800.0°C peridotite rocks into a room temperature
+sauna (25.0°C), and measure a final stable sauna temperature of 95.8°C. What is the heat
+capacity of your sauna? Assume the pre-heated rocks are the only source of heat, no work is
+done, and no heat is lost to the outside.
+
+b) If you invite friends over to sauna, will the amount of energy needed to heat the sauna change?
+Explain using the concept of heat capacity.
+
+c) After inspecting your sauna, you find that a small amount of heat has been escaping outside. You
+re-build your sauna with improved insulation to fix the leak (less heat is escaping the sauna than
+before). Would adding insulation increase, decrease, or have no effect on the heat capacity of
+the sauna? Provide a one sentence explanation for your answer.
+
+
+
+
+

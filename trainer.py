@@ -301,7 +301,7 @@ class ProtoNet:
         self._network.eval()
         with torch.no_grad():
             accuracies = []
-            for task_batch in dataloader_test:
+            for task_batch in tqdm(dataloader_test, desc='Testing'):
                 accuracies.append(self._step(task_batch)[2])
             mean = np.mean(accuracies)
             std = np.std(accuracies)
@@ -312,33 +312,53 @@ class ProtoNet:
                 f'95% confidence interval {mean_95_confidence_interval:.3f}'
             )
     
-    def test_on_course(self, dataloader_test):
+    def test_on_course(self, dataloader_test, num_questions=None):
         with torch.no_grad():
             accuracies = []
-            f1_scores = []
-            for i, task_batch in enumerate(dataloader_test):
-                if i >= 10:
+            precision_recall_f1_support = []
+            supports = []
+            for i, task_batch in enumerate(tqdm(dataloader_test, desc='Tagging Course')):
+                if num_questions is not None and i >= num_questions:
                     break
                 predictions = self._predict(task_batch).squeeze(1).cpu().numpy()
                 labels_query = np.array([task[-1][0] for task in task_batch], dtype=np.int64)
 
-                f1_scores.append(metrics.f1_score(y_true=labels_query, y_pred=predictions))
+                # f1_scores.append(metrics.f1_score(y_true=labels_query, y_pred=predictions))
                 accuracies.append((predictions == labels_query).sum() / len(predictions))
+                precision_recall_f1_support.append(
+                    metrics.precision_recall_fscore_support(labels_query, predictions, average='binary')
+                )
+                supports.append(predictions.sum())
+                num_lg = len(predictions)
+
             mean_accuracy = np.mean(accuracies)
             std_accuracy = np.std(accuracies)
             mean_95_confidence_interval_acc = 1.96 * std_accuracy / np.sqrt(len(accuracies))
             print(
-                f'Accuracy over {len(accuracies)} test questions: '
-                f'mean {mean_accuracy * 100:.3f}'
+                f'accuracy over {len(accuracies)} test questions: '
+                f'mean {mean_accuracy * 100:.3f}%\t'
                 f'95% confidence interval {mean_95_confidence_interval_acc * 100:.3f}'
             )
-            mean_f1 = np.mean(f1_scores)
-            std_f1 = np.std(f1_scores)
-            mean_95_confidence_interval_f1 = 1.96 * std_f1 / np.sqrt(len(accuracies))
+
+            metric_labels = ['precision', 'recall', 'f1']
+            for i in range(len(metric_labels)):
+                metric = [m[i] for m in precision_recall_f1_support]
+                mean = np.mean(metric)
+                std = np.std(metric)
+                mean_95_confidence_interval = 1.96 * std / np.sqrt(len(metric))
+                print(
+                    f'{metric_labels[i]} score over {len(metric)} test questions: '
+                    f'mean {mean * 100:.3f}%\t'
+                    f'95% confidence interval {mean_95_confidence_interval * 100:.3f}'
+                )
+            
+            mean_support = np.mean(supports)
+            std_support = np.std(supports)
+            mean_95_confidence_interval_support = 1.96 * std_support / np.sqrt(len(supports))
             print(
-                f'F1 score over {len(accuracies)} test questions: '
-                f'mean {mean_f1 * 100:.3f}'
-                f'95% confidence interval {mean_95_confidence_interval_f1 * 100:.3f}'
+                f'support over {len(supports)} test questions and {num_lg} learning goals: '
+                f'mean {round(mean_support)}\t'
+                f'95% confidence interval {round(mean_95_confidence_interval_support, 3)}'
             )
 
     def load(self, checkpoint_step):
@@ -451,7 +471,7 @@ def main(args):
                 tokenizer=tokenizer,
                 max_length=args.max_length
             )
-            protonet.test_on_course(dataset_test)
+            protonet.test_on_course(dataset_test, args.num_questions)
         else:
             print(
                 f'Testing on tasks with composition '
@@ -506,11 +526,13 @@ if __name__ == '__main__':
                         help='train or test')
     parser.add_argument('--course_name', type=str, default=None,
                         help='Course to test on (only applies if --test flag is true)')
+    parser.add_argument('--num_questions', type=int, default=None,
+                        help='Number of questions to tag from test course.')
     parser.add_argument('--checkpoint_step', type=int, default=-1,
                         help=('checkpoint iteration to load for resuming '
                               'training, or for evaluation (-1 is ignored)'))
     parser.add_argument('--split', type=str, default='test',
                         help='Choose data split for testing. Can be one of train, test, or val.')
-
+    
     main_args = parser.parse_args()
     main(main_args)

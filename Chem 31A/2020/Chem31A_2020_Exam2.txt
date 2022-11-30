@@ -1,0 +1,63 @@
+1. Very little was known about the structure of DNA until Rosalind Franklin applied the methods
+of X-ray diffraction to examine crystal structures of DNA. Her work to obtain clearer X-ray
+patterns of DNA molecules lead to the discovery of its now well-known helical conformation.
+For this technique of X-ray crystallography to work properly, the X-rays used must have a
+wavelength equal to the inter-atomic spacing of atoms in the crystal. This creates constructive
+interference, which can be observed and used to calculate inter-atomic spacing with which it has
+interacted.
+a) X-rays are a form of ‘light’ (electromagnetic radiation), which has properties of both a
+wave and a particle. In the case of X-ray crystallography, are we utilizing the wave-like
+or particle-like properties of light to calculate the interatomic spacings? Based on the
+description of X-ray crystallography above, give two details to support your answer.
+
+b) An X-ray crystallography experiment finds constructive interference using X-rays of
+frequency 2.14 x 1018s-1. Calculate the inter-atomic spacing in this crystal in nanometers.
+
+c) Calculate the energy of ultraviolet light (wavelength = 300.0 nm) in MJ/mol.
+
+d) The energy of X-rays with a frequency of 2.14 x 1018s-1 is 855MJ/mol. How do the
+energies of UV versus X-ray radiation compare? Prolonged exposure to UV light causes
+damage to our skin generally resulting in a sunburn. Use this information to briefly
+explain why you generally wear a lead-lined apron whenever you get a dental X-ray.
+
+2. In Lab, you were able to measure the absorbance of several different samples using your Phet
+simulation. You return to the simulation and find the following information about nickel (II)
+chloride.
+
+a) Calculate epsilon for nickel (II) chloride.
+
+b) Copper (II) sulfate has an epsilon value of 9.6M-1cm-1. A 2.50mL solution of copper (II)
+sulfate, also in a 1.5cm cuvette, gives an absorbance of 2.24. How many mL of water
+would you need to add to obtain a solution of copper (II) sulfate that will have an
+absorbance equal to that of our nickel (II) chloride sample (i.e. 1.21) from part a?
+
+3. A 2.000L flask of HCl(g) is connected to a
+0.5000L flask of NH3(g) through a stopcock, as
+shown below. The entire system is at constant
+temperature of 42.00°C. The stopcock is opened
+and the total pressure in the system is initially
+3.877atm (we will assume no reaction happens
+initially). You then notice a white powder begin
+to form, as the ammonia and hydrochloric acid
+react to form ammonium chloride salt. Upon completion of the reaction, all the
+hydrochloric acid is used up and the final total pressure in the system is 0.7755atm. What is
+the original pressure inside the 0.5000L flask of ammonia before the system was mixed?
+
+4. The Hamster Escape Room! You are trapped in a room with a wise cracking hamster. He says
+that the room is indestructible because it is made of Hamsterite (Hm), a very rare and dense
+element. The hamster declares that to escape you must calculate the molar mass of Hamsterite.
+Luckily, you know that Hamsterite metal reacts quickly with oxygen and nitrogen trifluoride
+in the following reaction:
+
+Hm(s)+3O2(g)+2NF3(g)→HmO3F6(s)+N2O3(g)
+
+Thinking quickly, you construct a giant coffee cup calorimeter filled with 10.0L of water and
+react 391.0 g of Hm(s) with excess O2 and NF3. You observe that the temperature of the
+water in the coffee cup calorimeter increases from 23.500°C to 27.400°C. Assuming the heat
+capacity of the calorimeter depends only on the 10.0L of water, which has a specific heat of
+4.18 J/g·°C, calculate the molar mass of Hm(s) so that you can escape the hamster!
+You can assume that solid Hamsterite is the most thermodynamically stable state for this metal in its
+elemental form. Some additional heats of formation are given at right.
+
+
+

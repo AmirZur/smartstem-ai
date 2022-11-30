@@ -1,0 +1,84 @@
+Learning Objectives and Assessments for Chem 31A: Chemical Principles I 
+1.Dimensional Analysis and Stoichiometry  
+Apply chemical concepts in the laboratory, and use observations gained during experimentation to explain chemical phenomena
+Apply dimensional analysis to guide problem solving
+Know how to name ionic and covalent compounds for main group and transition metal elements.
+Determine the number of moles or mass of product produced in a reaction that goes to completion.
+Identify when a limiting reagent calculation is necessary.
+Use experimental data to determine empirical and/or molecular formula
+Apply stoichiometry to quantitatively and qualitatively make predictions and draw conclusions about chemical reactions
+Write and balance chemical and net-ionic equations
+Apply the concept of percent by mass and percent by volume when solving problems. 
+Apply dilution formula (M1 V1    =  M2 V2 ) to calculate dilution volume or concentrations.
+2.Gas Laws and Kinetic Molecular Theory
+Use the ideal gas law (PV=nRT) to solve problems.
+Sketch a graph of any two independent variables (P, V, n, R, T) of a gas 
+Predict how any two independent variables of a gas (P, V, n, R, T) change if the others are held constant.
+Use pressure to calculate force exerted by a gas
+Calculate the pressure exerted by a liquid in a barometer
+Explain why the ideal gas law best approximates the behavior of noble and diatomic gasses, and how intermolecular forces give rise to non-ideal behavior in gasses
+Calculate the number density and mass density of a gas
+Use gas laws with stoichiometry to analyze chemical reactions of gasses
+Use partial pressures, mole fractions, and total pressure of a mixture of gasses to create systems of equations
+Calculate vapor pressure 
+Know how boiling point relates to vapor pressure
+Calculate how vapor pressure will change as the pressure, volume, temperature, or amount are varied
+Use the Clapeyron-Clausius equation to determine values for enthalpy of reaction, pressure, temperature, etc.
+Sketch the distributions of velocity, speed, and kinetic energy as predicted by the Maxwell Boltzmann distribution 
+Relate average kinetic energy to temperature, calculate root mean squared (RMS) velocity
+Use Graham’s Law to calculate rates of effusion and make qualitative comparisons of effusion rates between different molecules
+3.Chemical Reactions and Thermodynamics
+Write and balance combustion equations for hydrocarbons, solve problems involving combustion
+Identify endothermic and exothermic reactions.
+Use the First Law of Thermodynamics to determine whether a system is open or closed.
+Know the difference between systems and surroundings 
+Identify the difference between state functions (e.g. enthalpy) and path functions (e.g. work) 
+Calculate the work done by or on a gas.
+Calculate the change in enthalpy associated with a phase change.
+Calculate changes in energy, enthalpy, and temperature that result from a chemical reaction. 
+Analyze calorimetry experiments at constant pressure and constant volume.
+Use Hess’ Law to calculate heats of reaction based on enthalpies of formation.
+4.Structure of the Atom 
+Describe the structure of the atomic nucleus
+Use atomic radius or other measurable dimensions of the atom to determine volume or other calculable properties.
+Explain the difference between average atomic mass (formula weight) and the mass of a single isotope. 
+Determine the number of protons, neutrons, and electrons in an atom, isotope, compound, or molecule.
+Determine the formula weight of a compound given the abundances of its isotopes.
+5.Electrons and Quantum Properties
+Evaluate the shell model of atomic electronic structure
+Determine which AO corresponds to a given set of quantum numbers.
+Understand and write electron configurations for atoms (s, p, and d blocks only)
+Determine the energy needed or released when transitioning to different energy levels.
+Use the relationship between the frequency and wavelength and velocity (speed) of a wave to calculate any one (freq, wavelength or velocity) given the other two.
+Explain how (and why) different atoms emit different wavelengths of light.
+Know how the photoelectric effect can be used to assess binding energy.
+Apply knowledge about properties of light for UV-Visible spectroscopy or for measuring absorbance with Beer-Lambert law.
+Understand and apply the wave- and particle-like properties of light.
+6.Periodic Trends  
+Describe the electronic structure of atoms and molecules 
+Explain how electronic structure gives rise to periodic trends (i.e.,recognizing isoelectronic species) 
+Explain and predict periodic trends or atomic identity based on ionization energy, lattice energy, electronegativity, size, and effective nuclear charge
+Given a set of data, explain any exceptions to an expected periodic trend based on electronic structure of the atom 
+7.Bonding, Lewis Structures, and Molecular Shapes
+Define covalent and ionic bonding.
+Determine if a bond is polar or non-polar
+Use Lewis structures to describe covalent bonding 
+Determine whether a compound or molecule has multiple resonance structures 
+Determine the hybridization of an atom from a Lewis structure 
+Determine the 3D shapes of molecules and/or electronic geometry of an atom from a Lewis structure and VSEPR
+Determine whether a molecule is polar (contains a permanent dipole moment)
+Use experimental data (bond lengths, strength, angles) and/or resonance structures to explain or predict the 3-D structure of a molecule.
+Identify sigma and pi bonds and describe the differences between their properties.
+Draw and label orbitals, sigma bonds, and pi bonds on a molecule
+Fill in a molecular orbital (MO) diagrams for diatomic molecules and calculate the bond order
+Use a filled MO diagram to predict whether a molecule will be paramagnetic or diamagnetic.
+Compare and contrast the valence bond model and molecular orbital model. 
+8.Intermolecular Forces and Macroscopic Properties 
+Know how intermolecular forces give rise to physical behavior
+Know the four types of intermolecular forces and their relative strengths.
+Predict which intermolecular forces are most consequential for the physical properties of a given compound.
+Rank the boiling point, melting point, or vapor pressure of similar compounds based on the strengths of their intermolecular forces.
+Know how hydrogen bonding gives rise to the unusual properties of water.
+Define hydrophobic and hydrophilic and predict when a compound would be hydrophobic or hydrophilic.
+Interpret a phase diagram to determine what phase change may occur for a given change in pressure or temperature
+Determine a melting or boiling point at a given pressure using a phase diagram

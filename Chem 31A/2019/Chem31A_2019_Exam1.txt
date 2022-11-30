@@ -1,0 +1,92 @@
+1) Multiple Choice: [25 POINTS] For questions i-v, Please fill in the circle corresponding to the correct
+answer, as shown in the example below. Make no marks in any of the other circles
+
+i) Given one mole of each gas below, which would occupy the greatest volume at 500°C and 1 atm?
+(a.) NO2
+(b.) Xe
+(c.) SO2
+(d.) All exhibit the same volume
+(e.) Not enough information
+
+ii) Consider the combustion of 1.0 mole of ethane, C2H6 with 5.0 moles of O2. How many moles of O2
+will remain if the reaction goes to completion?
+(a.) 1 mole
+(b.) 1.5 moles
+(c.) 2 moles
+(d.) 2.5 moles
+(e.) all of the oxygen will react (zero moles remain)
+
+iii) Experiments using volatile organic compounds should be done:
+(a.) On the benchtop in the laboratory
+(b.) in the fume hood
+(c.) in the cold room
+(d.) in the sink
+(e.) (a) and (b) are both acceptable
+
+iv) Determine the density of air (air = 80.0 mol % N2 and 20.0 mol % O2) at 435 K and 1.00 atm.
+(a.) 0.874 g/L
+(b.) 0.807 g/L
+(c.) 0.784 g/L
+(d.) 0.895 g/L
+(e.) 1.21 g/L
+
+v) Write the name for Sn(SO4)2.
+(a.) tin (I) sulfite
+(b.) tin (IV) sulfate
+(c.) tin sulfide
+(d.) tin (II) sulfite
+(e.) tin (I) sulfate
+
+2) Short Answer [40 points]
+
+a. When two electrodes from the battery were placed in a solution of ZnI2(aq):
+i.) What did you observe at each electrode (call them electrode A and Electrode B)
+Electrode A:
+Electrode B:
+ii) What color was the solution prior to introducing the electrodes?
+
+iii.) What color appeared in the solution after the electrodes were introduced?
+
+iv.) Can you identify what was responsible for the color that appeared in the solution?
+
+b. Consider the compounds, P2O5 and P4O10. Could the Law of Multiple Proportions be
+used to distinguish between the two molecules? Briefly explain your reasoning.
+
+c. The nucleus of a silicon-30 atom has a radius of approximately 1.0 fm whereas the
+atomic radius of silicon-30 atom is 0.200 nm. Assuming that we can treat the atom and
+nucleus as a sphere, the nucleus makes up what percentage by volume of the entire atom?
+Volume of Sphere = (4/3)pr
+
+3). Combustion analysis of a hydrocarbon produces 33.01 g CO2 and 10.14 g H2O. [30 points]
+
+a) Calculate the empirical formula of this hydrocarbon. The hydrocarbon consists of only carbon
+and hydrogen.
+
+b) If a gaseous sample of this hydrocarbon in a 1.00 L container has a mass of 2.20 g at 1.00 atm
+and 26.9°C, calculate the molecular formula of this hydrocarbon.
+
+4) Carbon capture technology is being explored as an approach to remove carbon dioxide from the
+atmosphere. Several reactions of carbon dioxide are being explored using this technology with
+one being the conversion of carbon dioxide into methanol (CH3OH, density = 0.79 g/mL), which
+is widely used in organic research laboratories as a solvent or building block for larger
+molecules. Approximately 0.55 lbs of carbon dioxide are generated per mile driven in a car. If
+someone drives 30 miles per day for 300 days, how many liters of methanol could be generated
+if the reaction of CO2 with H2 proceeds in 92% yield?
+Assume hydrogen gas is in excess. [25 points]
+1 lb = 0.454 kg
+Carbon Capture Reaction: CO2 (g) + H2 (g) à CH3OH (l) + H2O (l) (unbalanced)
+
+5) Solutions of 0.10 M BaCl2 and of 0.30 M NaF were mixed to give a precipitate of BaF2.
+[30 points]
+(a.) Write a balanced net ionic equation for the formation of BaF2. Include phases: (s), (l), (g),
+and (aq).
+
+(b.) If you have 10.0 mL of the 0.10 M BaCl2, what volume (in mL) of 0.30 M NaF is needed
+to react completely?
+
+6) In 1669, phosphorus was discovered from putrefied urine. While effective, this is not the most
+pleasant way to make phosphorus. Today, we can use phosphate-containing rocks and other
+materials to isolate pure phosphorus, which has the form P4 in nature.
+Consider the reaction of 0.100 grams of Ca3(PO4)2 (s) with 0.250 grams of carbon, C, and 0.443
+grams of SiO2. If the percent yield is 80%, what mass of P4 is produced? [30 points]
+2 Ca3(PO4)2 (s) + 10 C (s) + 6 SiO2 (s) à 6 CaSiO3 (l) + 10 CO (g) + P4 (g)

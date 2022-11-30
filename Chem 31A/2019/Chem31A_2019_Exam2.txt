@@ -1,0 +1,105 @@
+1) Multiple Choice: [25 POINTS] For questions i-v, Please fill in the circle corresponding to the correct
+answer, as shown in the example below. Make no marks in any of the other circles
+
+i.) Calculate the wavelength (in nm) of the blue light emitted by a mercury lamp with a frequency of 6.32 × 1014 Hz.
+(a.) 229 nm
+(b.) 475 nm
+(c.) 211 nm
+(d.) 190 nm
+(e.) 675 nm
+
+ii.) Rank the following in order of decreasing rate of effusion: O2 SF6 CH4 SO
+(a.) SF6 > SO > O2 > CH4
+(b.) SO > CH4 > SF6 > O2
+(c.) O2 > SO > CH4 > SF6
+(d.) CH4 > O2 > SO > SF6
+(e.) CH4 > O2 > SF6 > SO
+
+iii.) Which of the following transitions would emit the greatest amount of energy in a hydrogen atom?
+(a.) n = 5 to n = 4
+(b.) n = 3 to n = 2
+(c.) n = 2 to n = 6
+(d.) n = 2 to n = 1
+(e.) n = 1 to n = 8
+
+iv.) What are the maximum number of p orbitals for any given principle quantum number n?
+(a.) 1
+(b.) 5
+(c.) 14
+(d.) 3
+(e.) 2
+
+v) Identify the orbital.
+(a.) dxy orbital
+(b.) s orbital
+(c.) px orbital
+(d.) f orbital
+(e.) py orbital
+
+2) [30 points] Cold packs are activated by mixing pure liquid water and ammonium nitrate.
+(a.) Determine the DH°rxn (in kJ/mol) for the reaction occurring
+within the ice pack using DHf° values. You can assume that
+the water behaves as if it were in its standard state.
+
+(b.) If the ice pack contacted an area of skin 20 cm × 35 cm and was able to cool the skin by 3.8 °C
+to a depth of 0.75 cm, estimate the mass (in grams) of ammonium nitrate in the cold pack,
+assuming all of the heat transfer came only from the skin.
+Skin has a density of 1.050 g/cm3 and a specific heat of 3.470 J/g°C.
+
+3) [40 points] The enthalpy of combustion of benzoic acid (C6H5COOH) is commonly used as the
+standard for calibrating constant-volume bomb calorimeters; its value has been accurately determined to
+be -3226.7 kJ/ rxn mol. The molar mass of benzoic acid is 122 g/mol.
+(a.) When 0.9862 grams of benzoic acid is combusted, the temperature rose from 21.84 °C to 25.67
+°C, what is the heat capacity (in kJ/°C) of the calorimeter?
+2 C6H5COOH (s) + 15 O2 (g) à 14 CO2 (g) + 6 H2O (g)
+
+(b.) In a separate experiment in a constant-volume bomb calorimeter with a calorimeter constant of
+C = 3.05 kJ/°C, 0.4654 grams of glucose undergoes a combustion reaction with O2 according to
+the equation below, and the temperature rose from 21.22 °C to 23.44 °C. Calculate the DE (in
+kJ/mol).
+C6H12O6 (s) + 6 O2 (g) à 6 CO2 (g) + 6 H2O (g)
+
+(c.) Under constant pressure conditions, would DH and DE be equal for the combustion of glucose?
+Explain in one sentence.
+Yes or No (Circle the answer)
+Explanation: ______________________________________________________________
+
+4) [25 points] A mixture of two gases, ethane (C2H6) and butane (C4H10) having a combined partial
+pressure of 0.75 atm are combined in a rigid vessel of fixed volume with excess pure oxygen at an initial
+partial pressure of 2.81 atm at 298 K. After the combustion reaction, the vessel is cooled to 298 K and
+analysis reveals all the ethane and butane are consumed but the partial pressure of the remaining O2 is
+0.295 atm at 298 K.
+2 C2H6 (g) + 5 O2 (g) à 4 CO2 (g) + 6 H2O (g)
+2 C4H10 (g) + 13 O2 (g) à 8 CO2 (g) + 10 H2O (g)
+Determine the mole fraction of C2H6 that was in the original mixture.
+
+5) [35 points] An explosive used in World War I undergoes detonation according to the following
+chemical reaction:
+C(CH2ONO2)4 (s) → 2CO (g) + 4H2O (g) + 3CO2 (g) + 2N2.(g)
+C(CH2ONO2)4 has a molar mass of 316.15 g/mol.
+
+(a.) The DHf° for C(CH2ONO2)4(s) is -499.57 kJ/mol. Write an equation for the DHf° of C(CH2ONO2)4.
+
+(b.) If 20.0 grams of C(CH2ONO2)4 is detonated, calculate the work (in kJ) of the detonation reaction
+(include the magnitude and the sign (+ / -) of the work).
+Assume the detonation of C(CH2ONO2)4 is the system. Assume there is a constant external
+pressure of 0.950 atm and the temp of the gases can be estimated to be 5200 K.
+
+(c.) Calculate the DH°rxn (in kJ/mol) for the detonation of C(CH2ONO2)4 (s) using the appropriate
+standard enthalpies of formation, as tabulated below.
+
+6) [25 points] Jessica is investigating a new alternative method of getting energy from visible light
+emitted by the sun through the photoelectric effect. She is testing different metals with different light to
+see if she can get a viable current flowing. One alloy tested has an especially low photoelectric binding
+energy of Φ = 1.69 eV (1 eV = 1.602 × 10-./ J). Jessica is currently shining a green laser (wavelength
+� = 514 nm) on the metal, but it is producing electrons that are too slow! Let vgreen be the velocity of
+electrons produced by the green light.
+
+(a) What wavelength of photons would Jessica need to make the photoelectrons go at
+a velocity, v, in which v = 2vgreen?
+
+(b) What type of electromagnetic radiation would this be? (circle one)
+radio microwave infrared visible ultraviolet x-ray gamma ray
+
+
+

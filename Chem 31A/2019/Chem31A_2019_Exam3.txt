@@ -1,0 +1,163 @@
+1) Multiple Choice: [28 POINTS] For questions i-v, Please fill in the circle corresponding to the correct
+answer, as shown in the example below. Make no marks in any of the other circles
+
+i.) Choose the orbital diagram that represents the ground state of N.
+(ALL ANSWER CHOICES HERE WERE IMAGES OF ORBITAL DIAGRAMS, ALL NEEDED INFO FOR MODEL IS IN QUESTION)
+(a)
+(b)
+(c)
+(d)
+(e)
+
+ii.) Choose the ground state electron configuration for Ti2+
+
+(a) [Ar]3d2
+(b) [Ar]4s2
+(c) [Ar]4s2 3d2
+(d) [Ar]4s2 3d4
+(e) [Ar]3d4
+
+iii.) What period 3 element has the following ionization energies (all in kJ/mol)?
+IE1 = 1000 IE2 = 2250 IE3 = 3360 IE4 = 4560 IE5 = 7010 IE6 = 8500 IE7 = 27,100
+(a) Si
+(b) S
+(c) P
+(d) Cl
+(e) Mg
+
+iv.) Which molecule will have the smallest bond angle around the central atom (atom in bold):
+(a) BeH2 (b) NH3 (c) H2O (d) CCl4
+
+v.) Place the following in order of decreasing magnitude of lattice energy.
+
+K2O Rb2S Li2O
+
+(a) Li2O > K2O > Rb2S
+(b) Li2O > Rb2S > K2O
+(c) Rb2S > K2O > Li2O
+(d) Rb2S > Li2O > K2O
+(e) K2O > Li2O > Rb2S
+
+vi.) Consider the molecule in the box. Determine the molecular geometry (shape) at each of the 3 labeled atoms.
+(a) 1 = trigonal planar, 2 = tetrahedral, 3 = trigonal planar
+(b) 1 = tetrahedral, 2 = tetrahedral, 3 = tetrahedral
+(c) 1 = trigonal planar, 2 = tetrahedral, 3 = pyramidal
+(d) 1 = tetrahedral, 2 = tetrahedral, 3 = trigonal planar
+(e) 1 = trigonal planar, 2 = trigonal planar, 3 = trigonal planar
+
+vii) Based on the experimental C-C bond lengths given, predict the bond length(s) of
+the C-C bonds in benzene (C6H6, the C-H and C-C atom connectivity of benzene is given below)
+(a) 150pm
+(b) 133pm
+(c) 150 and 133pm
+(d) 141.5pm
+(e) 127pm
+
+2) [22 points] Short Answer and Identification
+i.) Circle all paramagnetic atom(s) and ion(s) from the list below.
+
+Mg2+ Ca Sc Fe3+ C F-
+
+ii.) Rank the following in order of increasing bond polarity.
+
+CCl4 CH4 H2 CBr4
+
+iii.) Rank the following compounds in order of increasing melting point.
+NaCl NaBr NaF
+
+iv.) Circle the polar molecules from the list below.
+
+3) [25 points] Consider the molecule, NO2, which is a reddish brown gas responsible for the reddish
+brown sunsets of smog-laden cities. At sufficiently high partial pressures, NO2 dimerizes (bonds
+with itself) to produce N2O4 as shown below.
+2 NO2 (g) à N2O4 (g)
+(a.) Draw two resonance structure for NO2. Nitrogen is the central atom. Assign all non-zero
+formal charges to each atom.
+
+(b.) Predict the approximate bond order for the N-O bonds of NO2.
+
+(c.) Propose a Lewis structure for N2O4 which satisfies the octet rule for each atom. Label all
+nonzero formal charges and draw any equivalent resonance structures. The approximate
+locations of the atoms in N2O4 are given below.
+
+(d.) Predict whether the formation of N2O4 from NO2 is exothermic or endothermic. Briefly (in
+less than 10 words) explain your rationale.
+
+4) [25 points] Consider the photoelectron spectra below:
+
+(a.) Spectrum #1 is the photoelectron spectrum for what element? ____________________________
+(b.) Spectrum #2 is the photoelectron spectrum for what element? ____________________________
+(c.) Which spectrum corresponds to the element with the lowest first ionization energy?
+
+Spectrum #1 Spectrum #2
+
+(d.) Explain in one sentence why the first ionization energy for the element described in part (c) is lower.
+
+(e.) Which element exhibits the highest binding energy for the 1s electrons? (circle 1)
+Element corresponding to: Spectrum #1 Spectrum #2
+
+(f.) Explain in one sentence why the 1s electrons of the element chosen in part (e) exhibit a higher
+binding energy.
+
+5) [25 points] Sulfur and its molecules are important for an array of applications in organic and
+inorganic chemistry.
+(a.) Draw the Lewis structure for SO32- .Include all lone pairs, as well as nonzero formal charges and equivalent resonance structures (if applicable) and indicate the approximate O-S-O bond angle.
+What is the molecular geometry (shape)?
+
+(b.) Indicate which of these molecules would be expected to exhibit a dipole moment (circle one or
+more, or state that none of these exhibit a dipole moment).
+H2O SCl2 SF6
+
+The solubility of one molecule in another is governed by the general rule "like dissolves like".
+
+That is, polar molecules tend to be soluble in liquids that are made up of polar molecules; non-
+polar molecules are soluble in liquids made up of non-polar molecules.
+
+	i.) Predict which molecule, SCl2 or SF6 is more soluble in water (circle one).
+
+	SCl2 SF6
+
+(c.) Draw a Lewis structure for SCl2 and label the hybridization at sulfur.
+
+6) [25 points] Silicon has a first ionization energy of 750 kJ/mol. Phosphorous has a first ionization
+energy of 1102 kJ/mol. Sulfur has a first ionization energy of 999 kJ/mol.
+
+(a.) Write the electron configurations of Si, P and S
+Si: P: S:
+
+(b.) In one sentence, provide an explanation for the observation that sulfur has a higher first
+ionization energy than silicon.
+
+(c.) In one sentence, provide an explanation for the observation that sulfur has a lower ionization
+energy than phosphorous.
+
+(d) To approximate Zeff values experimentally, we can use a modified form of the Rydberg
+equation in which the term Zeff is added as shown below.
+(EQUATION LIKELY WON'T RENDER RIGHT, REMOVED SINCE DOESN'T ADD INFO AS KEY WORD IS "RYDBERG Eq'n)
+
+Estimate the Zeff for the ionized electron in sulfur.
+
+7) [30 points] Lieke first reported the synthesis of isocyanides in 1859. Many scientists initially
+avoided using the compounds for synthetic purposes because of their awful smells – worse than a
+skunk by Dr. Cox’s opinion. Despite the horrible smell, these structures have been widely used
+in the synthesis of antibiotics. One synthesis is shown below.
+
+(a.) Draw a Lewis Structure of POCl3 (in which all formal charges are zero) and identify the
+molecular geometry based upon the structure.
+
+(b.) Draw a Lewis Structure of PO2Cl (in which all formal charges are zero) and indicate whether
+the molecule has a net dipole moment.
+
+(c.) Identify the hybridization at the indicated atoms in methyl isocyanide.
+
+(d.) Acetonitrile is an "isomer" (same # of atoms, with different arrangement). Use bond enthalpies
+for the isomerization (rearrangement reaction) of methyl isocyanide to acetonitrile (shown below) to
+estimate the DH°rxn.
+
+(e.)Is the isomerization of methyl isocyanide to acetonitrile exothermic or endothermic? (Circle one)
+
+exothermic endothermic
+
+
+
+

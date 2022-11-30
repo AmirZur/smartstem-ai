@@ -1,0 +1,133 @@
+1) Multiple Choice: [35 POINTS] For questions i-v, Please fill in the circle corresponding to the
+correct answer, as shown in the example below. Make no marks in any of the other circles
+
+i) Clair Patterson determined in 1969 that surface waters contain 8791 milligrams (mg) of Pb for
+every 25.1 g of seawater, which he attributed to the widespread use of leaded gasoline at the
+time. What was the lead concentration in ppm (by mass) in this sample?
+(a) 3.50 x 102 ppm
+(b) 0.350 ppm
+(c) 3.5 x 105 ppm
+(d) 35.0 ppm
+
+ii) You fill a balloon up with He in Palo Alto, where the pressure is 0.96 atm, and then drive with
+your balloon to your cousin's birthday party in Denver, where the pressure is 0.81 atm. If the
+volume of the balloon in Palo Alto is 2.7 L, what will be the volume of the balloon in Denver?
+Assume that no He escapes from the balloon during the road trip and that the temperature in
+Palo Alto and Denver are the same.
+(a) 1.2 L
+(b) 2.7 L
+(c) 3.2 L
+(d) 2.3 L
+(e) Not enough information to say.
+
+iii) Household bleach is typically sold at a concentration of 1.11 M NaOCl (aqueous), but for
+disinfection it is recommended to use a solution of 23.1 mM sodium hypochlorite (aqueous).
+What is the maximum volume of disinfecting solution you can prepare from a 3.79 L bottle
+of household bleach purchased from the store?
+(a) 182 L
+(b) 15.6 L
+(c) 37.9 L
+(d) 111 L
+(e) Not enough information to say
+
+iv) Different ions of the same element differ in the number of:
+(a) electrons.
+(b) neutrons.
+(c) protons.
+(d) neutrons and protons.
+(e) electrons and protons.
+
+v) How many electrons does the Ba2+ ion possess?
+(a) 56
+(b) 58
+(c) 54
+(d) 55
+(e) 88
+
+2) Short Answer [40 points]
+a) Suppose Elon Musk drives from Los Angeles to San Francisco
+(382 miles) in a 2021 Tesla Model 3, which has standard-range
+battery with a rating of 24.0 kWh/100 miles. If he charges his car
+on the California grid, where 48.35% of electricity is generated
+from natural gas, 0.170% from coal, 0.0200% from oil, and the
+rest from renewable energy (assume no CO2 is emitted from
+renewable energy), how many kilograms of CO2 were emitted to
+generate the electricity required for his trip? (See Table below)
+
+b) We saw in lab that the reaction of acetic acid with sodium
+bicarbonate produces water, carbon dioxide, and sodium acetate
+(see balanced equation below). You add 95 mL of a 0.933 molar
+(M) aqueous solution of acetic acid (molar mass: 60.05 g/mol)
+containing red cabbage pH indicator to an open beaker and
+record the total mass as 275 g. You then add 5.0 g of sodium
+bicarbonate (molar mass: 84.0 g/mol) to the jar, stir, and wait for
+the reaction to finish. After the reaction is complete, you weigh the jar again. Assume the mass of pH indicator is negligible (it doesn’t contribute anything to the overall mass).
+
+i.) What color is the liquid in the beaker after the reaction is complete? Justify your answer with a
+calculation.
+
+ii.) When you weigh the jar after the reaction, do you expect the mass to be about equal to 280g, less than 280g or more than 280g? Briefly explain your answer.
+
+c) Aqueous lead nitrate reacts with potassium iodide to form solid lead iodide as a precipitate. The
+balanced molecular equation is shown below. If 1.54 g of potassium iodide reacts completely with
+excess lead nitrate in an aqueous solution to form 1.46 g of lead iodide precipitate, what is the percent
+yield of the reaction?
+Molar Mass (Pb(NO3)2): 331.2 g/mol; (KI): 166.0 g/mol; (PbI2): 461.0 g/mol; (KNO3): 101.1 g/mol
+
+Pb(NO3)2 (aq) + 2KI (aq) à PbI2 (s) + 2KNO3 (aq)
+
+3) [35 points] You obtain a small sample of an unknown compound extracted from the bark of a South
+American tree. The indigenous people used powders of this bark to treat shivering. To identify this
+compound, the following experiments were carried out.
+Exp. #1: 25.10 mg of a sample of the pure compound was combusted to yield 18.58 mg carbon
+Exp. #2: 25.10 mg of a sample of the pure compound was analyzed to yield 2.167 mg nitrogen
+Exp. #3: 25.10 mg of a sample of the pure compound was combusted to yield 1.872 mg
+hydrogen
+Exp. #4: X-ray photoelectron spectroscopy (we’ll learn this technique later) indicated the pure
+compound contained only the following elements: C, H, N, O.
+Exp. #5: A low resolution mass spectrum of the pure compound yield an ion corresponding to
+the mass 324 amu.
+a) Assuming you don’t know anything about this compound already, which experiment(s) are
+both sufficient and necessary to allow you to determine the empirical formula of this
+compound (circle all that apply).
+1 2 3 4 5
+b) Assuming you don’t know anything about this compound already, which experiment(s) are
+both sufficient and necessary to allow you to determine the molecular formula of this
+compound (circle all that apply).
+1 2 3 4 5
+c) Determine the empirical formula of this compound
+
+4) [35 points]. 95.3 g of FeS2 and 54.0 L of O2 are sealed in a sealed 54.0 L container at 398 K and 1.20atm. These two react to generate Fe2O3 and sulfur dioxide. The molar mass of FeS2 is 119.99 g/mol
+and that of Fe2O3(s) is 159.687 g/mol.
+4 FeS2(s) + 11 O2(g) → 2 Fe2O3(s) + 8 SO2(g)
+a) How many grams of Fe2O3(s) would be generated?
+
+b) What would be the final pressure in the sealed 54.0L container if, at the end of the reaction, the
+container was held at 25°C?
+
+5) [35 points]. Hydrogen Fluoride is a highly toxic molecule used in many industrial chemical
+processes. It can also be dissolved in water to form hydrofluoric acid. Exposure to hydrogen fluoride
+or hydrofluoric acid can not only cause tissue damage but can also cause systemic problems since
+fluoride precipitates calcium out of solution, and a significant decrease in the concentration of
+calcium ions in the blood can cause cardiac arrest and death.
+a) Write the chemical formulas for hydrogen fluoride and calcium fluoride
+
+b) Write the balanced net ionic equation for the precipitation of calcium fluoride from fluoride
+and calcium ions in your blood (an aqueous solution) - Don’t forget to indicate states of matter!
+
+c) A common treatment for skin exposure to hydrofluoric acid is to apply a gel containing
+calcium gluconate to the site of exposure as soon as possible. Calcium gluconate is a calcium
+salt that is soluble in water, where it dissolves into calcium and gluconate ions. In one or two
+sentences, describe how calcium gluconate likely works to treat hydrofluoric acid exposure.
+The molecular formula of calcium gluconate is Ca(C6H11O7)2.
+
+d) Calcium gluconate gel is usually provided at a concentration of 2.5% calcium gluconate by
+mass. If you spill 5.00 mL of a 28.9 mM aqueous solution of hydrogen fluoride on your arm,
+what is the minimum mass of calcium gluconate gel you should apply to your arm to
+precipitate all the fluoride? The molar mass of calcium gluconate is 430.37 g/mol.
+
+
+
+
+
+

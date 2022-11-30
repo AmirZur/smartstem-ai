@@ -18,6 +18,16 @@ FRAC_TEST_CLASSES = 0.1
 SEED = 42
 
 class CourseTestDataset(dataset.Dataset):
+    _OPENSTAX_COURSES = [
+        'Chemistry 2e', 
+        'University Physics Volume 1', 
+        'University Physics Volume 2', 
+        'University Physics Volume 3'
+    ]
+
+    _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
+    _CHEM31A_COURSE = 'Chem 31A'
+
     def __init__(self, course_name, num_support, num_query, tokenizer, max_length=128) -> None:
         super().__init__()
 
@@ -29,7 +39,12 @@ class CourseTestDataset(dataset.Dataset):
         # load questions from Openstax Dataset
         # columns: question, learning_goal, course (all text)
         # multiple learning goals per question, multiple questions per course
-        data = util.load_openstax_course(course_name)
+        if course_name in self._OPENSTAX_COURSES:
+            data = util.load_openstax_course(course_name)
+        elif course_name == self._PRINCIPLES_OF_CHEMISTRY_COURSE:
+            data = util.load_principles_of_chemistry_course(course_name)
+        elif course_name == self._CHEM31A_COURSE:
+            data = util.load_chem31a_course()
 
         # group data by question
         # columns: question (str), learning_goal (list), course (list of single str)

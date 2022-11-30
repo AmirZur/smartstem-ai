@@ -1,0 +1,272 @@
+1) Multiple Choice: [66 points] For questions i-xi, Please fill in the circle corresponding to the correct
+answer, as shown in the example below. Make no marks in any of the other circles
+
+i.) What is the strongest type of intermolecular force present in Br2?
+A) ion-ion
+B) dipole-dipole
+C) dispersion
+D) hydrogen bonding
+E) helium bonding
+
+ii.) List the compounds in order of decreasing boiling point.
+CH3CH2CH3 He CH3CHO
+
+A) CH3CH2 CH3 > CH3CHO > He
+
+B) He > CH3CH2CH3 > CH3CHO
+
+C) CH3CH2CH3 > He > CH3CHO
+
+D) CH3CHO > CH3CH2CH3 > He
+E) He > CH3CHO > CH3CH2CH3
+
+iii.) Use the molecular orbital diagram on the back page to determine which structure has the greatest
+bond length.
+A) O22+
+B) O2
+C) O2+
+D) O2-
+E) O22-
+
+Consider the phase diagram to the right.
+iv.)Based on the figure, the boiling point of ethyl alcohol
+under an external pressure of 0.197 atm is ________°C.
+A) 85
+B) 70
+C) 60
+D) 20
+E) 40
+
+v.) Based on the figure to the right, which substance has the
+highest vapor pressure at 40°C?
+A) Ethylene glycol
+B) Ethyl alcohol
+C) Diethyl Ether
+D) Water
+
+vi.) Place the following elements in order of increasing atomic radius.
+P Ba Cl
+A) Ba < P < Cl
+B) P < Cl < Ba
+C) Cl < P < Ba
+D) Cl < Ba < P
+E) Ba < Cl < P
+
+vii.) Which reaction below corresponds to the first ionization energy of an oxygen atom?
+A) O+(g) + e− → O(g)
+B) O(g) + e− → O−(g)
+C) O−(g) → O(g) + e−
+D) O(g) → O+(g) + e−
+E) O−(g) + e− → O2−(g)
+
+viii.) Which of the following nitrogen-containing compounds would supply the most nitrogen
+per gram of fertilizer?
+A) iron azide, Fe(N3)2, MW = 140 g/mol
+B) sodium azide, NaN3, MW = 65 g/mol
+C) potassium nitrite, KNO2, MW = 85.1 g/mol
+D) potassium azide, KN3, MW = 81.1 g/mol
+
+ix.) An element E has the electron configuration [Ar]3d104s24p3
+What is the formula for the fluoride of E most likely to be?
+A) EF8
+B) EF2
+C) EF6
+D) EF3
+E) EF
+
+x.) Which compound would you expect to be most soluble in hexane, CH3CH2CH2CH2CH2CH3?
+A) KCl
+B) H2S
+C) HF
+D) SiH4
+E) NH3
+
+xi.) Which of the following is the smallest volume?
+A) 5.6 cm3
+B) 0.13 dL
+C) 7.0 × 103 mL
+D) 1.8 × 108 nL
+
+2) [49 points] Short Answer and Identification
+i.) In each set, circle the preferred resonance structure and explain why it is preferred, according to the
+Lewis Rules.
+
+2) Short Answer (continued)
+ii.) Rank the following in order of increasing lattice energy:
+ScF3 Sc2O3 ScN ScCl3
+
+iii.) Rank the following in order of increasing intermolecular forces:
+
+CH3CH2CH3(l) Na+(aq) H2O(l) CH3CH2OH(l)
+
+iv.) Rank the following in order of increasing vapor pressure:
+CH3OH CH3CH3 NaCl CH3Cl
+
+v.) Consider the structure for aspirin below.
+How many carbons in aspirin are sp3 hybridized? _______________________
+How many carbons in aspirin are sp2 hybridized? _______________________
+How many p bonds are in aspirin as drawn? _______________________
+What is the approximate bond angle of the carbon centers in the six-membered ring? _____________
+
+2) Short Answer (continued)
+
+Consider the phase diagram below:
+vi.) Estimate the melting point of carbon dioxide at 10 atm.
+
+vii.) At 1 atm, what is the approximate temperature at which dry ice undergoes sublimation?
+
+viii.) Estimate the boiling point of carbon dioxide at 10 atm.
+
+3) [26 points] The Helium Hydride ion, HeH+, has fascinated astronomers as it is proposed as one of the primordial molecules that formed after the Big Bang. (Science, 2019, 365(6454), 676-679).
+(a.) Use molecular orbital theory to estimate the bond order of HeH+
+
+In interstellar space, HeH+ captures an electron to generate a short-lived species HeH, which within 10 seconds at a temperature of 6 K dissociates to He in its lowest energy (ground state) and H in a high energy (excited) n = 2 state.
+(b.) Use a molecular orbital diagram to explain why HeH is not stable and dissociates to He and
+H even at 6 K.
+
+(c.) Identify the molecular orbital (circle one letter) that represents the highest energy electron in the uncharged HeH.
+
+(d.) Upon dissociation of HeH, the H atom is generated in a high energy n = 2 state. Identify the
+atomic orbital (circle one letter) that corresponds to the electron in the n=2 state of the excited H atom.
+
+4) [46 points] Sodium oxalate (Na2C2O4) solution is often used as a standard for measuring the
+concentration of potassium permanganate (KMnO4) solution. In the presence of acid (H+), two
+solutions react as the following net ionic equation:
+5 C2O42- (aq) + 2 MnO4- (aq) + 16 H+ (aq) → 2 Mn2+ (aq) + 10CO2 (g) + 8H2O (l)
+
+After mixing 10 mL 0.05 M Na2C2O4 solution and 10 mL 0.03 M KMnO4 solution in an open beaker
+(constant external pressure), the temperature has risen by 1.56 °C. Assume that Na2C2O4 and KMnO4
+solutions both have density of 1 g/cm3, and heat capacities similar to that of water. (4.18 J/g o
+C)
+(a.) Calculate the ΔHrxn of the reaction between oxalate ions and permanganate ions
+(HOW COME DELTA H RENDERS HERE BUT ELSEWHERE IT BECOMES DHrxn)
+
+(b.) A 1.00 gram mixture of CaCl2 and MgCl2 is added to a 1.40 L solution containing excess
+K2C2O4 to form a precipitate with a mass of 1.17 g. Calculate the mass of CaCl2 in the 1.00 gram
+mixture.
+
+5) [40 points] The Breaking Bad Problem! Yes, it is one of Dr. Cox’s favorite shows. In the episode of Breaking Bad titled "Crazy Handful of Nothin'", Walter White used mercury (II) fulminate to
+blow up Tuco Salamanca's headquarters. Walter White knew his chemistry on the show. This
+problem will walk you through a series of analyses to have you deduce whether the chemistry of
+mercury fulminate was depicted correctly or whether Hollywood actually got it wrong!
+(a.) Fulminate, ONC-, is a very unstable compound. Draw the resonance structures that satisfy the
+octet for fulminate. Circle the major resonance contributor.
+
+(b.) The following illustrates the explosive decomposition of mercury fulminate.
+2 Hg(CNO)2 →2 CO2 (g) + N2 (g) + Hg (l) + Hg(CN)2 (s)
+
+Calculate the heat absorbed or released for the decomposition of 40.0 cm3 of mercury fulminate
+using the information below. The density of mercury fulminate is 4.43 g/cm3.
+
+Hg (l) + 2 C (s,graphite) + N2 (g) + O2(g) à Hg(CNO)2 (s) DHfo = +270 kJ/mol
+
+Hg (l) + 2C (s,graphite) + N2 (g) à Hg(CN)2 (s) DHfo = +264 kJ/mol
+
+C (s, graphite) + O2 (g) à CO2(g) DHfo = -393.5 kJ/mol
+
+5) (Breaking Bad continued)
+The "Mythbusters" team decided to compare the magnitude of the explosion using mercury fulminate
+with that of TNT (C7H5N3O6 (s)). The balanced equation for the explosive decomposition of
+TNT is given below:
+C7H5N3O6 (s) à 7 CO (g) + 7 C (s,graphite) + 5 H2O (g) + 3 N2 (g)
+
+(c.) Based on your knowledge gained from Chem 31A, predict which explosive would generate a more
+powerful explosion (circle one), assuming one mole of each explosive were detonated.
+
+Mercury Fulminate TNT
+
+(d.) Explain why the same number of moles of your choice in part (c.) would have generated a more
+powerful explosion. (Assume the DHrxn are the same for the two explosions)
+
+6) [26 points] Before majoring in chemistry, Dr. Cox provided his lack of acting talent to help his sister produce a low budget horror film. Dr. Cox was the first victim and his acting career consisted of no more than 5 minutes. During this time, Dr. Cox learned that iron thiocyanate [Fe(SCN)]2+ is used to depict fake blood in movies.
+
+To perceive the formation of blood, iron (III) chloride is added to skin and potassium thiocyanate
+is coated on a weapon of choice. When the two compounds mix, the actors runs around and
+screams as the reddish iron thiocyanate is produced – mimicking real blood.
+The chemical reaction is:
+KSCN (aq) + FeCl3 (aq) à [Fe(SCN)]2+ (aq) + KCl (aq) + 2 Cl- (aq)
+
+(a.)What is the electron configuration of iron in FeCl3?
+
+(b.)The UV/Vis spectrum below was acquired using a .15× 10-4 M concentration of [Fe(SCN)]2+
+in a 1.00 cm cuvette. If excess potassium thiocyanate is contained in a 1.2 L solution, how
+many grams of FeCl3 should be added to the 1.2 L solution to give an absorbance of 0.80.
+
+7) [36 points] Consider the two chamber system below. Bulb A (1 L) contains a 1:1 ratio (by moles) of
+O2 and an unknown gas and an initial pressure of 1.0 atm. Bulb B (3L) contains 0.1 atm of N2.
+
+(a.)In the apparatus shown, the valve between Bulb A and Bulb B is opened for a short period of time
+to allow some of the gases from Bulb A to escape to Bulb B and then closed. A detector in Bulb
+B finds that the mole ratio of the resulting gas mixture is 1.2 O2 : 4.8 unknown : 94 N2. Assuming
+all gases behave ideally, and the temperature is equal in both bulbs, what is the identity of the
+unknown gas?
+
+(b.)The valve is opened again, and the gases distribute equally between the two bulbs. What is the
+final partial pressure of O2 in the two bulbs, assuming temperature is constant and the same in both
+bulbs?
+
+8) [62 points] Hydrogen fluoride (HF) is a colorless gas and the principal industrial source of fluorine, often as an aqueous solution called hydrofluoric acid. Hydrofluoric acid is an extremely corrosive liquid, reacting with metals, metal oxides and even glass, and therefore can be stored only in plastic containers.
+
+(a.)In one sentence, provide an explanation for the observation that HF has a significantly higher
+boiling point (19.5°C) than HCl (-85°C).
+
+(b.)In one sentence, provide an explanation for the observation that HBr has a higher boiling point
+(-66°C) than HCl (-85°C).
+
+(c.)Consider the following unbalanced reaction. If 30 mL of 10.9 M hydrofluoric acid is placed
+in a 50 mL SiO2 glass beaker with a mass of 27.82 g, how many grams of SiO2 will be unreacted
+in the end?
+HF + SiO2 à SiF4 + H2O
+
+8)(continued)
+HF is important in the preparation of many important compounds including Teflon, a long polymer
+molecule containing C-F bonds (CF3-(CF2CF2)n-CF3). Teflon is inert partly because of the strength of
+carbon–fluorine bonds. The synthesis of tetrafluoroethylene, the precursor of Teflon, includes the
+following steps:
+
+CHCl3 + 2 HF → CHClF2 + 2 HCl DHorxn = -42 kJ/mol
+
+2 CHClF2 → C2F4 + 2 HCl
+
+Given the enthalpy for the first reaction is -42 kJ/mol,
+and the bond energies of C-Cl, H-Cl and H-F bonds are
+as indicated in the Table:
+
+(d.) Estimate the bond energy of the C-F bond.
+
+(e). What would be the maximum wavelength of photons needed break a C-F bond in a
+Teflon polymer?
+
+9) [49 points] Consider the diatomic neutral CN molecule cyanogen. Cyanogen has been identified in
+interstellar space.
+a.) Draw two possible resonance structures for neutral CN. Include formal charges and label
+your structures as major and minor contributors, if applicable.
+
+b.) What is the bond order predicted from your Lewis Dot Structures in part a?
+
+c.) According to your Lewis dot structures, on which atom is the unpaired electron likely to
+reside? Briefly explain.
+
+d.) Using the molecular orbital model, fill in the electron correlation diagram for CN. Assume
+that the p2p orbitals are lower in energy than the s2p orbital.
+
+9) (continued)
+e.) What is the bond order of CN predicted from Molecular Orbital Theory? Is this the same as
+that predicted by your Lewis Dot structure?
+
+For parts f) and g), consider the cyanide anion CN – (a very toxic anion)
+
+f). Predict the bond order for CN- from:
+i) Lewis Dot theory
+
+ii) Molecular Orbital theory
+
+g.) Circle all the species below which are isoelectronic (have the same number of electrons) with
+
+the cyanide anion CN-
+
+CO CN NO+ N2 CN+
+
+
+
+

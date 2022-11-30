@@ -186,3 +186,147 @@ def score(logits, labels):
     y = torch.argmax(logits, dim=-1) == labels
     y = y.type(torch.float)
     return torch.mean(y).item()
+
+
+def load_chem31a_learning_goals(filename='chem31a_learning_goal_list.txt'):
+    learning_goals = {}
+
+    with open(filename, encoding='utf-8') as f:
+        current_unit = None
+        current_letter = ord('a')
+        lines = [l.strip() for l in f.readlines()]
+        for line in lines[1:]:
+            unit = re.match('[0-9]\.', line)
+            if unit:
+                number = int(unit.group(0)[:-1])
+                assert number not in learning_goals
+                learning_goals[number] = {}
+                learning_goals[number]['title'] = line[len(unit.group(0)):]
+                current_unit = number
+                current_letter = ord('a')
+            else:
+                assert current_unit is not None
+                assert current_unit in learning_goals
+                learning_goals[current_unit][chr(current_letter)] = line
+                current_letter += 1
+    return learning_goals
+
+
+def parse_chem31a_questions(filename, year='2021'):
+    exam_path = os.path.join('Chem 31A', year, filename)
+    with open(exam_path, encoding='utf-8') as f:
+        questions = {}
+        lines = [l.strip() for l in f.readlines() if l.strip() != '']
+        current_q_num = None
+        current_q_title = None
+        current_sub_q_num = None
+        for line in lines:
+            q_num = re.match('[0-9]+\) ', line)
+            if q_num:
+                q_num = q_num.group(0)
+                current_q_num = int(q_num[:q_num.find(')')])
+                current_q_title = line[len(q_num):]
+                assert q_num not in questions
+                questions[current_q_num] = {}
+            # first question is always multiple choice with roman numerals
+            elif current_q_num == 1:
+                sub_q_num = re.match('[iv]+\) ', line)
+                if sub_q_num:
+                    sub_q_num = sub_q_num.group(0)
+                    current_sub_q_num = sub_q_num[:-2]
+                    assert current_q_num in questions
+                    assert current_sub_q_num not in questions[current_q_num]
+                    questions[current_q_num][current_sub_q_num] = line[len(sub_q_num):]
+                else:
+                    assert current_q_num in questions
+                    if current_sub_q_num in questions[current_q_num]:
+                        questions[current_q_num][current_sub_q_num] += line
+                    else:
+                        current_q_title += line
+            # second question is always short answer with letters
+            elif current_q_num == 2:
+                # skip roman numerals i and v
+                sub_q_num = re.match('[a-h|j-u|w-z]\) ', line)
+                if sub_q_num:
+                    sub_q_num = sub_q_num.group(0)
+                    current_sub_q_num = sub_q_num[:-2]
+                    assert current_q_num in questions
+                    assert current_sub_q_num not in questions[current_q_num]
+                    questions[current_q_num][current_sub_q_num] = line[len(sub_q_num):]
+                else:
+                    assert current_q_num in questions
+                    if current_sub_q_num in questions[current_q_num]:
+                        questions[current_q_num][current_sub_q_num] += line
+                    else:
+                        current_q_title += line
+            # all other questions use the question title, always letters
+            else:
+                # skip roman numerals i and v
+                sub_q_num = re.match('[a-h|j-u|w-z]\) ', line)
+                if sub_q_num:
+                    sub_q_num = sub_q_num.group(0)
+                    current_sub_q_num = sub_q_num[:-2]
+                    assert current_q_num in questions
+                    assert current_sub_q_num not in questions[current_q_num]
+                    # make sure to include the question title for these!
+                    questions[current_q_num][current_sub_q_num] = current_q_title + line[len(sub_q_num):]
+                else:
+                    assert current_q_num in questions
+                    if current_sub_q_num in questions[current_q_num]:
+                        questions[current_q_num][current_sub_q_num] += line
+                    else:
+                        current_q_title += line
+    return questions
+
+
+def load_chem31a_questions_to_learning_goals(filename, year='2021'):
+    file_path = os.path.join('Chem 31A', year, filename)
+    df = pd.read_csv(file_path)
+
+    questions_to_lgs = {}
+    for i, row in df.iterrows():
+        question = row['Exam Q#']
+        # ignore empty question cells (only applicable for Exam 3)
+        if pd.isna(question):
+            continue
+        q_num = re.match('[0-9]+', question).group(0)
+        sub_q_num = question[len(q_num):]
+        # prevent cases like bi, bii
+        if not sub_q_num.startswith('i') and not sub_q_num.startswith('v'):
+            sub_q_num = sub_q_num[0]
+        q_num = int(q_num)
+        if q_num not in questions_to_lgs:
+            questions_to_lgs[q_num] = {}
+        if sub_q_num in questions_to_lgs[q_num]:
+            continue
+        questions_to_lgs[q_num][sub_q_num] = []
+        for lg_num, col in enumerate(df.columns[2:10], start=1):
+            # ignore empty cells
+            if pd.isna(row[col]):
+                continue
+            lgs = [c.lower() for c in row[col] if c.isalpha()]
+            questions_to_lgs[q_num][sub_q_num].extend(
+                [(lg_num, lg) for lg in lgs]
+            )
+    return questions_to_lgs
+
+
+def load_chem31a_course(year='2021'):
+    learning_goals = load_chem31a_learning_goals()
+
+    data = []
+    for e in range(1, 5):
+        questions = parse_chem31a_questions(f'Chem31A_2021_Exam{e}.txt', year=year)
+        questions_to_learning_goals = load_chem31a_questions_to_learning_goals(
+            f'questions_to_learning_goals_exam{e}.csv', year=year
+        )
+        for q_num in questions:
+            for sub_q_num in questions[q_num]:
+                for lg in questions_to_learning_goals[q_num][sub_q_num]:
+                    data.append([
+                        questions[q_num][sub_q_num],
+                        learning_goals[lg[0]][lg[1]]
+                    ])
+    df = pd.DataFrame(data, columns=['question', 'learning_goal'])
+    df['course'] = 'Chem31A'
+    return df
