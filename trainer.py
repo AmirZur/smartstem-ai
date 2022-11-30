@@ -459,7 +459,7 @@ def main(args):
                 f'num_query={args.num_query}'
             )
             dataloader_test = openstax_dataset.get_nway_kshot_dataloader(
-                split='test',
+                split=args.split,
                 batch_size=args.batch_size,
                 num_support=args.num_support,
                 num_query=args.num_query,
@@ -509,6 +509,8 @@ if __name__ == '__main__':
     parser.add_argument('--checkpoint_step', type=int, default=-1,
                         help=('checkpoint iteration to load for resuming '
                               'training, or for evaluation (-1 is ignored)'))
+    parser.add_argument('--split', type=str, default='test',
+                        help='Choose data split for testing. Can be one of train, test, or val.')
 
     main_args = parser.parse_args()
     main(main_args)
