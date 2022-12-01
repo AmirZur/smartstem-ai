@@ -28,7 +28,7 @@ class CourseTestDataset(dataset.Dataset):
     _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
     _CHEM31A_COURSE = 'Chem 31A'
 
-    def __init__(self, course_name, num_support, num_query, tokenizer, max_length=128) -> None:
+    def __init__(self, course_name, num_support, num_query, tokenizer, max_length=128, task_embedding_model=None) -> None:
         super().__init__()
 
         self.num_support = num_support
@@ -54,6 +54,14 @@ class CourseTestDataset(dataset.Dataset):
         # columns: question (list), learning_goal (str), course (list of single str)
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
 
+        # encode learning goals as task embeddings
+        if task_embedding_model is not None:    
+            with torch.no_grad():
+                self.learning_goal_embeddings = task_embedding_model.encode(
+                    self.data_by_learning_goal.index.values
+                )
+            self.tam = True
+
     def _tokenize(self, x):
         return self.tokenizer(
             x,
@@ -69,7 +77,7 @@ class CourseTestDataset(dataset.Dataset):
         question = self.data_by_question.iloc[question_index].name
 
         tasks = []
-        for learning_goal in self.data_by_learning_goal.index:
+        for i, learning_goal in enumerate(self.data_by_learning_goal.index):
             # select examples that match the sampled learning goal
             examples_1 = self.data_by_learning_goal.loc[learning_goal].question
             support_1 = np.random.default_rng(seed=SEED).choice(examples_1, self.num_support)
@@ -85,6 +93,16 @@ class CourseTestDataset(dataset.Dataset):
 
             if self.tokenizer:
                 support, query = self._tokenize(support), self._tokenize(query)
+
+            # add in task embeddings
+            if self.tam:
+                support.update({
+                    'task_embeds': torch.tensor(self.learning_goal_embeddings[i]).unsqueeze(0).repeat(2 * self.num_support, 1).unsqueeze(1)
+                })
+                query.update({
+                    'task_embeds': torch.tensor(self.learning_goal_embeddings[i]).unsqueeze(0).repeat(2 * self.num_query, 1).unsqueeze(1)
+                })
+            
             labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
             tasks.append(
                 (support, labels_support, query, labels_query)
