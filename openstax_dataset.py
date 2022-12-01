@@ -100,7 +100,7 @@ class CourseTestDataset(dataset.Dataset):
                     'task_embeds': torch.tensor(self.learning_goal_embeddings[i]).unsqueeze(0).repeat(2 * self.num_support, 1).unsqueeze(1)
                 })
                 query.update({
-                    'task_embeds': torch.tensor(self.learning_goal_embeddings[i]).unsqueeze(0).repeat(2 * self.num_query, 1).unsqueeze(1)
+                    'task_embeds': torch.tensor(self.learning_goal_embeddings[i]).unsqueeze(0).repeat(1, 1).unsqueeze(1)
                 })
             
             labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
