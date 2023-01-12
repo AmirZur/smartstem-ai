@@ -98,8 +98,8 @@ class ProtoNet:
                 query_distances = torch.cdist(query_representations, prototypes) 
                 query_logits = F.softmax(-query_distances, dim=1)
 
-                predictions_batch.append(torch.argmax(query_logits, dim=-1))
-        return torch.stack(predictions_batch)
+                predictions_batch.append(query_logits[:, 1].cpu().numpy())
+        return np.stack(predictions_batch)
 
     def _step(self, task_batch):
         """Computes ProtoNet mean loss (and accuracy) on a batch of tasks.
@@ -314,52 +314,25 @@ class ProtoNet:
     
     def test_on_course(self, dataloader_test, num_questions=None):
         with torch.no_grad():
-            accuracies = []
-            precision_recall_f1_support = []
-            supports = []
+            predictions_batch = []
+            labels_batch = []
             for i, task_batch in enumerate(tqdm(dataloader_test, desc='Tagging Course')):
                 if num_questions is not None and i >= num_questions:
                     break
-                predictions = self._predict(task_batch).squeeze(1).cpu().numpy()
-                labels_query = np.array([task[-1][0] for task in task_batch], dtype=np.int64)
+                predictions = self._predict(task_batch).squeeze()
+                labels_query = np.array([task[-1].item() for task in task_batch], dtype=np.int64)
+                predictions_batch.append(predictions)
+                labels_batch.append(labels_query)
+            predictions = np.stack(predictions_batch)
+            labels = np.stack(labels_batch)
+            predictions = predictions.T
+            labels = labels.T
 
-                # f1_scores.append(metrics.f1_score(y_true=labels_query, y_pred=predictions))
-                accuracies.append((predictions == labels_query).sum() / len(predictions))
-                precision_recall_f1_support.append(
-                    metrics.precision_recall_fscore_support(labels_query, predictions, average='binary')
-                )
-                supports.append(predictions.sum())
-                num_lg = len(predictions)
+            print(labels.sum())
 
-            mean_accuracy = np.mean(accuracies)
-            std_accuracy = np.std(accuracies)
-            mean_95_confidence_interval_acc = 1.96 * std_accuracy / np.sqrt(len(accuracies))
-            print(
-                f'accuracy over {len(accuracies)} test questions: '
-                f'mean {mean_accuracy * 100:.3f}%\t'
-                f'95% confidence interval {mean_95_confidence_interval_acc * 100:.3f}'
-            )
-
-            metric_labels = ['precision', 'recall', 'f1']
-            for i in range(len(metric_labels)):
-                metric = [m[i] for m in precision_recall_f1_support]
-                mean = np.mean(metric)
-                std = np.std(metric)
-                mean_95_confidence_interval = 1.96 * std / np.sqrt(len(metric))
-                print(
-                    f'{metric_labels[i]} score over {len(metric)} test questions: '
-                    f'mean {mean * 100:.3f}%\t'
-                    f'95% confidence interval {mean_95_confidence_interval * 100:.3f}'
-                )
-            
-            mean_support = np.mean(supports)
-            std_support = np.std(supports)
-            mean_95_confidence_interval_support = 1.96 * std_support / np.sqrt(len(supports))
-            print(
-                f'support over {len(supports)} test questions and {num_lg} learning goals: '
-                f'mean {round(mean_support)}\t'
-                f'95% confidence interval {round(mean_95_confidence_interval_support, 3)}'
-            )
+            print('Accuracy', metrics.accuracy_score(y_true=labels.flatten(), y_pred=(predictions.flatten() >= 0.5)))
+            print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
+            print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
 
     def load(self, checkpoint_step):
         """Loads a checkpoint.

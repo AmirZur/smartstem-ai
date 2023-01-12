@@ -17,6 +17,176 @@ FRAC_TEST_CLASSES = 0.1
 
 SEED = 42
 
+class GPT3Dataset(dataset.Dataset):
+    _OPENSTAX_COURSES = [
+        'Chemistry 2e', 
+        'University Physics Volume 1', 
+        'University Physics Volume 2', 
+        'University Physics Volume 3'
+    ]
+
+    _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
+
+    def __init__(self, num_support, num_query, seed=SEED) -> None:
+        super().__init__()
+
+        self.num_support = num_support
+        self.num_query = num_query
+        self.seed = seed
+        # flag whether we're using learning goal embeddings
+        self.tam = False
+
+        # load questions from Openstax Dataset
+        # columns: question, learning_goal, course (all text)
+        # multiple learning goals per question, multiple questions per course
+        data = pd.concat([
+            util.load_openstax_course(course) for course in self._OPENSTAX_COURSES
+        ] + [util.load_principles_of_chemistry_course(self._PRINCIPLES_OF_CHEMISTRY_COURSE)])
+
+        # group data by question
+        # dictionary mapping from course name to dataframe of questions within this course
+        # columns: question (str), learning_goal (list), course (list of single str)
+        self.data_by_question = {
+            course_name: data[data['course'] == course_name].groupby('question').agg(list)
+            for course_name in data['course'].unique()
+        }
+
+        # group data by learning goal
+        # columns: question (list), learning_goal (str), course (list of single str)
+        self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+        # ignore learning goals that do not have enough training examples
+        # NOTE: questions under these learning goals can still appear as NEGATIVE examples, just not positive examples
+        self.data_by_learning_goal = self.data_by_learning_goal[
+            self.data_by_learning_goal['question'].apply(len) >= self.num_support + self.num_query
+        ]
+        # shuffle order of learning goals for training!!
+        self.data_by_learning_goal = self.data_by_learning_goal.sample(frac=1., random_state=self.seed)
+
+        question_embeddings = torch.load('question_curie_embeddings.pt')
+        self.question_to_embedding = dict(zip(
+            [q for key in self.data_by_question for q in self.data_by_question[key].index], question_embeddings
+        ))
+
+        learning_goal_embeddings = torch.load('learning_goal_curie_embeddings.pt')
+        self.learning_goal_to_embedding = dict(zip(
+            self.data_by_learning_goal.index, learning_goal_embeddings
+        ))
+
+        # construct a random number generator
+        self.rng = np.random.default_rng(seed=self.seed)  
+
+    def get_data_by_learning_goal(self):
+        return self.data_by_learning_goal
+
+    def __getitem__(self, index):
+        # get learning goal from index
+        learning_goal = self.data_by_learning_goal.iloc[index]
+
+        # select examples that match the sampled learning goal
+        examples_1 = learning_goal.question
+        support_and_query_1 = self.rng.choice(
+            examples_1, self.num_support + self.num_query, replace=False
+        )
+        support_1 = support_and_query_1[:self.num_support]
+        query_1 = support_and_query_1[self.num_support:]
+
+        # select examples that do not have this learning goal
+        examples_0 = self.data_by_question[learning_goal.course[0]].drop(learning_goal.question).index
+        support_and_query_0 = self.rng.choice(
+            examples_0, self.num_support + self.num_query, replace=False
+        )
+        support_0 = support_and_query_0[:self.num_support]
+        query_0 = support_and_query_0[self.num_support:]
+
+        support = list(support_0) + list(support_1)
+        query = list(query_0) + list(query_1)
+        labels_support = ([0] * self.num_support) + ([1] * self.num_support)
+        labels_query = ([0] * self.num_query) + ([1] * self.num_query)
+
+        support = torch.stack([self.question_to_embedding[q] for q in support])
+        query = torch.stack([self.question_to_embedding[q] for q in query])
+
+        labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
+
+        return support, labels_support, query, labels_query
+
+    def __len__(self) -> int:
+        return self.data_by_learning_goal.shape[0]
+
+
+class GPT3TestDataset(dataset.Dataset):
+    _OPENSTAX_COURSES = [
+        'Chemistry 2e', 
+        'University Physics Volume 1', 
+        'University Physics Volume 2', 
+        'University Physics Volume 3'
+    ]
+
+    _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
+    _CHEM31A_COURSE = 'Chem 31A'
+
+    def __init__(self, course_name, num_support, num_query) -> None:
+        super().__init__()
+
+        self.num_support = num_support
+        self.num_query = num_query
+
+        # load questions from Openstax Dataset
+        # columns: question, learning_goal, course (all text)
+        # multiple learning goals per question, multiple questions per course
+        if course_name in self._OPENSTAX_COURSES:
+            data = util.load_openstax_course(course_name)
+        elif course_name == self._PRINCIPLES_OF_CHEMISTRY_COURSE:
+            data = util.load_principles_of_chemistry_course(course_name)
+        elif course_name == self._CHEM31A_COURSE:
+            data = util.load_chem31a_course()
+
+        # group data by question
+        # columns: question (str), learning_goal (list), course (list of single str)
+        self.data_by_question = data.groupby('question').agg(list)
+
+        question_embeddings = torch.load('question_curie_embeddings_chem31a.pt')
+        self.question_to_embedding = dict(zip(
+            self.data_by_question.index, question_embeddings
+        ))
+
+        # group data by learning goal
+        # columns: question (list), learning_goal (str), course (list of single str)
+        self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+
+    def __getitem__(self, question_index):
+        question = self.data_by_question.iloc[question_index].name
+
+        tasks = []
+        for i, learning_goal in enumerate(self.data_by_learning_goal.index):
+            # select examples that match the sampled learning goal
+            examples_1 = self.data_by_learning_goal.loc[learning_goal].question
+            support_1 = np.random.default_rng(seed=SEED).choice(examples_1, self.num_support)
+
+            # select examples that do not have this learning goal
+            examples_0 = self.data_by_question.drop(examples_1).index
+            support_0 = np.random.default_rng(seed=SEED).choice(examples_0, self.num_support)
+
+            support = list(support_0) + list(support_1)
+            query = [question]
+            labels_support = ([0] * self.num_support) + ([1] * self.num_support)
+            labels_query = [int(question in examples_1)]
+
+            support = torch.stack([self.question_to_embedding[s] for s in support])
+            query = torch.stack([self.question_to_embedding[q] for q in query])
+            
+            labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
+            tasks.append(
+                (support, labels_support, query, labels_query)
+            )
+
+        return tasks
+
+    def __len__(self) -> int:
+        return self.data_by_question.shape[0]
+
+
+
 class CourseTestDataset(dataset.Dataset):
     _OPENSTAX_COURSES = [
         'Chemistry 2e', 
@@ -55,6 +225,7 @@ class CourseTestDataset(dataset.Dataset):
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
 
         # encode learning goals as task embeddings
+        self.tam = False
         if task_embedding_model is not None:    
             with torch.no_grad():
                 self.learning_goal_embeddings = task_embedding_model.encode(
