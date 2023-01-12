@@ -300,17 +300,29 @@ class ProtoNet:
         """
         self._network.eval()
         with torch.no_grad():
-            accuracies = []
+            # accuracies = []
+            # for task_batch in tqdm(dataloader_test, desc='Testing'):
+            #     accuracies.append(self._step(task_batch)[2])
+            # mean = np.mean(accuracies)
+            # std = np.std(accuracies)
+            # mean_95_confidence_interval = 1.96 * std / np.sqrt(NUM_TEST_TASKS)
+            # print(
+            #     f'Accuracy over {NUM_TEST_TASKS} test tasks: '
+            #     f'mean {mean:.5f}, '
+            #     f'95% confidence interval {mean_95_confidence_interval:.3f}'
+            # )
+            predictions_batch = []
+            labels_batch = []
             for task_batch in tqdm(dataloader_test, desc='Testing'):
-                accuracies.append(self._step(task_batch)[2])
-            mean = np.mean(accuracies)
-            std = np.std(accuracies)
-            mean_95_confidence_interval = 1.96 * std / np.sqrt(NUM_TEST_TASKS)
-            print(
-                f'Accuracy over {NUM_TEST_TASKS} test tasks: '
-                f'mean {mean:.3f}, '
-                f'95% confidence interval {mean_95_confidence_interval:.3f}'
-            )
+                predictions_batch.append(self._predict(task_batch).squeeze())
+                labels_batch.append([task[-1].cpu().numpy() for task in task_batch])
+            predictions = np.stack(predictions_batch).transpose((0, 2, 1)).reshape(NUM_TEST_TASKS, -1)
+            labels = np.stack(labels_batch).transpose((0, 2, 1)).reshape(NUM_TEST_TASKS, -1)
+
+            print('Accuracy', metrics.accuracy_score(y_true=labels.flatten(), y_pred=(predictions.flatten() >= 0.5)))
+            print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
+            print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
+            
     
     def test_on_course(self, dataloader_test, num_questions=None):
         with torch.no_grad():
@@ -471,7 +483,7 @@ def main(args):
             protonet.test(dataloader_test)
 
     protonet.save_pretrained(args.log_dir + 'pretrained')
-        
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('Train a ProtoNet!')
