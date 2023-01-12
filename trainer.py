@@ -328,8 +328,6 @@ class ProtoNet:
             predictions = predictions.T
             labels = labels.T
 
-            print(labels.sum())
-
             print('Accuracy', metrics.accuracy_score(y_true=labels.flatten(), y_pred=(predictions.flatten() >= 0.5)))
             print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
             print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
@@ -370,6 +368,13 @@ class ProtoNet:
             f'{os.path.join(self._log_dir, "state")}{checkpoint_step}.pt'
         )
         print('Saved checkpoint.')
+
+    
+    def save_pretrained(self, name):
+        self._network.save_pretrained(name)
+    
+    def load_pretrained(self, classname, name):
+        self._network = classname.from_pretrained(name)
 
 
 def main(args):
@@ -464,6 +469,8 @@ def main(args):
                 sample_by_learning_goal=args.sample_by_learning_goal
             )
             protonet.test(dataloader_test)
+
+    protonet.save_pretrained(args.log_dir + 'pretrained')
         
 
 if __name__ == '__main__':
