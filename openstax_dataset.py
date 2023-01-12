@@ -26,6 +26,7 @@ class GPT3Dataset(dataset.Dataset):
     ]
 
     _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
+    _CHEM31A_COURSE = 'Chem 31A'
 
     def __init__(self, num_support, num_query, seed=SEED) -> None:
         super().__init__()
@@ -42,6 +43,7 @@ class GPT3Dataset(dataset.Dataset):
         data = pd.concat([
             util.load_openstax_course(course) for course in self._OPENSTAX_COURSES
         ] + [util.load_principles_of_chemistry_course(self._PRINCIPLES_OF_CHEMISTRY_COURSE)])
+        # data = util.load_chem31a_course()
 
         # group data by question
         # dictionary mapping from course name to dataframe of questions within this course
@@ -67,10 +69,10 @@ class GPT3Dataset(dataset.Dataset):
             [q for key in self.data_by_question for q in self.data_by_question[key].index], question_embeddings
         ))
 
-        learning_goal_embeddings = torch.load('learning_goal_curie_embeddings.pt')
-        self.learning_goal_to_embedding = dict(zip(
-            self.data_by_learning_goal.index, learning_goal_embeddings
-        ))
+        # learning_goal_embeddings = torch.load('learning_goal_curie_embeddings.pt')
+        # self.learning_goal_to_embedding = dict(zip(
+        #     self.data_by_learning_goal.index, learning_goal_embeddings
+        # ))
 
         # construct a random number generator
         self.rng = np.random.default_rng(seed=self.seed)  
@@ -153,6 +155,9 @@ class GPT3TestDataset(dataset.Dataset):
         # group data by learning goal
         # columns: question (list), learning_goal (str), course (list of single str)
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+        self.data_by_learning_goal = self.data_by_learning_goal[
+            self.data_by_learning_goal['question'].apply(len) > 1
+        ]
 
     def __getitem__(self, question_index):
         question = self.data_by_question.iloc[question_index].name
@@ -161,7 +166,8 @@ class GPT3TestDataset(dataset.Dataset):
         for i, learning_goal in enumerate(self.data_by_learning_goal.index):
             # select examples that match the sampled learning goal
             examples_1 = self.data_by_learning_goal.loc[learning_goal].question
-            support_1 = np.random.default_rng(seed=SEED).choice(examples_1, self.num_support)
+            examples_1_minus_q = [q for q in examples_1 if q != question]
+            support_1 = np.random.default_rng(seed=SEED).choice(examples_1_minus_q, self.num_support)
 
             # select examples that do not have this learning goal
             examples_0 = self.data_by_question.drop(examples_1).index
@@ -225,6 +231,9 @@ class CourseTestDataset(dataset.Dataset):
         # group data by learning goal
         # columns: question (list), learning_goal (str), course (list of single str)
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+        self.data_by_learning_goal = self.data_by_learning_goal[
+            self.data_by_learning_goal['question'].apply(len) > 1
+        ]
 
         # encode learning goals as task embeddings
         self.tam = False
@@ -253,7 +262,8 @@ class CourseTestDataset(dataset.Dataset):
         for i, learning_goal in enumerate(self.data_by_learning_goal.index):
             # select examples that match the sampled learning goal
             examples_1 = self.data_by_learning_goal.loc[learning_goal].question
-            support_1 = np.random.default_rng(seed=SEED).choice(examples_1, self.num_support)
+            examples_1_minus_q = [q for q in examples_1 if q != question]
+            support_1 = np.random.default_rng(seed=SEED).choice(examples_1_minus_q, self.num_support)
 
             # select examples that do not have this learning goal
             examples_0 = self.data_by_question.drop(examples_1).index
