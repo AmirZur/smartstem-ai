@@ -297,7 +297,16 @@ class nWaykShotDataset(dataset.Dataset):
 
     _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
 
-    def __init__(self, num_support, num_query, tokenizer, task_embedding_model=None, max_length=128, seed=SEED) -> None:
+    def __init__(
+        self, 
+        num_support, 
+        num_query, 
+        tokenizer, 
+        task_embedding_model=None, 
+        max_length=256,
+        balanced=True, 
+        seed=SEED
+    ) -> None:
         super().__init__()
 
         self.num_support = num_support
@@ -305,6 +314,7 @@ class nWaykShotDataset(dataset.Dataset):
         self.tokenizer = tokenizer
         self.max_length = max_length
         self.seed = seed
+        self.balanced = balanced
         # flag whether we're using learning goal embeddings
         self.tam = False
 
@@ -361,24 +371,44 @@ class nWaykShotDataset(dataset.Dataset):
         return self.data_by_learning_goal
 
     def __getitem__(self, index):
-        if isinstance(index, tuple):
-            support = query = labels_support = labels_query = []
-            for label, i in enumerate(index):
-                learning_goal = self.data_by_learning_goal.iloc[i]
-                # choose examples from learning goal that were not already used in another class
-                examples = [q for q in learning_goal.question if q not in support and q not in query]
-                support_and_query = self.rng.choice(
-                    examples, self.num_support + self.num_query, replace=False
-                )
+        if not self.balanced:
+            # get learning goal from index
+            learning_goal = self.data_by_learning_goal.iloc[index]
 
-                support.extend(list(support_and_query[:self.num_support]))
-                query.extend(list(support_and_query[self.num_support:]))
-                labels_support.extend([label] * self.num_support)
-                labels_query.extend([label] * self.num_query)
+            # select examples that match the sampled learning goal
+            examples_1 = learning_goal.question
+            support_1 = self.rng.choice(
+                examples_1, self.num_support, replace=False
+            )
+
+            # select examples that do not have this learning goal
+            examples_0 = self.data_by_question[learning_goal.course[0]].drop(learning_goal.question).index
+            support_0 = self.rng.choice(
+                examples_0, self.num_support, replace=False
+            )
+
+            support = list(support_0) + list(support_1)
+            query = list(self.rng.choice(
+                self.data_by_question[learning_goal.course[0]].drop(support).index, self.num_query, replace=False
+            ))
+
+            labels_support = ([0] * self.num_support) + ([1] * self.num_support)
+            labels_query = [int(q in learning_goal.question)for q in query]
+
             if self.tokenizer:
                 support, query = self._tokenize(support), self._tokenize(query)
+
+            # add in task embeddings
+            if self.tam:
+                support.update({
+                    'task_embeds': torch.tensor(self.learning_goal_embeddings[index]).unsqueeze(0).repeat(2 * self.num_support, 1).unsqueeze(1)
+                })
+                query.update({
+                    'task_embeds': torch.tensor(self.learning_goal_embeddings[index]).unsqueeze(0).repeat(2 * self.num_query, 1).unsqueeze(1)
+                })
+
             labels_support, labels_query = torch.tensor(labels_support), torch.tensor(labels_query)
-            
+
             return support, labels_support, query, labels_query
         else:
             # get learning goal from index
@@ -610,6 +640,7 @@ def get_nway_kshot_dataloader(
     num_workers=8,
     max_length=128,
     sample_by_learning_goal=False,
+    balanced=True,
     seed=SEED
 ):
     if task_embedding_model_type is not None:
@@ -622,6 +653,7 @@ def get_nway_kshot_dataloader(
         tokenizer, 
         task_embedding_model=task_embedding_model, 
         max_length=max_length,
+        balanced=balanced,
         seed=seed
     )
     num_train_classes = int(len(dataset) * FRAC_TRAIN_CLASSES)

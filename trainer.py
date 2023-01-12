@@ -432,6 +432,7 @@ def main(args):
             task_embedding_model_type=args.task_embedding_model_type,
             num_workers=args.num_workers,
             max_length=args.max_length,
+            balanced=not args.imbalanced,
             sample_by_learning_goal=args.sample_by_learning_goal
         )
         dataloader_val = openstax_dataset.get_nway_kshot_dataloader(
@@ -444,6 +445,7 @@ def main(args):
             task_embedding_model_type=args.task_embedding_model_type,
             num_workers=args.num_workers,
             max_length=args.max_length,
+            balanced=not args.imbalanced,
             sample_by_learning_goal=args.sample_by_learning_goal
         )
         protonet.train(
@@ -478,6 +480,7 @@ def main(args):
                 task_embedding_model_type=args.task_embedding_model_type,
                 num_workers=args.num_workers,
                 max_length=args.max_length,
+                balanced=not args.imbalanced,
                 sample_by_learning_goal=args.sample_by_learning_goal
             )
             protonet.test(dataloader_test)
@@ -513,6 +516,7 @@ if __name__ == '__main__':
                         help='number of workers to use for data loading')
     parser.add_argument('--task_embedding_model_type', type=str, default=None,
                         help='if supplied, the SBERT model to use for task embeddings')
+    parser.add_argument('--imbalanced', default=False, action='store_true', help='balance data or sample from distribution')
     # Testing and loading models
     parser.add_argument('--test', default=False, action='store_true',
                         help='train or test')
