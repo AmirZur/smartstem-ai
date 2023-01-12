@@ -205,6 +205,8 @@ class CourseTestDataset(dataset.Dataset):
         self.num_query = num_query
         self.tokenizer = tokenizer
         self.max_length = max_length
+        # flag whether we're using learning goal embeddings
+        self.tam = False
 
         # load questions from Openstax Dataset
         # columns: question, learning_goal, course (all text)
