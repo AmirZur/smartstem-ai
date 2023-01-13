@@ -337,13 +337,11 @@ class ProtoNet:
                 labels_batch.append(labels_query)
             predictions = np.stack(predictions_batch)
             labels = np.stack(labels_batch)
-            print(labels.shape)
-            print(predictions.shape)
-            print(labels.sum())
 
             print('Accuracy', metrics.accuracy_score(y_true=labels.flatten(), y_pred=(predictions.flatten() >= 0.5)))
             print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
             print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
+            print('Recall', metrics.recall_score(y_true=labels.flatten(), y_true=(predictions >= 0.5).flatten()))
 
     def load(self, checkpoint_step):
         """Loads a checkpoint.
