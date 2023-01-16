@@ -341,7 +341,7 @@ class ProtoNet:
             print('Accuracy', metrics.accuracy_score(y_true=labels.flatten(), y_pred=(predictions.flatten() >= 0.5)))
             print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
             print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
-            print('Recall', metrics.recall_score(y_true=labels.flatten(), y_true=(predictions >= 0.5).flatten()))
+            print('Recall', metrics.recall_score(y_true=labels, y_pred=(predictions >= 0.5), average='macro'))
 
     def load(self, checkpoint_step):
         """Loads a checkpoint.
