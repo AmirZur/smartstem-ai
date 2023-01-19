@@ -28,7 +28,7 @@ class GPT3Dataset(dataset.Dataset):
     _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
     _CHEM31A_COURSE = 'Chem 31A'
 
-    def __init__(self, num_support, num_query, seed=SEED) -> None:
+    def __init__(self, num_support, num_query, zero_shot=False, seed=SEED) -> None:
         super().__init__()
 
         self.num_support = num_support
@@ -56,6 +56,12 @@ class GPT3Dataset(dataset.Dataset):
         # group data by learning goal
         # columns: question (list), learning_goal (str), course (list of single str)
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+
+        learning_goal_embeddings = torch.load('learning_goal_curie_embeddings.pt')
+        self.learning_goal_to_embedding = dict(zip(
+            self.data_by_learning_goal.index, learning_goal_embeddings
+        ))
+
         # ignore learning goals that do not have enough training examples
         # NOTE: questions under these learning goals can still appear as NEGATIVE examples, just not positive examples
         self.data_by_learning_goal = self.data_by_learning_goal[
@@ -69,10 +75,7 @@ class GPT3Dataset(dataset.Dataset):
             [q for key in self.data_by_question for q in self.data_by_question[key].index], question_embeddings
         ))
 
-        # learning_goal_embeddings = torch.load('learning_goal_curie_embeddings.pt')
-        # self.learning_goal_to_embedding = dict(zip(
-        #     self.data_by_learning_goal.index, learning_goal_embeddings
-        # ))
+        self.zero_shot = zero_shot
 
         # construct a random number generator
         self.rng = np.random.default_rng(seed=self.seed)  
@@ -81,6 +84,31 @@ class GPT3Dataset(dataset.Dataset):
         return self.data_by_learning_goal
 
     def __getitem__(self, index):
+        if self.zero_shot:
+            learning_goal = self.data_by_learning_goal.iloc[index]
+            query_1 = self.rng.choice(
+                learning_goal.question, self.num_query, replace=False
+            )
+            examples_0 = self.data_by_question[learning_goal.course[0]].drop(learning_goal.question)
+            query_0 = self.rng.choice(
+                examples_0.index, 
+                self.num_query,
+                replace=False
+            )
+            learning_goals_0 = [self.rng.choice(lgs) for lgs in examples_0.loc[query_0].learning_goal.values]
+
+            learning_goals_1 = [learning_goal.name] * self.num_query
+
+            query = list(query_0) + list(query_1)
+            learning_goals = learning_goals_0 + learning_goals_1
+            labels = ([0] * self.num_query) + ([1] * self.num_query)
+
+            query = torch.stack([self.question_to_embedding[q] for q in query])
+            learning_goals = torch.stack([self.learning_goal_to_embedding[l] for l in learning_goals])
+            labels = torch.tensor(labels)
+
+            return learning_goals, query, labels
+
         # get learning goal from index
         learning_goal = self.data_by_learning_goal.iloc[index]
 
@@ -127,7 +155,7 @@ class GPT3TestDataset(dataset.Dataset):
     _PRINCIPLES_OF_CHEMISTRY_COURSE = 'Principles of Chemistry 3rd edition'
     _CHEM31A_COURSE = 'Chem 31A'
 
-    def __init__(self, course_name, num_support, num_query) -> None:
+    def __init__(self, course_name, num_support, num_query, zero_shot=False) -> None:
         super().__init__()
 
         self.num_support = num_support
@@ -155,15 +183,41 @@ class GPT3TestDataset(dataset.Dataset):
         # group data by learning goal
         # columns: question (list), learning_goal (str), course (list of single str)
         self.data_by_learning_goal = data.groupby('learning_goal').agg(list)
+
+        learning_goal_embeddings = torch.load('learning_goal_curie_embeddings_chem31a.pt')
+        self.learning_goal_to_embedding = dict(zip(
+            self.data_by_learning_goal.index, learning_goal_embeddings
+        ))
+
         self.data_by_learning_goal = self.data_by_learning_goal[
             self.data_by_learning_goal['question'].apply(len) > 1
         ]
+
+        self.zero_shot = zero_shot
 
     def __getitem__(self, question_index):
         question = self.data_by_question.iloc[question_index].name
 
         tasks = []
         for i, learning_goal in enumerate(self.data_by_learning_goal.index):
+            if self.zero_shot:
+                query = [question]
+                support_1 = [learning_goal]
+                support_0 = [np.random.default_rng(seed=SEED).choice(
+                    self.data_by_learning_goal.drop(learning_goal).index
+                )]
+                support = support_0 + support_1
+                labels = [int(question in self.data_by_learning_goal.loc[learning_goal].question)]
+
+                support = torch.stack([self.learning_goal_to_embedding[s] for s in support])
+                query = torch.stack([self.question_to_embedding[q] for q in query])
+                labels = torch.tensor(labels)
+
+                tasks.append(
+                    (support, query, labels)
+                )
+                continue
+
             # select examples that match the sampled learning goal
             examples_1 = self.data_by_learning_goal.loc[learning_goal].question
             examples_1_minus_q = [q for q in examples_1 if q != question]
