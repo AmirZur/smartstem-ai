@@ -1,4 +1,4 @@
-"""Implementation of prototypical networks for Omniglot."""
+"""Implementation of prototypical networks for labeling questions with learning objectives."""
 
 import argparse
 import os
@@ -323,8 +323,14 @@ class ProtoNet:
             print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
             print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
             
-    
     def test_on_course(self, dataloader_test, num_questions=None):
+        """
+        Evaluate prototypical network on held-out course.
+        Unlike held-out test set, held-out course consists of l different
+        tasks for each question, where l is the number of total learning objectives.
+        A question is tagged with all learning goals to which the model assigns 
+        a positive prediction for the (question, learning goal) pair.
+        """
         with torch.no_grad():
             predictions_batch = []
             labels_batch = []
@@ -380,28 +386,31 @@ class ProtoNet:
         )
         print('Saved checkpoint.')
 
-    
     def save_pretrained(self, name):
+        # save network using Huggingface Transformers library
         self._network.save_pretrained(name)
     
     def load_pretrained(self, classname, name):
+        # save network using Huggingface Transformers library
         self._network = classname.from_pretrained(name)
 
 
 def main(args):
+    # load log directory
     log_dir = args.log_dir
     if log_dir is None:
         log_dir = f'./logs/protonet/openstax.way_{args.num_way}.support_{args.num_support}.query_{args.num_query}.lr_{args.learning_rate}.batch_size_{args.batch_size}'  # pylint: disable=line-too-long
     print(f'log_dir: {log_dir}')
     writer = tensorboard.SummaryWriter(log_dir=log_dir)
 
+    # load model and tokenizer
     tokenizer = AutoTokenizer.from_pretrained(util.get_model_name(args.model_size))
-    # note: can probably combine these once we trust in BertTAMModel's code
     if args.task_embedding_model_type is not None:
         model = BertTAMModel.from_pretrained(util.get_model_name(args.model_size), is_tam=True)
     else:
         model = BertModel.from_pretrained(util.get_model_name(args.model_size))
 
+    # construct prototypical network trainer
     protonet = ProtoNet(
         model, 
         args.learning_rate, 
@@ -415,7 +424,7 @@ def main(args):
         print('Checkpoint loading skipped.')
 
     if not args.test:
-        # num_training_tasks = (args.num_train_iterations - args.checkpoint_step - 1)
+        # training run
         print(
             f'Training on tasks with composition '
             f'num_support={args.num_support}, '
@@ -453,6 +462,7 @@ def main(args):
             writer
         )
     else:
+        # test run (divided into testing on held-out course or held-out dataset)
         if args.course_name is not None:
             print(f'Testing on tagging for course {args.course_name}')
             dataset_test = openstax_dataset.CourseTestDataset(

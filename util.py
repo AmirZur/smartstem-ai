@@ -1,3 +1,8 @@
+""" 
+Utility file to load, parse, and organize question + learning objective data from OpenStax, 
+Principles of Chemistry (3rd Edition), and Chem 31A. 
+"""
+
 import os
 import re
 import json
@@ -6,6 +11,7 @@ import torch
 import pandas as pd
 
 OPENSTAX_DIR = 'OpenStax Dataset'
+
 
 def get_model_name(size):
     size_to_model = {
@@ -45,6 +51,7 @@ def parse_openstax_questions_file(filename, folder_path):
 
     return questions, question_nums
 
+
 def parse_openstax_questions_folder(folder_path):
     questions, question_nums = {}, []
     for filename in os.listdir(folder_path):
@@ -81,6 +88,7 @@ def load_openstax_course(course_name):
     dataset = pd.DataFrame(data=dataset, columns=['question', 'learning_goal'])
     dataset['course'] = course_name
     return dataset
+
 
 def parse_principles_of_chemistry_question_file(filename):
     with open(filename, encoding='utf-8') as fin:
