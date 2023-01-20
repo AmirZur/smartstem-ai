@@ -461,23 +461,29 @@ class nWaykShotDataset(dataset.Dataset):
 
             # select examples that match the sampled learning goal
             examples_1 = learning_goal.question
-            support_1 = self.rng.choice(
+            support_and_query_1 = self.rng.choice(
                 examples_1, self.num_support, replace=False
             )
+            support_1 = support_and_query_1[:self.num_support]
+            query_1 = support_and_query_1[self.num_support:]
 
             # select examples that do not have this learning goal
             examples_0 = self.data_by_question[learning_goal.course[0]].drop(learning_goal.question).index
-            support_0 = self.rng.choice(
-                examples_0, self.num_support, replace=False
+            support_and_query_0 = self.rng.choice(
+                examples_0, self.num_support + self.num_query, replace=False
             )
+            support_0 = support_and_query_0[:self.num_support]
+            query_0 = support_and_query_0[self.num_support:]
 
             support = list(support_0) + list(support_1)
-            query = list(self.rng.choice(
-                self.data_by_question[learning_goal.course[0]].drop(support).index, self.num_query, replace=False
-            ))
+            # query = list(self.rng.choice(
+            #     self.data_by_question[learning_goal.course[0]].drop(support).index, self.num_query, replace=False
+            # ))
+            query = list(query_0) + list(query_1)
 
             labels_support = ([0] * self.num_support) + ([1] * self.num_support)
-            labels_query = [int(q in learning_goal.question)for q in query]
+            # labels_query = [int(q in learning_goal.question) for q in query]
+            labels_query = ([0] * self.num_query) + ([1] * self.num_query)
 
             if self.tokenizer:
                 support, query = self._tokenize(support), self._tokenize(query)
