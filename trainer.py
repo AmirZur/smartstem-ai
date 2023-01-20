@@ -316,14 +316,35 @@ class ProtoNet:
             for task_batch in tqdm(dataloader_test, desc='Testing'):
                 predictions_batch.append(self._predict(task_batch).squeeze())
                 labels_batch.append([task[-1].cpu().numpy() for task in task_batch])
-            predictions = np.stack(predictions_batch).transpose((0, 2, 1)).reshape(NUM_TEST_TASKS, -1)
-            labels = np.stack(labels_batch).transpose((0, 2, 1)).reshape(NUM_TEST_TASKS, -1)
+                
+            predictions = np.stack(predictions_batch).reshape(NUM_TEST_TASKS, -1)
+            labels = np.stack(labels_batch).reshape(NUM_TEST_TASKS, -1)
 
-            print('Accuracy', metrics.accuracy_score(y_true=labels.flatten(), y_pred=(predictions.flatten() >= 0.5)))
-            print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
-            print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
+            aucs = np.array([
+                metrics.roc_auc_score(y_score=p, y_true=l, average='macro') for p, l in zip(predictions, labels) 
+                if sum(l == 1) > 0 and sum(l == 0) > 0
+            ])
+            auc_cfi = aucs.std() * 1.96 / np.sqrt(len(aucs))
+
+            accuracies = np.array([
+                metrics.accuracy_score(y_true=l, y_pred=(p >= 0.5)) for p, l in zip(predictions, labels) 
+                if sum(l == 1) > 0 and sum(l == 0) > 0
+            ])
+            accuracy_cfi = accuracies.std() * 1.96 / np.sqrt(len(accuracies))
+
+            f1s = np.array([
+                metrics.f1_score(y_pred=(p >= 0.5), y_true=l, average='macro') for p, l in zip(predictions, labels) 
+                if sum(l == 1) > 0 and sum(l == 0) > 0
+            ])
+            f1_cfi = f1s.std() * 1.96 / np.sqrt(len(f1s))
             
-    def test_on_course(self, dataloader_test, num_questions=None):
+            print(f'ROC-AUC: {aucs.mean():.3f} +- {auc_cfi:.3f}')
+            print(f'Accuracy: {accuracies.mean():.3f} +- {accuracy_cfi:.3f}')
+            print(f'F1: {f1s.mean():.3f} +- {f1_cfi:.3f}')
+            
+        return aucs.mean(), auc_cfi, accuracies.mean(), accuracy_cfi, f1s.mean(), f1_cfi
+            
+    def test_on_course(self, dataloader_test, num_questions=None, return_preds=False):
         """
         Evaluate prototypical network on held-out course.
         Unlike held-out test set, held-out course consists of l different
@@ -344,10 +365,31 @@ class ProtoNet:
             predictions = np.stack(predictions_batch)
             labels = np.stack(labels_batch)
 
-            print('Accuracy', metrics.accuracy_score(y_true=labels.flatten(), y_pred=(predictions.flatten() >= 0.5)))
-            print('ROC AUC', metrics.roc_auc_score(y_true=labels, y_score=predictions, average='macro'))
-            print('AP', metrics.average_precision_score(y_true=labels, y_score=predictions, average='macro'))
-            print('Recall', metrics.recall_score(y_true=labels, y_pred=(predictions >= 0.5), average='macro'))
+            aucs = np.array([
+                metrics.roc_auc_score(y_score=p, y_true=l, average='macro') for p, l in zip(predictions, labels) 
+                if sum(l == 1) > 0 and sum(l == 0) > 0
+            ])
+            auc_cfi = aucs.std() * 1.96 / np.sqrt(len(aucs))
+
+            accuracies = np.array([
+                metrics.accuracy_score(y_true=l, y_pred=(p >= 0.5)) for p, l in zip(predictions, labels) 
+                if sum(l == 1) > 0 and sum(l == 0) > 0
+            ])
+            accuracy_cfi = accuracies.std() * 1.96 / np.sqrt(len(accuracies))
+
+            f1s = np.array([
+                metrics.f1_score(y_pred=(p >= 0.5), y_true=l, average='macro') for p, l in zip(predictions, labels) 
+                if sum(l == 1) > 0 and sum(l == 0) > 0
+            ])
+            f1_cfi = f1s.std() * 1.96 / np.sqrt(len(f1s))
+            
+            print(f'ROC-AUC: {aucs.mean():.3f} +- {auc_cfi:.3f}')
+            print(f'Accuracy: {accuracies.mean():.3f} +- {accuracy_cfi:.3f}')
+            print(f'F1: {f1s.mean():.3f} +- {f1_cfi:.3f}')
+           
+        if return_preds:
+            return predictions
+        return aucs.mean(), auc_cfi, accuracies.mean(), accuracy_cfi, f1s.mean(), f1_cfi
 
     def load(self, checkpoint_step):
         """Loads a checkpoint.
